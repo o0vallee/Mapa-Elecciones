@@ -1,5 +1,4 @@
-<!DOCTYPE html>u
-
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -82,6 +81,8 @@
     background:var(--panel);
   }
   .footer-links a:active{filter:brightness(1.15);}
+  .credit{text-align:center;color:var(--ink-dim);font-size:11px;padding:4px 18px 20px;}
+  .credit.in-sheet{padding:14px 0 4px;border-top:1px solid var(--line);margin-top:16px;}
 
   #sConflict{margin-top:14px;}
   .conflict-btn{
@@ -186,6 +187,7 @@
   <a href="/metodologia.html">📋 Metodología completa</a>
   <a href="/notas.html">🗂️ Notas y exclusiones</a>
 </div>
+<p class="credit">Elaborado por @o0vallee</p>
 
 <div id="overlay">
   <div id="sheet">
@@ -204,6 +206,7 @@
       <ul id="sSources"></ul>
     </div>
     <div id="sConflict"></div>
+    <p class="credit in-sheet">Elaborado por @o0vallee</p>
   </div>
 </div>
 
@@ -395,13 +398,13 @@ const STATES = [
  {id:"yuc",name:"Yucatán",row:5,col:9,active:false},
  {id:"qroo",name:"Quintana Roo",row:6,col:9,active:true,
    leader:"morena",
-   timeline:{"morena": [{"m": "Abr 26", "v": 41.2}, {"m": "Jun 26", "v": 45.0}, {"m": "Ago 26", "v": 43.5}]},
+   timeline:{"morena": [{"m": "Abr 26", "v": 41.2}, {"m": "Jun 26", "v": 45.0}, {"m": "Ago 26", "v": 43.5}, {"m": "Sep 26", "v": 36.5}]},
    careo:{scenarios:[
-     {label:"Careo por nombre — promedio de B&M, Demoscopia y C&E", candidates:[{name:"Gino Segura",party:"morena",pct:50.5},{name:"Roberto Palazuelos",party:"mc",pct:9.7},{name:"Mayuli Martínez",party:"pan",pct:10.1},{name:"Leslie Hendricks",party:"pri",pct:6.8}], source:"Promedio de Buendía & Márquez (1-6 ago 2026), Demoscopia (1-3 sep 2026) y C&E (2 sep 2026)."}
+     {label:"Careo por nombre — promedio de B&M, Demoscopia, C&E y Massive Caller", candidates:[{name:"Gino Segura",party:"morena",pct:47.2},{name:"Mayuli Martínez",party:"pan",pct:11.8},{name:"Roberto Palazuelos",party:"mc",pct:9.6},{name:"Leslie Hendricks",party:"pri",pct:8.1}], source:"Promedio de Buendía & Márquez (1-6 ago 2026), Demoscopia (1-3 sep 2026), C&E (2 sep 2026) y Massive Caller (20 sep 2026, n=1,000, ±3.4%)."}
    ]},
-   parties:[{p:"morena",pct:42.9,cand:"Segura Vázquez (50.5% careo, promedio 3); también registrado como Eugenio Segura"},{p:"pan",pct:15.0,cand:"Martínez Simón (10.1% careo, consistente en 3 fuentes)"},{p:"mc",pct:10.7,cand:"En careo, Palazuelos (9.7%); Demoscopia midió a Pech (8.2%)"},{p:"pri",pct:8.6,cand:"Hendricks Rubio (6.8% careo); C&E midió a Filiberto Martínez (8%), B&M sin nombre (3%)"},{p:"pvem",pct:3.8,cand:"Aún sin definir"}],
-   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, may 2026, n=500","GobernArte, jun 2026, n=500","Buendía & Márquez, 1-6 ago 2026, n=1,000, ±3.53%","RUBRUM, 10 ago 2026, n=1,000, ±3.8%","Massive Caller, 20 ago 2026, n=1,000, ±3.4%","Demoscopia, 1-3 sep 2026 (careo)","C&E, 2 sep 2026 (careo)"],
-   note:{level:"medium",text:"Corrección: lo registrado como \"Question Mark, 25 ago\" es la misma encuesta de Buendía & Márquez. Careo vigente promedia B&M+Demoscopia+C&E. Segura/Martínez consistentes; MC y PRI varían por casa. RUBRUM (47.9%) es la más generosa con Morena a nivel partido."}}];
+   parties:[{p:"morena",pct:42.9,cand:"Segura Vázquez (47.2% careo, promedio de 4 fuentes); también registrado como Eugenio Segura"},{p:"pan",pct:15.0,cand:"Martínez Simón (11.8% careo, consistente en las 4 fuentes)"},{p:"mc",pct:10.7,cand:"En careo, Palazuelos (9.6% promedio, B&M+C&E); Pech Várguez (Demoscopia+Massive Caller) ya empata en frecuencia — vigilar"},{p:"pri",pct:8.6,cand:"Hendricks Rubio (8.1% careo, ahora 2/4 fuentes); C&E midió a Filiberto Martínez, B&M sin nombre"},{p:"pvem",pct:3.8,cand:"Aún sin definir"}],
+   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, may 2026, n=500","GobernArte, jun 2026, n=500","Buendía & Márquez, 1-6 ago 2026, n=1,000, ±3.53%","RUBRUM, 10 ago 2026, n=1,000, ±3.8%","Massive Caller, 20 ago 2026, n=1,000, ±3.4%","Demoscopia, 1-3 sep 2026 (careo)","C&E, 2 sep 2026 (careo)","Massive Caller, 20 sep 2026, n=1,000, ±3.4% (careo)"],
+   note:{level:"medium",text:"Careo vigente ahora promedia 4 fuentes (se sumó Massive Caller, 20 sep). Segura (Morena) baja de 50.5% a 47.2% con la nueva medición, pero mantiene ventaja amplia; Martínez (PAN) sube a 11.8%. En MC, Pech Várguez ya empata en frecuencia con Palazuelos (2 de 4 fuentes cada uno) — vale la pena vigilar cuál se consolida. Massive Caller también reveló las internas: en el PAN, Martínez Simón lidera 28.6% vs Tamayo Carballo 16.5%; en MC, Pech Várguez 21.4% vs Palazuelos 20.4%, prácticamente empatados."}}];
 
 const board = document.getElementById("board");
 function getDisplayLeader(s){
