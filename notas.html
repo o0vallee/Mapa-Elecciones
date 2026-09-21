@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="/icon.svg">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#10151b">
+<title>Notas y exclusiones · Elecciones 2027</title>
+<style>
+  :root{
+    --bg:#10151b; --panel:#161d25; --line:#2a3540; --ink:#eef1f4; --ink-dim:#93a1ad; --warn:#e0a72e;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased;line-height:1.6;}
+  .wrap{max-width:720px;margin:0 auto;padding:0 18px 60px;}
+  header{padding:22px 0 14px;border-bottom:1px solid var(--line);margin-bottom:22px;}
+  .back{display:inline-flex;align-items:center;gap:6px;color:var(--ink-dim);text-decoration:none;
+    font-size:13px;margin-bottom:14px;}
+  .eyebrow{font-family:"SFMono-Regular",Consolas,"Courier New",monospace;
+    font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--warn);margin:0 0 6px;}
+  h1{margin:0 0 6px;font-size:24px;font-weight:700;letter-spacing:-.01em;}
+  .sub{margin:0;color:var(--ink-dim);font-size:13.5px;}
+  h2{font-size:16px;margin:32px 0 10px;padding-top:18px;border-top:1px solid var(--line);}
+  h3{font-size:13.5px;margin:20px 0 6px;color:var(--ink);}
+  p{font-size:13.5px;color:var(--ink-dim);margin:0 0 12px;}
+  p b, li b, td b{color:var(--ink);}
+  ul{font-size:13.5px;color:var(--ink-dim);padding-left:20px;margin:0 0 12px;}
+  li{margin-bottom:8px;}
+  .card{margin:14px 0;padding:14px 16px;border-radius:10px;background:var(--panel);border:1px solid var(--line);}
+  .card h3{margin-top:0;}
+  .card p:last-child{margin-bottom:0;}
+  .tag{display:inline-block;font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;
+    padding:3px 8px;border-radius:5px;margin-bottom:8px;font-weight:700;}
+  .tag.excluded{background:rgba(166,25,46,.18);color:#ff8a9a;}
+  .tag.included{background:rgba(30,143,95,.18);color:#5ed6a4;}
+  .tag.integrity{background:rgba(224,167,46,.18);color:#f2d99a;}
+  .callout{margin:14px 0;padding:12px 14px;border-radius:8px;
+    background:rgba(224,167,46,.1);border:1px solid rgba(224,167,46,.35);
+    font-size:13px;line-height:1.55;color:#f2d99a;}
+  table{width:100%;border-collapse:collapse;font-size:12.5px;margin:12px 0;}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top;}
+  th{color:var(--ink);font-size:11px;text-transform:uppercase;letter-spacing:.05em;}
+  td{color:var(--ink-dim);}
+  .footer-links{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:36px;padding-top:18px;border-top:1px solid var(--line);}
+  .footer-links a{color:var(--ink);text-decoration:none;font-size:12.5px;font-weight:700;
+    display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border-radius:8px;
+    border:1px solid var(--line);background:var(--panel);}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="back" href="/">← Volver al mapa</a>
+  <p class="eyebrow">Registro de decisiones · se actualiza conforme aparecen fuentes nuevas</p>
+  <h1>Notas y exclusiones</h1>
+  <p class="sub">Qué fuentes se incluyeron, cuáles se excluyeron y por qué, y los hallazgos de integridad detectados durante el proyecto. Para las reglas generales, ver la <a href="/metodologia.html" style="color:var(--ink)">metodología completa</a>.</p>
+</header>
+
+<div class="callout">
+  <b>Cambio de política vigente desde el 15 de septiembre de 2026:</b> las encuestas de casas con conflicto de interés documentado ya no se excluyen del proyecto. Se incluyen como cualquier otra fuente, marcadas con una nota de conflicto de interés visible en un botón dedicado ("⚠️ Notas de conflicto de interés") dentro de la ficha de cada estado donde aplique. Antes de esta fecha, esas encuestas sí se excluían por completo — los casos ya excluidos bajo la política anterior se documentan abajo tal como quedaron entonces.
+</div>
+
+<h2>Fuentes excluidas</h2>
+
+<div class="card">
+  <span class="tag excluded">Excluida</span>
+  <h3>Cripeso</h3>
+  <p>Mide fidelidad/identificación partidista ("¿con qué partido se identifica?"), no intención de voto directa.</p>
+</div>
+
+<div class="card">
+  <span class="tag excluded">Excluida</span>
+  <h3>CE Research (Destino 27)</h3>
+  <p>Mide "identificación partidista" explícitamente (confirmado en sus propias fichas técnicas), pese a tener folio INE-RNP. Se retiró de Nuevo León el 3 de agosto de 2026 tras detectar la inconsistencia (originalmente se había incluido por error).</p>
+</div>
+
+<div class="card">
+  <span class="tag excluded">Excluida</span>
+  <h3>RUBRUM — reporte "Defensores de la 4T y la soberanía"</h3>
+  <p>Mide solo entre simpatizantes de un partido, no población general — cifras de Morena anormalmente altas (56-75%) consistentes con muestreo solo entre simpatizantes propios. El resto de reportes de RUBRUM (por estado) sí se incorpora normalmente.</p>
+</div>
+
+<div class="card">
+  <span class="tag excluded">Excluida</span>
+  <h3>Pulso MX (pulsomx.pro)</h3>
+  <p>Blog de WordPress sin registro como casa encuestadora ni folio INE, firmado por correo personal. Metodología autoaplicada vía WhatsApp/redes (muestra por conveniencia, no probabilística) con un margen de error formal (±2.8%) atribuido incorrectamente. Confirmado como entidad real, pero metodológicamente no confiable — sus resultados invierten casi por completo el mapa frente a las demás fuentes.</p>
+</div>
+
+<div class="card">
+  <span class="tag excluded">Excluida</span>
+  <h3>México Elige</h3>
+  <p>Conflicto de interés documentado: uno de sus dos dueños se integró como asesor de la campaña de Xóchitl Gálvez en 2024 mientras la encuestadora seguía publicando resultados; Forbes documentó que la intención de voto del PAN en sus encuestas saltó de 20% a 29% en un mes tras esa contratación. Un agregador independiente la identificó como la casa más generosa con el PAN de 25 monitoreadas. Comparación directa confirmada en Chihuahua: desviación de +14.6 puntos en la misma dirección que el sesgo ya documentado externamente.</p>
+</div>
+
+<div class="card">
+  <span class="tag integrity">Incluida, con conflicto de interés</span>
+  <h3>Arias Consultores</h3>
+  <p>Comisionada por el propio CDE del PAN estatal en Sinaloa (jul 2026); en Nuevo León (jul 2026) su serie de seguimiento mostró a la alianza PRI-PAN muy por encima (35.8%) de lo que reportan todas las demás fuentes. Hasta el 15 de sep de 2026 se excluía por completo del proyecto. <b>Desde entonces se incluye</b>, marcada con nota de conflicto de interés visible en el botón dedicado dentro de cada estado donde aparece (Baja California, Zacatecas, Quintana Roo). Los datos de Sinaloa y Nuevo León de este párrafo siguen sin incorporarse al promedio histórico porque son anteriores al cambio de política y no hay forma de recalcular esos promedios con precisión sin los tamaños de muestra originales de todas las fuentes de ese corte; se dejan documentados aquí por transparencia.</p>
+</div>
+
+<div class="card">
+  <span class="tag excluded">Sin cobertura</span>
+  <h3>Oraculus</h3>
+  <p>Sin sección de gubernaturas 2027; su cobertura se detuvo en la elección presidencial de 2024.</p>
+</div>
+
+<h2>Fuentes incluidas con advertencia</h2>
+
+<div class="card">
+  <span class="tag included">Incluida, con advertencia</span>
+  <h3>GobernArte</h3>
+  <p>Una de las casas con mayor cobertura de los 17 estados, pero la Sala Superior del TEPJF confirmó una amonestación pública en su contra (SUP-JE-1344/2023) por incumplir la metodología legalmente prevista y no identificar quién pagó el estudio. Se pondera junto con fuentes más transparentes para diluir su peso relativo.</p>
+</div>
+
+<div class="card">
+  <span class="tag included">Incluida, con advertencia fuerte</span>
+  <h3>Massive Caller</h3>
+  <p>Metodología transparente (IVR, n≈1,000, ±3.4%), pero fue la encuestadora que peor le fue en la presidencial de 2024 (dio ventaja a Gálvez cuando Sheinbaum ganó por más de 30 puntos; se disculpó públicamente) y falló prediciendo varias alianzas opositoras en 2024. Históricamente descrita como identificada con el PAN. Se incluye porque su n está confirmado, pero su peso se diluye al combinarse con 2-4 fuentes adicionales por estado.</p>
+</div>
+
+<div class="card">
+  <span class="tag included">Incluida, con nota</span>
+  <h3>Question Mark (El Heraldo de México)</h3>
+  <p>Es la marca de encuestas de El Heraldo de México, no una encuestadora independiente — etiqueta interna del medio, serie "La Ruta 2027". No se encontró folio de registro INE-RNP a su nombre. Se revisó su patrón buscando sesgo direccional como el de México Elige o Massive Caller: no se encontró uno consistente, por lo que se incluye con esta advertencia visible.</p>
+</div>
+
+<h2>Hallazgos de integridad detectados durante el proyecto</h2>
+
+<div class="card">
+  <span class="tag integrity">Corrección de atribución</span>
+  <h3>Chihuahua y Quintana Roo — encuestas mal atribuidas a Question Mark</h3>
+  <p>Lo que se había registrado como "Question Mark" en Chihuahua (20 ago) y en Quintana Roo (25 ago) resultó ser, en ambos casos, la misma encuesta de <b>Buendía & Márquez</b> — los números coinciden exactamente (a nivel partido y en los careos), y El Heraldo probablemente solo la retomó en su columna sin atribución clara. Ya corregido con la atribución real y la ficha técnica completa en ambos estados.</p>
+</div>
+
+<div class="card">
+  <span class="tag integrity">Hallazgo de integridad</span>
+  <h3>Querétaro — tres careos republicados por un agregador sin atribución clara</h3>
+  <p>Un agregador de infografías (Polls.mx) republicó juntos tres careos distintos (C&E Campaigns & Elections México, Emotegia y Question Mark) sin distinguir la casa de cada uno. Se verificó cada fuente por separado: C&E Campaigns & Elections México comparte folio de registro INE con "C&E Research", pero es una entidad distinta de "CE Research (Destino 27)" (la excluida por medir identificación partidista) — sí pregunta voto directo por candidato, por lo que se incluye. Los tres careos prueban parejas de candidatos distintas para MC y PRI, así que se muestran por separado sin promediarse entre sí.</p>
+</div>
+
+<div class="card">
+  <span class="tag integrity">Nota de seguimiento</span>
+  <h3>Zacatecas — coordinador 4T no coincide con el puntero registrado</h3>
+  <p>EjeCentral (sep 2026) identificó a los coordinadores estatales de la 4T rumbo a 2027 en varios estados; en 9 de 10 casos el nombre coincidió con el precandidato que ya seguíamos como puntero. La excepción es Zacatecas: el coordinador identificado es Verónica Díaz, no Ulises Mejía Haro (nuestro puntero registrado) — señalado para vigilar si refleja un cambio real en la carrera interna. El propio medio aclara que ser coordinador estatal es un cargo organizativo, no una nominación asegurada.</p>
+</div>
+
+<h2>Notas de fuente descartada preventivamente</h2>
+<div class="card">
+  <h3>"Polls.mx by ResearchLand"</h3>
+  <p>No es una casa encuestadora, es una plantilla/agencia de diseño de infografías que republica resultados de encuestadoras reales (confirmado con ejemplos de SRC y Algoritmo). Cuando aparece una infografía con este membrete, se identifica la encuestadora real detrás y se evalúa por separado — el membrete en sí no es motivo de exclusión ni de inclusión.</p>
+</div>
+
+<h2>Otras exclusiones puntuales</h2>
+<ul>
+  <li><b>El Financiero</b> (Nuevo León) — retirada por no reportar tamaño de muestra (n).</li>
+  <li><b>Mitofsky</b> (Michoacán, 27-31 ago 2026) — se documenta pero no se pondera: mide percepción de triunfo e interna, no intención de voto directa.</li>
+</ul>
+
+<div class="footer-links">
+  <a href="/">📊 Volver al mapa</a>
+  <a href="/metodologia.html">📋 Metodología completa</a>
+</div>
+</div>
+</body>
+</html>
