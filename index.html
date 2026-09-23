@@ -83,6 +83,16 @@
   .footer-links a:active{filter:brightness(1.15);}
   .credit{text-align:center;color:var(--ink-dim);font-size:11px;padding:4px 18px 20px;}
   .credit.in-sheet{padding:14px 0 4px;border-top:1px solid var(--line);margin-top:16px;}
+  .export-all{padding:0 18px 18px;display:flex;flex-direction:column;align-items:center;gap:8px;}
+  .export-btn{
+    background:var(--panel);color:var(--ink);border:1px solid var(--line);
+    border-radius:8px;padding:12px 18px;font-size:13px;font-weight:700;cursor:pointer;
+    width:100%;max-width:460px;font-family:inherit;
+  }
+  .export-btn:disabled{opacity:.5;}
+  .export-btn.small{padding:11px 14px;font-size:12.5px;}
+  .export-status{font-size:11.5px;color:var(--ink-dim);min-height:16px;}
+  #sExport{margin-top:16px;}
 
   #sConflict{margin-top:14px;}
   .conflict-btn{
@@ -183,6 +193,11 @@
 
 <div id="board"></div>
 
+<div class="export-all">
+  <button id="exportAllBtn" class="export-btn">📦 Descargar todas las imágenes (ZIP)</button>
+  <div id="exportAllStatus" class="export-status"></div>
+</div>
+
 <div class="footer-links">
   <a href="/metodologia.html">📋 Metodología completa</a>
   <a href="/notas.html">🗂️ Notas y exclusiones</a>
@@ -206,6 +221,7 @@
       <ul id="sSources"></ul>
     </div>
     <div id="sConflict"></div>
+    <div id="sExport"></div>
     <p class="credit in-sheet">Elaborado por @o0vallee</p>
   </div>
 </div>
@@ -256,13 +272,13 @@ const STATES = [
    note:{level:"medium",text:"Primer careo del estado (SRC, 24 ago): Valles (Morena) 45.5%, nombre distinto al puntero previo (Lamarque Cano). Massive Caller (27 ago) modera al PAN a nivel partido frente a RUBRUM."}},
  {id:"chih",name:"Chihuahua",row:1,col:3,active:true,
    leader:"morena",
-   timeline:{"morena": [{"m": "Dic 25", "v": 43.7}, {"m": "Abr 26", "v": 38.5}, {"m": "May 26", "v": 42.6}, {"m": "Jun 26", "v": 41.6}, {"m": "Ago 26", "v": 39.1}], "pan": [{"m": "Abr 26", "v": 24.1}, {"m": "May 26", "v": 29.8}, {"m": "Ago 26", "v": 29.0}]},
+   timeline:{"morena": [{"m": "Dic 25", "v": 43.7}, {"m": "Abr 26", "v": 38.5}, {"m": "May 26", "v": 42.6}, {"m": "Jun 26", "v": 41.6}, {"m": "Ago 26", "v": 39.1}, {"m": "Sep 26", "v": 38.9}], "pan": [{"m": "Abr 26", "v": 24.1}, {"m": "May 26", "v": 29.8}, {"m": "Ago 26", "v": 29.0}, {"m": "Sep 26", "v": 31.7}]},
    careo:{scenarios:[
-     {label:"Careo por nombre — promedio Buendía & Márquez", candidates:[{name:"Cruz Pérez Cuéllar",party:"morena",pct:36.3},{name:"Bonilla",party:"pan",pct:23.0},{name:"Meléndez",party:"pri",pct:13.3},{name:"Lozoya",party:"mc",pct:10.0}], source:"Buendía & Márquez, 29 jul-3 ago 2026, n=1,200, ±3.23% (probó 4 nombres para Morena, promediados)"}
+     {label:"Careo por nombre — promedio ponderado de Buendía & Márquez y Territorial", candidates:[{name:"Cruz Pérez Cuéllar",party:"morena",pct:37.5},{name:"Bonilla",party:"pan",pct:27.0},{name:"Meléndez",party:"pri",pct:13.3},{name:"Lozoya",party:"mc",pct:11.4}], source:"Promedio ponderado por n de Buendía & Márquez (29 jul-3 ago 2026, n=1,200, ±3.23%) y Territorial (10-14 sep 2026, n=1,000, ±3%, vía Polls.mx)."}
    ]},
-   parties:[{p:"morena",pct:39.3,cand:"Pérez Cuéllar (36.3% careo, promedio); la misma ola B&M probó Chávez (41%), Díaz (30%) y Chaparro (31%)"},{p:"pan",pct:28.2,cand:"Bonilla Mendoza (23.0% careo)"},{p:"pri",pct:10.1,cand:"Meléndez Ortega (13.3% careo)"},{p:"mc",pct:3.6,cand:"Lozoya (10.0% careo)"},{p:"ind",pct:3.9,cand:"Aún sin definir"}],
-   sources:["Mitofsky, feb 2026","LaEncuesta.MX, 13 abr 2026, n=1,200","TResearch, may 2026","SRC, may 2026, n no reportado","FactoMétrica, jun 2026","Buendía & Márquez, 29 jul-3 ago 2026, n=1,200, ±3.23%","RUBRUM, 17 ago 2026, n=800, ±3.8%"],
-   note:{level:"medium",text:"Corrección: lo registrado como \"Question Mark, 20 ago\" es la misma encuesta de Buendía & Márquez. B&M probó 4 nombres de Morena contra Bonilla, todos ganan; se promediaron en un solo careo. Único estado (junto con Michoacán) con independiente medible (3.9%), sin nombre aún."}},
+   parties:[{p:"morena",pct:39.3,cand:"Pérez Cuéllar (37.5% careo, promedio ponderado); B&M también probó Chávez (41%), Díaz (30%) y Chaparro (31%)"},{p:"pan",pct:28.2,cand:"Bonilla Mendoza (27.0% careo, promedio ponderado); Territorial lo prueba como candidato de una coalición PAN-PRI — vigilar si el PRI pierde candidatura propia"},{p:"pri",pct:10.1,cand:"Meléndez Ortega (13.3% careo, solo B&M — Territorial no probó PRI por separado)"},{p:"mc",pct:3.6,cand:"Lozoya (11.4% careo, promedio ponderado, consistente en ambas fuentes)"},{p:"ind",pct:3.9,cand:"Aún sin definir"}],
+   sources:["Mitofsky, feb 2026","LaEncuesta.MX, 13 abr 2026, n=1,200","TResearch, may 2026","SRC, may 2026, n no reportado","FactoMétrica, jun 2026","Buendía & Márquez, 29 jul-3 ago 2026, n=1,200, ±3.23% (careo)","RUBRUM, 17 ago 2026, n=800, ±3.8%","Territorial, 10-14 sep 2026, n=1,000, ±3% (careo, vía Polls.mx)"],
+   note:{level:"medium",text:"Corrección: lo registrado como \"Question Mark, 20 ago\" es la misma encuesta de Buendía & Márquez. Careo vigente ahora promedia B&M y Territorial (10-14 sep, vía Polls.mx, casa confirmada activa en el registro del INE). Pérez Cuéllar (Morena) mantiene ventaja amplia. Territorial prueba a Bonilla como candidato de una coalición PAN-PRI, no solo PAN — si se confirma, el PRI podría estar cediendo su candidatura propia; el dato de Meléndez (PRI) no se tocó porque Territorial no lo probó por separado. Único estado (junto con Michoacán) con independiente medible (3.9%), sin nombre aún."}},
  {id:"sin",name:"Sinaloa",row:3,col:2,active:true,
    leader:"morena",
    timeline:{"morena": [{"m": "Abr 26", "v": 42.6}, {"m": "Jun 26", "v": 39.1}, {"m": "Ago 26", "v": 36.0}], "pan": [{"m": "Abr 26", "v": 14.4}, {"m": "Jun 26", "v": 13.1}, {"m": "Ago 26", "v": 13.5}]},
@@ -287,7 +303,7 @@ const STATES = [
      {p:"pan",pct:14.3,cand:"de la Garza (candidatura unificada con PRI)"}
    ],
    sources:["MetricsMx, feb 2026, n=600","GobernArte, abr 2026, n=900","LaEncuesta.MX, 13 abr 2026, n=1,200","Question Mark, ago 2026, n=600-800","SRC, 26 ago 2026, n=1,000, ±3.1% (careo, 2 escenarios)","RUBRUM, 22 ago 2026, n=800, ±3.8%"],
-   note:{level:"medium",text:"⚠ Cambio de líder: al sumar 2 escenarios de SRC a Question Mark, Fernández (Morena) pasa al frente por margen mínimo sobre de la Garza (PRI-PAN); Rodríguez (MC) baja de 31% a 24.4%. Sigue siendo el estado más cerrado del set."}},
+   note:{level:"medium",text:"⚠ Cambio de líder: al sumar 2 escenarios de SRC a Question Mark, Fernández (Morena) pasa al frente por margen mínimo sobre de la Garza (PRI-PAN); Rodríguez (MC) baja de 31% a 24.4%. Sigue siendo el estado más cerrado del set. Territorial también ha medido preferencia interna en MC (Rodríguez como favorita) — sin desglose numérico disponible aún para incorporar."}},
  {id:"tam",name:"Tamaulipas",row:2,col:6,active:false},
  {id:"zac",name:"Zacatecas",row:4,col:3,active:true,
    leader:"morena",
@@ -300,7 +316,7 @@ const STATES = [
    note:{level:"medium",text:"Careo vigente promedia 3 fuentes. Díaz (Morena) confirma ventaja, coincide con EjeCentral. PRI aún sin definir candidato (Bonilla vs Peña). Massive Caller (30 ago) le da al PRI su mejor marca partidista del set."}},
  {id:"slp",name:"San Luis Potosí",row:4,col:4,active:true,
    leader:"morena",
-   timeline:{"morena": [{"m": "Abr 26", "v": 31.2}, {"m": "Jul 26", "v": 23.9}, {"m": "Ago 26", "v": 25.7}], "pvem": [{"m": "Abr 26", "v": 29.1}, {"m": "Jul 26", "v": 21.8}, {"m": "Ago 26", "v": 23.6}]},
+   timeline:{"morena": [{"m": "Abr 26", "v": 31.2}, {"m": "Jul 26", "v": 23.9}, {"m": "Ago 26", "v": 25.7}, {"m": "Sep 26", "v": 24.2}], "pvem": [{"m": "Abr 26", "v": 29.1}, {"m": "Jul 26", "v": 21.8}, {"m": "Ago 26", "v": 23.6}, {"m": "Sep 26", "v": 28.1}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio de la ola de Question Mark", candidates:[{name:"Ruth González",party:"pvem",pct:22.4},{name:"Alejandro Zermeño",party:"ind",pct:16.5},{name:"Gerardo Sánchez Zumaya",party:"pt",pct:15.1},{name:"Enrique Galindo",party:"pri",pct:11.9},{name:"Paola Longoria",party:"mc",pct:9.6},{name:"Rubén Guajardo",party:"pan",pct:7.5}], source:"Question Mark, 17 ago 2026 (misma ola probó 2 escenarios para el quinto lugar; QM atribuye a Galindo el PRI, otras fuentes lo dan como PAN)"}
    ]},
@@ -311,8 +327,8 @@ const STATES = [
      {p:"mc",pct:9.5,cand:"Gama Basarte (9.6% careo bajo el nombre Longoria)"},
      {p:"pri",pct:8.9,cand:"Rocha Medina (11.9% careo bajo el nombre Galindo — QM lo da como PRI, otras fuentes como PAN)"}
    ],
-   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","FactoMétrica, jul 2026, n no reportado","Question Mark, 17 ago 2026, n=600-800","RUBRUM, 18 ago 2026, n=800, ±3.8%","Massive Caller, 22 ago 2026, n=1,000, ±3.4%"],
-   note:{level:"medium",text:"Contienda más fragmentada de las 17. En careo, González (PVEM) pasa al frente — dato partidista y por nombre difieren. Zermeño (independiente) y Rodríguez (Morena) quedan como escenarios separados, sin promediar."}},
+   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","FactoMétrica, jul 2026, n no reportado","Question Mark, 17 ago 2026, n=600-800","RUBRUM, 18 ago 2026, n=800, ±3.8%","Massive Caller, 22 ago 2026, n=1,000, ±3.4%","Massive Caller, 22 sep 2026, n=1,000, ±3.4%"],
+   note:{level:"medium",text:"Contienda más fragmentada de las 17. En careo, González (PVEM) pasa al frente — dato partidista y por nombre difieren. Zermeño (independiente) y Rodríguez (Morena) quedan como escenarios separados, sin promediar. Territorial también ha publicado en el estado (preferencia interna del PAN) — sin desglose numérico disponible aún. Massive Caller (22 sep) confirma a nivel partido lo que ya mostraba el careo: PVEM (28.1%) supera a Morena (24.2%) — es la primera vez que el PVEM también lidera el dato partidista, no solo el de careo."}},
  {id:"nay",name:"Nayarit",row:4,col:2,active:true,
    leader:"morena",
    timeline:{"morena": [{"m": "Abr 26", "v": 43.1}, {"m": "Jun 26", "v": 53.0}, {"m": "Jul 26", "v": 55.0}, {"m": "Ago 26", "v": 46.0}, {"m": "Sep 26", "v": 55.5}]},
@@ -441,6 +457,338 @@ STATES.forEach(s=>{
   board.appendChild(msg);
 }
 
+/* ===================== Exportación de imágenes ===================== */
+const CARD_W = 1080;
+
+function wrapCanvasText(ctx, text, maxWidth){
+  if(!text) return [];
+  const words = String(text).split(/\s+/);
+  const lines = [];
+  let line = "";
+  for(const w of words){
+    const test = line ? line + " " + w : w;
+    if(ctx.measureText(test).width > maxWidth && line){
+      lines.push(line);
+      line = w;
+    } else {
+      line = test;
+    }
+  }
+  if(line) lines.push(line);
+  return lines;
+}
+
+function shortCandidateName(text){
+  if(!text) return "Aún sin definir";
+  const idx = text.indexOf("(");
+  let name = idx > 0 ? text.slice(0, idx) : text;
+  name = name.replace(/[-–—]\s*$/,"").trim();
+  return name || text.trim();
+}
+
+function drawWrapped(ctx, text, x, y, maxWidth, lineHeight, maxLines){
+  const lines = wrapCanvasText(ctx, text, maxWidth);
+  const use = maxLines ? lines.slice(0, maxLines) : lines;
+  use.forEach((line,i)=>{
+    let out = line;
+    if(maxLines && i===maxLines-1 && lines.length>maxLines){
+      out = line.replace(/\s+\S*$/,"") + "…";
+    }
+    ctx.fillText(out, x, y + i*lineHeight);
+  });
+  return y + Math.max(use.length,1)*lineHeight;
+}
+
+function roundRect(ctx, x, y, w, h, r){
+  ctx.beginPath();
+  ctx.moveTo(x+r,y);
+  ctx.arcTo(x+w,y,x+w,y+h,r);
+  ctx.arcTo(x+w,y+h,x,y+h,r);
+  ctx.arcTo(x,y+h,x,y,r);
+  ctx.arcTo(x,y,x+w,y,r);
+  ctx.closePath();
+}
+
+function drawBar(ctx, x, y, W, pct, maxPct, color){
+  const trackH = 26;
+  ctx.fillStyle = "#0d1217";
+  roundRect(ctx, x, y, W, trackH, 8); ctx.fill();
+  const fillW = Math.max(8, W * Math.min(pct/maxPct,1));
+  ctx.fillStyle = color;
+  roundRect(ctx, x, y, fillW, trackH, 8); ctx.fill();
+  return y + trackH;
+}
+
+function drawSectionTitle(ctx, x, W, y, text){
+  ctx.textAlign = "left";
+  ctx.fillStyle = "#e0a72e";
+  ctx.font = "700 24px -apple-system, 'Segoe UI', Roboto, sans-serif";
+  ctx.fillText(text, x, y);
+  return y + 40;
+}
+
+function drawCardHeader(ctx, x, W, y, eyebrow, stateName, subtitle){
+  ctx.textAlign = "left";
+  ctx.fillStyle = "#e0a72e";
+  ctx.font = "700 24px -apple-system, 'Segoe UI', Roboto, sans-serif";
+  ctx.fillText(eyebrow, x, y);
+  y += 50;
+  ctx.fillStyle = "#eef1f4";
+  ctx.font = "800 58px -apple-system, 'Segoe UI', Roboto, sans-serif";
+  y = drawWrapped(ctx, stateName, x, y, W, 66, 2) + 6;
+  ctx.fillStyle = "#93a1ad";
+  ctx.font = "400 27px -apple-system, 'Segoe UI', Roboto, sans-serif";
+  y = drawWrapped(ctx, subtitle, x, y, W, 35, 2) + 30;
+  ctx.strokeStyle = "#2a3540";
+  ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(x+W,y); ctx.stroke();
+  return y + 46;
+}
+
+function drawCardFooter(ctx, x, W, y){
+  ctx.strokeStyle = "#2a3540";
+  ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(x+W,y); ctx.stroke();
+  ctx.fillStyle = "#93a1ad";
+  ctx.font = "400 22px 'SFMono-Regular', Consolas, monospace";
+  const d = new Date();
+  const dateStr = d.toLocaleDateString("es-MX", {day:"2-digit", month:"short", year:"numeric"});
+  ctx.fillText("mapa-gubernaturas-2027.vercel.app · " + dateStr + " · @o0vallee", x, y+40);
+  return y + 70;
+}
+
+function drawTrendChart(ctx, x, y, W, s){
+  if(!s.timeline || Object.keys(s.timeline).length===0) return y;
+  const series = Object.entries(s.timeline);
+  const monthsOrder = [];
+  series.forEach(([p,pts])=>{ pts.forEach(pt=>{ if(!monthsOrder.includes(pt.m)) monthsOrder.push(pt.m); }); });
+  const H = 260, padL = 6, padR = 6, padT = 16, padB = 34;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+  const allVals = series.flatMap(([p,pts])=>pts.map(pt=>pt.v));
+  const maxV = Math.max(...allVals) * 1.15, minV = 0;
+  const xFor = (m)=> x + padL + (monthsOrder.indexOf(m) / Math.max(monthsOrder.length-1,1)) * plotW;
+  const yFor = (v)=> y + padT + plotH - ((v-minV)/(maxV-minV)) * plotH;
+
+  ctx.strokeStyle = "#2a3540"; ctx.lineWidth = 1.5;
+  ctx.beginPath(); ctx.moveTo(x+padL, y+padT+plotH); ctx.lineTo(x+padL+plotW, y+padT+plotH); ctx.stroke();
+
+  series.forEach(([p, pts])=>{
+    const color = getComputedColor(p);
+    ctx.strokeStyle = color; ctx.lineWidth = 3.5;
+    ctx.beginPath();
+    pts.forEach((pt,i)=>{
+      const px = xFor(pt.m), py = yFor(pt.v);
+      if(i===0) ctx.moveTo(px,py); else ctx.lineTo(px,py);
+    });
+    ctx.stroke();
+    pts.forEach(pt=>{
+      ctx.fillStyle = color;
+      ctx.beginPath(); ctx.arc(xFor(pt.m), yFor(pt.v), 6, 0, Math.PI*2); ctx.fill();
+    });
+  });
+
+  ctx.fillStyle = "#93a1ad"; ctx.font = "400 18px -apple-system, sans-serif"; ctx.textAlign = "center";
+  monthsOrder.forEach(m=>{ ctx.fillText(m, xFor(m), y+H-6); });
+
+  ctx.textAlign = "left";
+  let lx = x, ly = y + H + 28;
+  series.forEach(([p])=>{
+    const label = LABELS[p];
+    ctx.fillStyle = getComputedColor(p);
+    ctx.font = "700 20px -apple-system, sans-serif";
+    if(lx + ctx.measureText(label).width > x + W){ lx = x; ly += 30; }
+    ctx.fillText(label, lx, ly);
+    lx += ctx.measureText(label).width + 36;
+  });
+
+  return ly + 40;
+}
+
+function drawWatermark(ctx, W, H){
+  ctx.save();
+  ctx.globalAlpha = 0.055;
+  ctx.fillStyle = "#ffffff";
+  ctx.font = "700 42px -apple-system, sans-serif";
+  ctx.textAlign = "left";
+  ctx.translate(W/2, H/2);
+  ctx.rotate(-Math.PI/7);
+  const text = "@o0vallee   ";
+  const stepY = 130;
+  for(let ry = -H; ry < H*1.4; ry += stepY){
+    ctx.fillText(text.repeat(8), -W*1.2, ry);
+  }
+  ctx.restore();
+}
+
+function renderStateCard(s){
+  const MAX_H = 4200;
+  const canvas = document.createElement("canvas");
+  canvas.width = CARD_W; canvas.height = MAX_H;
+  const ctx = canvas.getContext("2d");
+  ctx.fillStyle = "#10151b"; ctx.fillRect(0,0,CARD_W,MAX_H);
+  const x = 64, W = CARD_W-128;
+
+  let y = drawCardHeader(ctx, x, W, 96, "ELECCIONES 2027 · GOBERNADOR", s.name, "Careo vigente, promedio por partido y tendencia mensual");
+
+  if(s.careo && s.careo.scenarios && s.careo.scenarios.length){
+    y = drawSectionTitle(ctx, x, W, y, "CAREO VIGENTE POR CANDIDATO (ÚLTIMOS 2 MESES)");
+    const sc = s.careo.scenarios[0];
+    const maxPct = Math.max(...sc.candidates.map(c=>c.pct), 1);
+    sc.candidates.forEach(c=>{
+      ctx.textAlign = "left"; ctx.fillStyle = getComputedColor(c.party);
+      ctx.font = "700 30px -apple-system, sans-serif";
+      ctx.fillText(c.name, x, y);
+      ctx.textAlign = "right"; ctx.fillStyle = "#eef1f4";
+      ctx.font = "700 30px 'SFMono-Regular', Consolas, monospace";
+      ctx.fillText(c.pct.toFixed(1)+"%", x+W, y);
+      ctx.textAlign = "left";
+      y += 16;
+      y = drawBar(ctx, x, y, W, c.pct, maxPct, getComputedColor(c.party));
+      y += 32;
+    });
+    if(sc.source){
+      ctx.fillStyle = "#93a1ad"; ctx.font = "400 20px -apple-system, sans-serif";
+      y = drawWrapped(ctx, sc.source, x, y+10, W, 26, 3) + 20;
+    }
+    ctx.strokeStyle = "#2a3540"; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(x+W,y); ctx.stroke();
+    y += 44;
+  }
+
+  y = drawSectionTitle(ctx, x, W, y, "PROMEDIO HISTÓRICO POR PARTIDO (CORTE SEP 2026)");
+  const maxPtyPct = Math.max(...s.parties.map(p=>p.pct), 1);
+  s.parties.forEach(pt=>{
+    ctx.textAlign = "left"; ctx.fillStyle = getComputedColor(pt.p);
+    ctx.font = "700 30px -apple-system, sans-serif";
+    ctx.fillText(LABELS[pt.p], x, y);
+    ctx.textAlign = "right"; ctx.fillStyle = "#eef1f4";
+    ctx.font = "700 30px 'SFMono-Regular', Consolas, monospace";
+    ctx.fillText(pt.pct.toFixed(1)+"%", x+W, y);
+    ctx.textAlign = "left";
+    y += 16;
+    y = drawBar(ctx, x, y, W, pt.pct, maxPtyPct, getComputedColor(pt.p));
+    y += 30;
+    ctx.fillStyle = "#93a1ad"; ctx.font = "400 22px -apple-system, sans-serif";
+    y = drawWrapped(ctx, shortCandidateName(pt.cand), x, y, W, 27, 2);
+    y += 26;
+  });
+
+  ctx.strokeStyle = "#2a3540"; ctx.lineWidth = 1.5;
+  ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(x+W,y); ctx.stroke();
+  y += 44;
+
+  if(s.timeline && Object.keys(s.timeline).length){
+    y = drawSectionTitle(ctx, x, W, y, "TENDENCIA MENSUAL");
+    y = drawTrendChart(ctx, x, y, W, s);
+  }
+
+  y += 10;
+  const finalY = drawCardFooter(ctx, x, W, y);
+  const finalH = Math.round(finalY + 30);
+
+  drawWatermark(ctx, CARD_W, finalH);
+
+  const out = document.createElement("canvas");
+  out.width = CARD_W; out.height = finalH;
+  out.getContext("2d").drawImage(canvas, 0,0,CARD_W,finalH, 0,0,CARD_W,finalH);
+  return out;
+}
+
+function canvasToPngBlob(canvas){
+  return new Promise(resolve => canvas.toBlob(resolve, "image/png"));
+}
+
+function downloadBlob(blob, filename){
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  setTimeout(()=>URL.revokeObjectURL(url), 4000);
+}
+
+function slug(name){
+  return name.normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-zA-Z0-9]+/g,"");
+}
+
+function loadJSZip(){
+  if(window.JSZip) return Promise.resolve();
+  return new Promise((resolve, reject)=>{
+    const s = document.createElement("script");
+    s.src = "https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js";
+    s.onload = ()=>resolve();
+    s.onerror = ()=>reject(new Error("No se pudo cargar JSZip"));
+    document.head.appendChild(s);
+  });
+}
+
+async function exportAllImages(){
+  const btn = document.getElementById("exportAllBtn");
+  const statusEl = document.getElementById("exportAllStatus");
+  btn.disabled = true;
+  try{
+    statusEl.textContent = "Cargando compresor…";
+    await loadJSZip();
+    const zip = new JSZip();
+    const activeStates = STATES.filter(s=>s.active);
+    for(let i=0;i<activeStates.length;i++){
+      const s = activeStates[i];
+      statusEl.textContent = `Generando ${i+1}/${activeStates.length}: ${s.name}…`;
+      const cardCanvas = renderStateCard(s);
+      zip.file(slug(s.name)+".png", await canvasToPngBlob(cardCanvas));
+      await new Promise(r=>setTimeout(r,10));
+    }
+    statusEl.textContent = "Comprimiendo…";
+    const zipBlob = await zip.generateAsync({type:"blob"});
+    downloadBlob(zipBlob, "mapa-gubernaturas-2027-imagenes.zip");
+    statusEl.textContent = "Listo ✓";
+  } catch(err){
+    statusEl.textContent = "Error: " + (err && err.message ? err.message : String(err));
+    console.error(err);
+  } finally {
+    btn.disabled = false;
+    setTimeout(()=>{statusEl.textContent="";}, 5000);
+  }
+}
+document.getElementById("exportAllBtn").addEventListener("click", exportAllImages);
+
+async function downloadStateImage(s, btn, statusEl){
+  const original = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = "Generando…";
+  if(statusEl) statusEl.textContent = "";
+  try{
+    const canvas = renderStateCard(s);
+    if(!canvas.toBlob){ throw new Error("Este navegador no soporta canvas.toBlob()."); }
+    const blob = await canvasToPngBlob(canvas);
+    if(!blob){ throw new Error("canvas.toBlob() devolvió vacío (blob nulo)."); }
+    downloadBlob(blob, slug(s.name)+".png");
+    if(statusEl) statusEl.textContent = "Listo ✓";
+  } catch(err){
+    console.error(err);
+    if(statusEl) statusEl.textContent = "Error: " + (err && err.message ? err.message : String(err));
+  } finally {
+    btn.disabled = false;
+    btn.textContent = original;
+    if(statusEl) setTimeout(()=>{ if(statusEl.textContent==="Listo ✓") statusEl.textContent=""; }, 4000);
+  }
+}
+
+function renderExportButton(s){
+  const box = document.getElementById("sExport");
+  box.innerHTML = "";
+  const btn = document.createElement("button");
+  btn.className = "export-btn small";
+  btn.textContent = "📥 Descargar imagen de este estado";
+  const status = document.createElement("div");
+  status.className = "export-status";
+  btn.onclick = ()=> downloadStateImage(s, btn, status);
+  box.appendChild(btn);
+  box.appendChild(status);
+}
+/* =================== fin exportación de imágenes =================== */
+
 function getComputedColor(p){
   const map = {morena:"#a6192e",pan:"#1c3f94",pri:"#1e8f5f",mc:"#ff6b00",pvem:"#6fb92c",ind:"#8a8f98",pt:"#5b6b78",other:"#5b6b78"};
   return map[p];
@@ -518,6 +866,7 @@ function openSheet(s){
   renderTimeline(s);
 
   renderConflictButton(s);
+  renderExportButton(s);
 
   const srcList = document.getElementById("sSources");
   srcList.innerHTML = "";
