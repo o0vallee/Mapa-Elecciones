@@ -219,9 +219,9 @@
     </div>
     <div class="meta" id="sMeta"></div>
     <div id="sCareoWrap"></div>
+    <div id="sTimeline" class="tl-wrap"></div>
     <div class="section-label" id="sBarsLabel">Promedio histórico por partido <span class="section-sub">(hasta 2 sep 2026 · ventana de 6 meses)</span></div>
     <div id="sBars"></div>
-    <div id="sTimeline" class="tl-wrap"></div>
     <div id="sNoteWrap"></div>
     <div class="srcbox">
       <h3>Encuestas usadas</h3>
@@ -263,9 +263,9 @@ const STATES = [
    careo:{scenarios:[
      {label:"Careo por nombre — promedio C&E, Electoralia y SRC", candidates:[{name:"Julieta Ramírez",party:"morena",pct:40.1},{name:"Gina Andrea Cruz Blackledge",party:"pan",pct:18.9},{name:"Karla Patricia Ruiz Macfarland",party:"mc",pct:8.2},{name:"Guadalupe Gutiérrez Fragoso",party:"pri",pct:4.2}], source:"Promedio de C&E (2 sep 2026), Electoralia (1-6 sep 2026) y SRC (26 ago 2026, n=1,000, ±3.1%)."}
    ]},
-   parties:[{p:"morena",pct:40.5,cand:"Julieta Ramírez (40.1% careo, promedio 3 fuentes); SRC probó a Ismael Burgueño (43.8%) — vigilar"},{p:"pan",pct:21.5,cand:"Cruz Blackledge (18.9% careo, 2/3 fuentes); C&E midió a Macalpin (21%)"},{p:"pri",pct:9.8,cand:"Gutiérrez Fragoso (4.2% careo, 2/3); SRC midió a Valle (5.6%)"},{p:"mc",pct:9.2,cand:"Ruiz Macfarland (8.2% careo, 2/3); C&E midió a de Hoyos (11.5%)"}],
-   sources:["Massive Caller, 1 abr 2026, n=1,000 (IVR)","LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, may–jul 2026, n=500 (x2 cortes)","TResearch, jun 2026, n no reportado","Question Mark, jul 2026, n=600-800 (sin folio INE)","Massive Caller, 27 ago 2026, n=1,000, ±3.4%","C&E, 2 sep 2026 (careo)","Electoralia, 1-6 sep 2026 (careo)","SRC, 26 ago 2026, n=1,000, ±3.1% (careo)"],
-   note:{level:"medium",text:"SRC (26 ago) prueba a Ismael Burgueño para Morena, no a Ramírez, y le da el número más alto (43.8%) — vigilar. En PAN y MC, Cruz Blackledge y Ruiz Macfarland ganan terreno como nombres principales frente a Macalpin y de Hoyos."}},
+   parties:[{p:"morena",pct:40.5,cand:"Julieta Ramírez (40.1% careo, promedio 3 fuentes) — Morena la designó oficialmente coordinadora estatal el 15 sep, resolviendo a su favor la disputa con Burgueño"},{p:"pan",pct:21.5,cand:"Cruz Blackledge (18.9% careo, 2/3 fuentes); C&E midió a Macalpin (21%)"},{p:"pri",pct:9.8,cand:"Gutiérrez Fragoso (4.2% careo, 2/3); SRC midió a Valle (5.6%)"},{p:"mc",pct:9.2,cand:"Ruiz Macfarland (8.2% careo, 2/3); C&E midió a de Hoyos (11.5%)"}],
+   sources:["Massive Caller, 1 abr 2026, n=1,000 (IVR)","LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, may–jul 2026, n=500 (x2 cortes)","TResearch, jun 2026, n no reportado","TResearch, ago 2026, n no reportado","Question Mark, jul 2026, n=600-800 (sin folio INE)","Massive Caller, 27 ago 2026, n=1,000, ±3.4%","C&E, 2 sep 2026 (careo)","Electoralia, 1-6 sep 2026 (careo)","SRC, 26 ago 2026, n=1,000, ±3.1% (careo)"],
+   note:{level:"medium",text:"✔ Resuelto: Morena designó oficialmente a Julieta Ramírez coordinadora estatal el 15 sep — SRC (26 ago) había probado a Burgueño con un número más alto (43.8%), pero quedó descartado con la definición oficial. En PAN y MC, Cruz Blackledge y Ruiz Macfarland ganan terreno como nombres principales frente a Macalpin y de Hoyos."}},
  {id:"bcs",name:"Baja California Sur",row:3,col:1,active:true,
    leader:"morena",
    timeline:{"morena": [{"m": "Abr 26", "v": 41.2}, {"m": "Jul 26", "v": 40.2}, {"m": "Ago 26", "v": 34.8}, {"m": "Sep 26", "v": 35.9}], "pan": [{"m": "Abr 26", "v": 22.5}, {"m": "Jul 26", "v": 24.3}, {"m": "Ago 26", "v": 29.6}, {"m": "Sep 26", "v": 29.1}]},
@@ -273,8 +273,8 @@ const STATES = [
      {label:"Careo por nombre — Massive Caller", candidates:[{name:"Francisco Pelayo",party:"pan",pct:28.2},{name:"Christian Agúndez",party:"morena",pct:22.3},{name:"Antonio Manríquez",party:"pri",pct:5.6}], source:"Massive Caller, 2 sep 2026, n=1,000, ±3.4% (misma ola probó dos nombres para Morena, promediados)"}
    ]},
    parties:[{p:"morena",pct:38.0,cand:"Agúndez Gómez (22.3% careo, promedio); la misma ola también probó a Quiroga Romero (20.5%)"},{p:"pan",pct:26.7,cand:"Pelayo Covarrubias (28.2% careo)"},{p:"pri",pct:9.5,cand:"Valdivia Alvarado (5.6% careo)"},{p:"mc",pct:5.6,cand:"Aún sin definir"},{p:"pvem",pct:2.7,cand:"Aún sin definir"}],
-   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","TResearch, jul 2026, n no reportado","FactoMétrica, jul 2026, n no reportado","Question Mark, 23 jul 2026, n=600-800","RUBRUM, 25 ago 2026, n=1,000, ±3.8%","Massive Caller, 2 sep 2026, n=1,000, ±3.4%"],
-   note:{level:"medium",text:"Careo de Massive Caller (2 sep): Pelayo (PAN) gana en ambos escenarios probados para Morena. SRC ubica a BCS entre los bastiones más sólidos de Morena (>47%) pero sin n reportado para ponderar. RUBRUM también mide al PT (8.7%), sin categoría comparable."}},
+   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","Electoralia, 10-14 may 2026, n=2,500","TResearch, jul 2026, n no reportado","FactoMétrica, jul 2026, n no reportado","Question Mark, 23 jul 2026, n=600-800","RUBRUM, 25 ago 2026, n=1,000, ±3.8%","C&E, 3 sep 2026, n=400, ±4.9% (careo)","Massive Caller, 2 sep 2026, n=1,000, ±3.4% (careo)","Electoralia, sep 2026 (careo)","La Crónica de Hoy, sep 2026"],
+   note:{level:"medium",text:"Careo de Massive Caller (2 sep): Pelayo (PAN) gana en ambos escenarios probados para Morena. SRC ubica a BCS entre los bastiones más sólidos de Morena (>47%) pero sin n reportado para ponderar. RUBRUM también mide al PT (8.7%), sin categoría comparable. ⚠ C&E y Electoralia (sep) dan a Quiroga (Morena) un careo mucho más alto (37.8%-40%) que Massive Caller — no se promedió con el careo vigente porque la brecha es demasiado grande para asumir que miden lo mismo sin revisar la ficha técnica completa de cada una."}},
  {id:"son",name:"Sonora",row:2,col:2,active:true,
    leader:"morena",
    timeline:{"morena": [{"m": "Abr 26", "v": 46.1}, {"m": "May 26", "v": 43.3}, {"m": "Jun 26", "v": 42.3}, {"m": "Jul 26", "v": 40.9}, {"m": "Ago 26", "v": 42.7}], "mc": [{"m": "Ago 26", "v": 20.6}], "pan": [{"m": "Jul 26", "v": 22.3}]},
@@ -300,13 +300,13 @@ const STATES = [
      {label:"Careo por nombre — promedio de Question Mark y Massive Caller (2 escenarios de PRI)", candidates:[{name:"Imelda Castro",party:"morena",pct:32.9},{name:"Mario Zamora",party:"pri",pct:22.4},{name:"Paola Gárate",party:"pan",pct:13.7},{name:"Sergio Torres Félix",party:"mc",pct:7.9}], source:"Promedio de Question Mark (25 ago 2026) y Massive Caller (24 sep 2026, n=1,000, ±3.4% — misma ola probó a Zamora y a Paloma Sánchez Ramos para el PRI, ambos promediados)."}
    ]},
    parties:[{p:"morena",pct:38.0,cand:"Castro Castro (32.9% careo, promedio de 3 mediciones)"},{p:"pri",pct:16.6,cand:"Zamora Gastélum (22.4% careo, promedio); la misma ola de Massive Caller también probó a Paloma Sánchez Ramos (25.5%)"},{p:"pan",pct:13.8,cand:"Gárate (13.7% careo, promedio de 3 mediciones)"},{p:"mc",pct:8.3,cand:"Torres Félix (7.9% careo, promedio de 3 mediciones; QM lo había registrado con el apodo \"El Pío Esquer\")"},{p:"pvem",pct:3.1,cand:"Aún sin definir"}],
-   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, jun 2026","Demoscopia, jun 2026","Question Mark, 19 jun 2026, n=600-800","TResearch, jul 2026","FactoMétrica, jul 2026","RUBRUM, 6 ago 2026, n=800, ±3.8%","RUBRUM, 20 ago 2026, n=800, ±3.8%","Massive Caller, 24 ago 2026, n=1,000, ±3.4%","Question Mark, 25 ago 2026, n=600-800 (careo)","Massive Caller, 24 sep 2026, n=1,000, ±3.4% (careo, 2 escenarios de PRI)"],
-   note:{level:"medium",text:"11 mediciones. Careo vigente ahora promedia QM y Massive Caller (esta última probó dos nombres para el PRI en la misma ola): Castro (Morena) mantiene ventaja pero se estrecha a 32.9% vs 22.4% de Zamora (PRI) — la contienda se ve más cerrada en careo que en el promedio partidista congelado (38.0% vs 16.6%). RUBRUM también midió al PAS (4.8%), partido local sin comparación en otras fuentes."}},
+   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, jun 2026","Demoscopia, jun 2026","Question Mark, 19 jun 2026, n=600-800","TResearch, jul 2026","FactoMétrica, jul 2026","RUBRUM, 6 ago 2026, n=800, ±3.8%","RUBRUM, 20 ago 2026, n=800, ±3.8%","Massive Caller, 24 ago 2026, n=1,000, ±3.4%","Question Mark, 25 ago 2026, n=600-800 (careo)","RUBRUM, sep 2026, n=1,000, ±3.4%","Massive Caller, 24 sep 2026, n=1,000, ±3.4% (careo, 2 escenarios de PRI)"],
+   note:{level:"medium",text:"12 mediciones. Careo vigente ahora promedia QM y Massive Caller (esta última probó dos nombres para el PRI en la misma ola): Castro (Morena) mantiene ventaja pero se estrecha a 32.9% vs 22.4% de Zamora (PRI) — la contienda se ve más cerrada en careo que en el promedio partidista congelado (38.0% vs 16.6%). RUBRUM (sep) confirma el mismo patrón a nivel partido: Morena 33.3%, PRI 22.6% — números muy cercanos al careo vigente. RUBRUM también midió al PAS (4.3%) y al PVEM (2.9%) por separado."}},
  {id:"dur",name:"Durango",row:3,col:3,active:false},
  {id:"coah",name:"Coahuila",row:2,col:4,active:false},
  {id:"nl",name:"Nuevo León",row:2,col:5,active:true,
    leader:"morena",
-   timeline:{"morena": [{"m": "Ene 26", "v": 31.9}, {"m": "Abr 26", "v": 32.1}, {"m": "Jul 26", "v": 31.0}, {"m": "Ago 26", "v": 28.0}], "mc": [{"m": "Ene 26", "v": 20.6}, {"m": "Abr 26", "v": 22.5}, {"m": "Jul 26", "v": 22.0}, {"m": "Ago 26", "v": 18.9}], "pri": [{"m": "Ago 26", "v": 28.8}]},
+   timeline:{"morena": [{"m": "Ene 26", "v": 31.9}, {"m": "Abr 26", "v": 32.1}, {"m": "Jul 26", "v": 31.0}, {"m": "Ago 26", "v": 28.0}], "mc": [{"m": "Ene 26", "v": 20.6}, {"m": "Abr 26", "v": 22.5}, {"m": "May 26", "v": 27.3}, {"m": "Jul 26", "v": 22.0}, {"m": "Ago 26", "v": 18.9}, {"m": "Sep 26", "v": 25.9}], "pri": [{"m": "May 26", "v": 25.3}, {"m": "Ago 26", "v": 28.8}, {"m": "Sep 26", "v": 28.9}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio de Question Mark y SRC (dos escenarios)", candidates:[{name:"Waldo Fernández",party:"morena",pct:29.3},{name:"Adrián de la Garza",party:"pri",pct:28.8},{name:"Mariana Rodríguez",party:"mc",pct:24.4}], source:"Question Mark, ago 2026, y SRC, 26 ago 2026 (dos escenarios de Morena en la misma ola, n=1,000, ±3.1%)"}
    ]},
@@ -316,17 +316,17 @@ const STATES = [
      {p:"pan",pct:14.3,cand:"de la Garza (candidatura unificada con PRI)"},
      {p:"pri",pct:14.0,cand:"de la Garza (28.8% careo, candidatura unificada PRI-PAN)"}
    ],
-   sources:["MetricsMx, feb 2026, n=600","GobernArte, abr 2026, n=900","LaEncuesta.MX, 13 abr 2026, n=1,200","Question Mark, ago 2026, n=600-800","SRC, 26 ago 2026, n=1,000, ±3.1% (careo, 2 escenarios)","RUBRUM, 22 ago 2026, n=800, ±3.8%"],
-   note:{level:"medium",text:"⚠ Cambio de líder: al sumar 2 escenarios de SRC a Question Mark, Fernández (Morena) pasa al frente por margen mínimo sobre de la Garza (PRI-PAN); Rodríguez (MC) baja de 31% a 24.4%. Sigue siendo el estado más cerrado del set. Territorial también ha medido preferencia interna en MC (Rodríguez como favorita) — sin desglose numérico disponible aún para incorporar."}},
+   sources:["MetricsMx, feb 2026, n=600","GobernArte, abr 2026, n=900","LaEncuesta.MX, 13 abr 2026, n=1,200","MetricsMx, may 2026, n=600","Question Mark, ago 2026, n=600-800","SRC, 26 ago 2026, n=1,000, ±3.1% (careo, 2 escenarios)","RUBRUM, 22 ago 2026, n=800, ±3.8%","MetricsMx, sep 2026, n=600"],
+   note:{level:"medium",text:"⚠ Cambio de líder: al sumar 2 escenarios de SRC a Question Mark, Fernández (Morena) pasa al frente por margen mínimo sobre de la Garza (PRI-PAN); Rodríguez (MC) baja de 31% a 24.4%. Sigue siendo el estado más cerrado del set. MetricsMx confirma la tendencia con su propia serie: de la Garza (PRI) subió de 25.3% (may) a 28.9% (sep), mientras Rodríguez (MC) bajó de 27.3% a 25.9% en el mismo periodo — el PRI le arrebató el 2º lugar a MC. Territorial también ha medido preferencia interna en MC (Rodríguez como favorita) — sin desglose numérico disponible aún para incorporar."}},
  {id:"tam",name:"Tamaulipas",row:2,col:6,active:false},
  {id:"zac",name:"Zacatecas",row:4,col:3,active:true,
    leader:"morena",
-   timeline:{"morena": [{"m": "Feb 26", "v": 35.6}, {"m": "Abr 26", "v": 38.1}, {"m": "Jun 26", "v": 36.8}, {"m": "Ago 26", "v": 29.6}, {"m": "Sep 26", "v": 44.7}], "pri": [{"m": "Ago 26", "v": 23.2}, {"m": "Sep 26", "v": 4.4}], "mc": [{"m": "Sep 26", "v": 16.5}], "pan": [{"m": "Sep 26", "v": 9.7}]},
+   timeline:{"morena": [{"m": "Feb 26", "v": 35.6}, {"m": "Abr 26", "v": 38.1}, {"m": "Jun 26", "v": 36.8}, {"m": "Ago 26", "v": 34.7}, {"m": "Sep 26", "v": 44.7}], "pri": [{"m": "Ago 26", "v": 20.1}, {"m": "Sep 26", "v": 4.4}], "mc": [{"m": "Ago 26", "v": 12.5}, {"m": "Sep 26", "v": 16.5}], "pan": [{"m": "Ago 26", "v": 13.5}, {"m": "Sep 26", "v": 9.7}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio Electoralia, C&E y Question Mark", candidates:[{name:"Verónica Díaz",party:"morena",pct:36.5},{name:"Jorge Álvarez Máynez",party:"mc",pct:15.1},{name:"Adolfo Bonilla",party:"pri",pct:13.2},{name:"Miguel Ángel Varela",party:"pan",pct:10.9}], source:"Promedio de Electoralia (1-6 sep 2026), C&E (2 sep 2026) y Question Mark (12 ago 2026)."}
    ]},
    parties:[{p:"morena",pct:34.9,cand:"Díaz (36.5% careo, 2/3 fuentes); QM había medido antes a Mejía Haro (26.8%) — EjeCentral confirma a Díaz como coordinadora estatal 4T"},{p:"pri",pct:18.4,cand:"Bonilla (13.2% careo, 2/3); C&E midió a Peña (4.9%)"},{p:"pan",pct:15.8,cand:"Varela (10.9% careo, consistente en 3 fuentes)"},{p:"mc",pct:13.3,cand:"Álvarez Máynez (15.1% careo, consistente en 3 fuentes)"}],
-   sources:["GobernArte, feb 2026, n=500","LaEncuesta.MX, 13 abr 2026, n=1,200","Algoritmo, 18–21 abr 2026, n=1,000","FactoMétrica, 22 jun 2026, n no reportado","Question Mark, 12 ago 2026, n=600-800 (careo)","Massive Caller, 30 ago 2026, n=1,000, ±3.4%","Electoralia, 1-6 sep 2026 (careo)","C&E, 2 sep 2026 (careo)"],
+   sources:["GobernArte, feb 2026, n=500","LaEncuesta.MX, 13 abr 2026, n=1,200","Algoritmo, 18–21 abr 2026, n=1,000","FactoMétrica, 22 jun 2026, n no reportado","Question Mark, 12 ago 2026, n=600-800 (careo)","TResearch, 26-30 ago 2026, n=1,000","Massive Caller, 30 ago 2026, n=1,000, ±3.4%","Electoralia, 1-6 sep 2026 (careo)","C&E, 2 sep 2026 (careo)"],
    note:{level:"medium",text:"Careo vigente promedia 3 fuentes. Díaz (Morena) confirma ventaja, coincide con EjeCentral. PRI aún sin definir candidato (Bonilla vs Peña). Massive Caller (30 ago) le da al PRI su mejor marca partidista del set. Se recuperó el reporte completo de C&E (2 sep): con eso, la línea de tendencia de septiembre para MC, PAN y PRI ya usa datos reales de esa encuesta (promedio de sus 2 escenarios de Morena), no una aproximación."}},
  {id:"slp",name:"San Luis Potosí",row:4,col:4,active:true,
    leader:"morena",
@@ -353,13 +353,16 @@ const STATES = [
    leader:"pan",
    timeline:{"pan": [{"m": "Oct 25", "v": 44.8}, {"m": "Abr 26", "v": 43.4}, {"m": "Jul 26", "v": 38.1}, {"m": "Ago 26", "v": 46.4}, {"m": "Sep 26", "v": 48.5}], "morena": [{"m": "Oct 25", "v": 29.8}, {"m": "Abr 26", "v": 33.7}, {"m": "Jul 26", "v": 30.3}, {"m": "Ago 26", "v": 28.8}, {"m": "Sep 26", "v": 30.1}]},
    parties:[
-     {p:"pan",pct:43.3,cand:"Martín del Campo (37.8% careo QM, 10-13 jul — fuera de ventana)"},
-     {p:"morena",pct:30.3,cand:"Ruvalcaba Gámez (35.5% careo QM, fuera de ventana)"},
-     {p:"pri",pct:8.0,cand:"Ambriz Delgadillo (5.8% careo QM, fuera de ventana)"},
-     {p:"mc",pct:5.8,cand:"Martínez Rodríguez"}
+     {p:"pan",pct:43.3,cand:"Martín del Campo (41.3% careo, promedio C&E); C&E también probó a Montañez (40.4%)"},
+     {p:"morena",pct:30.3,cand:"Ruvalcaba Gámez (33.4% careo, promedio); designada coordinadora estatal 4T el 25 ago"},
+     {p:"pri",pct:8.0,cand:"Ambriz Delgadillo (3.4% careo, promedio)"},
+     {p:"mc",pct:5.8,cand:"Muñoz (9.9% careo, promedio; sube bastante entre los 2 escenarios de la misma ola)"}
    ],
-   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, 10 jul 2026, n=500","RUBRUM, 17 ago 2026, n=800, ±3.8%","Massive Caller, 31 ago 2026, n=1,000, ±3.4%","GobernArte, 17-22 sep 2026, n=500"],
-   note:{level:"low",text:"6 fuentes. El único careo disponible (QM, 10-13 jul) ya quedó fuera de la ventana de 2 meses — sin dato de careo vigente por ahora, así que el promedio por partido sigue siendo el dato principal y se actualiza con cada encuesta nueva. GobernArte (17-22 sep) amplía ligeramente la ventaja del PAN (43.3% vs 30.3% promedio ponderado)."}},
+   careo:{scenarios:[
+     {label:"Careo por nombre — promedio de 2 escenarios de C&E", candidates:[{name:"Antonio Martín del Campo",party:"pan",pct:41.3},{name:"Nora Ruvalcaba",party:"morena",pct:33.4},{name:"Anayeli Muñoz",party:"mc",pct:9.9},{name:"Humberto Ambriz",party:"pri",pct:3.4}], source:"C&E, 23 ago 2026, n=400, ±4.9% (la misma ola probó 2 escenarios de PAN: Martín del Campo y Montañez)."}
+   ]},
+   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, 10 jul 2026, n=500","RUBRUM, 17 ago 2026, n=800, ±3.8%","C&E, 23 ago 2026, n=400, ±4.9% (careo, 2 escenarios)","Massive Caller, 31 ago 2026, n=1,000, ±3.4%","GobernArte, 17-22 sep 2026, n=500"],
+   note:{level:"low",text:"Primer careo vigente del estado (C&E, 23 ago) — a partir de ahora el promedio por partido queda congelado como referencia y el careo pasa a ser el dato principal. Martín del Campo (PAN) mantiene ventaja clara sobre Ruvalcaba (Morena)."}},
  {id:"jal",name:"Jalisco",row:5,col:2,active:false},
  {id:"gua",name:"Guanajuato",row:5,col:4,active:false},
  {id:"qro",name:"Querétaro",row:5,col:5,active:true,
@@ -374,13 +377,13 @@ const STATES = [
  {id:"hgo",name:"Hidalgo",row:4,col:6,active:false},
  {id:"col",name:"Colima",row:6,col:2,active:true,
    leader:"morena",
-   timeline:{"morena": [{"m": "Abr 26", "v": 40.4}, {"m": "Jun 26", "v": 37.1}, {"m": "Ago 26", "v": 38.1}, {"m": "Sep 26", "v": 37.0}], "pri": [{"m": "Sep 26", "v": 20.6}]},
+   timeline:{"morena": [{"m": "Abr 26", "v": 40.4}, {"m": "Jun 26", "v": 37.1}, {"m": "Ago 26", "v": 38.1}, {"m": "Sep 26", "v": 38.3}], "pri": [{"m": "Sep 26", "v": 17.3}]},
    careo:{scenarios:[
-     {label:"Careo por nombre (boleta hipotética)", candidates:[{name:"Rosi Bayardo",party:"morena",pct:33.1},{name:"Mely Romero Celis",party:"pri",pct:20.6},{name:"Riult Rivera",party:"pan",pct:17.8},{name:"Griselda Martínez",party:"mc",pct:8.3},{name:"Virgilio Mendoza Amezcua",party:"pvem",pct:2.6}], source:"Massive Caller, 8 sep 2026, n=1,000, ±3.4%"}
+     {label:"Careo por nombre — promedio de C&E y Massive Caller", candidates:[{name:"Rosi Bayardo",party:"morena",pct:42.0},{name:"Riult Rivera",party:"pan",pct:18.2},{name:"Mely Romero Celis",party:"pri",pct:17.3},{name:"Griselda Martínez",party:"mc",pct:7.9},{name:"Virgilio Mendoza Amezcua",party:"pvem",pct:2.6}], source:"Promedio de C&E (27 jul 2026) y Massive Caller (8 sep 2026, n=1,000, ±3.4%)."}
    ]},
-   parties:[{p:"morena",pct:37.8,cand:"Bayardo (candidatura ya declarada; 33.1% careo, Massive Caller)"},{p:"pan",pct:15.5,cand:"Rivera Gutiérrez (17.8% careo)"},{p:"pri",pct:14.3,cand:"Romero Celis (20.6% careo)"},{p:"mc",pct:10.6,cand:"Martínez Martínez (8.3% careo)"},{p:"pvem",pct:5.9,cand:"Mendoza Amezcua (2.6% careo; lidera interna PVEM con 51.7%)"}],
-   sources:["GobernArte, abr–jun 2026, n=500","LaEncuesta.MX, 13 abr 2026, n=1,200","FactoMétrica, jun 2026, n no reportado","De las Heras Demotecnia, 9 jun 2026, n no reportado","RUBRUM, 25 ago 2026, n=800, ±3.8%","GobernArte, 25–30 ago 2026, n=500","Massive Caller, 8 sep 2026, n=1,000, ±3.4%"],
-   note:{level:"low",text:"7 fuentes. Massive Caller (8 sep) es la primera en medir al PVEM aparte y en traer careo para este estado. Señal de un PRI competitivo empieza a acumular más de una fuente."}},
+   parties:[{p:"morena",pct:37.8,cand:"Bayardo (candidatura ya declarada; 42.0% careo, promedio de 2 fuentes)"},{p:"pan",pct:15.5,cand:"Rivera Gutiérrez (18.2% careo, promedio)"},{p:"pri",pct:14.3,cand:"Romero Celis (17.3% careo, promedio)"},{p:"mc",pct:10.6,cand:"Martínez Martínez (7.9% careo, promedio)"},{p:"pvem",pct:5.9,cand:"Mendoza Amezcua (2.6% careo; lidera interna PVEM con 51.7%)"}],
+   sources:["GobernArte, abr–jun 2026, n=500","LaEncuesta.MX, 13 abr 2026, n=1,200","FactoMétrica, jun 2026, n no reportado","De las Heras Demotecnia, 9 jun 2026, n no reportado","C&E, 27 jul 2026, n=400, ±4.9% (careo)","RUBRUM, 25 ago 2026, n=800, ±3.8%","GobernArte, 25–30 ago 2026, n=500","SRC, sep 2026, n=1,000, ±3.1%","Massive Caller, 8 sep 2026, n=1,000, ±3.4% (careo)"],
+   note:{level:"medium",text:"8 fuentes. Careo vigente ahora promedia C&E (27 jul) y Massive Caller (8 sep): Bayardo (Morena) sube a 42.0% de careo. Señal de un PRI competitivo se confirma con más de una fuente (17.3%). SRC (sep) da a Morena 39.6% a nivel partido, consistente con el resto."}},
  {id:"mich",name:"Michoacán",row:6,col:3,active:true,
    leader:"morena",
    timeline:{"morena": [{"m": "Abr 26", "v": 36.3}, {"m": "May 26", "v": 44.5}, {"m": "Jun 26", "v": 25.0}, {"m": "Ago 26", "v": 32.2}, {"m": "Sep 26", "v": 35.7}], "pan": [{"m": "Abr 26", "v": 23.4}, {"m": "May 26", "v": 21.6}, {"m": "Jun 26", "v": 10.0}, {"m": "Ago 26", "v": 15.8}, {"m": "Sep 26", "v": 18.1}], "ind": [{"m": "Sep 26", "v": 16.4}]},
@@ -395,13 +398,13 @@ const STATES = [
  {id:"mor",name:"Morelos",row:7,col:5,active:false},
  {id:"tlax",name:"Tlaxcala",row:6,col:6,active:true,
    leader:"morena",
-   timeline:{"morena": [{"m": "Abr 26", "v": 42.8}, {"m": "May 26", "v": 37.4}, {"m": "Ago 26", "v": 43.9}, {"m": "Sep 26", "v": 49.2}], "pri": [{"m": "Abr 26", "v": 17.3}]},
+   timeline:{"morena": [{"m": "Abr 26", "v": 42.8}, {"m": "May 26", "v": 37.4}, {"m": "Ago 26", "v": 43.9}, {"m": "Sep 26", "v": 48.4}], "pri": [{"m": "Abr 26", "v": 17.3}, {"m": "Sep 26", "v": 11.6}], "pan": [{"m": "Jun 25", "v": 9.8}, {"m": "Feb 26", "v": 11.8}, {"m": "Sep 26", "v": 9.8}], "mc": [{"m": "Sep 26", "v": 6.9}]},
    careo:{scenarios:[
      {label:"Careo por nombre — SRC", candidates:[{name:"Ana Lilia Rivera",party:"morena",pct:49.6},{name:"Anabell Ávalos",party:"pri",pct:9.4},{name:"Adriana Dávila",party:"pan",pct:7.8},{name:"Delfino Suárez",party:"mc",pct:5.2}], source:"SRC, 7 sep 2026, n=500, ±4.4%. Question Mark (25 ago) también probó 2 escenarios de Morena, sin desglose completo del resto de partidos."}
    ]},
    parties:[{p:"morena",pct:44.4,cand:"Rivera (49.6% careo, SRC); QM había probado Sánchez García (42.9%) y Rivera (41.6%) sin desglose completo"},{p:"pri",pct:12.6,cand:"Ávalos Zempoalteca (9.4% careo)"},{p:"pan",pct:11.2,cand:"Dávila (7.8% careo)"},{p:"mc",pct:10.5,cand:"Figueroa Martínez interna; SRC probó a Suárez (5.2% careo)"}],
-   sources:["Massive Caller, abr 2026, n=1,000 (IVR)","LaEncuesta.MX, 13 abr 2026, n=1,200","TResearch, may 2026, n no reportado","GobernArte, may 2026, n=500","RUBRUM, 19 ago 2026, n=800, ±3.8%","Question Mark, 25 ago 2026, n=600-800 (careo, sin desglose completo)","Massive Caller, 28 ago 2026, n=1,000, ±3.4%","GobernArte, 9-14 sep 2026, n=500","SRC, 7 sep 2026, n=500, ±4.4% (careo)"],
-   note:{level:"medium",text:"Primer careo estructurado (SRC, 7 sep): Rivera (Morena) 49.6%. QM había probado dos nombres sin desglose de otros partidos, no se pudo promediar. GobernArte confirma a Morena como puntero a nivel partido. Se encontró el reporte original de Massive Caller (abr): PRI 17.3% a nivel partido — reemplaza la aproximación que teníamos antes en la tendencia."}},
+   sources:["Massive Caller, abr 2026, n=1,000 (IVR)","LaEncuesta.MX, 13 abr 2026, n=1,200","TResearch, may 2026, n no reportado","GobernArte, may 2026, n=500","RUBRUM, 19 ago 2026, n=800, ±3.8%","Question Mark, 25 ago 2026, n=600-800 (careo, sin desglose completo)","Massive Caller, 28 ago 2026, n=1,000, ±3.4%","GobernArte, 9-14 sep 2026, n=500","SRC, jun 2025, n=1,000, ±3.1%","SRC, feb 2026, n=1,000, ±3.1%","SRC, 7 sep 2026, n=500, ±4.4% (careo)","SRC, sep 2026, n=1,000, ±3.1%","Electoralia, 1-6 sep 2026, n=2,500"],
+   note:{level:"medium",text:"Primer careo estructurado (SRC, 7 sep): Rivera (Morena) 49.6%. QM había probado dos nombres sin desglose de otros partidos, no se pudo promediar. Se agregaron dos fuentes nuevas con desglose completo (SRC y Electoralia, ambas sep): confirman a Morena al frente a nivel partido. La serie histórica de SRC muestra al PAN en caída sostenida: 9.8% (jun 2025) → 11.8% (feb 2026) → 7.5% (sep 2026)."}},
  {id:"pue",name:"Puebla",row:6,col:7,active:false},
  {id:"ver",name:"Veracruz",row:4,col:7,active:false},
  {id:"gro",name:"Guerrero",row:7,col:3,active:true,
@@ -420,11 +423,11 @@ const STATES = [
    leader:"morena",
    timeline:{"morena": [{"m": "Abr 26", "v": 35.9}, {"m": "Jun 26", "v": 34.6}, {"m": "Jul 26", "v": 40.8}, {"m": "Ago 26", "v": 45.4}, {"m": "Sep 26", "v": 43.5}], "mc": [{"m": "Abr 26", "v": 39.4}, {"m": "Jun 26", "v": 29.8}, {"m": "Jul 26", "v": 28.3}, {"m": "Ago 26", "v": 27.0}, {"m": "Sep 26", "v": 26.8}]},
    careo:{scenarios:[
-     {label:"Careo por nombre (boleta hipotética)", candidates:[{name:"Pablo Gutiérrez Lazarus",party:"morena",pct:48.5},{name:"Eliseo Fernández",party:"mc",pct:24.3},{name:"Christian Castro Bello",party:"pri",pct:9.1},{name:"Nelly Márquez",party:"pan",pct:9}], source:"Question Mark, 25 ago 2026"}
+     {label:"Careo por nombre — promedio de Question Mark y C&E (2 escenarios)", candidates:[{name:"Pablo Gutiérrez Lazarus",party:"morena",pct:47.2},{name:"Eliseo Fernández",party:"mc",pct:30.9},{name:"Nelly Márquez",party:"pan",pct:6.9},{name:"Christian Castro Bello",party:"pri",pct:6.1}], source:"Promedio de Question Mark (25 ago 2026) y C&E (12 ago 2026, n=400, ±4.9%, 2 escenarios: Fernández y Rabelo por MC)."}
    ]},
-   parties:[{p:"morena",pct:40.8,cand:"Gutiérrez Lazarus (48.5% careo, QM)"},{p:"mc",pct:28.3,cand:"Fernández Montúfar (24.3% careo)"},{p:"pri",pct:9.1,cand:"Castro Bello (9.1% careo)"},{p:"pan",pct:6.3,cand:"Márquez (9% careo)"}],
-   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, may 2026, n=500","GobernArte, jun 2026, n=500","FactoMétrica, jul 2026, n no reportado","Question Mark, 16 jul 2026, n=600-800","RUBRUM, 19 ago 2026, n=800, ±3.8%","Question Mark, 25 ago 2026, n=600-800 (careo)","GobernArte, 15-20 sep 2026, n=500"],
-   note:{level:"medium",text:"QM publicó dos olas: partidista (16 jul) y careo (25 ago), ya incorporadas. Bajo la regla de desviación de 10 pts, QM y RUBRUM coinciden en ampliar la ventaja de Morena sobre MC. GobernArte (15-20 sep) confirma el mismo orden a nivel partido, con cifras muy cercanas a las de agosto."}},
+   parties:[{p:"morena",pct:40.8,cand:"Gutiérrez Lazarus (47.2% careo, promedio)"},{p:"mc",pct:28.3,cand:"Fernández Montúfar (30.9% careo, promedio); C&E también probó a Biby Rabelo (36.5%)"},{p:"pri",pct:9.1,cand:"Castro Bello (6.1% careo, promedio)"},{p:"pan",pct:6.3,cand:"Márquez (6.9% careo, promedio)"}],
+   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, may 2026, n=500","GobernArte, jun 2026, n=500","FactoMétrica, jul 2026, n no reportado","Question Mark, 16 jul 2026, n=600-800","C&E, 12 ago 2026, n=400, ±4.9% (careo, 2 escenarios)","RUBRUM, 19 ago 2026, n=800, ±3.8%","Question Mark, 25 ago 2026, n=600-800 (careo)","GobernArte, 15-20 sep 2026, n=500"],
+   note:{level:"medium",text:"QM publicó dos olas: partidista (16 jul) y careo (25 ago). Se agregó C&E (12 ago, 2 escenarios) al careo vigente: Gutiérrez (Morena) 47.2%, Fernández (MC) 30.9% — contienda más cerrada de lo que mostraba QM solo. GobernArte (15-20 sep) confirma el mismo orden a nivel partido."}},
  {id:"yuc",name:"Yucatán",row:5,col:9,active:false},
  {id:"qroo",name:"Quintana Roo",row:6,col:9,active:true,
    leader:"morena",
@@ -434,7 +437,7 @@ const STATES = [
    ]},
    parties:[{p:"morena",pct:42.9,cand:"Segura Vázquez (47.2% careo, promedio de 4 fuentes); también registrado como Eugenio Segura"},{p:"pan",pct:15.0,cand:"Martínez Simón (11.8% careo, consistente en las 4 fuentes)"},{p:"mc",pct:10.7,cand:"En careo, Palazuelos (9.6% promedio, B&M+C&E); Pech Várguez (Demoscopia+Massive Caller) ya empata en frecuencia — vigilar"},{p:"pri",pct:8.6,cand:"Hendricks Rubio (8.1% careo, ahora 2/4 fuentes); C&E midió a Filiberto Martínez, B&M sin nombre"},{p:"pvem",pct:3.8,cand:"Aún sin definir"}],
    sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, may 2026, n=500","GobernArte, jun 2026, n=500","Buendía & Márquez, 1-6 ago 2026, n=1,000, ±3.53%","RUBRUM, 10 ago 2026, n=1,000, ±3.8%","Massive Caller, 20 ago 2026, n=1,000, ±3.4%","Demoscopia, 1-3 sep 2026 (careo)","C&E, 2 sep 2026 (careo)","Massive Caller, 20 sep 2026, n=1,000, ±3.4% (careo)"],
-   note:{level:"medium",text:"Careo vigente ahora promedia 4 fuentes (se sumó Massive Caller, 20 sep). Segura (Morena) baja de 50.5% a 47.2% con la nueva medición, pero mantiene ventaja amplia; Martínez (PAN) sube a 11.8%. En MC, Pech Várguez ya empata en frecuencia con Palazuelos (2 de 4 fuentes cada uno) — vale la pena vigilar cuál se consolida. Massive Caller también reveló las internas: en el PAN, Martínez Simón lidera 28.6% vs Tamayo Carballo 16.5%; en MC, Pech Várguez 21.4% vs Palazuelos 20.4%, prácticamente empatados."}}];
+   note:{level:"medium",text:"Careo vigente ahora promedia 4 fuentes (se sumó Massive Caller, 20 sep). Segura (Morena) baja de 50.5% a 47.2% con la nueva medición, pero mantiene ventaja amplia; Martínez (PAN) sube a 11.8%. En MC, Pech Várguez ya empata en frecuencia con Palazuelos (2 de 4 fuentes cada uno) — vale la pena vigilar cuál se consolida. Massive Caller también reveló las internas: en el PAN, Martínez Simón lidera 28.6% vs Tamayo Carballo 16.5%; en MC, Pech Várguez 21.4% vs Palazuelos 20.4%, prácticamente empatados. Morena confirmó oficialmente a Segura como coordinador estatal el 15 sep, consistente con lo que ya usábamos como nombre principal."}}];
 
 const board = document.getElementById("board");
 function getDisplayLeader(s){
@@ -670,6 +673,15 @@ function renderStateCard(s){
     y += 44;
   }
 
+  if(s.timeline && Object.keys(s.timeline).length){
+    y = drawSectionTitle(ctx, x, W, y, "TENDENCIA MENSUAL");
+    y = drawTrendChart(ctx, x, y, W, s);
+    y += 20;
+    ctx.strokeStyle = "#2a3540"; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(x+W,y); ctx.stroke();
+    y += 44;
+  }
+
   y = drawSectionTitle(ctx, x, W, y, "PROMEDIO HISTÓRICO POR PARTIDO (CORTE SEP 2026)");
   const maxPtyPct = Math.max(...s.parties.map(p=>p.pct), 1);
   s.parties.forEach(pt=>{
@@ -691,11 +703,6 @@ function renderStateCard(s){
   ctx.strokeStyle = "#2a3540"; ctx.lineWidth = 1.5;
   ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(x+W,y); ctx.stroke();
   y += 44;
-
-  if(s.timeline && Object.keys(s.timeline).length){
-    y = drawSectionTitle(ctx, x, W, y, "TENDENCIA MENSUAL");
-    y = drawTrendChart(ctx, x, y, W, s);
-  }
 
   y += 10;
   const finalY = drawCardFooter(ctx, x, W, y);
