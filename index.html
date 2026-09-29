@@ -270,9 +270,9 @@ const STATES = [
    leader:"morena",
    timeline:{"morena": [{"m": "Abr 26", "v": 41.2}, {"m": "Jul 26", "v": 40.2}, {"m": "Ago 26", "v": 34.8}, {"m": "Sep 26", "v": 35.9}], "pan": [{"m": "Abr 26", "v": 22.5}, {"m": "Jul 26", "v": 24.3}, {"m": "Ago 26", "v": 29.6}, {"m": "Sep 26", "v": 29.1}]},
    careo:{scenarios:[
-     {label:"Careo por nombre — Massive Caller", candidates:[{name:"Francisco Pelayo",party:"pan",pct:28.2},{name:"Christian Agúndez",party:"morena",pct:22.3},{name:"Antonio Manríquez",party:"pri",pct:5.6}], source:"Massive Caller, 2 sep 2026, n=1,000, ±3.4% (misma ola probó dos nombres para Morena, promediados)"}
+     {label:"Careo por nombre — Massive Caller", candidates:[{name:"Francisco Pelayo",party:"pan",pct:28.2},{name:"Milena Quiroga",party:"morena",pct:20.5},{name:"Antonio Manríquez",party:"pri",pct:5.6}], source:"Massive Caller, 2 sep 2026, n=1,000, ±3.4% (misma ola probó dos nombres para Morena; se usa el de Quiroga porque Morena la designó coordinadora oficial el 28 sep, superando a Agúndez en el proceso interno)"}
    ]},
-   parties:[{p:"morena",pct:38.0,cand:"Agúndez Gómez (22.3% careo, promedio); la misma ola también probó a Quiroga Romero (20.5%)"},{p:"pan",pct:26.7,cand:"Pelayo Covarrubias (28.2% careo)"},{p:"pri",pct:9.5,cand:"Valdivia Alvarado (5.6% careo)"},{p:"mc",pct:5.6,cand:"Aún sin definir"},{p:"pvem",pct:2.7,cand:"Aún sin definir"}],
+   parties:[{p:"morena",pct:38.0,cand:"Quiroga Romero — designada coordinadora estatal 4T el 28 sep (20.5% careo); Agúndez Gómez quedó fuera del proceso interno (22.3% careo)"},{p:"pan",pct:26.7,cand:"Pelayo Covarrubias (28.2% careo)"},{p:"pri",pct:9.5,cand:"Valdivia Alvarado (5.6% careo)"},{p:"mc",pct:5.6,cand:"Aún sin definir"},{p:"pvem",pct:2.7,cand:"Aún sin definir"}],
    sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","Electoralia, 10-14 may 2026, n=2,500","TResearch, jul 2026, n no reportado","FactoMétrica, jul 2026, n no reportado","Question Mark, 23 jul 2026, n=600-800","RUBRUM, 25 ago 2026, n=1,000, ±3.8%","C&E, 3 sep 2026, n=400, ±4.9% (careo)","Massive Caller, 2 sep 2026, n=1,000, ±3.4% (careo)","Electoralia, sep 2026 (careo)","La Crónica de Hoy, sep 2026"],
    note:{level:"medium",text:"Careo de Massive Caller (2 sep): Pelayo (PAN) gana en ambos escenarios probados para Morena. SRC ubica a BCS entre los bastiones más sólidos de Morena (>47%) pero sin n reportado para ponderar. RUBRUM también mide al PT (8.7%), sin categoría comparable. ⚠ C&E y Electoralia (sep) dan a Quiroga (Morena) un careo mucho más alto (37.8%-40%) que Massive Caller — no se promedió con el careo vigente porque la brecha es demasiado grande para asumir que miden lo mismo sin revisar la ficha técnica completa de cada una."}},
  {id:"son",name:"Sonora",row:2,col:2,active:true,
@@ -308,10 +308,10 @@ const STATES = [
    leader:"morena",
    timeline:{"morena": [{"m": "Ene 26", "v": 31.9}, {"m": "Abr 26", "v": 32.1}, {"m": "Jul 26", "v": 31.0}, {"m": "Ago 26", "v": 28.0}], "mc": [{"m": "Ene 26", "v": 20.6}, {"m": "Abr 26", "v": 22.5}, {"m": "May 26", "v": 27.3}, {"m": "Jul 26", "v": 22.0}, {"m": "Ago 26", "v": 18.9}, {"m": "Sep 26", "v": 25.9}], "pri": [{"m": "May 26", "v": 25.3}, {"m": "Ago 26", "v": 28.8}, {"m": "Sep 26", "v": 28.9}]},
    careo:{scenarios:[
-     {label:"Careo por nombre — promedio de Question Mark y SRC (dos escenarios)", candidates:[{name:"Waldo Fernández",party:"morena",pct:29.3},{name:"Adrián de la Garza",party:"pri",pct:28.8},{name:"Mariana Rodríguez",party:"mc",pct:24.4}], source:"Question Mark, ago 2026, y SRC, 26 ago 2026 (dos escenarios de Morena en la misma ola, n=1,000, ±3.1%)"}
+     {label:"Careo por nombre — promedio de Question Mark y SRC (dos escenarios)", candidates:[{name:"Clara Luz Flores",party:"morena",pct:29.4},{name:"Adrián de la Garza",party:"pri",pct:28.8},{name:"Mariana Rodríguez",party:"mc",pct:24.4}], source:"Question Mark, ago 2026, y SRC, 26 ago 2026 (dos escenarios de Morena en la misma ola, n=1,000, ±3.1%; se usa el escenario de Flores porque Morena la designó coordinadora oficial el 28 sep)"}
    ]},
    parties:[
-     {p:"morena",pct:30.0,cand:"Interna fragmentada; en careo, Fernández (29.3% promedio) es principal — SRC/QM también probaron Clouthier (26.8%) y C.L. Flores (29.4%)"},
+     {p:"morena",pct:30.0,cand:"Clara Luz Flores — designada coordinadora estatal 4T el 28 sep (29.4% careo); Fernández (29.3%) y Clouthier (26.8%) quedaron fuera del proceso interno"},
      {p:"mc",pct:22.5,cand:"Rodríguez Cantú (24.4% careo, baja del 31% que medía QM sola)"},
      {p:"pan",pct:14.3,cand:"de la Garza (candidatura unificada con PRI)"},
      {p:"pri",pct:14.0,cand:"de la Garza (28.8% careo, candidatura unificada PRI-PAN)"}
@@ -335,20 +335,20 @@ const STATES = [
      {label:"Careo por nombre — promedio de Question Mark y C&E", candidates:[{name:"Ruth González",party:"pvem",pct:31.0},{name:"Alejandro Zermeño",party:"ind",pct:16.5},{name:"Enrique Galindo",party:"pri",pct:16.2},{name:"Gerardo Sánchez Zumaya",party:"pt",pct:12.2},{name:"Paola Longoria",party:"mc",pct:9.3},{name:"Rubén Guajardo",party:"pan",pct:5.6}], source:"Promedio de Question Mark (17 ago 2026) y C&E (25 ago 2026) — C&E no probó escenario independiente; Zermeño queda solo con el dato de QM."}
    ]},
    parties:[
-     {p:"morena",pct:27.3,cand:"Rodríguez Velázquez (28.8% interno); en careo QM la probó con 16.0%, otro escenario probó a Zermeño independiente (16.5%)"},
+     {p:"morena",pct:27.3,cand:"Elí César Cervantes — designado coordinador estatal 4T el 28 sep, como candidato de consenso (no se registró originalmente al proceso); Rodríguez Velázquez y Zermeño (quien terminó como independiente) eran los nombres que medían las encuestas antes de esta designación"},
      {p:"pvem",pct:25.0,cand:"González Silva (precandidata única; 31.0% careo, promedio QM+C&E)"},
      {p:"pan",pct:14.3,cand:"Guajardo (5.6% careo, promedio); C&E probó en cambio a Verónica Rodríguez (3.7%)"},
      {p:"mc",pct:9.5,cand:"Longoria (9.3% careo, promedio); C&E probó en cambio a Marco Antonio Gama (9.0%)"},
      {p:"pri",pct:8.9,cand:"Galindo Ceballos (16.2% careo, promedio QM+C&E — QM lo da como PRI, otras fuentes como PAN)"}
    ],
    sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","FactoMétrica, jul 2026, n no reportado","Question Mark, 17 ago 2026, n=600-800","RUBRUM, 18 ago 2026, n=800, ±3.8%","Massive Caller, 22 ago 2026, n=1,000, ±3.4%","C&E, 25 ago 2026, n=400, ±4.9% (careo)","Massive Caller, 22 sep 2026, n=1,000, ±3.4%"],
-   note:{level:"medium",text:"Contienda más fragmentada de las 17. Careo vigente ahora promedia Question Mark y C&E (25 ago): González (PVEM) amplía su ventaja a 31.0%. PAN y MC varían de precandidato según la casa. Zermeño (independiente) y Rodríguez (Morena) siguen sin dato de careo común. Territorial también ha publicado en el estado (preferencia interna del PAN) — sin desglose numérico disponible aún. Massive Caller (22 sep) confirma a nivel partido lo que ya mostraba el careo: PVEM (28.1%) supera a Morena (24.2%) — es la primera vez que el PVEM también lidera el dato partidista, no solo el de careo."}},
+   note:{level:"medium",text:"Contienda más fragmentada de las 17. Careo vigente ahora promedia Question Mark y C&E (25 ago): González (PVEM) amplía su ventaja a 31.0%. ⚠ Morena sorprendió designando a Elí César Cervantes (28 sep) como candidato de consenso — no se había registrado al proceso interno ni aparece medido en ninguna encuesta pública todavía. Zermeño terminó su proceso como candidato independiente, no de Morena. Territorial también ha publicado en el estado (preferencia interna del PAN) — sin desglose numérico disponible aún. Massive Caller (22 sep) confirma a nivel partido lo que ya mostraba el careo: PVEM (28.1%) supera a Morena (24.2%)."}},
  {id:"nay",name:"Nayarit",row:4,col:2,active:true,
    leader:"morena",
    timeline:{"morena": [{"m": "Abr 26", "v": 43.1}, {"m": "Jun 26", "v": 53.0}, {"m": "Jul 26", "v": 55.0}, {"m": "Ago 26", "v": 46.0}, {"m": "Sep 26", "v": 55.5}], "mc": [{"m": "Jun 26", "v": 12.9}, {"m": "Jul 26", "v": 15.2}]},
-   parties:[{p:"morena",pct:50.4,cand:"Santana García"},{p:"mc",pct:12.5,cand:"Aún sin definir"},{p:"pri",pct:10.2,cand:"Aún sin definir"},{p:"pan",pct:8.9,cand:"Aún sin definir"},{p:"pvem",pct:7.8,cand:"Aún sin definir"}],
+   parties:[{p:"morena",pct:50.4,cand:"Jasmine Bugarín Rodríguez — designada coordinadora estatal 4T el 28 sep por criterio de paridad de género; Héctor Santana García había obtenido el mejor resultado en la encuesta interna pero quedó fuera por esa regla"},{p:"mc",pct:12.5,cand:"Aún sin definir"},{p:"pri",pct:10.2,cand:"Aún sin definir"},{p:"pan",pct:8.9,cand:"Aún sin definir"},{p:"pvem",pct:7.8,cand:"Aún sin definir"}],
    sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, jun–jul 2026, n=500 (x2 cortes)","Question Mark, 29 jul 2026, n=600-800","RUBRUM, 20 ago 2026, n=800, ±3.8%","GobernArte, 3-7 sep 2026, n=500","Massive Caller, 14 sep 2026, n=1,000, ±3.4%"],
-   note:{level:"medium",text:"6 fuentes. Tercera medición consecutiva por encima de 55 puntos; bastión sólido de Morena, junto con Guerrero el de mayor ventaja del set."}},
+   note:{level:"medium",text:"6 fuentes. Tercera medición consecutiva por encima de 55 puntos; bastión sólido de Morena, junto con Guerrero el de mayor ventaja del set. ⚠ Morena designó a Bugarín (28 sep) por criterio de paridad de género, pese a que Santana ganó la encuesta interna — vigilar si esto genera fricción, ya que ninguna encuesta pública ha medido aún a Bugarín en un careo."}},
  {id:"ags",name:"Aguascalientes",row:5,col:3,active:true,
    leader:"pan",
    timeline:{"pan": [{"m": "Oct 25", "v": 44.8}, {"m": "Abr 26", "v": 43.4}, {"m": "Jul 26", "v": 38.1}, {"m": "Ago 26", "v": 46.4}, {"m": "Sep 26", "v": 48.5}], "morena": [{"m": "Oct 25", "v": 29.8}, {"m": "Abr 26", "v": 33.7}, {"m": "Jul 26", "v": 30.3}, {"m": "Ago 26", "v": 28.8}, {"m": "Sep 26", "v": 30.1}]},
