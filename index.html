@@ -181,7 +181,7 @@
 <header>
   <p class="eyebrow">Proceso electoral 2026–2027 · Corte septiembre 2026</p>
   <h1>17 gubernaturas en disputa</h1>
-  <p class="last-updated">Última actualización: 29 de septiembre de 2026</p>
+  <p class="last-updated">Última actualización: 30 de septiembre de 2026</p>
   <p class="sub">Toca un estado en color para ver la intención de voto por partido (promedio ponderado por tamaño de muestra), candidato mejor posicionado y confiabilidad de la fuente. Los estados en gris no renuevan gubernatura en 2027.</p>
 </header>
 
@@ -322,13 +322,13 @@ const STATES = [
  {id:"tam",name:"Tamaulipas",row:2,col:6,active:false},
  {id:"zac",name:"Zacatecas",row:4,col:3,active:true,
    leader:"morena",
-   timeline:{"morena": [{"m": "Feb 26", "v": 35.6}, {"m": "Abr 26", "v": 38.1}, {"m": "Jun 26", "v": 36.8}, {"m": "Ago 26", "v": 34.7}, {"m": "Sep 26", "v": 44.7}], "pri": [{"m": "Ago 26", "v": 20.1}, {"m": "Sep 26", "v": 4.4}], "mc": [{"m": "Ago 26", "v": 12.5}, {"m": "Sep 26", "v": 16.5}], "pan": [{"m": "Ago 26", "v": 13.5}, {"m": "Sep 26", "v": 9.7}]},
+   timeline:{"morena": [{"m": "Feb 26", "v": 35.6}, {"m": "Abr 26", "v": 38.1}, {"m": "Jun 26", "v": 36.8}, {"m": "Ago 26", "v": 34.7}, {"m": "Sep 26", "v": 36.6}], "pri": [{"m": "Ago 26", "v": 20.1}, {"m": "Sep 26", "v": 15.3}], "mc": [{"m": "Ago 26", "v": 12.5}, {"m": "Sep 26", "v": 13.9}], "pan": [{"m": "Ago 26", "v": 13.5}, {"m": "Sep 26", "v": 14.5}]},
    careo:{scenarios:[
-     {label:"Careo por nombre — promedio Electoralia, C&E y Question Mark", candidates:[{name:"Verónica Díaz",party:"morena",pct:36.5},{name:"Jorge Álvarez Máynez",party:"mc",pct:15.1},{name:"Adolfo Bonilla",party:"pri",pct:13.2},{name:"Miguel Ángel Varela",party:"pan",pct:10.9}], source:"Promedio de Electoralia (1-6 sep 2026), C&E (2 sep 2026) y Question Mark (12 ago 2026)."}
+     {label:"Careo por nombre — promedio de 4 mediciones", candidates:[{name:"Verónica Díaz",party:"morena",pct:31.9},{name:"Adolfo Bonilla",party:"pri",pct:19.8},{name:"Jorge Álvarez Máynez",party:"mc",pct:14.1},{name:"Miguel Ángel Varela",party:"pan",pct:12.2}], source:"Promedio de Electoralia (1-6 sep 2026), C&E (2 sep 2026), Question Mark (12 ago 2026) y Massive Caller (29 sep 2026, n=1,000, ±3.4%)."}
    ]},
-   parties:[{p:"morena",pct:34.9,cand:"Díaz (36.5% careo, 2/3 fuentes); QM había medido antes a Mejía Haro (26.8%) — EjeCentral confirma a Díaz como coordinadora estatal 4T"},{p:"pri",pct:18.4,cand:"Bonilla (13.2% careo, 2/3); C&E midió a Peña (4.9%)"},{p:"pan",pct:15.8,cand:"Varela (10.9% careo, consistente en 3 fuentes)"},{p:"mc",pct:13.3,cand:"Álvarez Máynez (15.1% careo, consistente en 3 fuentes)"}],
-   sources:["GobernArte, feb 2026, n=500","LaEncuesta.MX, 13 abr 2026, n=1,200","Algoritmo, 18–21 abr 2026, n=1,000","FactoMétrica, 22 jun 2026, n no reportado","Question Mark, 12 ago 2026, n=600-800 (careo)","TResearch, 26-30 ago 2026, n=1,000","Massive Caller, 30 ago 2026, n=1,000, ±3.4%","Electoralia, 1-6 sep 2026 (careo)","C&E, 2 sep 2026 (careo)"],
-   note:{level:"medium",text:"Careo vigente promedia 3 fuentes. Díaz (Morena) confirma ventaja, coincide con EjeCentral. PRI aún sin definir candidato (Bonilla vs Peña). Massive Caller (30 ago) le da al PRI su mejor marca partidista del set. Se recuperó el reporte completo de C&E (2 sep): con eso, la línea de tendencia de septiembre para MC, PAN y PRI ya usa datos reales de esa encuesta (promedio de sus 2 escenarios de Morena), no una aproximación."}},
+   parties:[{p:"morena",pct:34.9,cand:"Díaz (31.9% careo, promedio de 4); QM había medido antes a Mejía Haro (26.8%) — EjeCentral confirma a Díaz como coordinadora estatal 4T"},{p:"pri",pct:18.4,cand:"Bonilla (19.8% careo, promedio); Massive Caller (29 sep) le dio su mejor marca del set con 33.1% — vigilar si se consolida"},{p:"pan",pct:15.8,cand:"Varela (12.2% careo, consistente en las 4 mediciones)"},{p:"mc",pct:13.3,cand:"Álvarez Máynez (14.1% careo, consistente en las 4 mediciones)"}],
+   sources:["GobernArte, feb 2026, n=500","LaEncuesta.MX, 13 abr 2026, n=1,200","Algoritmo, 18–21 abr 2026, n=1,000","FactoMétrica, 22 jun 2026, n no reportado","Question Mark, 12 ago 2026, n=600-800 (careo)","TResearch, 26-30 ago 2026, n=1,000","Massive Caller, 30 ago 2026, n=1,000, ±3.4%","Electoralia, 1-6 sep 2026 (careo)","C&E, 2 sep 2026 (careo)","Massive Caller, 29 sep 2026, n=1,000, ±3.4% (careo)"],
+   note:{level:"medium",text:"⚠ Massive Caller (29 sep) trajo un giro fuerte: Bonilla (PRI) 33.1% en esa medición individual, su mejor marca por mucho en todo el set — al promediar con las otras 3 fuentes, la contienda se estrecha bastante (Díaz 31.9% vs Bonilla 19.8%), aunque Morena mantiene la ventaja. A nivel partido, esa misma encuesta da Morena 28.5% vs PRI 26.1%, prácticamente empatados — vale la pena vigilar de cerca si se confirma con más encuestas o si es un dato atípico (regla de desviación de 10 pts, sección 5). EjeCentral había confirmado a Díaz como coordinadora estatal 4T."}},
  {id:"slp",name:"San Luis Potosí",row:4,col:4,active:true,
    leader:"morena",
    timeline:{"morena": [{"m": "Abr 26", "v": 31.2}, {"m": "Jul 26", "v": 23.9}, {"m": "Ago 26", "v": 25.7}, {"m": "Sep 26", "v": 24.2}], "pvem": [{"m": "Abr 26", "v": 29.1}, {"m": "Jul 26", "v": 21.8}, {"m": "Ago 26", "v": 23.6}, {"m": "Sep 26", "v": 28.1}], "ind": [{"m": "Ago 26", "v": 16.5}], "pt": [{"m": "Ago 26", "v": 15.1}]},
