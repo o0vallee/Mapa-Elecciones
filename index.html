@@ -151,6 +151,8 @@
   .bar-cand{font-size:11.5px;color:var(--ink-dim);margin-top:3px;}
 
   .tl-wrap{margin-top:18px;border-top:1px solid var(--line);padding-top:14px;}
+  .tl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+  .tl-scroll-hint{font-size:10px;color:var(--ink-dim);text-align:center;margin-top:4px;}
   .tl-title{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-dim);margin-bottom:8px;}
   .tl-legend{display:flex;gap:14px;margin-bottom:6px;font-size:11px;}
   .tl-legend span{display:inline-flex;align-items:center;gap:5px;color:var(--ink-dim);}
@@ -919,7 +921,11 @@ function renderTimeline(s){
     pts.forEach(pt=>{ if(!monthsOrder.includes(pt.m)) monthsOrder.push(pt.m); });
   });
   monthsOrder.sort((a,b)=> monthSortKey(a)-monthSortKey(b));
-  const W = 300, H = 110, padL = 26, padR = 10, padT = 10, padB = 22;
+  const MAX_VISIBLE_MONTHS = 6;
+  const baseW = 300, H = 110, padL = 26, padR = 24, padT = 10, padB = 22;
+  const PX_PER_MONTH = 70; // real CSS pixels per month once scrolling kicks in — must exceed the typical ~380-420px container width when >6 months, or nothing actually overflows
+  const needsScroll = monthsOrder.length > MAX_VISIBLE_MONTHS;
+  const W = needsScroll ? monthsOrder.length * PX_PER_MONTH : baseW;
   const plotW = W - padL - padR, plotH = H - padT - padB;
   const allVals = series.flatMap(([p,pts])=>pts.map(pt=>pt.v));
   const maxV = Math.max(...allVals) * 1.15;
@@ -927,7 +933,8 @@ function renderTimeline(s){
   const xFor = (m)=> padL + (monthsOrder.indexOf(m) / Math.max(monthsOrder.length-1,1)) * plotW;
   const yFor = (v)=> padT + plotH - ((v-minV)/(maxV-minV)) * plotH;
 
-  let svg = `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;overflow:visible;">`;
+  const svgWidthStyle = needsScroll ? `width:${W}px;max-width:none;height:auto;` : `width:100%;height:auto;`;
+  let svg = `<svg viewBox="0 0 ${W} ${H}" style="${svgWidthStyle}overflow:visible;">`;
   // gridlines
   svg += `<line x1="${padL}" y1="${padT+plotH}" x2="${padL+plotW}" y2="${padT+plotH}" stroke="#2a3540" stroke-width="1"/>`;
 
@@ -950,7 +957,20 @@ function renderTimeline(s){
     `<span><i style="background:${getComputedColor(p)}"></i>${LABELS[p]}</span>`
   ).join("") + '</div>';
 
-  box.innerHTML = '<div class="tl-title">Tendencia mensual (dato individual de cada encuesta ese mes, no el promedio ponderado de arriba)</div>' + legend + svg;
+  const chartHtml = needsScroll
+    ? `<div class="tl-scroll">${svg}</div><div class="tl-scroll-hint">◀ Desliza para ver todos los meses ▶</div>`
+    : svg;
+
+  box.innerHTML = '<div class="tl-title">Tendencia mensual (dato individual de cada encuesta ese mes, no el promedio ponderado de arriba)</div>' + legend + chartHtml;
+
+  if(needsScroll){
+    const scrollEl = box.querySelector(".tl-scroll");
+    if(scrollEl){
+      requestAnimationFrame(()=>{
+        requestAnimationFrame(()=>{ scrollEl.scrollLeft = scrollEl.scrollWidth; });
+      });
+    }
+  }
 }
 function closeSheet(){document.getElementById("overlay").classList.remove("show");}
 document.getElementById("overlay").addEventListener("click",(e)=>{
