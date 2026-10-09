@@ -154,7 +154,7 @@
   .tl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;}
   .tl-scroll-hint{font-size:10px;color:var(--ink-dim);text-align:center;margin-top:4px;}
   .tl-title{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-dim);margin-bottom:8px;}
-  .tl-legend{display:flex;flex-wrap:wrap;gap:4px 14px;margin-bottom:6px;font-size:11px;}
+  .tl-legend{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 16px;margin-top:8px;font-size:11.5px;font-weight:700;}
   .tl-legend span{display:inline-flex;align-items:center;gap:5px;color:var(--ink-dim);white-space:nowrap;}
   .tl-legend i{width:14px;height:2px;display:inline-block;border-radius:2px;}
   .tl-empty{font-size:12px;color:var(--ink-dim);font-style:italic;}
@@ -168,7 +168,9 @@
   .note.show{display:block;}
   .note.high{background:rgba(224,167,46,.16);border-color:rgba(224,167,46,.55);}
   #sNoteWrap{margin-top:16px;}
-  .srcbox{margin-top:16px;border-top:1px solid var(--line);padding-top:12px;}
+  .srcbox{margin-top:12px;}
+  .src-panel{display:none;margin-top:10px;}
+  .src-panel.show{display:block;}
   .srcbox h3{margin:0 0 8px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-dim);}
   .srcbox ul{margin:0;padding-left:16px;font-size:12px;color:var(--ink-dim);line-height:1.7;}
   .section-label{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-dim);
@@ -236,8 +238,8 @@
     <div id="sTimeline" class="tl-wrap"></div>
     <div id="sNoteWrap"></div>
     <div class="srcbox">
-      <h3>Encuestas usadas</h3>
-      <ul id="sSources"></ul>
+      <button class="conflict-btn" id="sSrcBtn" type="button">📋 Encuestas usadas</button>
+      <div class="src-panel" id="sSrcPanel"><ul id="sSources"></ul></div>
     </div>
     <div id="sConflict"></div>
     <div id="sExport"></div>
@@ -901,6 +903,11 @@ function openSheet(s){
   renderConflictButton(s);
   renderExportButton(s);
 
+  // Encuestas usadas en botón desplegable (8 oct 2026): se abre cerrado en cada estado
+  const srcBtn = document.getElementById("sSrcBtn"), srcPanel = document.getElementById("sSrcPanel");
+  srcBtn.textContent = "📋 Encuestas usadas (" + s.sources.length + ")";
+  srcPanel.classList.remove("show");
+  srcBtn.onclick = ()=> srcPanel.classList.toggle("show");
   const srcList = document.getElementById("sSources");
   srcList.innerHTML = "";
   s.sources.forEach(src=>{
@@ -993,14 +1000,14 @@ function renderTimeline(s){
   svg += `</svg>`;
 
   let legend = '<div class="tl-legend">' + series.map(([p])=>
-    `<span><i style="background:${getComputedColor(p)}"></i>${LABELS[p]}</span>`
+    `<span style="color:${getComputedColor(p)}">${LABELS[p]}</span>`
   ).join("") + '</div>';
 
   const chartHtml = needsScroll
     ? `<div class="tl-scroll">${svg}</div><div class="tl-scroll-hint">◀ Desliza para ver todos los meses ▶</div>`
     : svg;
 
-  box.innerHTML = '<div class="tl-title">Tendencia mensual (dato individual de cada encuesta ese mes, no el promedio ponderado de arriba)</div>' + legend + chartHtml;
+  box.innerHTML = '<div class="tl-title">Tendencia mensual (dato individual de cada encuesta ese mes, no el promedio ponderado de arriba)</div>' + chartHtml + legend;  // leyenda abajo y centrada, como en las imágenes (8 oct 2026)
 
   if(needsScroll){
     const scrollEl = box.querySelector(".tl-scroll");
