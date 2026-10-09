@@ -19,6 +19,7 @@
     --pri:#1e8f5f;
     --mc:#ff6b00;
     --pvem:#6fb92c;
+    --somos:#e4007c; /* rosa mexicano (9 oct 2026) */
     --ind:#8a8f98;
     --other:#5b6b78;
     --warn:#e0a72e;
@@ -209,6 +210,7 @@
   <span><i class="dot" style="background:var(--pvem)"></i>PVEM</span>
   <span><i class="dot" style="background:var(--ind)"></i>Candidatura independiente</span>
   <span><i class="dot" style="background:#e8262e"></i>PT (separado de Morena)</span>
+  <span><i class="dot" style="background:var(--somos)"></i>Somos</span>
   <span><i class="dot" style="background:var(--other)"></i>Sin gubernatura</span>
 </div>
 
@@ -267,9 +269,9 @@ function careoNote(sc){ const m = (sc && sc.label || "").match(/(\d+) mediciones
 const N_NOTE = "Si una encuesta no publica su tamaño de muestra, se le asigna el promedio de las demás encuestas del estado.";
 const TREND_NOTE = "Cada punto es el promedio ponderado por tamaño de muestra de las encuestas de ese mes (careos e intención de voto por partido).";
 function trendNote(s){ const t=s.trendN; return TREND_NOTE + (t ? " " + t.m + ": " + t.n + (t.n===1 ? " encuesta." : " encuestas.") : ""); }
-const COLORS = {morena:"var(--morena)",pan:"var(--pan)",pri:"var(--pri)",mc:"var(--mc)",pvem:"var(--pvem)",ind:"var(--ind)",pripan:"var(--pri)"};
-const LABELS = {morena:"Morena/PT/PVEM",pan:"PAN",pri:"PRI",mc:"Mov. Ciudadano",pvem:"PVEM",ind:"Independiente",pt:"PT",pripan:"PRI-PAN"};
-const PARTY_ABBR = {morena:"MORENA",pan:"PAN",pri:"PRI",mc:"MC",pvem:"PVEM",ind:"IND",pt:"PT",pripan:"PRI-PAN"};
+const COLORS = {morena:"var(--morena)",pan:"var(--pan)",pri:"var(--pri)",mc:"var(--mc)",pvem:"var(--pvem)",ind:"var(--ind)",pripan:"var(--pri)",somos:"var(--somos)"};
+const LABELS = {morena:"Morena/PT/PVEM",pan:"PAN",pri:"PRI",mc:"Mov. Ciudadano",pvem:"PVEM",ind:"Independiente",pt:"PT",pripan:"PRI-PAN",somos:"Somos"};
+const PARTY_ABBR = {morena:"MORENA",pan:"PAN",pri:"PRI",mc:"MC",pvem:"PVEM",ind:"IND",pt:"PT",pripan:"PRI-PAN",somos:"SOMOS"};
 const MONTH_ORDER = {"Ene":1,"Feb":2,"Mar":3,"Abr":4,"May":5,"Jun":6,"Jul":7,"Ago":8,"Sep":9,"Oct":10,"Nov":11,"Dic":12};
 function monthSortKey(m){
   const parts = String(m).split(" ");
@@ -865,7 +867,7 @@ function renderExportButton(s){
 /* =================== fin exportación de imágenes =================== */
 
 function getComputedColor(p){
-  const map = {morena:"#a6192e",pan:"#1c3f94",pri:"#1e8f5f",mc:"#ff6b00",pvem:"#6fb92c",ind:"#8a8f98",pt:"#e8262e",pripan:"#1e8f5f",other:"#5b6b78"};
+  const map = {morena:"#a6192e",pan:"#1c3f94",pri:"#1e8f5f",mc:"#ff6b00",pvem:"#6fb92c",ind:"#8a8f98",pt:"#e8262e",pripan:"#1e8f5f",somos:"#e4007c",other:"#5b6b78"};
   return map[p];
 }
 
