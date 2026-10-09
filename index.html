@@ -602,7 +602,7 @@ function drawTrendChart(ctx, x, y, W, s){
   const monthsOrder = [];
   series.forEach(([p,pts])=>{ pts.forEach(pt=>{ if(!monthsOrder.includes(pt.m)) monthsOrder.push(pt.m); }); });
   monthsOrder.sort((a,b)=> monthSortKey(a)-monthSortKey(b));
-  const H = 260, padL = 6, padR = 6, padT = 16, padB = 34;
+  const H = 300, padL = 6, padR = 6, padT = 30, padB = 34;
   const plotW = W - padL - padR, plotH = H - padT - padB;
   const allVals = series.flatMap(([p,pts])=>pts.map(pt=>pt.v));
   const maxV = Math.max(...allVals) * 1.15, minV = 0;
@@ -624,6 +624,24 @@ function drawTrendChart(ctx, x, y, W, s){
     pts.forEach(pt=>{
       ctx.fillStyle = color;
       ctx.beginPath(); ctx.arc(xFor(pt.m), yFor(pt.v), 6, 0, Math.PI*2); ctx.fill();
+    });
+  });
+
+  // Etiquetas de valor por punto (8 oct 2026): por mes se ordenan de arriba abajo y se separan para que no se encimen
+  ctx.font = "700 17px -apple-system, sans-serif"; ctx.textBaseline = "alphabetic";
+  monthsOrder.forEach((m, mi)=>{
+    const labs = series.map(([p,pts])=>{ const pt = pts.find(q=>q.m===m); return pt ? {p, v:pt.v, y:yFor(pt.v)-12} : null; })
+      .filter(Boolean).sort((a,b)=>b.y-a.y);   // de abajo hacia arriba: las etiquetas se apilan hacia el espacio libre de arriba
+    const GAP = 20, TOP = y + 14;
+    for(let i=1;i<labs.length;i++){ if(labs[i-1].y - labs[i].y < GAP) labs[i].y = labs[i-1].y - GAP; }
+    const over = TOP - Math.min(...labs.map(l=>l.y)); if(over>0) labs.forEach(l=>l.y+=over);
+    const lx = xFor(m);
+    ctx.textAlign = mi===0 ? "left" : (mi===monthsOrder.length-1 ? "right" : "center");
+    const ox = mi===0 ? -4 : (mi===monthsOrder.length-1 ? 4 : 0);
+    labs.forEach(l=>{
+      const t = l.v.toFixed(1);
+      ctx.lineWidth = 4; ctx.strokeStyle = "#10151b"; ctx.strokeText(t, lx+ox, l.y);
+      ctx.fillStyle = getComputedColor(l.p); ctx.fillText(t, lx+ox, l.y);
     });
   });
 
