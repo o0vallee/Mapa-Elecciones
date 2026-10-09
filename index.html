@@ -261,9 +261,12 @@ window.addEventListener("error", function(e){
   }
 });
 // Textos fijos de método (8 oct 2026): el detalle de fuentes va en "Encuestas usadas" y en las notas
-const CAREO_NOTE = "Promedio ponderado por tamaño de muestra de los careos publicados en los últimos dos meses.";
+const CAREO_NOTE = "Promedio ponderado por tamaño de muestra de los careos publicados en los últimos dos meses";
+// Nota del careo + número de mediciones (se toma de la etiqueta del careo, que ya no se muestra)
+function careoNote(sc){ const m = (sc && sc.label || "").match(/(\d+) mediciones/); return CAREO_NOTE + (m ? ": " + m[1] + (m[1]==="1" ? " medición." : " mediciones.") : "."); }
 const N_NOTE = "Si una encuesta no publica su tamaño de muestra, se le asigna el promedio de las demás encuestas del estado.";
 const TREND_NOTE = "Cada punto es el promedio ponderado por tamaño de muestra de las encuestas de ese mes (careos e intención de voto por partido).";
+function trendNote(s){ const t=s.trendN; return TREND_NOTE + (t ? " " + t.m + ": " + t.n + (t.n===1 ? " encuesta." : " encuestas.") : ""); }
 const COLORS = {morena:"var(--morena)",pan:"var(--pan)",pri:"var(--pri)",mc:"var(--mc)",pvem:"var(--pvem)",ind:"var(--ind)",pripan:"var(--pri)"};
 const LABELS = {morena:"Morena/PT/PVEM",pan:"PAN",pri:"PRI",mc:"Mov. Ciudadano",pvem:"PVEM",ind:"Independiente",pt:"PT",pripan:"PRI-PAN"};
 const PARTY_ABBR = {morena:"MORENA",pan:"PAN",pri:"PRI",mc:"MC",pvem:"PVEM",ind:"IND",pt:"PT",pripan:"PRI-PAN"};
@@ -279,6 +282,7 @@ const STATES = [
  {id:"bc",name:"Baja California",row:1,col:1,active:true,
    lastUpdated:"7 oct 2026",
    leader:"morena",
+   trendN:{m:"Sep 26",n:3},
    timeline:{"morena": [{"m": "Abr 26", "v": 39.3}, {"m": "Jun 26", "v": 42.6}, {"m": "Jul 26", "v": 45}, {"m": "Ago 26", "v": 41}, {"m": "Sep 26", "v": 38.4}], "pan": [{"m": "Abr 26", "v": 23.3}, {"m": "Jun 26", "v": 20.1}, {"m": "Jul 26", "v": 12}, {"m": "Ago 26", "v": 21}, {"m": "Sep 26", "v": 20.3}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 4 mediciones", candidates:[{name:"Julieta Ramírez",party:"morena",pct:37.6},{name:"Gina Andrea Cruz Blackledge",party:"pan",pct:17.9},{name:"Adrián Valle",party:"pri",pct:6.3},{name:"Karla Patricia Ruiz Macfarland",party:"mc",pct:5.2}], source:"Promedio por nombre exacto de C&E (2 sep 2026), Electoralia (1-6 sep 2026), SRC (26 ago 2026, n=1,000, ±3.1%) y Massive Caller (30 sep 2026, n=1,000, ±3.4%): cada candidato promedia solo las casas que lo midieron (Ramírez 3, Cruz Blackledge 2, Ruiz Macfarland 3, Valle 2). SRC probó a Burgueño (43.8%), no a Ramírez. Arias y Emotegia (jul) quedan fuera de la ventana de 2 meses."}
@@ -288,6 +292,7 @@ const STATES = [
  {id:"bcs",name:"Baja California Sur",row:3,col:1,active:true,
    lastUpdated:"7 oct 2026",
    leader:"morena",
+   trendN:{m:"Oct 26",n:3},
    timeline:{"morena": [{"m": "Abr 26", "v": 41.2}, {"m": "Jul 26", "v": 40.2}, {"m": "Ago 26", "v": 34.8}, {"m": "Sep 26", "v": 32.5}, {"m": "Oct 26", "v": 33.4}], "pan": [{"m": "Abr 26", "v": 22.5}, {"m": "Jul 26", "v": 24.3}, {"m": "Ago 26", "v": 29.6}, {"m": "Sep 26", "v": 26.1}, {"m": "Oct 26", "v": 29.4}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 4 mediciones", candidates:[{name:"Manuel Cota",party:"morena",pct:33.8},{name:"Francisco Pelayo",party:"pan",pct:28.3},{name:"Ricardo Barroso",party:"mc",pct:11},{name:"Antonio Manríquez",party:"pri",pct:6.5}], source:"Promedio por nombre exacto de Poligrama (28 sep 2026, n=1,000, ±3.1%), Massive Caller (2 sep 2026, n=1,000, ±3.4%; 2 escenarios de Morena —Agúndez y Quiroga— promediados dentro de la fuente) y Massive Caller (2 oct 2026, n=1,000, ±3.4%). Cota solo lo midieron Poligrama y Massive Caller (2 oct); Barroso solo Poligrama. Poligrama probó a Pelayo en coalición PAN-PRI (25.1%): se documenta, no se promedia. Se agregó Arias Consultores (29 sep-1 oct 2026, n=300, ±5.7%) ⚠ conflicto de interés: Cota 37.2%, Pelayo 26.2%, Barroso 12.4%, Valdivia (PRI) 4.0%; Valdivia solo lo midió Arias."}
@@ -298,6 +303,7 @@ const STATES = [
  {id:"son",name:"Sonora",row:2,col:2,active:true,
    lastUpdated:"6 oct 2026",
    leader:"morena",
+   trendN:{m:"Oct 26",n:1},
    timeline:{"morena": [{"m": "Abr 26", "v": 46.1}, {"m": "May 26", "v": 43.3}, {"m": "Jun 26", "v": 42.3}, {"m": "Jul 26", "v": 40.9}, {"m": "Ago 26", "v": 46.1}, {"m": "Sep 26", "v": 43.5}, {"m": "Oct 26", "v": 40.3}], "mc": [{"m": "Ago 26", "v": 15.1}, {"m": "Sep 26", "v": 14.0}, {"m": "Oct 26", "v": 14.0}], "pan": [{"m": "Jul 26", "v": 22.3}, {"m": "Ago 26", "v": 18.1}, {"m": "Sep 26", "v": 24.9}, {"m": "Oct 26", "v": 17.2}], "pri": [{"m": "Ago 26", "v": 5.7}, {"m": "Sep 26", "v": 1.1}, {"m": "Oct 26", "v": 16.9}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 6 mediciones", candidates:[{name:"Lorenia Valles",party:"morena",pct:44},{name:"Antonio Astiazarán",party:"pan",pct:21.5},{name:"Luis Donaldo Colosio",party:"mc",pct:15.3},{name:"Ernesto Gándara",party:"pri",pct:5.5}], source:"Promedio por nombre exacto de C&E (9 ago 2026, publicada 12 ago), SRC (24 ago 2026), Electoralia (4-7 sep 2026), LaEncuesta.MX (5-7 sep 2026), C&E (7 sep 2026) y Arias Consultores (29 sep-1 oct 2026, n=550, ±4.2%) ⚠ conflicto de interés. Arias probó en cambio a Lupita Soto Holguín para el PRI (16.9%, una sola fuente, muy por encima del 4.6% de Gándara) — no desplaza a Gándara por frecuencia, pero vale la pena vigilar."}
@@ -308,6 +314,7 @@ const STATES = [
  {id:"chih",name:"Chihuahua",row:1,col:3,active:true,
    lastUpdated:"8 oct 2026",
    leader:"morena",
+   trendN:{m:"Oct 26",n:3},
    timeline:{"morena": [{"m": "Dic 25", "v": 43.7}, {"m": "Abr 26", "v": 38.5}, {"m": "May 26", "v": 42.6}, {"m": "Jun 26", "v": 41.6}, {"m": "Ago 26", "v": 39.1}, {"m": "Sep 26", "v": 38}, {"m": "Oct 26", "v": 38.3}], "pan": [{"m": "Abr 26", "v": 24.1}, {"m": "May 26", "v": 29.8}, {"m": "Ago 26", "v": 29}, {"m": "Sep 26", "v": 34.5}, {"m": "Oct 26", "v": 33.4}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 6 mediciones", candidates:[{name:"Cruz Pérez Cuéllar",party:"morena",pct:37.8},{name:"Bonilla",party:"pan",pct:31.2},{name:"Meléndez",party:"pri",pct:8.3},{name:"Lozoya",party:"mc",pct:7.2}], source:"Promedio de El Heraldo/Question Mark (8-22 ago), Electoralia (1-6 sep), LaEncuesta.MX (5-7 sep, escenario con Pérez Cuéllar) y Territorial (10-14 sep, vía Polls.mx) Arias Consultores (29 sep-1 oct 2026, n=550, ±4.2%, telefónica) ⚠ conflicto de interés y Massive Caller (6 oct 2026, n=1,000, ±3.4%). Buendía & Márquez (29 jul-3 ago) salió de la ventana de 2 meses. C&E (24-25 sep) no se promedia por tratarse de escenarios de coalición incompatibles, ya documentado aparte."}
@@ -318,6 +325,7 @@ const STATES = [
  {id:"sin",name:"Sinaloa",row:3,col:2,active:true,
    lastUpdated:"7 oct 2026",
    leader:"morena",
+   trendN:{m:"Oct 26",n:2},
    timeline:{"morena": [{"m": "Abr 26", "v": 38.2}, {"m": "Jun 26", "v": 39.1}, {"m": "Ago 26", "v": 36}, {"m": "Sep 26", "v": 33.4}, {"m": "Oct 26", "v": 28.1}], "pri": [{"m": "Abr 26", "v": 23.3}, {"m": "Ago 26", "v": 14.4}, {"m": "Sep 26", "v": 22.3}, {"m": "Oct 26", "v": 21.5}], "pan": [{"m": "Abr 26", "v": 18}, {"m": "Oct 26", "v": 18.4}], "mc": [{"m": "Oct 26", "v": 11.1}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 4 mediciones", candidates:[{name:"Imelda Castro",party:"morena",pct:31.3},{name:"Mario Zamora",party:"pri",pct:29.3},{name:"Guillermo Romero",party:"pan",pct:14},{name:"Sergio Torres Félix",party:"mc",pct:12.6}], source:"Promedio por nombre exacto de Massive Caller (24 sep 2026; 2 escenarios de PRI —Zamora y Sánchez Ramos— promediados dentro de la fuente), LaEncuesta.MX (sep, publicado 8 sep; escenario con Zamora) y Arias Consultores (29 sep-1 oct 2026, n=600, ±4.0%) ⚠ conflicto de interés, escenario de partidos separados. Arias probó además 2 escenarios con Zamora en coalición (PRI-PAN: Zamora 29.0% vs Castro 20.5%; PRI-PAN-MC: 35.9% vs 20.3%) — no se promedian por ser coaliciones distintas. Question Mark (campo 8-22 jul, publicada 25 ago) salió de la ventana de 2 meses: en MC, Torres Félix (Massive Caller y LaEncuesta.MX, 12.1%) queda como principal por tener más fuentes que Esquer (solo Arias, 13.0%). En PAN se usa a Guillermo Romero (Arias, 14.0%, la medición más reciente) por indicación del usuario, en vez de Gárate (Massive Caller, 16.0%). Se agregó C&E (11 ago 2026, n=400, ±4.9%; previa a la designación de Castro): Castro 34.7% en su escenario 2 y Paloma Sánchez (PRI) 6.4-9.2%; Tere Guerra (Morena) 37.2% en el escenario 1. También mide a Sergio Torres y Eduardo Ortiz, cuyo partido la fuente no indica: no se incluyen."}
@@ -330,6 +338,7 @@ const STATES = [
  {id:"nl",name:"Nuevo León",row:2,col:5,active:true,
    lastUpdated:"8 oct 2026",
    leader:"pri",
+   trendN:{m:"Oct 26",n:5},
    timeline:{"morena": [{"m": "Ene 26", "v": 31.9}, {"m": "Abr 26", "v": 32.1}, {"m": "Jul 26", "v": 31}, {"m": "Ago 26", "v": 28}, {"m": "Oct 26", "v": 22.3}], "mc": [{"m": "Ene 26", "v": 20.6}, {"m": "Abr 26", "v": 22.5}, {"m": "May 26", "v": 27.3}, {"m": "Jul 26", "v": 22}, {"m": "Ago 26", "v": 18.9}, {"m": "Sep 26", "v": 25.9}, {"m": "Oct 26", "v": 27.4}], "pripan": [{"m": "May 26", "v": 25.3}, {"m": "Ago 26", "v": 28.8}, {"m": "Sep 26", "v": 28.9}, {"m": "Oct 26", "v": 31.2}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 9 mediciones", candidates:[{name:"Adrián de la Garza",party:"pri",pct:29.3},{name:"Mariana Rodríguez",party:"mc",pct:27.1},{name:"Clara Luz Flores",party:"morena",pct:23},{name:"Jesús Elizondo",party:"pt",pct:10.2},{name:"Fernando Margáin",party:"pan",pct:8}], source:"Promedio de Arias Consultores (29 sep-1 oct 2026, n=750, ±3.6%, telefónica en los 4 principales municipios; 2 escenarios promediados dentro de la fuente) ⚠ conflicto de interés, FactoMétrica (2 oct 2026, n=1,000, ±3.1%, telefónica; publicada 6 oct vía Polls.mx), El Congresista (2 oct 2026, n=1,163, ±2.87%, telefónica; vía Polls.mx) ⚠ casa sin trayectoria verificable, Question Mark (ago), SRC (26 ago, 2 escenarios promediados), Electoralia (12-16 ago), LaEncuesta.MX (5-7 sep, careo 1), Encuestas México (29-30 sep 2026, n=1,200, ±3.5%) ⚠ casa sin trayectoria verificable y De las Heras Demotecnia (publicada 5 oct 2026, n=1,000 en vivienda, ±3.2%; la ficha no indica fechas de levantamiento). Enkoll (29 jul-2 ago) y Demoscopia Digital (30 jul-2 ago) salieron de la ventana de 2 meses y ya no se promedian; probaron a Colosio en vez de Rodríguez para MC, que se mantiene como principal por aparecer en más fuentes. LaEncuesta.MX confirma a de la Garza como candidato de una coalición PAN-PRI en 2 escenarios; se usa el careo 1 (de la Garza 33.8%, Rodríguez 30.9%, Clouthier 28.4%). Arias probó en su escenario 1 a Mike Flores Serna para MC (21.7%, una sola fuente), que no desplaza a Rodríguez."}
@@ -341,6 +350,7 @@ const STATES = [
  {id:"zac",name:"Zacatecas",row:4,col:3,active:true,
    lastUpdated:"8 oct 2026",
    leader:"morena",
+   trendN:{m:"Oct 26",n:2},
    timeline:{"morena": [{"m": "Feb 26", "v": 35.6}, {"m": "Abr 26", "v": 38.1}, {"m": "Jun 26", "v": 36.8}, {"m": "Ago 26", "v": 34.7}, {"m": "Sep 26", "v": 36.6}, {"m": "Oct 26", "v": 27.3}], "pri": [{"m": "Ago 26", "v": 20.1}, {"m": "Sep 26", "v": 15.3}, {"m": "Oct 26", "v": 15}], "mc": [{"m": "Ago 26", "v": 12.5}, {"m": "Sep 26", "v": 13.9}, {"m": "Oct 26", "v": 13.2}], "pan": [{"m": "Ago 26", "v": 13.5}, {"m": "Sep 26", "v": 14.5}, {"m": "Oct 26", "v": 10.9}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 6 mediciones", candidates:[{name:"Verónica Díaz",party:"morena",pct:30},{name:"Adolfo Bonilla",party:"pri",pct:24.8},{name:"Jorge Álvarez Máynez",party:"mc",pct:13.5},{name:"Miguel Ángel Varela",party:"pan",pct:12.4}], source:"Promedio por nombre exacto de GobernArte (2-6 oct 2026, n=500, digital, ±2.5-3.7%) ⚠ casa con advertencia, Electoralia (1-6 sep 2026), C&E (2 sep 2026), Question Mark (12 ago 2026), Massive Caller (29 sep 2026) y Arias Consultores (29 sep-1 oct 2026, n=450, ±4.6%) ⚠ conflicto de interés. Question Mark probó a Ulises Mejía Haro (26.8%) en lugar de Díaz, por lo que Díaz promedia 4 fuentes; Bonilla (PRI) solo lo midieron Electoralia, QM, Massive Caller y GobernArte. C&E y Arias probaron a Carlos Peña Badillo (7.3%, 2 fuentes). Arias registró 45.3% de indecisos."}
@@ -351,6 +361,7 @@ const STATES = [
  {id:"slp",name:"San Luis Potosí",row:4,col:4,active:true,
    lastUpdated:"7 oct 2026",
    leader:"morena",
+   trendN:{m:"Oct 26",n:1},
    timeline:{"morena": [{"m": "Abr 26", "v": 31.2}, {"m": "Jun 26", "v": 30.3}, {"m": "Jul 26", "v": 23.9}, {"m": "Ago 26", "v": 25.7}, {"m": "Sep 26", "v": 23.9}, {"m": "Oct 26", "v": 21}], "pvem": [{"m": "Abr 26", "v": 29.1}, {"m": "Jun 26", "v": 22.6}, {"m": "Jul 26", "v": 21.8}, {"m": "Ago 26", "v": 23.6}, {"m": "Sep 26", "v": 24.6}, {"m": "Oct 26", "v": 21.6}], "ind": [{"m": "Ago 26", "v": 16.5}], "pt": [{"m": "Ago 26", "v": 15.1}, {"m": "Sep 26", "v": 8.4}, {"m": "Oct 26", "v": 3.1}], "pripan": [{"m": "Jun 26", "v": 25.7}, {"m": "Ago 26", "v": 21.8}, {"m": "Sep 26", "v": 20.4}, {"m": "Oct 26", "v": 27.5}], "mc": [{"m": "Jun 26", "v": 5.9}, {"m": "Sep 26", "v": 5}, {"m": "Oct 26", "v": 9.9}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 5 mediciones", candidates:[{name:"Ruth González",party:"pvem",pct:33},{name:"Gerardo Sánchez Zumaya",party:"pt",pct:20.1},{name:"Enrique Galindo",party:"pri",pct:18.3},{name:"Alejandro Zermeño",party:"ind",pct:16.5},{name:"Elí César Cervantes",party:"morena",pct:10.7},{name:"Marco Antonio Gama",party:"mc",pct:8},{name:"Verónica Rodríguez",party:"pan",pct:4.4}], source:"Promedio de Question Mark (17 ago 2026), C&E (25 ago y 25 sep 2026), LaEncuesta.MX (sep) y Arias Consultores (29 sep-1 oct 2026, n=500, ±4.4%) ⚠ conflicto de interés — esta última es la primera encuesta pública que mide a Cervantes (Morena) por su nombre real: apenas 10.7%. También confirma a Galindo como candidato de una coalición PRI-PAN. C&E no probó escenario independiente; Zermeño queda solo con el dato de QM. Gama supera a Longoria en frecuencia y es el nombre principal de MC; Arias probó en cambio a Marvelly Costanzo (9.2%) — no desplaza a Gama."}
@@ -361,6 +372,7 @@ const STATES = [
  {id:"nay",name:"Nayarit",row:4,col:2,active:true,
    lastUpdated:"4 oct 2026",
    leader:"morena",
+   trendN:{m:"Oct 26",n:1},
    timeline:{"morena": [{"m": "Abr 26", "v": 43.1}, {"m": "Jun 26", "v": 53.0}, {"m": "Jul 26", "v": 55.0}, {"m": "Ago 26", "v": 46.0}, {"m": "Sep 26", "v": 55.5}, {"m": "Oct 26", "v": 43.3}], "mc": [{"m": "Jun 26", "v": 12.9}, {"m": "Jul 26", "v": 15.2}, {"m": "Oct 26", "v": 12.8}], "pri": [{"m": "Jun 26", "v": 11.0}, {"m": "Oct 26", "v": 11.0}], "pan": [{"m": "Jun 26", "v": 9.4}, {"m": "Oct 26", "v": 9.0}], "pvem": [{"m": "Jun 26", "v": 7.8}, {"m": "Oct 26", "v": 8.4}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 2 mediciones", candidates:[{name:"Jasmine Bugarín",party:"morena",pct:36.7},{name:"Nacho Flores",party:"mc",pct:19.9},{name:"Ivideliza Reyes",party:"pan",pct:10.7},{name:"Manuel Cota",party:"pri",pct:5.6},{name:"Sergio Sandoval",party:"ind",pct:3.3}], source:"Promedio de Arias Consultores (11-12 jul 2026) y Mitofsky (14 jul 2026) — primer careo del estado; ambas fuentes son de julio, fuera de la ventana normal de 2 meses, pero se usan como careo fundacional hasta que aparezcan mediciones más recientes. Mitofsky también probó a Gustavo Ayón para MC (16.0%)."}
@@ -371,6 +383,7 @@ const STATES = [
  {id:"ags",name:"Aguascalientes",row:5,col:3,active:true,
    lastUpdated:"6 oct 2026",
    leader:"pan",
+   trendN:{m:"Oct 26",n:1},
    timeline:{"pan": [{"m": "Oct 25", "v": 44.8}, {"m": "Abr 26", "v": 43.4}, {"m": "Jul 26", "v": 38.1}, {"m": "Ago 26", "v": 46.4}, {"m": "Sep 26", "v": 48}, {"m": "Oct 26", "v": 45.5}], "morena": [{"m": "Oct 25", "v": 29.8}, {"m": "Abr 26", "v": 33.7}, {"m": "Jul 26", "v": 30.3}, {"m": "Ago 26", "v": 28.8}, {"m": "Sep 26", "v": 28.4}, {"m": "Oct 26", "v": 27.3}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 3 mediciones", candidates:[{name:"Antonio Martín del Campo",party:"pan",pct:46.1},{name:"Nora Ruvalcaba",party:"morena",pct:28.8},{name:"Anayeli Muñoz",party:"mc",pct:6.2},{name:"Humberto Ambriz",party:"pri",pct:4.2}], source:"Promedio por nombre exacto de C&E (23 ago, 2 escenarios de PAN promediados dentro de la fuente) y Massive Caller (30 sep 2026, n=1,000, ±3.4%). Se agregó Arias Consultores (29 sep-1 oct 2026, n=300, ±5.7%, 2 escenarios promediados dentro de la fuente) ⚠ conflicto de interés: Martín del Campo 47.1% (esc. 2), Leo Montañez (PAN) 43.9% (esc. 1), Ruvalcaba 27.0/27.5%, Kendor Macías (PRI) 8.9/9.7%, Lorena Martínez (MC) 6.0/5.8%. Montañez, Macías y Martínez solo los midió Arias."}
@@ -383,6 +396,7 @@ const STATES = [
  {id:"qro",name:"Querétaro",row:5,col:5,active:true,
    lastUpdated:"7 oct 2026",
    leader:"pan",
+   trendN:{m:"Oct 26",n:2},
    timeline:{"pan": [{"m": "Abr 26", "v": 45.8}, {"m": "Jun 26", "v": 43.2}, {"m": "Ago 26", "v": 45.2}, {"m": "Sep 26", "v": 44}, {"m": "Oct 26", "v": 49.7}], "morena": [{"m": "Abr 26", "v": 33.1}, {"m": "Jun 26", "v": 25}, {"m": "Ago 26", "v": 29}, {"m": "Sep 26", "v": 30.8}, {"m": "Oct 26", "v": 25.9}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 5 mediciones", candidates:[{name:"Felifer Macías",party:"pan",pct:44.2},{name:"Santiago Nieto",party:"morena",pct:29.5},{name:"Paul Ospital",party:"mc",pct:4.4},{name:"Abigail Arredondo",party:"pri",pct:4.1}], source:"Promedio por nombre exacto de SRC (24 ago y 28 sep 2026, n=1,000, ±3.1%), Poligrama (campo 9 sep, publicada 16 sep 2026, n=1,000, ±3.46%) y C&E (17 sep 2026, n=400, ±4.9%, careo 1 con Macías). Question Mark (8-22 jul) salió de la ventana de 2 meses; Massive Caller (18 sep) se omite por decisión del usuario. C&E probó además los careos 2-4 con otros nombres de PAN (Nava, Dorantes, Guerrero): se documentan, no se promedian. PRI: Arredondo (4.6%, 3 fuentes, incluida Arias) se mantiene por frecuencia sobre Calzada Mercado (4.8%, Poligrama) y Mejía (2%, C&E). Se agregó Arias Consultores (29 sep-1 oct 2026, n=350, ±5.2%, 2 escenarios promediados dentro de la fuente) ⚠ conflicto de interés: Nieto 26.1/16.5, Ospital 7.9/6.9, Arredondo 8.6/4.7; Macías (PAN) solo en el escenario 2 (35.9%) y Luis Bernardo Nava (PAN) solo en el escenario 1 (46.9%, una fuente, no desplaza a Macías)."}
@@ -394,6 +408,7 @@ const STATES = [
  {id:"col",name:"Colima",row:6,col:2,active:true,
    lastUpdated:"7 oct 2026",
    leader:"morena",
+   trendN:{m:"Oct 26",n:2},
    timeline:{"morena": [{"m": "Abr 26", "v": 40.4}, {"m": "Jun 26", "v": 37.1}, {"m": "Ago 26", "v": 38.1}, {"m": "Sep 26", "v": 38.3}, {"m": "Oct 26", "v": 34}], "pri": [{"m": "Jul 26", "v": 13.9}, {"m": "Sep 26", "v": 20.6}, {"m": "Oct 26", "v": 20.9}], "pan": [{"m": "Sep 26", "v": 17.8}, {"m": "Oct 26", "v": 21}], "mc": [{"m": "Sep 26", "v": 8.3}, {"m": "Oct 26", "v": 7.7}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 2 mediciones", candidates:[{name:"Rosi Bayardo",party:"morena",pct:32.8},{name:"Mely Romero Celis",party:"pri",pct:20.1},{name:"Riult Rivera",party:"pan",pct:19},{name:"Griselda Martínez",party:"mc",pct:8.7},{name:"Virgilio Mendoza Amezcua",party:"pvem",pct:2.9}], source:"Promedio de Massive Caller (8 sep 2026, n=1,000, ±3.4%) y Arias Consultores (29 sep-1 oct 2026, n=300, ±5.7%) ⚠ conflicto de interés. C&E (27 jul) salió de la ventana de 2 meses."}
@@ -404,6 +419,7 @@ const STATES = [
  {id:"mich",name:"Michoacán",row:6,col:3,active:true,
    lastUpdated:"7 oct 2026",
    leader:"morena",
+   trendN:{m:"Oct 26",n:2},
    timeline:{"morena": [{"m": "Abr 26", "v": 36.3}, {"m": "May 26", "v": 40.1}, {"m": "Jun 26", "v": 25}, {"m": "Ago 26", "v": 32.2}, {"m": "Sep 26", "v": 35.7}, {"m": "Oct 26", "v": 30.8}], "pan": [{"m": "Abr 26", "v": 23.4}, {"m": "May 26", "v": 20.4}, {"m": "Jun 26", "v": 10}, {"m": "Ago 26", "v": 15.8}, {"m": "Sep 26", "v": 18.1}, {"m": "Oct 26", "v": 10.6}], "ind": [{"m": "May 26", "v": 22.7}, {"m": "Sep 26", "v": 16.4}, {"m": "Oct 26", "v": 27}], "pri": [{"m": "May 26", "v": 5.3}, {"m": "Oct 26", "v": 8}], "mc": [{"m": "May 26", "v": 5.3}, {"m": "Oct 26", "v": 8.9}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 7 mediciones", candidates:[{name:"Carlos Torres Piña",party:"morena",pct:31.3},{name:"Alfonso Martínez Alcázar",party:"pan",pct:21.7},{name:"Grecia Quiroz García",party:"ind",pct:17.6},{name:"Carlos Herrera Tello",party:"mc",pct:8.7},{name:"Guillermo Valencia Reyes",party:"pri",pct:6.5}], source:"Promedio de Massive Caller (12 sep y 15 sep, dos olas distintas), C&E (3 sep), Demoscopia (1-3 sep), Electoralia (1-6 sep), LaEncuesta.MX (5-7 sep) y Arias Consultores (29 sep-1 oct, escenario con Quiroz como independiente) — todas 2026."}
@@ -417,6 +433,7 @@ const STATES = [
  {id:"tlax",name:"Tlaxcala",row:6,col:6,active:true,
    lastUpdated:"7 oct 2026",
    leader:"morena",
+   trendN:{m:"Oct 26",n:1},
    timeline:{"morena": [{"m": "Abr 26", "v": 42.8}, {"m": "May 26", "v": 37.4}, {"m": "Ago 26", "v": 43.9}, {"m": "Sep 26", "v": 48.2}, {"m": "Oct 26", "v": 36.1}], "pri": [{"m": "Abr 26", "v": 17.3}, {"m": "Sep 26", "v": 12.5}, {"m": "Oct 26", "v": 14.7}], "pan": [{"m": "Feb 26", "v": 11.8}, {"m": "Sep 26", "v": 9.9}, {"m": "Oct 26", "v": 17.2}], "mc": [{"m": "Sep 26", "v": 7.8}, {"m": "Oct 26", "v": 15.4}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 4 mediciones", candidates:[{name:"Ana Lilia Rivera",party:"morena",pct:42.3},{name:"Anabell Ávalos",party:"pri",pct:12.2},{name:"Adriana Dávila",party:"pan",pct:9.7},{name:"Delfino Suárez",party:"mc",pct:5.1}], source:"Promedio de SRC (7 sep 2026), La Crónica (28 sep 2026), Massive Caller (28 sep 2026) y Arias Consultores (29 sep-1 oct 2026, n=400, ±4.9%) ⚠ conflicto de interés. Arias probó en cambio a Mariana Jiménez Zamora para MC (13.8%, muy por encima del 5.1% de Suárez) — no desplaza a Suárez por frecuencia. Question Mark (25 ago) también probó 2 escenarios de Morena, sin desglose completo del resto de partidos."}
@@ -429,6 +446,7 @@ const STATES = [
  {id:"gro",name:"Guerrero",row:7,col:3,active:true,
    lastUpdated:"8 oct 2026",
    leader:"morena",
+   trendN:{m:"Oct 26",n:1},
    timeline:{"morena": [{"m": "Feb 26", "v": 51.3}, {"m": "Abr 26", "v": 50.6}, {"m": "May 26", "v": 50.1}, {"m": "Ago 26", "v": 51.6}, {"m": "Sep 26", "v": 52.9}, {"m": "Oct 26", "v": 48}], "pri": [{"m": "Feb 26", "v": 19.1}, {"m": "May 26", "v": 12.7}, {"m": "Ago 26", "v": 16.6}, {"m": "Oct 26", "v": 16.6}], "pan": [{"m": "Feb 26", "v": 6.3}, {"m": "Ago 26", "v": 7.1}, {"m": "Oct 26", "v": 6.5}], "mc": [{"m": "Feb 26", "v": 9.1}, {"m": "Ago 26", "v": 6}, {"m": "Oct 26", "v": 7.4}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 6 mediciones", candidates:[{name:"Beatriz Mojica",party:"morena",pct:43.2},{name:"Manuel Añorve",party:"pri",pct:12},{name:"Gabriela Bernal",party:"mc",pct:5.6},{name:"Gustavo Alarcón",party:"pan",pct:4.2}], source:"Promedio por nombre exacto de Question Mark (25 ago 2026; escenario A con Mojica 45.3%, escenario B con Esthela Damián 42.3%: Mojica promedia solo el A), SRC (31 ago 2026, n=1,000, ±3.1%) y Arias Consultores (29 sep-1 oct 2026, n=450, ±4.6%) ⚠ conflicto de interés. Se agregó Encuesta EF de El Financiero (11-13 sep 2026; publicada 17 sep; n y margen no publicados en la nota): Mojica 44%, Añorve 14%, Salmerón (PAN) 9%, Bernal (MC) 8%. Salmerón solo lo midió EF; Alarcón sigue como nombre principal del PAN por frecuencia. Se agregaron C&E (2 sep 2026, n=400): Mojica 36.5%, Añorve 15.4%, Salmerón (PAN) 5.8%, López Galeana (MC) 3.9%; y Electoralia (1-6 sep 2026): Mojica 45.0%, Añorve 15.0%, Moreno Arcos (MC) 6%, Galarza (PAN) 4% — vía tabla de Polls.mx. Sus candidatos de PAN y MC no desplazan a Alarcón y Bernal."}
@@ -442,6 +460,7 @@ const STATES = [
  {id:"camp",name:"Campeche",row:6,col:8,active:true,
    lastUpdated:"8 oct 2026",
    leader:"mc",
+   trendN:{m:"Oct 26",n:3},
    timeline:{"morena": [{"m": "Abr 26", "v": 35.9}, {"m": "Jun 26", "v": 34.6}, {"m": "Jul 26", "v": 40.8}, {"m": "Ago 26", "v": 45.4}, {"m": "Sep 26", "v": 43.5}, {"m": "Oct 26", "v": 35.4}], "mc": [{"m": "Abr 26", "v": 39.4}, {"m": "Jun 26", "v": 29.8}, {"m": "Jul 26", "v": 28.3}, {"m": "Ago 26", "v": 27}, {"m": "Sep 26", "v": 26.8}, {"m": "Oct 26", "v": 32.5}], "pri": [{"m": "Jun 26", "v": 14.1}, {"m": "Oct 26", "v": 11.8}], "pan": [{"m": "Jun 26", "v": 4.5}, {"m": "Oct 26", "v": 6.1}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 3 mediciones", candidates:[{name:"Eliseo Fernández",party:"mc",pct:34.9},{name:"Pablo Gutiérrez Lazarus",party:"morena",pct:33.3},{name:"Christian Castro Bello",party:"pri",pct:9.7},{name:"Nelly Márquez",party:"pan",pct:7.3}], source:"Promedio por nombre exacto de C&E (12 ago 2026, n=400, ±4.9%; escenario con Fernández), Arias Consultores (29 sep-1 oct 2026, n=300, ±5.7%, 2 municipios) ⚠ conflicto de interés, con 2 escenarios promediados dentro de la fuente (Gutiérrez 35.0/30.7; Fernández 32.8; Biby Rabelo MC 32.9 solo en el escenario 2), y Metrik (28 sep-4 oct 2026, n=1,200, telefónica; publicada 8 oct vía Polls.mx) ⚠ casa sin trayectoria verificable: Fernández 34.23%, Gutiérrez 29.65%, Castro 11.62%, Márquez 8.13%. C&E con valores exactos de la tabla de Polls.mx (Gutiérrez 44.7%, Fernández 38.5%, Márquez 4.7%, Castro 2.4%), que reemplazan los derivados. Question Mark (campo 8-22 jul, publicada 25 ago) salió de la ventana de 2 meses."}
@@ -453,6 +472,7 @@ const STATES = [
  {id:"qroo",name:"Quintana Roo",row:6,col:9,active:true,
    lastUpdated:"7 oct 2026",
    leader:"morena",
+   trendN:{m:"Oct 26",n:2},
    timeline:{"morena": [{"m": "Abr 26", "v": 41.2}, {"m": "Jun 26", "v": 45}, {"m": "Ago 26", "v": 43.5}, {"m": "Sep 26", "v": 43.3}, {"m": "Oct 26", "v": 39.9}], "pan": [{"m": "May 26", "v": 14.5}, {"m": "Sep 26", "v": 13.4}, {"m": "Oct 26", "v": 15.3}]},
    careo:{scenarios:[
      {label:"Careo por nombre — promedio ponderado de 5 mediciones", candidates:[{name:"Gino Segura",party:"morena",pct:45.4},{name:"Mayuli Martínez",party:"pan",pct:12.1},{name:"Roberto Palazuelos",party:"mc",pct:9.5},{name:"Leslie Hendricks",party:"pri",pct:7.9}], source:"Promedio de Buendía & Márquez (1-6 ago 2026), Demoscopia (1-3 sep 2026), C&E (2 sep 2026) y Massive Caller (20 sep 2026, n=1,000, ±3.4%). Se agregó Arias Consultores (29 sep-1 oct 2026, n=600, ±4.0%) ⚠ conflicto de interés: Segura 33.4%, Martínez 13.9%, Lidia Rojas (MC) 12.0%, Hendricks 7.6%; Rojas solo la midió Arias, Palazuelos sigue como nombre principal de MC."}
@@ -720,7 +740,7 @@ function renderStateCard(s){
       y += 32;
     });
     ctx.fillStyle = "#93a1ad"; ctx.font = "400 20px -apple-system, sans-serif";
-    y = drawWrapped(ctx, CAREO_NOTE, x, y+10, W, 26, 3) + 20;
+    y = drawWrapped(ctx, careoNote(sc), x, y+10, W, 26, 3) + 20;
     ctx.strokeStyle = "#2a3540"; ctx.lineWidth = 1.5;
     ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(x+W,y); ctx.stroke();
     y += 44;
@@ -729,7 +749,7 @@ function renderStateCard(s){
   if(s.timeline && Object.keys(s.timeline).length){
     y = drawSectionTitle(ctx, x, W, y, "TENDENCIA MENSUAL");
     ctx.fillStyle = "#93a1ad"; ctx.font = "400 20px -apple-system, sans-serif"; ctx.textAlign = "left";
-    y = drawWrapped(ctx, TREND_NOTE, x, y-6, W, 26, 3) + 14;
+    y = drawWrapped(ctx, trendNote(s), x, y-6, W, 26, 3) + 14;
     y = drawTrendChart(ctx, x, y, W, s);
     y += 20;
     ctx.strokeStyle = "#2a3540"; ctx.lineWidth = 1.5;
@@ -959,8 +979,8 @@ function renderCareo(s){
           <span class="careo-pct num">${c.pct.toFixed(1)}%</span>
         </div>`;
     });
-    box.innerHTML = (sc.label ? `<div class="careo-scenario-label">${sc.label}</div>` : "") + rowsHtml +
-      `<div class="careo-source">${CAREO_NOTE}</div>`;
+    box.innerHTML = rowsHtml +
+      `<div class="careo-source">${careoNote(sc)}</div>`;
     wrap.appendChild(box);
   });
 }
@@ -1028,7 +1048,7 @@ function renderTimeline(s){
     ? `<div class="tl-scroll">${svg}</div><div class="tl-scroll-hint">◀ Desliza para ver todos los meses ▶</div>`
     : svg;
 
-  box.innerHTML = '<div class="tl-title">Tendencia mensual</div><div class="careo-source" style="margin:0 0 8px">'+TREND_NOTE+'</div>' + chartHtml + legend;  // leyenda abajo y centrada, como en las imágenes (8 oct 2026)
+  box.innerHTML = '<div class="tl-title">Tendencia mensual</div><div class="careo-source" style="margin:0 0 8px">'+trendNote(s)+'</div>' + chartHtml + legend;  // leyenda abajo y centrada, como en las imágenes (8 oct 2026)
 
   if(needsScroll){
     const scrollEl = box.querySelector(".tl-scroll");
