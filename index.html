@@ -902,6 +902,8 @@ function openSheet(s){
   });
 
   document.getElementById("overlay").classList.add("show");
+  // Botón "atrás" (8 oct 2026): abrir un estado agrega una entrada al historial; atrás cierra la ficha en vez de salir del sitio
+  try{ if(history.state && history.state.sheet) history.replaceState({sheet:s.id},""); else history.pushState({sheet:s.id},""); }catch(e){}
 }
 function renderCareo(s){
   const wrap = document.getElementById("sCareoWrap");
@@ -1001,7 +1003,15 @@ function renderTimeline(s){
     }
   }
 }
-function closeSheet(){document.getElementById("overlay").classList.remove("show");}
+function closeSheet(fromHistory){
+  const ov=document.getElementById("overlay");
+  if(!ov.classList.contains("show")) return;
+  ov.classList.remove("show");
+  // si se cerró con ✕, clic afuera o Esc, se consume la entrada del historial para que el siguiente "atrás" no reabra nada
+  if(!fromHistory){ try{ if(history.state && history.state.sheet) history.back(); }catch(e){} }
+}
+window.addEventListener("popstate",()=>{ if(document.getElementById("overlay").classList.contains("show")) closeSheet(true); });
+document.addEventListener("keydown",(e)=>{ if(e.key==="Escape") closeSheet(); });
 document.getElementById("overlay").addEventListener("click",(e)=>{
   if(e.target.id==="overlay") closeSheet();
 });
