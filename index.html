@@ -592,8 +592,11 @@ function drawCardFooter(ctx, x, W, y){
   ctx.font = "400 22px 'SFMono-Regular', Consolas, monospace";
   const d = new Date();
   const dateStr = d.toLocaleDateString("es-MX", {day:"2-digit", month:"short", year:"numeric"});
-  ctx.fillText("mapa-gubernaturas-2027.vercel.app · " + dateStr + " · @o0vallee", x, y+40);
-  return y + 70;
+  ctx.textAlign = "center";
+  ctx.fillText("mapa-gubernaturas-2027.vercel.app · " + dateStr, x + W/2, y+40);
+  ctx.fillText("Elaborado por @o0vallee", x + W/2, y+76);
+  ctx.textAlign = "left";
+  return y + 106;
 }
 
 function drawTrendChart(ctx, x, y, W, s){
@@ -648,15 +651,20 @@ function drawTrendChart(ctx, x, y, W, s){
   ctx.fillStyle = "#93a1ad"; ctx.font = "400 18px -apple-system, sans-serif"; ctx.textAlign = "center";
   monthsOrder.forEach(m=>{ ctx.fillText(m, xFor(m), y+H-6); });
 
-  ctx.textAlign = "left";
-  let lx = x, ly = y + H + 28;
+  // Leyenda centrada (8 oct 2026): se arman renglones que quepan en W y cada renglón se centra
+  ctx.textAlign = "left"; ctx.font = "700 20px -apple-system, sans-serif";
+  const SEP = 36, rowsL = [[]]; let rw = 0;
   series.forEach(([p])=>{
-    const label = LABELS[p];
-    ctx.fillStyle = getComputedColor(p);
-    ctx.font = "700 20px -apple-system, sans-serif";
-    if(lx + ctx.measureText(label).width > x + W){ lx = x; ly += 30; }
-    ctx.fillText(label, lx, ly);
-    lx += ctx.measureText(label).width + 36;
+    const w = ctx.measureText(LABELS[p]).width;
+    if(rowsL[rowsL.length-1].length && rw + SEP + w > W){ rowsL.push([]); rw = 0; }
+    rw += (rowsL[rowsL.length-1].length ? SEP : 0) + w; rowsL[rowsL.length-1].push([p, w]);
+  });
+  let ly = y + H + 28;
+  rowsL.forEach((row, ri)=>{
+    const tot = row.reduce((a,[,w],i)=>a + w + (i ? SEP : 0), 0);
+    let lx = x + (W - tot)/2;
+    row.forEach(([p,w])=>{ ctx.fillStyle = getComputedColor(p); ctx.fillText(LABELS[p], lx, ly); lx += w + SEP; });
+    if(ri < rowsL.length-1) ly += 30;
   });
 
   return ly + 40;
