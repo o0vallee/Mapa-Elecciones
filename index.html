@@ -963,4 +963,116 @@ function renderCareo(s){
   wrap.appendChild(title);
 
   if(!s.careo || !s.careo.scenarios || s.careo.scenarios.length===0){
-  
+    const empty = document.createElement("div");
+    empty.className = "careo-empty";
+    empty.textContent = "Sin dato de careo reciente para este estado todavía.";
+    wrap.appendChild(empty);
+    return;
+  }
+
+  s.careo.scenarios.forEach(sc=>{
+    const box = document.createElement("div");
+    box.className = "careo-scenario";
+    let rowsHtml = "";
+    sc.candidates.forEach(c=>{
+      rowsHtml += `
+        <div class="careo-row">
+          <span class="careo-name" style="color:${getComputedColor(c.party)}">(${PARTY_ABBR[c.party]||c.party.toUpperCase()}) ${c.name}</span>
+          <span class="careo-pct num">${c.pct.toFixed(1)}%</span>
+        </div>`;
+    });
+    box.innerHTML = rowsHtml +
+      `<div class="careo-source">${careoNote(sc)}</div>`;
+    wrap.appendChild(box);
+  });
+}
+
+function renderTimeline(s){
+  const box = document.getElementById("sTimeline");
+  if(!s.timeline || Object.keys(s.timeline).length===0){
+    box.innerHTML = '<div class="tl-title">Tendencia mensual</div><div class="tl-empty">No hay suficientes encuestas fechadas de distintos meses para este estado todavía.</div>';
+    return;
+  }
+  const series = Object.entries(s.timeline); // [[party, points], ...]
+  // collect all months across series, then sort chronologically (not by discovery order)
+  const monthsOrder = [];
+  series.forEach(([p, pts])=>{
+    pts.forEach(pt=>{ if(!monthsOrder.includes(pt.m)) monthsOrder.push(pt.m); });
+  });
+  monthsOrder.sort((a,b)=> monthSortKey(a)-monthSortKey(b));
+  const MAX_VISIBLE_MONTHS = 6;
+  const baseW = 300, H = 140, padL = 26, padR = 24, padT = 26, padB = 22;
+  const PX_PER_MONTH = 70; // real CSS pixels per month once scrolling kicks in — must exceed the typical ~380-420px container width when >6 months, or nothing actually overflows
+  const needsScroll = monthsOrder.length > MAX_VISIBLE_MONTHS;
+  const W = needsScroll ? monthsOrder.length * PX_PER_MONTH : baseW;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+  const allVals = series.flatMap(([p,pts])=>pts.map(pt=>pt.v));
+  const maxV = Math.max(...allVals) * 1.15;
+  const minV = 0;
+  const xFor = (m)=> padL + (monthsOrder.indexOf(m) / Math.max(monthsOrder.length-1,1)) * plotW;
+  const yFor = (v)=> padT + plotH - ((v-minV)/(maxV-minV)) * plotH;
+
+  const svgWidthStyle = needsScroll ? `width:${W}px;max-width:none;height:auto;` : `width:100%;height:auto;`;
+  let svg = `<svg viewBox="0 0 ${W} ${H}" style="${svgWidthStyle}overflow:visible;">`;
+  // gridlines
+  svg += `<line x1="${padL}" y1="${padT+plotH}" x2="${padL+plotW}" y2="${padT+plotH}" stroke="#2a3540" stroke-width="1"/>`;
+
+  series.forEach(([p, pts])=>{
+    const color = getComputedColor(p);
+    const pathPts = pts.map(pt=>`${xFor(pt.m)},${yFor(pt.v)}`).join(" ");
+    svg += `<polyline points="${pathPts}" fill="none" stroke="${color}" stroke-width="2"/>`;
+    pts.forEach(pt=>{
+      svg += `<circle cx="${xFor(pt.m)}" cy="${yFor(pt.v)}" r="3" fill="${color}"/>`;
+    });
+  });
+  // Etiquetas de valor (8 oct 2026): por mes se apilan de abajo hacia arriba para que no se encimen (mismo criterio que las imágenes)
+  monthsOrder.forEach(m=>{
+    const labs = series.map(([p,pts])=>{ const pt = pts.find(q=>q.m===m); return pt ? {p, v:pt.v, y:yFor(pt.v)-6} : null; })
+      .filter(Boolean).sort((a,b)=>b.y-a.y);
+    const GAP = 9, TOP = 7;
+    for(let i=1;i<labs.length;i++){ if(labs[i-1].y - labs[i].y < GAP) labs[i].y = labs[i-1].y - GAP; }
+    const over = TOP - Math.min(...labs.map(l=>l.y)); if(over>0) labs.forEach(l=>l.y+=over);
+    labs.forEach(l=>{
+      svg += `<text x="${xFor(m)}" y="${l.y}" font-size="8" font-weight="700" fill="${getComputedColor(l.p)}" stroke="#161d25" stroke-width="2.5" paint-order="stroke" text-anchor="middle" font-family="monospace">${l.v.toFixed(1)}</text>`;
+    });
+  });
+  // month labels
+  monthsOrder.forEach(m=>{
+    svg += `<text x="${xFor(m)}" y="${H-6}" font-size="8" fill="#93a1ad" text-anchor="middle">${m}</text>`;
+  });
+  svg += `</svg>`;
+
+  let legend = '<div class="tl-legend">' + series.map(([p])=>
+    `<span style="color:${getComputedColor(p)}">${LABELS[p]}</span>`
+  ).join("") + '</div>';
+
+  const chartHtml = needsScroll
+    ? `<div class="tl-scroll">${svg}</div><div class="tl-scroll-hint">◀ Desliza para ver todos los meses ▶</div>`
+    : svg;
+
+  box.innerHTML = '<div class="tl-title">Tendencia mensual</div><div class="careo-source" style="margin:0 0 8px">'+trendNote(s)+'</div>' + chartHtml + legend;  // leyenda abajo y centrada, como en las imágenes (8 oct 2026)
+
+  if(needsScroll){
+    const scrollEl = box.querySelector(".tl-scroll");
+    if(scrollEl){
+      requestAnimationFrame(()=>{
+        requestAnimationFrame(()=>{ scrollEl.scrollLeft = scrollEl.scrollWidth; });
+      });
+    }
+  }
+}
+function closeSheet(fromHistory){
+  const ov=document.getElementById("overlay");
+  if(!ov.classList.contains("show")) return;
+  ov.classList.remove("show");
+  // si se cerró con ✕, clic afuera o Esc, se consume la entrada del historial para que el siguiente "atrás" no reabra nada
+  if(!fromHistory){ try{ if(history.state && history.state.sheet) history.back(); }catch(e){} }
+}
+window.addEventListener("popstate",()=>{ if(document.getElementById("overlay").classList.contains("show")) closeSheet(true); });
+document.addEventListener("keydown",(e)=>{ if(e.key==="Escape") closeSheet(); });
+document.getElementById("overlay").addEventListener("click",(e)=>{
+  if(e.target.id==="overlay") closeSheet();
+});
+</script>
+</body>
+</html>
