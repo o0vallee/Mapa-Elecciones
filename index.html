@@ -614,7 +614,7 @@ function drawBar(ctx, x, y, W, pct, maxPct, color){
 
 function drawSectionTitle(ctx, x, W, y, text){
   ctx.textAlign = "left";
-  ctx.fillStyle = "#e0a72e";
+  ctx.fillStyle = "#8fc2ff";
   ctx.font = "700 24px -apple-system, 'Segoe UI', Roboto, sans-serif";
   ctx.fillText(text, x, y);
   return y + 40;
@@ -622,10 +622,16 @@ function drawSectionTitle(ctx, x, W, y, text){
 
 function drawCardHeader(ctx, x, W, y, eyebrow, stateName, subtitle, stateUpdated){
   ctx.textAlign = "left";
-  ctx.fillStyle = "#e0a72e";
+  // Pastilla azul (igual que la app): círculo con # + texto
   ctx.font = "700 24px -apple-system, 'Segoe UI', Roboto, sans-serif";
-  ctx.fillText(eyebrow, x, y);
-  y += 50;
+  const tw = ctx.measureText(eyebrow).width, ph = 46, pw = tw + 70;
+  roundRect(ctx, x, y-33, pw, ph, ph/2);
+  ctx.fillStyle = "rgba(75,141,255,.12)"; ctx.fill();
+  ctx.strokeStyle = "#4b8dff"; ctx.lineWidth = 2; ctx.stroke();
+  ctx.beginPath(); ctx.arc(x+23, y-10, 15, 0, Math.PI*2); ctx.fillStyle = "#4b8dff"; ctx.fill();
+  ctx.fillStyle = "#10151b"; ctx.textAlign = "center"; ctx.fillText("#", x+23, y-2); ctx.textAlign = "left";
+  ctx.fillStyle = "#8fc2ff"; ctx.fillText(eyebrow, x+46, y-2);
+  y += 62;
   ctx.fillStyle = "#eef1f4";
   ctx.font = "800 58px -apple-system, 'Segoe UI', Roboto, sans-serif";
   y = drawWrapped(ctx, stateName, x, y, W, 66, 2) + 6;
@@ -639,7 +645,7 @@ function drawCardHeader(ctx, x, W, y, eyebrow, stateName, subtitle, stateUpdated
     y += 30;
   }
   y += 20;
-  ctx.strokeStyle = "#2a3540";
+  ctx.strokeStyle = "rgba(75,141,255,.6)";
   ctx.lineWidth = 2;
   ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(x+W,y); ctx.stroke();
   return y + 46;
@@ -654,7 +660,9 @@ function drawCardFooter(ctx, x, W, y){
   const d = new Date();
   const dateStr = d.toLocaleDateString("es-MX", {day:"2-digit", month:"short", year:"numeric"});
   ctx.textAlign = "center";
+  ctx.fillStyle = "#8fc2ff";
   ctx.fillText("mapa-gubernaturas-2027.vercel.app · " + dateStr, x + W/2, y+40);
+  ctx.fillStyle = "#93a1ad";
   ctx.fillText("Elaborado por @o0vallee", x + W/2, y+76);
   ctx.textAlign = "left";
   return y + 106;
@@ -758,7 +766,7 @@ function renderStateCard(s){
   let y = drawCardHeader(ctx, x, W, 96, "ELECCIONES 2027 · GOBERNADOR", s.name, "Careo vigente y tendencia mensual", s.lastUpdated);
 
   if(s.careo && s.careo.scenarios && s.careo.scenarios.length){
-    y = drawSectionTitle(ctx, x, W, y, "CAREO VIGENTE POR CANDIDATO (ÚLTIMOS 2 MESES)");
+    y = drawSectionTitle(ctx, x, W, y, "CAREO VIGENTE POR CANDIDATO (MES EN CURSO)");
     const sc = s.careo.scenarios[0];
     const maxPct = Math.max(...sc.candidates.map(c=>c.pct), 1);
     sc.candidates.forEach(c=>{
@@ -817,6 +825,15 @@ function downloadBlob(blob, filename){
   setTimeout(()=>URL.revokeObjectURL(url), 4000);
 }
 
+function filePrefix(){
+  const d = new Date();
+  return d.getFullYear() + String(d.getMonth()+1).padStart(2,"0");
+}
+
+function fileLabel(name){
+  return name.normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-zA-Z0-9 ]+/g," ").replace(/\s+/g," ").trim();
+}
+
 function slug(name){
   return name.normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-zA-Z0-9]+/g,"");
 }
@@ -845,12 +862,12 @@ async function exportAllImages(){
       const s = activeStates[i];
       statusEl.textContent = `Generando ${i+1}/${activeStates.length}: ${s.name}…`;
       const cardCanvas = renderStateCard(s);
-      zip.file(slug(s.name)+".png", await canvasToPngBlob(cardCanvas));
+      zip.file(filePrefix()+" "+fileLabel(s.name)+".png", await canvasToPngBlob(cardCanvas));
       await new Promise(r=>setTimeout(r,10));
     }
     statusEl.textContent = "Comprimiendo…";
     const zipBlob = await zip.generateAsync({type:"blob"});
-    downloadBlob(zipBlob, "mapa-gubernaturas-2027-imagenes.zip");
+    downloadBlob(zipBlob, filePrefix()+" Mapa Gubernaturas 2027.zip");
     statusEl.textContent = "Listo ✓";
   } catch(err){
     statusEl.textContent = "Error: " + (err && err.message ? err.message : String(err));
@@ -872,7 +889,7 @@ async function downloadStateImage(s, btn, statusEl){
     if(!canvas.toBlob){ throw new Error("Este navegador no soporta canvas.toBlob()."); }
     const blob = await canvasToPngBlob(canvas);
     if(!blob){ throw new Error("canvas.toBlob() devolvió vacío (blob nulo)."); }
-    downloadBlob(blob, slug(s.name)+".png");
+    downloadBlob(blob, filePrefix()+" "+fileLabel(s.name)+".png");
     if(statusEl) statusEl.textContent = "Listo ✓";
   } catch(err){
     console.error(err);
