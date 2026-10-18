@@ -52,6 +52,11 @@
   header{padding:22px 18px 14px;border-bottom:1px solid var(--line);
     background:radial-gradient(ellipse at 12% 0%,rgba(75,141,255,.17),transparent 62%);}
   .sheet-tag{margin:0;}
+  .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+  header{text-align:center;padding-top:34px;}
+  header .pill-main{font-size:30px;padding:9px 26px 9px 10px;margin:0 0 14px;border-width:2.5px;}
+  header .pill-main i{width:40px;height:40px;font-size:26px;margin-right:12px;}
+  header .eyebrow{margin:10px 0 0;}
   .pill{display:inline-flex;align-items:center;border:1.5px solid var(--blue);background:rgba(75,141,255,.10);
     border-radius:999px;padding:4px 14px 4px 5px;font-weight:700;font-size:13px;margin:0 0 12px;color:#fff;}
   .pill i{width:22px;height:22px;border-radius:50%;background:var(--blue);color:#10151b;font-style:normal;
@@ -216,10 +221,10 @@
 
 <div class="page">
 <header>
-  <span class="pill"><i>#</i>Elecciones<b>2027</b></span>
-  <p class="eyebrow">Proceso electoral 2026–2027 · Corte octubre 2026</p>
-  <h1><span class="hl">Careo</span> 27</h1>
+  <h1 class="sr-only">Careo 27</h1>
+  <span class="pill pill-main"><i>#</i>Elecciones<b>2027</b></span>
   <p class="sub">Promedio ponderado de las encuestas a gobernador.</p>
+  <p class="eyebrow">Proceso electoral 2026–2027 · Corte octubre 2026</p>
 </header>
 
 <div class="legend">
