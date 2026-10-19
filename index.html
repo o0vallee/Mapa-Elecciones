@@ -191,7 +191,32 @@
   }
   .note.show{display:block;}
   .tl-sample{margin-top:10px;text-align:center;font-size:12.5px;font-weight:700;color:var(--ink);}
-  .note-contact{margin-top:10px;padding-top:8px;border-top:1px solid rgba(255,255,255,.12);font-style:italic;opacity:.85;}
+  /* Detalle de las encuestas del mes (18 oct 2026) */
+  .det-wrap{margin-top:18px;border-top:1px solid var(--line);padding-top:14px;}
+  .det-title{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--blue-soft);margin-bottom:4px;}
+  .det-sub{font-size:12px;color:var(--ink-dim);margin-bottom:8px;line-height:1.5;}
+  .det-scroll{overflow-y:auto;-webkit-overflow-scrolling:touch;border-bottom:1px solid var(--line);}
+  .dt{border-collapse:collapse;width:100%;font-size:12.5px;}
+  .dt thead{position:sticky;top:0;z-index:1;}
+  .dt th{background:var(--panel);font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-dim);text-align:left;padding:6px 4px;font-weight:700;vertical-align:bottom;}
+  .dt th.c{text-align:right;text-transform:none;letter-spacing:0;font-size:11.5px;line-height:1.2;}
+  .dt th.c span{display:block;font-weight:800;}
+  .dt th.c small{display:block;font-size:9.5px;color:var(--ink-dim);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-top:1px;}
+  .dt tr.avg th{background:#1b232d;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:9px 4px;text-transform:none;letter-spacing:0;}
+  .dt tr.avg th.h{font-size:12px;font-weight:800;color:var(--ink);line-height:1.2;}
+  .dt tr.avg th.v{text-align:right;font-family:"SFMono-Regular",Consolas,monospace;font-size:13.5px;font-weight:800;}
+  .dt tr.avg sup{display:block;font-size:9px;color:var(--ink-dim);font-weight:600;margin-top:1px;}
+  .dt td{padding:8px 4px;border-bottom:1px solid var(--line);}
+  .dt tbody tr:last-child td{border-bottom:none;}
+  .dt td.h{font-weight:600;color:var(--ink);font-size:12.5px;line-height:1.25;}
+  .dt td.h small{display:block;color:var(--ink-dim);font-weight:500;font-size:10.5px;margin-top:2px;}
+  .dt td.v{text-align:right;font-family:"SFMono-Regular",Consolas,monospace;font-weight:700;font-size:13px;white-space:nowrap;}
+  .dt td.dash{color:#4a5560;font-weight:400;}
+  .dt span.mx{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px;}
+  .dt .w{color:#e0a72e;font-size:11px;}
+  .det-hint{font-size:10px;color:var(--ink-dim);text-align:center;margin-top:4px;}
+  .det-fn{font-size:11.5px;color:#c4ced6;line-height:1.55;margin:10px 0 0;}
+  .det-fn.dim{color:var(--ink-dim);}
   .note.high{background:rgba(224,167,46,.16);border-color:rgba(224,167,46,.55);}
   #sNoteWrap{margin-top:16px;}
   .srcbox{margin-top:12px;}
@@ -265,6 +290,7 @@
     <div class="state-updated" id="sStateUpdated"></div>
     <div id="sCareoWrap"></div>
     <div id="sTimeline" class="tl-wrap"></div>
+    <div id="sDetalle"></div>
     <div id="sNoteWrap"></div>
     <div class="srcbox">
       <button class="conflict-btn" id="sSrcBtn" type="button">📋 Encuestas usadas</button>
@@ -319,6 +345,7 @@ const STATES = [
    lastUpdated:"16 oct 2026",
    leader:"morena",
    muestra:{m:"Oct 26",n:4500,k:5,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Ramírez","morena",39.2,4],["Ruffo Sánchez","pan",32.4,2],["De Hoyos","mc",11.1,3],["Valle","pri",8.5,3]],rows:[["RUBRUM","14 oct",1000,0,[40.1,28.6,10.3,null]],["Logi·Call","14 oct",1000,1,[34.6,null,null,10.2]],["GobernArte","7–12 oct",500,1,[38.5,null,8.5,14.7]],["LaEncuesta.MX","6–8 oct",1200,0,[42.6,35.6,12.8,4.6]]]},
    trendN:{m:"Oct 26",n:5},
    timeline:{"morena": [{"m": "Abr 26", "v": 39.3}, {"m": "Jun 26", "v": 42.6}, {"m": "Jul 26", "v": 45}, {"m": "Ago 26", "v": 41}, {"m": "Sep 26", "v": 38.5}, {"m": "Oct 26", "v": 39}], "pan": [{"m": "Abr 26", "v": 23.3}, {"m": "Jun 26", "v": 20.1}, {"m": "Jul 26", "v": 12}, {"m": "Ago 26", "v": 21}, {"m": "Sep 26", "v": 21.7}, {"m": "Oct 26", "v": 25.5}]},
    careo:{scenarios:[
@@ -330,6 +357,7 @@ const STATES = [
    lastUpdated:"16 oct 2026",
    leader:"morena",
    muestra:{m:"Oct 26",n:5400,k:7,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Cota","morena",34.3,6],["Pelayo","pan",29.4,6],["Barroso","mc",13.9,3],["Muñoz Álvarez","ind",11.6,1],["Manríquez","pri",10,2]],rows:[["Logi·Call","15 oct",1000,1,[28.5,25.3,null,null,12.5]],["RUBRUM","12 oct",800,0,[41.4,35.8,null,null,null]],["LaEncuesta.MX","6–8 oct",1200,0,[41.2,31.2,15.6,null,null]],["GobernArte","1–5 oct",500,1,[30.5,25.4,10.7,11.6,null]],["Massive Caller","2 oct",1000,0,[27.2,29.1,null,null,7.4]],["Arias","29 sep–1 oct",300,1,[37.2,26.2,12.4,null,null]]]},
    trendN:{m:"Oct 26",n:7},
    timeline:{"morena": [{"m": "Abr 26", "v": 41.2}, {"m": "Jul 26", "v": 40.2}, {"m": "Ago 26", "v": 34.8}, {"m": "Sep 26", "v": 31.5}, {"m": "Oct 26", "v": 36.5}], "pan": [{"m": "Abr 26", "v": 22.5}, {"m": "Jul 26", "v": 24.3}, {"m": "Ago 26", "v": 29.6}, {"m": "Sep 26", "v": 28.8}, {"m": "Oct 26", "v": 28}]},
    careo:{scenarios:[
@@ -342,6 +370,7 @@ const STATES = [
    lastUpdated:"15 oct 2026",
    leader:"morena",
    muestra:{m:"Oct 26",n:5750,k:5,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Valles","morena",41.1,5],["Astiazarán","pan",30.5,5],["Colosio","mc",13.2,4],["Soto Holguín","pri",9.7,3]],rows:[["Electoralia","8–13 oct",2500,0,[43,33,10,null]],["RUBRUM","13 oct",1000,0,[39.3,32.6,null,null]],["GobernArte","7–13 oct",500,1,[34.9,25.3,21.5,5.6]],["LaEncuesta.MX","6–8 oct",1200,0,[41.8,31.7,16.2,8.2]],["Arias","29 sep–1 oct",550,1,[40.3,17.2,14,16.9]]]},
    trendN:{m:"Oct 26",n:5},
    timeline:{"morena": [{"m": "Abr 26", "v": 46.1}, {"m": "May 26", "v": 43.3}, {"m": "Jun 26", "v": 42.3}, {"m": "Jul 26", "v": 40.9}, {"m": "Ago 26", "v": 46.1}, {"m": "Sep 26", "v": 40.1}, {"m": "Oct 26", "v": 40.8}], "mc": [{"m": "Ago 26", "v": 15.1}, {"m": "Sep 26", "v": 14.4}, {"m": "Oct 26", "v": 10.5}], "pan": [{"m": "Jul 26", "v": 22.3}, {"m": "Ago 26", "v": 18.1}, {"m": "Sep 26", "v": 27.3}, {"m": "Oct 26", "v": 26.2}], "pri": [{"m": "Ago 26", "v": 5.7}, {"m": "Sep 26", "v": 3.2}, {"m": "Oct 26", "v": 8}]},
    careo:{scenarios:[
@@ -354,6 +383,7 @@ const STATES = [
    lastUpdated:"13 oct 2026",
    leader:"morena",
    muestra:{m:"Oct 26",n:4650,k:6,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Pérez Cuéllar","morena",37.7,5],["Bonilla","pan",36.1,5],["Meléndez","pri",8.7,3],["Lozoya","mc",6.4,5],["Lebarón","ind",5.2,1]],rows:[["RUBRUM","12 oct",800,0,[35.2,40.6,null,5.7,5.2]],["LaEncuesta.MX","6–8 oct",1200,0,[44.2,41.6,null,10.3,null]],["GobernArte","2–8 oct",500,1,[36.1,30.5,10.9,8.8,null]],["Massive Caller","6 oct",1000,0,[29.2,34.7,8.1,2.6,null]],["Arias","29 sep–1 oct",550,1,[44.3,25.2,7.8,3.7,null]]]},
    trendN:{m:"Oct 26",n:6},
    timeline:{"morena": [{"m": "Dic 25", "v": 43.7}, {"m": "Abr 26", "v": 38.5}, {"m": "May 26", "v": 42.6}, {"m": "Jun 26", "v": 41.6}, {"m": "Ago 26", "v": 39.1}, {"m": "Sep 26", "v": 39}, {"m": "Oct 26", "v": 38.6}], "pan": [{"m": "Abr 26", "v": 24.1}, {"m": "May 26", "v": 29.8}, {"m": "Ago 26", "v": 29}, {"m": "Sep 26", "v": 35.7}, {"m": "Oct 26", "v": 32.3}]},
    careo:{scenarios:[
@@ -366,6 +396,7 @@ const STATES = [
    lastUpdated:"16 oct 2026",
    leader:"morena",
    muestra:{m:"Oct 26",n:2800,k:3,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Castro","morena",33.1,2],["Zamora","pri",29.9,2],["Torres Félix","mc",18.1,1],["Romero","pan",14,1]],rows:[["LaEncuesta.MX","6–8 oct",1200,0,[40.2,35.2,18.1,null]],["Arias","29 sep–1 oct",600,1,[18.9,19.3,null,14]]]},
    trendN:{m:"Oct 26",n:3},
    timeline:{"morena": [{"m": "Abr 26", "v": 38.2}, {"m": "Jun 26", "v": 39.1}, {"m": "Ago 26", "v": 36}, {"m": "Sep 26", "v": 34}, {"m": "Oct 26", "v": 35.8}], "pri": [{"m": "Abr 26", "v": 23.3}, {"m": "Ago 26", "v": 14.4}, {"m": "Sep 26", "v": 21.6}, {"m": "Oct 26", "v": 14.9}], "pan": [{"m": "Abr 26", "v": 18}, {"m": "Oct 26", "v": 17.6}], "mc": [{"m": "Oct 26", "v": 12.4}]},
    careo:{scenarios:[
@@ -380,6 +411,7 @@ const STATES = [
    lastUpdated:"15 oct 2026",
    leader:"pri",
    muestra:{m:"Oct 26",n:9113,k:9,sin_n:0},
+   detalle:{mes:"octubre",cols:[["De la Garza","pri",31.7,9],["Rodríguez","mc",26.5,9],["Flores","morena",19.3,9],["Clouthier","ind",13.7,1]],rows:[["Polister","12–13 oct",1000,1,[27,25.2,17.6,13.7]],["SRC","12 oct",1000,0,[29.6,27.2,15.2,null]],["RUBRUM","10 oct",1000,0,[36.7,26.1,13.6,null]],["LaEncuesta.MX","6–8 oct",1200,0,[41.2,34.8,18.6,null]],["De las Heras","al 5 oct",1000,1,[24,30,33,null]],["El Congresista","2 oct",1163,1,[28.8,28.5,15.3,null]],["FactoMétrica","2 oct",1000,0,[23.2,28.6,24.4,null]],["Logi·Call","2 oct",1000,1,[38.7,14.2,20.4,null]],["Arias","29 sep–1 oct",750,1,[35.4,20.6,16.1,null]]]},
    trendN:{m:"Oct 26",n:8},
    timeline:{"morena": [{"m": "Ene 26", "v": 31.9}, {"m": "Abr 26", "v": 32.1}, {"m": "Jul 26", "v": 31}, {"m": "Ago 26", "v": 28}, {"m": "Oct 26", "v": 21.8}], "mc": [{"m": "Ene 26", "v": 20.6}, {"m": "Abr 26", "v": 22.5}, {"m": "May 26", "v": 27.3}, {"m": "Jul 26", "v": 22}, {"m": "Ago 26", "v": 18.9}, {"m": "Sep 26", "v": 26.2}, {"m": "Oct 26", "v": 26.1}], "pripan": [{"m": "May 26", "v": 25.3}, {"m": "Ago 26", "v": 28.8}, {"m": "Sep 26", "v": 33.9}, {"m": "Oct 26", "v": 31.2}]},
    careo:{scenarios:[
@@ -393,6 +425,7 @@ const STATES = [
    lastUpdated:"13 oct 2026",
    leader:"morena",
    muestra:{m:"Oct 26",n:5670,k:7,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Bonilla","pri",27.8,6],["Díaz","morena",26.4,7],["Álvarez Máynez","mc",19.7,7],["Varela","pan",14.9,4]],rows:[["Logi·Call","12 oct",1000,1,[31.2,20.3,13.2,17.4]],["SRC","12 oct",500,0,[29.1,24,32.7,null]],["RUBRUM","10 oct",1000,0,[39.6,23.5,13.1,null]],["LaEncuesta.MX","6–8 oct",1200,0,[16.9,38.2,21.8,15.4]],["GobernArte","2–6 oct",500,1,[27.7,30.8,12.8,13.4]],["Enkoll","1–4 oct",1020,1,[25,22,30,null]],["Arias","29 sep–1 oct",450,1,[null,22.9,12.6,9.5]]]},
    trendN:{m:"Oct 26",n:7},
    timeline:{"morena": [{"m": "Feb 26", "v": 35.6}, {"m": "Abr 26", "v": 38.1}, {"m": "Jun 26", "v": 36.8}, {"m": "Ago 26", "v": 34.7}, {"m": "Sep 26", "v": 38.6}, {"m": "Oct 26", "v": 27.6}], "pri": [{"m": "Ago 26", "v": 20.1}, {"m": "Sep 26", "v": 14.7}, {"m": "Oct 26", "v": 19.3}], "mc": [{"m": "Ago 26", "v": 12.5}, {"m": "Sep 26", "v": 12.6}, {"m": "Oct 26", "v": 17.9}], "pan": [{"m": "Ago 26", "v": 13.5}, {"m": "Sep 26", "v": 13.5}, {"m": "Oct 26", "v": 13.5}]},
    careo:{scenarios:[
@@ -405,6 +438,7 @@ const STATES = [
    lastUpdated:"16 oct 2026",
    leader:"pvem",
    muestra:{m:"Oct 26",n:3200,k:4,sin_n:0},
+   detalle:{mes:"octubre",cols:[["González","pvem",33.7,4],["Galindo","pri",22.2,4],["Cervantes","morena",20.5,4],["Rodríguez","pan",7.3,1],["Gama","mc",4.5,4]],rows:[["RUBRUM","15 oct",1000,0,[29.1,26.3,15.2,null,4]],["GobernArte","9–14 oct",500,1,[38.6,25.4,11.4,7.3,8.3]],["LaEncuesta.MX","6–8 oct",1200,0,[41.5,17.2,32.8,null,1.5]],["Arias","29 sep–1 oct",500,1,[19.5,22.7,10.7,null,9.2]]]},
    trendN:{m:"Oct 26",n:4},
    timeline:{"morena": [{"m": "Abr 26", "v": 31.2}, {"m": "Jun 26", "v": 30.3}, {"m": "Jul 26", "v": 23.9}, {"m": "Ago 26", "v": 25.7}, {"m": "Sep 26", "v": 25.7}, {"m": "Oct 26", "v": 23.6}], "pvem": [{"m": "Abr 26", "v": 29.1}, {"m": "Jun 26", "v": 22.6}, {"m": "Jul 26", "v": 21.8}, {"m": "Ago 26", "v": 23.6}, {"m": "Sep 26", "v": 27.8}, {"m": "Oct 26", "v": 31.8}], "ind": [{"m": "Ago 26", "v": 16.5}], "pt": [{"m": "Ago 26", "v": 15.1}, {"m": "Sep 26", "v": 7}, {"m": "Oct 26", "v": 1.7}], "pripan": [{"m": "Jun 26", "v": 25.7}, {"m": "Ago 26", "v": 21.8}, {"m": "Sep 26", "v": 18.4}, {"m": "Oct 26", "v": 24.1}], "mc": [{"m": "Jun 26", "v": 5.9}, {"m": "Sep 26", "v": 6}, {"m": "Oct 26", "v": 5}]},
    careo:{scenarios:[
@@ -417,6 +451,7 @@ const STATES = [
    lastUpdated:"15 oct 2026",
    leader:"morena",
    muestra:{m:"Oct 26",n:5700,k:6,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Bugarín","morena",36.4,5],["Flores","mc",17.9,5],["Reyes","pan",13.9,4],["Cota","pri",10.6,5]],rows:[["Massive Caller","14 oct",1000,0,[27,10.7,15.6,11.8]],["RUBRUM","14 oct",1000,0,[34.8,19.6,null,10.8]],["Mitofsky","9–11 oct",1200,0,[46.7,14.8,7.4,6.9]],["LaEncuesta.MX","6–8 oct",1200,0,[35.3,26.5,17.1,13.2]],["GobernArte","3–7 oct",500,1,[35.9,15.9,18.8,10.4]]]},
    trendN:{m:"Oct 26",n:6},
    timeline:{"morena": [{"m": "Abr 26", "v": 43.1}, {"m": "Jun 26", "v": 53}, {"m": "Jul 26", "v": 55}, {"m": "Ago 26", "v": 46}, {"m": "Sep 26", "v": 49.9}, {"m": "Oct 26", "v": 42.2}], "mc": [{"m": "Jun 26", "v": 12.9}, {"m": "Jul 26", "v": 15.2}, {"m": "Oct 26", "v": 15}], "pri": [{"m": "Jun 26", "v": 11}, {"m": "Oct 26", "v": 10.2}], "pan": [{"m": "Jun 26", "v": 9.4}, {"m": "Oct 26", "v": 11.8}]},
    careo:{scenarios:[
@@ -429,6 +464,7 @@ const STATES = [
    lastUpdated:"16 oct 2026",
    leader:"pan",
    muestra:{m:"Oct 26",n:3500,k:4,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Martín del Campo","pan",50.2,4],["Ruvalcaba","morena",28.9,4],["Macías","pri",9.3,1],["Martínez","mc",9.1,3]],rows:[["RUBRUM","13 oct",1000,0,[50.7,22.7,null,10.2]],["Logi·Call","12 oct",1000,1,[52.1,25.1,null,null]],["LaEncuesta.MX","6–8 oct",1200,0,[48.9,37.8,null,9]],["Arias","29 sep–1 oct",300,1,[47.1,27.3,9.3,5.9]]]},
    trendN:{m:"Oct 26",n:4},
    timeline:{"pan": [{"m": "Oct 25", "v": 44.8}, {"m": "Abr 26", "v": 43.4}, {"m": "Jul 26", "v": 38.1}, {"m": "Ago 26", "v": 46.4}, {"m": "Sep 26", "v": 48.4}, {"m": "Oct 26", "v": 46.6}], "morena": [{"m": "Oct 25", "v": 29.8}, {"m": "Abr 26", "v": 33.7}, {"m": "Jul 26", "v": 30.3}, {"m": "Ago 26", "v": 28.8}, {"m": "Sep 26", "v": 29.3}, {"m": "Oct 26", "v": 27.9}]},
    careo:{scenarios:[
@@ -443,6 +479,7 @@ const STATES = [
    lastUpdated:"16 oct 2026",
    leader:"pan",
    muestra:{m:"Oct 26",n:5150,k:6,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Macías","pan",46,5],["Nieto","morena",30.8,5],["Ospital","mc",6.2,2],["Arredondo","pri",4.9,3]],rows:[["RUBRUM","15 oct",1000,0,[49.6,30.9,null,null]],["Poligrama","13 oct",1000,0,[47.8,30.4,null,3.8]],["LaEncuesta.MX","6–8 oct",1200,0,[47.1,35.8,5.9,5.3]],["Logi·Call","6 oct",1000,1,[42.8,28.4,null,null]],["Arias","29 sep–1 oct",350,1,[35.9,21.3,7.4,6.7]]]},
    trendN:{m:"Oct 26",n:6},
    timeline:{"pan": [{"m": "Abr 26", "v": 45.8}, {"m": "Jun 26", "v": 43.2}, {"m": "Ago 26", "v": 45.2}, {"m": "Sep 26", "v": 43.3}, {"m": "Oct 26", "v": 46.9}], "morena": [{"m": "Abr 26", "v": 33.1}, {"m": "Jun 26", "v": 25}, {"m": "Ago 26", "v": 29}, {"m": "Sep 26", "v": 30}, {"m": "Oct 26", "v": 29.9}]},
    careo:{scenarios:[
@@ -456,6 +493,7 @@ const STATES = [
    lastUpdated:"14 oct 2026",
    leader:"morena",
    muestra:{m:"Oct 26",n:3900,k:5,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Bayardo","morena",32.7,4],["Rivera","pan",26,4],["Romero Celis","pri",20.3,3],["Martínez","mc",8.9,3],["Mendoza Amezcua","pvem",3.6,2]],rows:[["RUBRUM","13 oct",1000,0,[32,30.8,null,null,null]],["LaEncuesta.MX","6–8 oct",1200,0,[36.2,26.9,19.5,8.5,null]],["Massive Caller","8 oct",1000,0,[29.6,21.2,22,9.1,3.4]],["Arias","29 sep–1 oct",300,1,[31.7,22.8,18.4,9.9,4.1]]]},
    trendN:{m:"Oct 26",n:5},
    timeline:{"morena": [{"m": "Abr 26", "v": 40.4}, {"m": "Jun 26", "v": 37.1}, {"m": "Ago 26", "v": 38.1}, {"m": "Sep 26", "v": 38.8}, {"m": "Oct 26", "v": 34.1}], "pri": [{"m": "Jul 26", "v": 13.9}, {"m": "Sep 26", "v": 16.2}, {"m": "Oct 26", "v": 18}], "pan": [{"m": "Sep 26", "v": 19.4}, {"m": "Oct 26", "v": 21.4}], "mc": [{"m": "Sep 26", "v": 8.4}, {"m": "Oct 26", "v": 10.1}]},
    careo:{scenarios:[
@@ -468,6 +506,7 @@ const STATES = [
    lastUpdated:"15 oct 2026",
    leader:"morena",
    muestra:{m:"Oct 26",n:4200,k:5,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Torres Piña","morena",30,5],["Martínez Alcázar","pan",20.8,5],["Quiroz García","ind",19.6,5],["Valencia Reyes","pri",8.6,1],["Herrera Tello","mc",7.8,3]],rows:[["RUBRUM","14 oct",1000,0,[36.9,17.2,26.7,null,4.1]],["Massive Caller","12 oct",1000,0,[25.8,23.4,14.8,null,10.4]],["SRC","12 oct",500,0,[28.3,22,20.3,null,null]],["LaEncuesta.MX","6–8 oct",1200,0,[29.2,26.2,13.2,null,null]],["Arias","29 sep–1 oct",500,1,[28.3,8.5,29.9,8.6,9.8]]]},
    trendN:{m:"Oct 26",n:5},
    timeline:{"morena": [{"m": "Abr 26", "v": 36.3}, {"m": "May 26", "v": 40.1}, {"m": "Jun 26", "v": 25}, {"m": "Ago 26", "v": 32.2}, {"m": "Sep 26", "v": 35.1}, {"m": "Oct 26", "v": 32.5}], "pan": [{"m": "Abr 26", "v": 23.4}, {"m": "May 26", "v": 20.4}, {"m": "Jun 26", "v": 10}, {"m": "Ago 26", "v": 15.8}, {"m": "Sep 26", "v": 17}, {"m": "Oct 26", "v": 19.7}], "ind": [{"m": "May 26", "v": 22.7}, {"m": "Sep 26", "v": 19.3}, {"m": "Oct 26", "v": 22.1}], "pri": [{"m": "May 26", "v": 5.3}, {"m": "Oct 26", "v": 11.4}], "mc": [{"m": "May 26", "v": 5.3}, {"m": "Oct 26", "v": 7.7}]},
    careo:{scenarios:[
@@ -483,6 +522,7 @@ const STATES = [
    lastUpdated:"16 oct 2026",
    leader:"morena",
    muestra:{m:"Oct 26",n:6150,k:6,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Rivera","morena",41.2,6],["Ávalos","pri",21.6,5],["Martínez Sánchez","pan",12.7,5],["Jiménez Zamora","mc",7.2,4]],rows:[["GobernArte","10–15 oct",500,1,[40.3,12.2,15.4,8.8]],["Brújula","8–14 oct",2250,1,[35.2,28.9,10.1,5.8]],["RUBRUM","12 oct",800,0,[53.3,null,14.8,6.6]],["Logi·Call","10 oct",1000,1,[39.7,16.3,12.8,null]],["LaEncuesta.MX","6–8 oct",1200,0,[48.2,19.5,14.8,null]],["Arias","29 sep–1 oct",400,1,[34.4,12.2,null,13.8]]]},
    trendN:{m:"Oct 26",n:6},
    timeline:{"morena": [{"m": "Abr 26", "v": 42.8}, {"m": "May 26", "v": 37.4}, {"m": "Ago 26", "v": 43.9}, {"m": "Sep 26", "v": 48.2}, {"m": "Oct 26", "v": 42.3}], "pri": [{"m": "Abr 26", "v": 17.3}, {"m": "Sep 26", "v": 12.4}, {"m": "Oct 26", "v": 21.6}], "pan": [{"m": "Feb 26", "v": 11.8}, {"m": "Sep 26", "v": 10.4}, {"m": "Oct 26", "v": 12.2}], "mc": [{"m": "Sep 26", "v": 7.9}, {"m": "Oct 26", "v": 8.9}]},
    careo:{scenarios:[
@@ -497,6 +537,7 @@ const STATES = [
    lastUpdated:"12 oct 2026",
    leader:"morena",
    muestra:{m:"Oct 26",n:3650,k:4,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Mojica","morena",36.6,4],["Añorve","pri",13,4],["Alarcón","pan",6,2],["Bernal","mc",5.4,2]],rows:[["Massive Caller","10 oct",1000,0,[32.7,13.4,6.1,null]],["RUBRUM","10 oct",1000,0,[37.4,16,null,null]],["LaEncuesta.MX","6–8 oct",1200,0,[36.2,8.6,null,4.9]],["Arias","29 sep–1 oct",450,1,[44.5,16.8,5.9,6.7]]]},
    trendN:{m:"Oct 26",n:4},
    timeline:{"morena": [{"m": "Feb 26", "v": 51.3}, {"m": "Abr 26", "v": 50.6}, {"m": "May 26", "v": 50.1}, {"m": "Ago 26", "v": 51.6}, {"m": "Sep 26", "v": 49.9}, {"m": "Oct 26", "v": 42}], "pri": [{"m": "Feb 26", "v": 19.1}, {"m": "May 26", "v": 12.7}, {"m": "Ago 26", "v": 16.6}, {"m": "Oct 26", "v": 12.6}], "pan": [{"m": "Feb 26", "v": 6.3}, {"m": "Ago 26", "v": 7.1}, {"m": "Oct 26", "v": 5.8}], "mc": [{"m": "Feb 26", "v": 9.1}, {"m": "Ago 26", "v": 6}, {"m": "Oct 26", "v": 6.7}]},
    careo:{scenarios:[
@@ -512,6 +553,7 @@ const STATES = [
    lastUpdated:"14 oct 2026",
    leader:"morena",
    muestra:{m:"Oct 26",n:5500,k:6,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Gutiérrez Lazarus","morena",38.3,5],["Fernández","mc",31.8,5],["Castro Bello","pri",9.9,3],["Márquez","pan",8.1,1]],rows:[["RUBRUM","13 oct",1000,0,[44.6,32,7.2,null]],["LaEncuesta.MX","6–8 oct",1200,0,[41.9,35.3,null,null]],["Metrik","28 sep–4 oct",1200,1,[29.7,34.2,11.6,8.1]],["Massive Caller","4 oct",1000,0,[39.5,24.2,null,null]],["Arias","29 sep–1 oct",300,1,[32.9,32.8,11.7,null]]]},
    trendN:{m:"Oct 26",n:6},
    timeline:{"morena": [{"m": "Abr 26", "v": 35.9}, {"m": "Jun 26", "v": 34.6}, {"m": "Jul 26", "v": 40.8}, {"m": "Ago 26", "v": 45.4}, {"m": "Sep 26", "v": 41.6}, {"m": "Oct 26", "v": 39.2}], "mc": [{"m": "Abr 26", "v": 39.4}, {"m": "Jun 26", "v": 29.8}, {"m": "Jul 26", "v": 28.3}, {"m": "Ago 26", "v": 27}, {"m": "Sep 26", "v": 33.2}, {"m": "Oct 26", "v": 31.5}], "pri": [{"m": "Jun 26", "v": 14.1}, {"m": "Oct 26", "v": 11.2}], "pan": [{"m": "Jun 26", "v": 4.5}, {"m": "Oct 26", "v": 5.9}]},
    careo:{scenarios:[
@@ -525,6 +567,7 @@ const STATES = [
    lastUpdated:"12 oct 2026",
    leader:"morena",
    muestra:{m:"Oct 26",n:4600,k:5,sin_n:0},
+   detalle:{mes:"octubre",cols:[["Segura","morena",39.7,4],["Martínez","pan",17.3,3],["Pech","mc",12.8,2],["Hendricks","pri",10.2,2]],rows:[["RUBRUM","10 oct",1000,0,[48.2,null,16.1,null]],["LaEncuesta.MX","6–8 oct",1200,0,[46.1,19.3,null,null]],["Logi·Call","8 oct",1000,1,[27.4,16.8,9.5,11.7]],["Arias","29 sep–1 oct",600,1,[33.4,13.9,null,7.6]]]},
    trendN:{m:"Oct 26",n:5},
    timeline:{"morena": [{"m": "Abr 26", "v": 41.2}, {"m": "Jun 26", "v": 45}, {"m": "Ago 26", "v": 43.5}, {"m": "Sep 26", "v": 43.2}, {"m": "Oct 26", "v": 41.3}], "pan": [{"m": "May 26", "v": 14.5}, {"m": "Sep 26", "v": 14.4}, {"m": "Oct 26", "v": 16.9}]},
    careo:{scenarios:[
@@ -929,6 +972,39 @@ function getComputedColor(p){
   return map[p];
 }
 
+// Detalle de las encuestas del mes (18 oct 2026). Datos: s.detalle (set_detalle.js).
+const DET_COL = {morena:"#e0425a",pan:"#4b7dff",pri:"#2fb27d",mc:"#ff7a1a",pvem:"#6fb92c",ind:"#9aa4ae",pt:"#ff4d55",somos:"#e4007c"};
+function renderDetalle(s){
+  const box = document.getElementById("sDetalle");
+  box.innerHTML = "";
+  const d = s.detalle; if(!d || !d.rows || !d.rows.length || !d.cols.length) return;
+  const AB = p => (PARTY_ABBR[p]||p.toUpperCase()).replace("MORENA","Morena");
+  const th = d.cols.map(c=>'<th class="c"><span style="color:'+DET_COL[c[1]]+'">'+c[0]+'</span><small>'+AB(c[1])+'</small></th>').join("");
+  const avg = '<tr class="avg"><th class="h">Promedio ponderado</th>' + d.cols.map(c=>'<th class="v" style="color:'+DET_COL[c[1]]+'">'+c[2].toFixed(1)+'<sup>('+c[3]+')</sup></th>').join("") + '</tr>';
+  const body = d.rows.map(r=>{
+    const vs = r[4].filter(v=>v!=null); const mx = Math.max.apply(null, vs);
+    return '<tr><td class="h">'+r[0]+(r[3]?' <span class="w">⚠</span>':'')+'<small>'+r[1]+' · n '+(r[2]?r[2].toLocaleString("es-MX"):"s/d")+'</small></td>' +
+      r[4].map((v,i)=> v==null ? '<td class="v dash">—</td>' : '<td class="v" style="color:'+DET_COL[d.cols[i][1]]+'"><span'+(v===mx?' class="mx"':'')+'>'+v.toFixed(1)+'</span></td>').join("") + '</tr>';
+  }).join("");
+  const n = d.rows.length;
+  box.innerHTML = '<div class="det-wrap"><div class="det-title">Detalle de las encuestas · '+d.mes+'</div>' +
+    '<div class="det-sub">'+n+(n===1?' encuesta':' encuestas')+' del mes, de la más reciente a la más antigua.</div>' +
+    '<div class="det-scroll"><table class="dt"><thead><tr><th class="h">Encuesta</th>'+th+'</tr>'+avg+'</thead><tbody>'+body+'</tbody></table></div>' +
+    (n>5 ? '<div class="det-hint">▲▼ Desliza para ver las '+n+' encuestas</div>' : '') +
+    '<p class="det-fn"><b>Criterio:</b> mes de levantamiento. Entre paréntesis, número de casas que midieron a cada candidato. El valor subrayado es el más alto de cada encuesta. Si una casa publicó dos escenarios, se promedian.</p>' +
+    '<p class="det-fn dim">⚠ Casa con advertencia (sin trayectoria verificable, conflicto de interés, sanción o datos incompletos). Preferencia bruta, con indecisos.</p></div>';
+  // Altura visible: encabezado + promedio + 5 encuestas
+  const fit = ()=>{
+    const sc = box.querySelector(".det-scroll"); if(!sc) return;
+    const rows = sc.querySelectorAll("tbody tr");
+    if(rows.length<=5){ sc.style.maxHeight=""; return; }
+    const hh = sc.querySelector("thead").offsetHeight; let rh = 0;
+    for(let i=0;i<5;i++) rh += rows[i].offsetHeight;
+    if(hh+rh>0) sc.style.maxHeight = (hh+rh+1)+"px";
+  };
+  fit(); requestAnimationFrame(fit); setTimeout(fit, 120);
+}
+
 function renderNote(s){
   const box = document.getElementById("sNoteWrap");
   box.innerHTML = "";
@@ -941,11 +1017,6 @@ function renderNote(s){
   const panel = document.createElement("div");
   panel.className = "note" + (s.note.level==="high" ? " high" : "");
   panel.textContent = s.note.text;
-  // Leyenda de contacto al final de las notas (8 oct 2026)
-  const contact = document.createElement("div");
-  contact.className = "note-contact";
-  contact.textContent = "Para conocer el detalle de las encuestas de este estado, contacta a @o0vallee";
-  panel.appendChild(contact);
 
   btn.onclick = ()=> panel.classList.toggle("show");
 
@@ -985,6 +1056,8 @@ function openSheet(s){
   document.getElementById("sStateUpdated").textContent = s.lastUpdated ? ("📅 Última actualización de este estado: " + s.lastUpdated) : "";
 
   renderCareo(s);
+
+  renderDetalle(s);
 
   renderNote(s);
 
