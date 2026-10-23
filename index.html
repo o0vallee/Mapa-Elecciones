@@ -57,11 +57,15 @@
   header .pill-main{font-size:30px;padding:9px 26px 9px 10px;margin:0 0 14px;border-width:2.5px;}
   header .pill-main i{width:40px;height:40px;font-size:26px;margin-right:12px;}
   header .eyebrow{margin:10px 0 0;}
-  .pill{display:inline-flex;align-items:center;border:1.5px solid var(--blue);background:rgba(75,141,255,.10);
+  .pill{display:inline-flex;align-items:center;border:1.5px solid #7d8ca3;background:linear-gradient(90deg,rgba(75,141,255,.10),rgba(150,160,175,.10));
     border-radius:999px;padding:4px 14px 4px 5px;font-weight:700;font-size:13px;margin:0 0 12px;color:#fff;}
-  .pill i{width:22px;height:22px;border-radius:50%;background:var(--blue);color:#10151b;font-style:normal;
+  .pill i{width:22px;height:22px;border-radius:50%;background:linear-gradient(135deg,#6f9be6,#9aa6b8);color:#10151b;font-style:normal;
     display:inline-flex;align-items:center;justify-content:center;margin-right:8px;font-size:13px;font-weight:800;}
-  .pill b{color:var(--blue-soft);font-weight:700;}
+  .pill b{color:#a9c1e3;font-weight:700;}
+  .sheet-tag{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;}
+  .pill-foot{display:flex;justify-content:center;margin:18px 0 0;}
+  .pill-foot .pill{margin:0;font-size:15px;padding:5px 16px 5px 6px;}
+  .pill-foot .pill i{width:26px;height:26px;font-size:15px;}
   h1 .hl{background:var(--blue-chip);color:#10151b;padding:0 8px;border-radius:6px;box-shadow:0 0 18px rgba(143,194,255,.35);}
   .eyebrow{font-family:"SFMono-Regular",Consolas,"Courier New",monospace;
     font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-dim);margin:0 0 8px;}
@@ -276,13 +280,14 @@
   <a href="/metodologia.html">📋 Metodología completa</a>
   <a href="/notas.html">🗂️ Notas y exclusiones</a>
 </div>
+<div class="pill-foot"><span class="pill"><i>#</i>Careo<b>27</b></span></div>
 <p class="credit">Elaborado por @o0vallee</p>
 </div>
 
 <div id="overlay">
 
   <div id="sheet">
-    <div class="sheet-tag"><span class="pill"><i>#</i>Elecciones<b>2027</b></span></div>
+    <div class="sheet-tag"><span class="pill"><i>#</i>Elecciones<b>2027</b></span><span class="pill"><i>#</i>Careo<b>27</b></span></div>
     <div class="top">
       <h2 id="sName">—</h2>
       <button id="closeBtn" onclick="closeSheet()">✕</button>
@@ -691,17 +696,23 @@ function drawSectionTitle(ctx, x, W, y, text){
 
 function drawCardHeader(ctx, x, W, y, eyebrow, stateName, subtitle, stateUpdated){
   ctx.textAlign = "left";
-  // Pastilla azul (igual que la app): círculo con # + texto
+  // Pastillas #Elecciones2027 y #Careo27 centradas, tonos gris-azulados (22 oct 2026, igual que la app)
   ctx.font = "700 24px -apple-system, 'Segoe UI', Roboto, sans-serif";
-  const eb = eyebrow.split("|");
-  const w1 = ctx.measureText(eb[0]).width, tw = w1 + ctx.measureText(eb[1]||"").width, ph = 46, pw = tw + 70;
-  roundRect(ctx, x, y-33, pw, ph, ph/2);
-  ctx.fillStyle = "rgba(75,141,255,.12)"; ctx.fill();
-  ctx.strokeStyle = "#4b8dff"; ctx.lineWidth = 2; ctx.stroke();
-  ctx.beginPath(); ctx.arc(x+23, y-10, 15, 0, Math.PI*2); ctx.fillStyle = "#4b8dff"; ctx.fill();
-  ctx.fillStyle = "#10151b"; ctx.textAlign = "center"; ctx.fillText("#", x+23, y-2); ctx.textAlign = "left";
-  ctx.fillStyle = "#eef1f4"; ctx.fillText(eb[0], x+46, y-2);
-  ctx.fillStyle = "#8fc2ff"; ctx.fillText(eb[1]||"", x+46+w1, y-2);
+  const pills = [eyebrow.split("|"), ["Careo","27"]], ph = 46, gap = 16;
+  const pws = pills.map(p => ctx.measureText(p[0]).width + ctx.measureText(p[1]||"").width + 70);
+  let px = x + (W - (pws.reduce((a,b)=>a+b,0) + gap*(pills.length-1)))/2;
+  pills.forEach((p,i)=>{
+    const pw = pws[i], w1 = ctx.measureText(p[0]).width;
+    const bg = ctx.createLinearGradient(px,0,px+pw,0); bg.addColorStop(0,"rgba(75,141,255,.12)"); bg.addColorStop(1,"rgba(150,160,175,.12)");
+    roundRect(ctx, px, y-33, pw, ph, ph/2); ctx.fillStyle = bg; ctx.fill();
+    ctx.strokeStyle = "#7d8ca3"; ctx.lineWidth = 2; ctx.stroke();
+    const cg = ctx.createLinearGradient(px+8,y-25,px+38,y+5); cg.addColorStop(0,"#6f9be6"); cg.addColorStop(1,"#9aa6b8");
+    ctx.beginPath(); ctx.arc(px+23, y-10, 15, 0, Math.PI*2); ctx.fillStyle = cg; ctx.fill();
+    ctx.fillStyle = "#10151b"; ctx.textAlign = "center"; ctx.fillText("#", px+23, y-2); ctx.textAlign = "left";
+    ctx.fillStyle = "#eef1f4"; ctx.fillText(p[0], px+46, y-2);
+    ctx.fillStyle = "#a9c1e3"; ctx.fillText(p[1]||"", px+46+w1, y-2);
+    px += pw + gap;
+  });
   y += 74;
   ctx.fillStyle = "#eef1f4";
   ctx.font = "800 58px -apple-system, 'Segoe UI', Roboto, sans-serif";
