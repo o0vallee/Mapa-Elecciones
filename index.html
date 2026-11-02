@@ -200,9 +200,9 @@
   .det-title{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--blue-soft);margin-bottom:4px;}
   .det-sub{font-size:12px;color:var(--ink-dim);margin-bottom:8px;line-height:1.5;}
   .det-scroll{overflow-y:auto;-webkit-overflow-scrolling:touch;border-bottom:1px solid var(--line);}
-  .dt{border-collapse:collapse;width:100%;font-size:12.5px;}
-  .dt thead{position:sticky;top:0;z-index:1;}
-  .dt th{background:var(--panel);font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-dim);text-align:left;padding:6px 4px;font-weight:700;vertical-align:bottom;}
+  .dt{border-collapse:collapse;width:100%;font-size:12.5px;table-layout:fixed;}
+  .dt.dth{margin-top:0;}
+    .dt th{background:var(--panel);font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-dim);text-align:left;padding:6px 4px;font-weight:700;vertical-align:bottom;}
   .dt th.c{text-align:right;text-transform:none;letter-spacing:0;font-size:11.5px;line-height:1.2;}
   .dt th.c span{display:block;font-weight:800;}
   .dt th.c small{display:block;font-size:9.5px;color:var(--ink-dim);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-top:1px;}
@@ -1132,9 +1132,13 @@ function renderDetalle(s){
       r[4].map((v,i)=> v==null ? '<td class="v dash">—</td>' : '<td class="v" style="color:'+DET_COL[d.cols[i][1]]+'"><span'+(v===mx?' class="mx"':'')+'>'+v.toFixed(1)+'</span></td>').join("") + '</tr>';
   }).join("");
   const n = d.rows.length;
+  // Encabezado y cuerpo en dos tablas con las mismas columnas (sin position:sticky, que fallaba en navegadores integrados como el de X)
+  const k = d.cols.length, w0 = k>=5 ? 28 : 34, wc = ((100-w0)/k).toFixed(2);
+  const cg = '<colgroup><col style="width:'+w0+'%">'+d.cols.map(()=>'<col style="width:'+wc+'%">').join("")+'</colgroup>';
   box.innerHTML = '<div class="det-wrap"><div class="det-title">Detalle de las encuestas · '+d.mes+'</div>' +
     '<div class="det-sub">'+n+(n===1?' encuesta':' encuestas')+' del mes, de la más reciente a la más antigua.</div>' +
-    '<div class="det-scroll"><table class="dt"><thead><tr><th class="h">Encuesta</th>'+th+'</tr>'+avg+'</thead><tbody>'+body+'</tbody></table></div>' +
+    '<table class="dt dth">'+cg+'<thead><tr><th class="h">Encuesta</th>'+th+'</tr>'+avg+'</thead></table>' +
+    '<div class="det-scroll"><table class="dt dtb">'+cg+'<tbody>'+body+'</tbody></table></div>' +
     (n>5 ? '<div class="det-hint">▲▼ Desliza para ver las '+n+' encuestas</div>' : '') +
     '<p class="det-fn"><b>Criterio:</b> mes de levantamiento. Entre paréntesis, número de casas que midieron a cada candidato. El valor subrayado es el más alto de cada encuesta. Si una casa publicó dos escenarios, se promedian.</p>' +
     '<p class="det-fn dim">⚠ Casa con advertencia (sin trayectoria verificable, conflicto de interés, sanción, mal historial electoral o datos incompletos). Preferencia bruta, con indecisos.</p></div>';
@@ -1142,10 +1146,11 @@ function renderDetalle(s){
   const fit = ()=>{
     const sc = box.querySelector(".det-scroll"); if(!sc) return;
     const rows = sc.querySelectorAll("tbody tr");
+    const hd = box.querySelector(".dth"); if(hd) hd.style.width = "calc(100% - "+(sc.offsetWidth-sc.clientWidth)+"px)";
     if(rows.length<=5){ sc.style.maxHeight=""; return; }
-    const hh = sc.querySelector("thead").offsetHeight; let rh = 0;
+    let rh = 0;
     for(let i=0;i<5;i++) rh += rows[i].offsetHeight;
-    if(hh+rh>0) sc.style.maxHeight = (hh+rh+1)+"px";
+    if(rh>0) sc.style.maxHeight = (rh+1)+"px";
   };
   fit(); requestAnimationFrame(fit); setTimeout(fit, 120);
 }
