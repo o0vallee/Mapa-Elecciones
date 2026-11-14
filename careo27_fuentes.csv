@@ -1,0 +1,320 @@
+﻿estado,id,casa,levantamiento_inicio,levantamiento_fin,mes,publicacion,n,n_declarado_digital,margen_error,base,digital,advertencia_de_la_casa,excluida_del_promedio,tiene_careo_documentado_no_promediado
+Aguascalientes,cye23,C&E,2026-08-23,2026-08-23,2026-08,,400,,4.9,,no,,no,no
+Aguascalientes,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Aguascalientes,mc30,Massive Caller,2026-09-30,2026-09-30,2026-09,2026-09-30,1000,,3.4,,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Aguascalientes,arias-oct,Arias Consultores,2026-09-29,2026-10-01,2026-10,2026-10-02,300,,5.7,,no,conflicto de interés documentado,no,no
+Aguascalientes,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Aguascalientes,logi-oct12,Logi·Call,2026-10-12,2026-10-12,2026-10,2026-10-12,1000,,3.4,bruta,no,casa sin trayectoria verificable (Logi·Call); incluida con advertencia,no,no
+Aguascalientes,rub-1013,RUBRUM,2026-10-13,2026-10-13,2026-10,2026-10-14,1000,,3.8,bruta,no,,no,no
+Aguascalientes,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Aguascalientes,tmx-oct23,Tendenciamx (Rumbo al 2027),2026-10-15,2026-10-23,2026-10,,491,,,bruta,no,,sí,no
+Aguascalientes,ce-oct28,CE Research,2026-10-28,2026-10-28,2026-10,,400,,4.9,bruta,no,,no,sí
+Aguascalientes,intv-oct30,Intervalo,2026-10-27,2026-10-30,2026-10,2026-11-04,1000,,4,bruta,no,"Casa sin trayectoria verificable: Intervalo es de Telemarketing On Line S.A. de C.V., que en 2024 reportó al IEEPCNL encuestas telefónicas automatizadas autofinanciadas; no se halló folio INE ni ficha pública de la casa. Se incluye con advertencia.",no,no
+Aguascalientes,mc-oct31,Massive Caller,2026-10-31,2026-10-31,2026-10,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Aguascalientes,cripeso-nov03,Cripeso,2026-10-27,2026-11-03,2026-11,,,1215,2.81,bruta,sí,"casa digital con advertencia: encuesta digital (electrónica, en línea) con advertencia fuerte: muestra autoseleccionada, sin método de contacto ni folio y con 'error de diseño' en lugar de margen de error; entra con peso limitado y solo mide para este proceso electoral",no,no
+Aguascalientes,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,sí
+Aguascalientes,rub-nov09,RUBRUM,2026-11-09,2026-11-09,2026-11,2026-11-10,1000,,3.8,bruta,no,,no,no
+Baja California,emot,Emotegia,2026-07-06,2026-07-11,2026-07,,,,,,no,,no,no
+Baja California,arias,Arias Consultores,2026-07-11,2026-07-12,2026-07,,,,,,no,conflicto de interés documentado (Arias),no,no
+Baja California,src,SRC,2026-08-26,2026-08-26,2026-08,,1000,,3.1,,no,Burgueño descartado como candidato; el mapa usó su 43.8 como si fuera Julieta Ramírez,no,no
+Baja California,ce,C&E (Campaigns & Elections),2026-09-02,2026-09-02,2026-09,,,,,,no,,no,no
+Baja California,elec,Electoralia,2026-09-01,2026-09-06,2026-09,,,,,,no,,no,no
+Baja California,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Baja California,mc30,Massive Caller,2026-09-30,2026-09-30,2026-09,2026-09-30,1000,,3.4,,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Baja California,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Baja California,gob-oct12,GobernArte,2026-10-07,2026-10-12,2026-10,2026-10-13,500,,,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza (sin margen publicado en la lámina) Margen de error 2.5%-3.7% (estimado por la casa, lámina de metodología) aplicado a todas sus encuestas.",no,no
+Baja California,logi-oct14,Logi·Call,2026-10-14,2026-10-14,2026-10,2026-10-14,1000,,3.4,bruta,no,casa sin trayectoria verificable (Logi·Call); incluida con advertencia,no,sí
+Baja California,rub-oct14,RUBRUM,2026-10-14,2026-10-14,2026-10,2026-10-15,1000,,3.8,bruta,no,,no,no
+Baja California,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Baja California,mc-oct31,Massive Caller,2026-10-31,2026-10-31,2026-10,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Baja California,cripeso-nov03,Cripeso,2026-10-27,2026-11-03,2026-11,,,1268,2.75,bruta,sí,"casa digital con advertencia: encuesta digital (electrónica, en línea) con advertencia fuerte: muestra autoseleccionada, sin método de contacto ni folio y con 'error de diseño' en lugar de margen de error; entra con peso limitado y solo mide para este proceso electoral",no,sí
+Baja California,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,no
+Baja California,gob-nov10,GobernArte,2026-11-05,2026-11-10,2026-11,,500,,3.7,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza; sin margen en la lámina: se registra 3.7 (cota alta del rango 2.5%-3.7% estimado por la casa, decisión del 16 oct 2026).",no,no
+Baja California Sur,emot,Emotegia,2026-07-06,2026-07-11,2026-07,,,,,,no,,no,no
+Baja California Sur,qm,Question Mark (El Heraldo),2026-07-13,2026-07-15,2026-07,,,,,,no,,no,no
+Baja California Sur,mc02sep,Massive Caller (2 sep),2026-09-02,2026-09-02,2026-09,,1000,,3.4,,no,valor de Morena es promedio de 2 escenarios con nombre Agúndez; imagen original no disponible; Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Baja California Sur,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Baja California Sur,polig,Poligrama,2026-09-28,2026-09-28,2026-09,,1000,,3.46,,no,,no,no
+Baja California Sur,arias-oct,Arias Consultores,2026-09-29,2026-10-01,2026-10,2026-10-02,300,,5.7,,no,conflicto de interés documentado,no,no
+Baja California Sur,mc02oct,Massive Caller (2 oct),2026-10-02,2026-10-02,2026-10,2026-10-02,1000,,3.4,,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Baja California Sur,gob-oct,GobernArte,2026-10-01,2026-10-05,2026-10,,500,,,,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza (sin margen publicado en la lámina) Margen de error 2.5%-3.7% (estimado por la casa, lámina de metodología) aplicado a todas sus encuestas.",no,no
+Baja California Sur,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Baja California Sur,rub-1012,RUBRUM,2026-10-12,2026-10-12,2026-10,2026-10-13,800,,3.8,bruta,no,,no,no
+Baja California Sur,logi-oct15,Logi·Call,2026-10-15,2026-10-15,2026-10,2026-10-15,1000,,3.4,bruta,no,casa sin trayectoria verificable (Logi·Call); incluida con advertencia,no,no
+Baja California Sur,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Baja California Sur,ce-oct19,CE Research,2026-10-19,2026-10-19,2026-10,2026-10-21,400,,4.9,bruta,no,,no,sí
+Baja California Sur,gob-nov01,GobernArte,2026-10-26,2026-11-01,2026-11,,500,,3.7,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza; sin margen en la lámina: se registra 3.7 (cota alta del rango 2.5%-3.7% estimado por la casa, decisión del 16 oct 2026).",no,no
+Baja California Sur,mc-nov02,Massive Caller (2 nov),2026-11-02,2026-11-02,2026-11,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Baja California Sur,cripeso-nov04,Cripeso,2026-10-28,2026-11-04,2026-11,,,1755,2.34,bruta,sí,"casa digital con advertencia: encuesta digital (electrónica, en línea) con advertencia fuerte: muestra autoseleccionada, sin método de contacto ni folio y con 'error de diseño' en lugar de margen de error; entra con peso limitado y solo mide para este proceso electoral",no,no
+Baja California Sur,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,sí
+Campeche,qm,Question Mark,2026-07-08,2026-07-22,2026-07,,,,,,no,,no,no
+Campeche,cye,C&E,2026-08-12,2026-08-12,2026-08,,400,,4.9,,no,,no,no
+Campeche,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Campeche,arias-oct,Arias Consultores,2026-09-29,2026-10-01,2026-10,2026-10-02,300,,5.7,,no,conflicto de interés documentado,no,no
+Campeche,mc-4oct,Massive Caller,2026-10-04,2026-10-04,2026-10,,1000,,3.4,,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Campeche,metrik-oct,Metrik,2026-09-28,2026-10-04,2026-10,2026-10-08,1200,,,,no,casa sin trayectoria verificable (no está en la lista de la metodología; búsqueda 8 oct sin resultados); margen no publicado en la lámina,no,no
+Campeche,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Campeche,rub-1013,RUBRUM,2026-10-13,2026-10-13,2026-10,2026-10-14,1000,,3.8,bruta,no,,no,no
+Campeche,logi-oct16,Logi·Call,2026-10-16,2026-10-16,2026-10,,1000,,3.4,bruta,no,casa sin trayectoria verificable (Logi·Call); incluida con advertencia,no,no
+Campeche,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Campeche,gob-oct26,GobernArte,2026-10-21,2026-10-26,2026-10,,500,,,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza; margen de error estimado por la casa 2.5%-3.7%.",no,no
+Campeche,ce-oct29,CE Research,2026-10-29,2026-10-29,2026-10,2026-10-30,400,,4.9,bruta,no,,no,sí
+Campeche,cripeso-nov04,Cripeso,2026-10-28,2026-11-04,2026-11,,,1180,2.85,bruta,sí,"casa digital con advertencia: encuesta digital (electrónica, en línea) con advertencia fuerte: muestra autoseleccionada, sin método de contacto ni folio y con 'error de diseño' en lugar de margen de error; entra con peso limitado y solo mide para este proceso electoral",no,sí
+Campeche,mc-nov04,Massive Caller,2026-11-04,2026-11-04,2026-11,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Campeche,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,sí
+Campeche,rub-nov11,RUBRUM,2026-11-11,2026-11-11,2026-11,2026-11-12,1000,,,bruta,no,,no,no
+Chihuahua,bym,Buendía & Márquez,2026-07-29,2026-08-03,2026-08,,1200,,3.23,,no,,no,no
+Chihuahua,qm,El Heraldo/Question Mark,2026-08-08,2026-08-22,2026-08,,,,,,no,,no,no
+Chihuahua,elec,Electoralia,2026-09-01,2026-09-06,2026-09,,,,,,no,,no,no
+Chihuahua,laenc,LaEncuesta.MX,2026-09-05,2026-09-07,2026-09,,,,,,no,,no,no
+Chihuahua,terr,Territorial,2026-09-10,2026-09-14,2026-09,,1000,,3,,no,,no,no
+Chihuahua,cye,C&E,2026-09-24,2026-09-25,2026-09,,400,,4.9,,no,,sí,no
+Chihuahua,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Chihuahua,arias-oct,Arias Consultores,2026-09-29,2026-10-01,2026-10,2026-10-02,550,,4.2,,no,conflicto de interés documentado,no,no
+Chihuahua,mc06oct,Massive Caller,2026-10-06,2026-10-06,2026-10,2026-10-06,1000,,3.4,,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Chihuahua,gob-oct,GobernArte,2026-10-02,2026-10-08,2026-10,,500,,,,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza (sin margen publicado en la lámina) Margen de error 2.5%-3.7% (estimado por la casa, lámina de metodología) aplicado a todas sus encuestas.",no,no
+Chihuahua,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Chihuahua,rub-oct12,RUBRUM,2026-10-12,2026-10-12,2026-10,2026-10-13,800,,,bruta,no,,no,no
+Chihuahua,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Chihuahua,logi-oct17,Logi·Call,2026-10-17,2026-10-17,2026-10,,1000,,3.4,bruta,no,casa sin trayectoria verificable (Logi·Call); incluida con advertencia,no,no
+Chihuahua,ce-oct18,CE Research,2026-10-18,2026-10-18,2026-10,2026-10-19,400,,4.9,bruta,no,,no,no
+Chihuahua,gob-nov04,GobernArte,2026-11-01,2026-11-04,2026-11,,500,,3.7,bruta,no,"Casa con advertencia: encuestas digitales (app ODISEO) elaboradas y financiadas por la propia casa; 500 encuestas, 95% de confianza (sin margen publicado en la lámina). Margen 2.5%-3.7% (estimado por la casa) aplicado a todas sus encuestas (decisión 16 oct 2026).",no,no
+Chihuahua,cripeso-nov05,Cripeso,2026-10-29,2026-11-05,2026-11,,,2163,2.11,bruta,sí,"casa digital con advertencia: encuesta digital (electrónica, en línea) con advertencia fuerte: muestra autoseleccionada, sin método de contacto ni folio y con 'error de diseño' en lugar de margen de error; entra con peso limitado y solo mide para este proceso electoral",no,no
+Chihuahua,mc06nov,Massive Caller,2026-11-06,2026-11-06,2026-11,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Chihuahua,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,no
+Chihuahua,alt-nov09,Áltica,2026-11-09,2026-11-09,2026-11,2026-11-09,800,,3.5,bruta,no,,no,no
+Chihuahua,gii360-nov09,Grupo Impacto 360,2026-11-03,2026-11-09,2026-11,2026-11-10,600,,3.94,bruta,no,,no,sí
+Chihuahua,rub-nov09,RUBRUM,2026-11-09,2026-11-09,2026-11,2026-11-12,1000,,3.8,bruta,no,,no,no
+Colima,elec-jul,Electoralia,2026-07-04,2026-07-08,2026-07,,2500,,1.96,,no,,no,no
+Colima,arias-jul,Arias Consultores (jul),2026-07-11,2026-07-12,2026-07,,300,,5.7,,no,conflicto de interés documentado,no,no
+Colima,cye,C&E,2026-07-27,2026-07-27,2026-07,,400,,4.9,,no,,no,no
+Colima,mc,Massive Caller,2026-09-08,2026-09-08,2026-09,,1000,,3.4,,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Colima,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Colima,arias,Arias Consultores,2026-09-29,2026-10-01,2026-10,2026-10-02,300,,5.7,,no,conflicto de interés documentado (política vigente desde 15 sep 2026: se incluye con nota),no,no
+Colima,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Colima,mc-8oct,Massive Caller,2026-10-08,2026-10-08,2026-10,,1000,,3.4,,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Colima,rub-oct13,RUBRUM,2026-10-13,2026-10-13,2026-10,2026-10-14,1000,,3.8,bruta,no,,no,no
+Colima,dlh-oct14,De las Heras Demotecnia,2026-10-12,2026-10-14,2026-10,,1000,,,bruta,no,,no,sí
+Colima,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Colima,logi-oct19,Logi·Call,2026-10-19,2026-10-19,2026-10,,1000,,3.4,bruta,no,casa sin trayectoria verificable (Logi·Call); incluida con advertencia,no,no
+Colima,gob-oct27,GobernArte,2026-10-21,2026-10-27,2026-10,,500,,,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza; margen de error estimado por la casa 2.5%-3.7%.",no,no
+Colima,cripeso-nov06,Cripeso,2026-10-30,2026-11-06,2026-11,,,1187,2.84,bruta,sí,"casa digital con advertencia: encuesta digital (electrónica, en línea) con advertencia fuerte: muestra autoseleccionada, sin método de contacto ni folio y con 'error de diseño' en lugar de margen de error; entra con peso limitado y solo mide para este proceso electoral",no,sí
+Colima,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,sí
+Colima,mc-8nov,Massive Caller,2026-11-08,2026-11-08,2026-11,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Colima,rub-nov10,RUBRUM,2026-11-10,2026-11-10,2026-11,2026-11-11,1000,,3.8,bruta,no,,no,no
+Guerrero,src-jul,SRC (jul),2026-07-28,2026-07-28,2026-07,,,,,,no,,no,no
+Guerrero,qm,Question Mark (El Heraldo),2026-08-25,2026-08-25,2026-08,,,,,,no,el slot Morena es el promedio de dos nombres (Mojica 45.3 y Damián 42.3); Mojica sola sería 45.3,no,no
+Guerrero,src,SRC,2026-08-31,2026-08-31,2026-08,,1000,,3.1,,no,,no,no
+Guerrero,cye-sep,C&E,2026-09-02,2026-09-02,2026-09,,400,,4.9,,no,,no,no
+Guerrero,elec-sep,Electoralia,2026-09-01,2026-09-06,2026-09,,,,,,no,,no,no
+Guerrero,ef-sep,Encuesta EF (El Financiero),2026-09-11,2026-09-13,2026-09,,,,,,no,,no,no
+Guerrero,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Guerrero,arias,Arias Consultores,2026-09-29,2026-10-01,2026-10,2026-10-02,450,,4.6,,no,conflicto de interés documentado (política del 15 sep: se incluye con nota),no,no
+Guerrero,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Guerrero,laenc-oct-coal,"LaEncuesta.MX (escenario con PT separado, datos guardados)",2026-10-06,2026-10-08,2026-10,,1200,,3.5,,no,,sí,no
+Guerrero,mc-10oct,Massive Caller,2026-10-10,2026-10-10,2026-10,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Guerrero,rub-oct10,RUBRUM,2026-10-10,2026-10-10,2026-10,2026-10-12,1000,,3.8,bruta,no,,no,no
+Guerrero,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Guerrero,gob-oct18,GobernArte,2026-10-11,2026-10-18,2026-10,,500,,,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza (sin margen publicado en la lámina) Margen de error 2.5%-3.7% (estimado por la casa, lámina de metodología) aplicado a todas sus encuestas.",no,no
+Guerrero,logi-oct20,Logi·Call,2026-10-20,2026-10-20,2026-10,,1000,,3.4,bruta,no,casa sin trayectoria verificable (Logi·Call); incluida con advertencia,no,no
+Guerrero,cripeso-nov06,Cripeso,2026-10-30,2026-11-06,2026-11,,,1481,2.54,bruta,sí,"casa digital con advertencia: encuesta digital (electrónica, en línea) con advertencia fuerte: muestra autoseleccionada, sin método de contacto ni folio y con 'error de diseño' en lugar de margen de error; entra con peso limitado y solo mide para este proceso electoral",no,no
+Guerrero,rub-nov07,RUBRUM,2026-11-07,2026-11-07,2026-11,2026-11-09,800,,3.8,bruta,no,,no,no
+Guerrero,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,no
+Guerrero,mc-10nov,Massive Caller,2026-11-10,2026-11-10,2026-11,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Michoacán,emot,Emotegia,2026-07-06,2026-07-11,2026-07,,,,,,no,,no,no
+Michoacán,cye,C&E,2026-09-03,2026-09-03,2026-09,,,,,,no,,no,no
+Michoacán,dem,Demoscopia Digital,2026-09-01,2026-09-03,2026-09,,,,,,no,,no,no
+Michoacán,elec,Electoralia,2026-09-01,2026-09-06,2026-09,,,,,,no,,no,no
+Michoacán,laenc,LaEncuesta.MX,2026-09-05,2026-09-07,2026-09,,,,,,no,,no,no
+Michoacán,mc12,Massive Caller (12 sep),2026-09-12,2026-09-12,2026-09,,1000,,3.4,,no,"valores DERIVADOS, no leídos del original; Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.",no,no
+Michoacán,mc15,Massive Caller (15 sep),2026-09-15,2026-09-15,2026-09,,1000,,3.4,,no,"valores DERIVADOS, no leídos del original (Torres 24.6 y Alcázar 21.5 constan en la nota del mapa); Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.",no,no
+Michoacán,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Michoacán,arias,Arias Consultores,2026-09-29,2026-10-01,2026-10,2026-10-02,500,,4.4,,no,conflicto de interés documentado (política del 15 sep: se incluye con nota),no,no
+Michoacán,arias_mc,Arias Consultores (Quiroz como MC),2026-09-29,2026-10-01,2026-10,,500,,4.4,,no,,sí,no
+Michoacán,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Michoacán,laenc-oct-coal,"LaEncuesta.MX (escenario con PT separado, datos guardados)",2026-10-06,2026-10-08,2026-10,,1200,,3.5,,no,,sí,no
+Michoacán,mc-oct12,Massive Caller,2026-10-12,2026-10-12,2026-10,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Michoacán,src-oct12,SRC,2026-10-12,2026-10-12,2026-10,2026-10-13,500,,4.38,bruta,no,,no,sí
+Michoacán,rub-oct14,RUBRUM,2026-10-14,2026-10-14,2026-10,2026-10-15,1000,,3.8,bruta,no,,no,no
+Michoacán,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Michoacán,gob-oct21,GobernArte,2026-10-16,2026-10-21,2026-10,,500,,,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital con app Odiseo (IA); 500 encuestas, 95% de confianza; margen de error estimado por la casa 2.5%-3.7%.",no,no
+Michoacán,ce-oct30,CE Research,2026-10-30,2026-10-30,2026-10,2026-10-31,400,,4.9,bruta,no,,no,no
+Michoacán,cripeso-nov07,Cripeso,2026-10-31,2026-11-07,2026-11,,,2342,2.02,bruta,sí,"casa digital con advertencia: encuesta digital (electrónica, en línea) con advertencia fuerte: muestra autoseleccionada, sin método de contacto ni folio y con 'error de diseño' en lugar de margen de error; entra con peso limitado y solo mide para este proceso electoral",no,no
+Michoacán,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,no
+Michoacán,rub-nov11,RUBRUM,2026-11-11,2026-11-11,2026-11,2026-11-12,1000,,3.8,bruta,no,,no,no
+Michoacán,mc-nov13,Massive Caller,2026-11-13,2026-11-13,2026-11,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Nayarit,mitofsky,Mitofsky,2026-07-02,2026-07-05,2026-07,,,,,,no,,no,no
+Nayarit,arias,Arias Consultores,2026-07-11,2026-07-12,2026-07,,,,,,no,Conflicto de interés: casa Arias Consultores (ver notas del mapa),no,no
+Nayarit,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Nayarit,gob-oct,GobernArte,2026-10-03,2026-10-07,2026-10,2026-10-08,500,,,,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; margen publicado como rango ±2.5-3.7% Margen de error 2.5%-3.7% (estimado por la casa, lámina de metodología) aplicado a todas sus encuestas.",no,no
+Nayarit,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Nayarit,mit-oct,Mitofsky,2026-10-09,2026-10-11,2026-10,2026-10-12,1200,,2.8,bruta,no,,no,no
+Nayarit,mc-oct14,Massive Caller,2026-10-14,2026-10-14,2026-10,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Nayarit,rub-oct14,RUBRUM,2026-10-14,2026-10-14,2026-10,2026-10-15,1000,,3.8,bruta,no,,no,no
+Nayarit,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Nayarit,gob-nov05,GobernArte,2026-11-01,2026-11-05,2026-11,,500,,3.7,bruta,no,"Casa con advertencia: encuestas digitales (app ODISEO) elaboradas y financiadas por la propia casa; 500 encuestas, 95% de confianza (sin margen publicado en la lámina). Margen 2.5%-3.7% (estimado por la casa) aplicado a todas sus encuestas (decisión 16 oct 2026).",no,no
+Nayarit,logi-nov07,Logi·Call,2026-11-07,2026-11-07,2026-11,,1000,,3.4,bruta,no,casa sin trayectoria verificable (Logi·Call); incluida con advertencia,no,no
+Nayarit,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,no
+Nuevo León,meba,Meba (Mendoza Blanco),2026-07-03,2026-07-05,2026-07,,,,,,no,,no,no
+Nuevo León,qm,Question Mark (El Heraldo),,2026-08,2026-08,,,,,,no,,no,no
+Nuevo León,dd,Demoscopia Digital,2026-07-30,2026-08-02,2026-08,,,,,,no,,no,no
+Nuevo León,enkoll,Enkoll,2026-07-29,2026-08-02,2026-08,,,,,,no,,no,no
+Nuevo León,elec,Electoralia,2026-08-12,2026-08-16,2026-08,,,,,,no,,no,no
+Nuevo León,src,SRC,2026-08-26,2026-08-26,2026-08,,1000,,3.1,,no,,no,no
+Nuevo León,laenc,LaEncuesta.MX,2026-09-05,2026-09-07,2026-09,,1200,,3.5,,no,,no,no
+Nuevo León,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Nuevo León,encmx,Encuestas México,2026-09-29,2026-09-30,2026-09,2026-10-01,1200,,3.5,,no,casa sin trayectoria verificable,no,no
+Nuevo León,arias-oct,Arias Consultores,2026-09-29,2026-10-01,2026-10,2026-10-02,750,,3.6,,no,"conflicto de interés documentado (política del 15 sep: se incluye con nota); muestra en los 4 principales municipios, no estatal",no,no
+Nuevo León,congresista,El Congresista (Polls.mx),2026-10-02,2026-10-02,2026-10,,1163,,2.87,,no,"medio/casa sin trayectoria verificable; ficha publicada: telefónica a nivel local, 1 día, 95% confianza",no,no
+Nuevo León,factometrica-oct,FactoMétrica,2026-10-02,2026-10-02,2026-10,2026-10-06,1000,,3.1,bruta,no,,no,sí
+Nuevo León,logi-oct2,Logi·Call,2026-10-02,2026-10-02,2026-10,2026-10-12,1000,,3.4,bruta,no,casa sin trayectoria verificable,no,sí
+Nuevo León,dlh,De las Heras Demotecnia,,2026-10-05,2026-10,2026-10-05,1000,,3.2,,no,fechas de levantamiento no publicadas,no,no
+Nuevo León,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Nuevo León,rub-oct10,RUBRUM,2026-10-10,2026-10-10,2026-10,2026-10-12,1000,,3.8,bruta,no,,no,no
+Nuevo León,rub-oct10-coal,"RUBRUM NL (con PT separado, datos guardados)",2026-10-10,2026-10-10,2026-10,,1000,,3.8,,no,,sí,no
+Nuevo León,src-oct12,SRC,2026-10-12,2026-10-12,2026-10,,1000,,3.1,bruta,no,,no,sí
+Nuevo León,polister-oct13,Polister Encuestadora,2026-10-12,2026-10-13,2026-10,2026-10-14,1000,,3.1,bruta,no,casa sin trayectoria verificable,no,no
+Nuevo León,mc16oct,Massive Caller,2026-10-16,2026-10-16,2026-10,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,sí
+Nuevo León,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,sí
+Nuevo León,gob-oct23,GobernArte,2026-10-18,2026-10-23,2026-10,,900,,,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 900 encuestas, 95% de confianza; margen de error estimado por la casa 2.5%-3.7%.",no,sí
+Nuevo León,ce-oct25,CE Research,2026-10-25,2026-10-25,2026-10,,400,,4.9,bruta,no,,no,sí
+Nuevo León,encmx-oct30,Encuestas México,2026-10-27,2026-10-30,2026-10,2026-11-02,1190,,3.5,bruta,no,casa sin trayectoria verificable,no,sí
+Nuevo León,arias-nov02,Arias Consultores,2026-10-31,2026-11-02,2026-11,,1116,,2.9,bruta,no,conflicto de interés documentado (política del 15 sep: se incluye con nota); la lámina no indica cobertura geográfica ni fecha de publicación,no,sí
+Nuevo León,facto-nov03,FactoMétrica,2026-11-03,2026-11-03,2026-11,2026-11-04,1000,,3.1,bruta,no,,no,sí
+Nuevo León,rub-nov07,RUBRUM,2026-11-07,2026-11-07,2026-11,2026-11-09,800,,3.8,bruta,no,,no,no
+Nuevo León,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,no
+Querétaro,qmjul,Question Mark,2026-07-08,2026-07-22,2026-07,,,,,,no,,no,no
+Querétaro,src24,SRC,2026-08-24,2026-08-24,2026-08,,1000,,3.1,,no,,no,no
+Querétaro,poli,Poligrama,2026-09-09,2026-09-09,2026-09,2026-09-16,1000,,3.46,,no,,no,no
+Querétaro,cye,C&E,2026-09-17,2026-09-17,2026-09,,400,,4.9,,no,,no,no
+Querétaro,cye_alt,C&E (careos 2-4),2026-09-17,2026-09-17,2026-09,,400,,4.9,,no,,sí,no
+Querétaro,mc18,Massive Caller,2026-09-18,2026-09-18,2026-09,2026-09-18,1000,,3.4,,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,sí,no
+Querétaro,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Querétaro,src28,SRC,2026-09-28,2026-09-28,2026-09,2026-09-28,1000,,3.1,,no,,no,no
+Querétaro,univ-sep,El Universal,2026-09-25,2026-09-30,2026-09,2026-10-13,1000,,3.1,bruta,no,,no,sí
+Querétaro,arias-oct,Arias Consultores,2026-09-29,2026-10-01,2026-10,2026-10-02,350,,5.2,,no,conflicto de interés documentado,no,no
+Querétaro,logi-oct6,Logi·Call,2026-10-06,2026-10-06,2026-10,,1000,,3.4,bruta,no,casa sin trayectoria verificable (Logi·Call); incluida con advertencia,no,no
+Querétaro,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Querétaro,poli-oct,Poligrama,2026-10-13,2026-10-13,2026-10,2026-10-14,1000,,3.46,bruta,no,,no,no
+Querétaro,rub-oct15,RUBRUM,2026-10-15,2026-10-15,2026-10,2026-10-16,1000,,3.8,bruta,no,,no,no
+Querétaro,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Querétaro,mc18oct,Massive Caller,2026-10-18,2026-10-18,2026-10,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Querétaro,qm-oct23,Question Mark,2026-10-22,2026-10-23,2026-10,2026-11-04,681,,3.8,bruta,no,,no,no
+Querétaro,src-oct26,SRC,2026-10-26,2026-10-26,2026-10,,1000,,3.1,bruta,no,,no,no
+Querétaro,gob-oct30,GobernArte,2026-10-25,2026-10-30,2026-10,2026-10-31,500,,3.7,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza, margen de error entre ±2.5% y ±3.7% (estimado por la casa; se registra 3.7, decisión del 16 oct 2026).",no,no
+Querétaro,alt-nov02,Áltica,2026-11-02,2026-11-02,2026-11,2026-11-02,800,,3.5,bruta,no,,no,no
+Querétaro,aimsa-nov06,AIMSA,2026-11-03,2026-11-06,2026-11,2026-11-10,1930,,3,bruta,no,,sí,no
+Querétaro,rub-nov07,RUBRUM,2026-11-07,2026-11-07,2026-11,2026-11-09,800,,3.8,bruta,no,,no,no
+Querétaro,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,no
+Quintana Roo,bym,Buendía & Márquez,2026-08-01,2026-08-06,2026-08,,1000,,3.53,,no,Valores derivados (±0.2); verificar contra la lámina original de B&M,no,no
+Quintana Roo,cye,C&E,2026-09-02,2026-09-02,2026-09,,,,,,no,,no,no
+Quintana Roo,dem,Demoscopia Digital,2026-09-01,2026-09-03,2026-09,,,,,,no,,no,no
+Quintana Roo,mc20,Massive Caller,2026-09-20,2026-09-20,2026-09,2026-09-20,1000,,3.4,,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Quintana Roo,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Quintana Roo,arias-oct,Arias Consultores,2026-09-29,2026-10-01,2026-10,2026-10-02,600,,4,,no,conflicto de interés documentado,no,no
+Quintana Roo,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Quintana Roo,logi-oct8,Logi·Call,2026-10-08,2026-10-08,2026-10,2026-10-09,1000,,3.4,bruta,no,"casa sin trayectoria verificable; sus cifras casi coinciden con Massive Caller 20 sep (Martínez 16.8 idéntico) y la lámina dice ""nivel nacional""; incluida con advertencia",no,no
+Quintana Roo,rub-oct10,RUBRUM (10 oct),2026-10-10,2026-10-10,2026-10,2026-10-12,1000,,3.8,bruta,no,,no,no
+Quintana Roo,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Quintana Roo,mc20oct,Massive Caller,2026-10-20,2026-10-20,2026-10,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Quintana Roo,gob-oct22,GobernArte,2026-10-18,2026-10-22,2026-10,,500,,,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza; margen de error estimado por la casa 2.5%-3.7%.",no,no
+Quintana Roo,tactica-oct26,Táctica Política (excluida),2026-10-24,2026-10-26,2026-10,,800,,5,,no,,sí,no
+Quintana Roo,ce-oct30,CE Research,2026-10-30,2026-10-30,2026-10,2026-10-31,400,,4.9,bruta,no,,no,no
+Quintana Roo,gii360-nov03,Grupo Impacto 360,2026-10-26,2026-11-03,2026-11,,600,,3.94,bruta,no,,no,sí
+Quintana Roo,rub-nov07,RUBRUM,2026-11-07,2026-11-07,2026-11,2026-11-09,800,,3.8,bruta,no,,no,no
+Quintana Roo,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,no
+San Luis Potosí,qm,El Heraldo/Question Mark,2026-08-17,2026-08-17,2026-08,,,,,,no,,no,no
+San Luis Potosí,cye-ago,C&E Campaigns & Elections (ago),2026-08-25,2026-08-25,2026-08,,400,,4.9,,no,"DERIVADO: C&E = 2*promedio(QM,C&E) - QM con el careo de 2 fuentes de deploy-manual-v7 (QM y C&E 25 ago) y QM exacto; margen ±0.15. Asignación de nombres MC=Gama y PAN=Rodríguez inferida: v7 los rotulaba Longoria/Guajardo, pero v9 y el careo vigente (Gama 8.0 = (9.0+7)/2; Rodríguez 4.4 = (3.7+5)/2) solo cuadran si C&E ago midió a Gama y Rodríguez.",no,no
+San Luis Potosí,laenc,LaEncuesta.MX,2026-09-05,2026-09-07,2026-09,,1200,,3.5,,no,Escenario 1 solamente (el mapa guardado lo usa así). El PDF extraído trae además MC 1.2% (no verificado/improbable; no se registra) y NS/NC 6.1%.,no,no
+San Luis Potosí,laenc-s2,LaEncuesta.MX (escenario 2),2026-09-05,2026-09-07,2026-09,,1200,,3.5,,no,,sí,no
+San Luis Potosí,cye-sep,C&E Campaigns & Elections (sep),2026-09-22,2026-09-22,2026-09,,400,,4.9,,no,,no,no
+San Luis Potosí,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+San Luis Potosí,arias,Arias Consultores,2026-09-29,2026-10-01,2026-10,,500,,4.4,,no,Conflicto de interés documentado (Arias). Galindo como candidato PRI-PAN.,no,no
+San Luis Potosí,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+San Luis Potosí,gob-oct,GobernArte,2026-10-09,2026-10-14,2026-10,,500,,,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); margen de error no publicado (solo 95% de confianza) Margen de error 2.5%-3.7% (estimado por la casa, lámina de metodología) aplicado a todas sus encuestas.",no,no
+San Luis Potosí,rub-oct15,RUBRUM,2026-10-15,2026-10-15,2026-10,2026-10-16,1000,,3.8,bruta,no,,no,no
+San Luis Potosí,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+San Luis Potosí,mc22oct,Massive Caller,2026-10-22,2026-10-22,2026-10,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,sí
+San Luis Potosí,ce-oct25,CE Research,2026-10-25,2026-10-25,2026-10,2026-10-26,400,,4.9,bruta,no,,no,no
+San Luis Potosí,univ-oct30,El Universal,2026-10-24,2026-10-30,2026-10,2026-11-09,1000,,3.1,bruta,no,,no,sí
+San Luis Potosí,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,no
+San Luis Potosí,rub-nov09,RUBRUM,2026-11-09,2026-11-09,2026-11,2026-11-10,600,,3.8,bruta,no,,no,no
+San Luis Potosí,gob-nov10,GobernArte,2026-11-05,2026-11-10,2026-11,,500,,3.7,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza; sin margen en la lámina: se registra 3.7 (cota alta del rango 2.5%-3.7% estimado por la casa, decisión del 16 oct 2026).",no,no
+Sinaloa,qm,El Heraldo/Question Mark,2026-07-08,2026-07-22,2026-07,,,,,,no,,no,no
+Sinaloa,cye-ago,C&E (Campaigns & Elections),2026-08-11,2026-08-11,2026-08,,400,,4.9,,no,,no,no
+Sinaloa,laenc,LaEncuesta.MX,2026-09-05,2026-09-07,2026-09,,1200,,3.5,,no,,no,no
+Sinaloa,laenc-s2,LaEncuesta.MX (escenario 2),2026-09-05,2026-09-07,2026-09,,1200,,3.5,,no,,sí,no
+Sinaloa,mc,Massive Caller,2026-09-24,2026-09-24,2026-09,,1000,,3.4,,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Sinaloa,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Sinaloa,arias,Arias Consultores,2026-09-29,2026-10-01,2026-10,,600,,4,,no,Conflicto de interés documentado (Arias); se incluye con nota según política vigente.,no,no
+Sinaloa,arias-coal,Arias Consultores (escenarios de coalición),2026-09-29,2026-10-01,2026-10,,600,,4,,no,Conflicto de interés documentado (Arias).,sí,no
+Sinaloa,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,sí
+Sinaloa,rub-oct15,RUBRUM,2026-10-15,2026-10-15,2026-10,2026-10-16,1000,,3.8,bruta,no,,no,no
+Sinaloa,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,sí
+Sinaloa,ce-oct18,CE Research,2026-10-18,2026-10-18,2026-10,2026-10-19,400,,4.9,bruta,no,,no,sí
+Sinaloa,mc24oct,Massive Caller,2026-10-24,2026-10-24,2026-10,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,sí
+Sinaloa,gob-oct28,GobernArte,2026-10-24,2026-10-28,2026-10,,500,,,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza.",no,no
+Sinaloa,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,sí
+Sinaloa,logi-nov09,Logi·Call,2026-11-09,2026-11-09,2026-11,,1000,,3.4,bruta,no,casa sin trayectoria verificable (Logi·Call); incluida con advertencia,no,no
+Sinaloa,rub-nov11,RUBRUM,2026-11-11,2026-11-11,2026-11,2026-11-12,1000,,3.8,bruta,no,,no,no
+Sonora,emot,Emotegia,2026-07-06,2026-07-11,2026-07,,,,,,no,,no,no
+Sonora,ce_ago,C&E (Campaigns & Elections) 9 ago,2026-08-09,2026-08-09,2026-08,,400,,4.9,,no,,no,no
+Sonora,src,SRC,2026-08-24,2026-08-24,2026-08,,1000,,3.1,,no,,no,no
+Sonora,ce_sep,C&E (Campaigns & Elections) 7 sep,2026-09-07,2026-09-07,2026-09,,400,,4.9,,no,,no,no
+Sonora,elec,Electoralia,2026-09-04,2026-09-07,2026-09,,,,,,no,,no,no
+Sonora,laenc,LaEncuesta.MX,2026-09-05,2026-09-07,2026-09,,,,,,no,,no,no
+Sonora,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Sonora,arias,Arias Consultores,2026-09-29,2026-10-01,2026-10,,550,,4,,no,conflicto de interés documentado (Arias),no,no
+Sonora,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Sonora,elec-oct13,Electoralia,2026-10-08,2026-10-13,2026-10,2026-10-14,2500,,1.96,bruta,no,,no,no
+Sonora,gob-oct,GobernArte,2026-10-07,2026-10-13,2026-10,,500,,3.7,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital con app Odiseo (IA); 500 encuestas, 95% de confianza, margen 2.5%-3.7%, rechazo 37% Margen de error 2.5%-3.7% (estimado por la casa, lámina de metodología) aplicado a todas sus encuestas.",no,no
+Sonora,rub-oct13,RUBRUM,2026-10-13,2026-10-13,2026-10,2026-10-14,1000,,3.8,bruta,no,,no,no
+Sonora,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Sonora,ce-oct18,CE Research,2026-10-18,2026-10-18,2026-10,2026-10-20,400,,4.9,bruta,no,,no,sí
+Sonora,mc27oct,Massive Caller,2026-10-27,2026-10-27,2026-10,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Sonora,gii360-nov03,Grupo Impacto 360,2026-10-26,2026-11-03,2026-11,,600,,3.94,bruta,no,,no,no
+Sonora,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,sí
+Sonora,gob-nov11,GobernArte,2026-11-06,2026-11-11,2026-11,,500,,3.7,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza; sin margen en la lámina: se registra 3.7 (cota alta del rango 2.5%-3.7% estimado por la casa, decisión del 16 oct 2026).",no,no
+Sonora,rub-nov11,RUBRUM,2026-11-11,2026-11-11,2026-11,2026-11-12,1000,,3.8,bruta,no,,no,sí
+Tlaxcala,src,SRC,2026-09-07,2026-09-07,2026-09,,500,,4.4,,no,,no,no
+Tlaxcala,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Tlaxcala,cron,La Crónica,2026-09-28,2026-09-28,2026-09,,,,,,no,,no,no
+Tlaxcala,mcal,Massive Caller,2026-09-28,2026-09-28,2026-09,,1000,,3.4,,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Tlaxcala,arias,Arias Consultores,2026-09-29,2026-10-01,2026-10,2026-10-02,400,,4.9,,no,conflicto de interés documentado (política del 15 sep: se incluye con nota),no,no
+Tlaxcala,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Tlaxcala,logi-oct10,Logi·Call,2026-10-10,2026-10-10,2026-10,,1000,,3.4,bruta,no,casa sin trayectoria verificable (Logi·Call); incluida con advertencia,no,no
+Tlaxcala,rub-oct12,RUBRUM,2026-10-12,2026-10-12,2026-10,2026-10-13,800,,3.8,bruta,no,,no,no
+Tlaxcala,bruj-oct14,Brújula de Opinión Pública,2026-10-08,2026-10-14,2026-10,2026-10-16,2250,,,bruta,no,"casa sin trayectoria verificable (sin sitio, folio INE ni menciones públicas localizadas); telefónica automatizada (IVR); no publica margen de error ni quién la pagó; el careo pregunta '¿quién le gustaría que fuera el próximo Gobernador(a)?' (deseo, no intención de voto estricta) aunque su tema declarado es intención de voto; resultados suman 100 con 'No sabe'; tracking de 7 mediciones sin fechas",no,no
+Tlaxcala,gob-oct15,GobernArte,2026-10-10,2026-10-15,2026-10,2026-10-16,500,,,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital (app Odiseo, con IA); 500 encuestas, 95% de confianza; margen de error estimado entre 2.5% y 3.7% según su lámina de metodología; tasa de rechazo 55%; ordenada, elaborada y pagada por GobernArte S.C. Margen de error 2.5%-3.7% (estimado por la casa, lámina de metodología) aplicado a todas sus encuestas.",no,no
+Tlaxcala,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Tlaxcala,gii360-oct26,Grupo Impacto 360,2026-10-20,2026-10-26,2026-10,2026-11-09,600,,3.94,bruta,no,,no,no
+Tlaxcala,mc28oct,Massive Caller,2026-10-28,2026-10-28,2026-10,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Tlaxcala,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,no
+Tlaxcala,rub-nov09,RUBRUM,2026-11-09,2026-11-09,2026-11,2026-11-10,1000,,3.8,bruta,no,,no,no
+Tlaxcala,gob-nov11,GobernArte,2026-11-06,2026-11-11,2026-11,,500,,3.7,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza; sin margen en la lámina: se registra 3.7 (cota alta del rango 2.5%-3.7% estimado por la casa, decisión del 16 oct 2026).",no,no
+Zacatecas,dem,Demoscopia Digital,2026-06-26,2026-06-29,2026-06,,,,,,no,,no,no
+Zacatecas,arias-jul,Arias Consultores (jul),2026-07-11,2026-07-12,2026-07,,,,,,no,Conflicto de interés documentado (Arias).,no,no
+Zacatecas,qm,El Heraldo/Question Mark,2026-08-12,2026-08-12,2026-08,,,,,,no,"QM midió a Ulises Mejía Haro (Morena), NO a Verónica Díaz. El mapa guardado contó el 26.8 como 'Verónica Díaz' (ver reporte); aquí se registra con el nombre medido.",no,no
+Zacatecas,cye,C&E Campaigns & Elections,2026-09-02,2026-09-02,2026-09,,,,,,no,,no,no
+Zacatecas,elec,Electoralia,2026-09-01,2026-09-06,2026-09,,,,,,no,,no,no
+Zacatecas,dem-sep,De las Heras Demotecnia,2026-09-17,2026-09-20,2026-09,,1000,,3.2,bruta,no,,no,sí
+Zacatecas,emot-oct,Emotegia,2026-09-21,2026-09-26,2026-09,2026-10-07,1000,,3,,no,,no,no
+Zacatecas,mc,Massive Caller,2026-09-29,2026-09-29,2026-09,,1000,,3.4,,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Zacatecas,arias,Arias Consultores,2026-09-29,2026-10-01,2026-10,,450,,4.6,,no,Conflicto de interés documentado (Arias).,no,no
+Zacatecas,enk-oct,Enkoll,2026-10-01,2026-10-04,2026-10,2026-10-12,1020,,3.1,bruta,no,conflicto de interés documentado (política vigente desde 15 sep 2026: se incluye con nota),no,no
+Zacatecas,enk-oct-coal,"Enkoll (careo 2 con MC-PT, datos guardados)",2026-10-01,2026-10-04,2026-10,,1020,,3.1,,no,,sí,no
+Zacatecas,gob-oct,GobernArte,2026-10-02,2026-10-06,2026-10,2026-10-07,500,,,,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; margen publicado como rango ±2.5-3.7% Margen de error 2.5%-3.7% (estimado por la casa, lámina de metodología) aplicado a todas sus encuestas.",no,no
+Zacatecas,laenc-oct,LaEncuesta.MX,2026-10-06,2026-10-08,2026-10,2026-10-09,1200,,3.5,,no,,no,no
+Zacatecas,rub-oct10,RUBRUM,2026-10-10,2026-10-10,2026-10,2026-10-12,1000,,3.8,bruta,no,,no,no
+Zacatecas,rub-oct10-esc1,"RUBRUM (escenario Varela, datos guardados)",2026-10-10,2026-10-10,2026-10,,1000,,3.8,,no,,sí,no
+Zacatecas,logi-oct12,Logi·Call,2026-10-12,2026-10-12,2026-10,,1000,,3.4,bruta,no,casa sin trayectoria verificable (Logi·Call); incluida con advertencia,no,no
+Zacatecas,src-oct12,SRC,2026-10-12,2026-10-12,2026-10,2026-10-13,500,,4.38,bruta,no,,no,no
+Zacatecas,src-oct12-esc1,"SRC (escenario Máynez-Varela, datos guardados)",2026-10-12,2026-10-12,2026-10,,500,,4.38,,no,,sí,no
+Zacatecas,src-oct12-esc2,"SRC (escenario Mejía Haro, datos guardados)",2026-10-12,2026-10-12,2026-10,,500,,4.38,,no,,sí,no
+Zacatecas,dem-oct17,Demoscopia Digital,2026-10-14,2026-10-17,2026-10,2026-10-19,1000,,3.8,bruta,no,,no,no
+Zacatecas,ce-oct30,CE Research,2026-10-30,2026-10-30,2026-10,2026-10-31,400,,4.9,bruta,no,,no,sí
+Zacatecas,mc-oct30,Massive Caller,2026-10-30,2026-10-30,2026-10,,1000,,3.4,bruta,no,Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024 (dio ventaja a Gálvez; Sheinbaum ganó por más de 30 puntos); su peso se diluye al combinarse con otras fuentes.,no,no
+Zacatecas,gob-nov03,GobernArte,2026-10-30,2026-11-03,2026-11,,500,,3.7,bruta,no,"casa incluida con advertencia (amonestación TEPJF SUP-JE-1344/2023); encuesta digital; 500 encuestas, 95% de confianza; sin margen en la lámina: se registra 3.7 (cota alta del rango 2.5%-3.7% estimado por la casa, decisión del 16 oct 2026).",no,no
+Zacatecas,laenc-nov,LaEncuesta.MX,2026-11-06,2026-11-08,2026-11,2026-11-09,1200,,3.5,bruta,no,,no,no
+Zacatecas,gii360-nov09,Grupo Impacto 360,2026-11-03,2026-11-09,2026-11,,600,,3.94,bruta,no,,no,sí
+Zacatecas,rub-nov11,RUBRUM,2026-11-11,2026-11-11,2026-11,2026-11-12,1000,,3.8,bruta,no,,no,sí

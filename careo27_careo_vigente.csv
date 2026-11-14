@@ -1,0 +1,78 @@
+﻿estado,mes_en_curso,candidato,partido,promedio_ponderado,mediciones_con_el_candidato,mediciones_del_estado
+Aguascalientes,2026-11,Antonio Martín del Campo,PAN,49.2,3,3
+Aguascalientes,2026-11,Nora Ruvalcaba,Morena,31,3,3
+Aguascalientes,2026-11,Lorena Martínez,MC,7.9,3,3
+Aguascalientes,2026-11,Kendor Macías,PRI,7,1,3
+Baja California,2026-11,Julieta Ramírez,Morena,42.1,3,3
+Baja California,2026-11,Verónica Ruffo Sánchez,PAN,29.8,3,3
+Baja California,2026-11,Gustavo de Hoyos,MC,11,3,3
+Baja California,2026-11,Adrián Valle,PRI,7.5,3,3
+Baja California Sur,2026-11,Manuel Cota,Morena,31.7,4,4
+Baja California Sur,2026-11,Francisco Pelayo,PAN,30.1,4,4
+Baja California Sur,2026-11,Rubén Muñoz Álvarez,Independiente,12.7,2,4
+Baja California Sur,2026-11,Ricardo Barroso,MC,8.6,3,4
+Baja California Sur,2026-11,Antonio Manríquez,PRI,7,4,4
+Campeche,2026-11,Pablo Gutiérrez Lazarus,Morena,42.9,4,4
+Campeche,2026-11,Eliseo Fernández,MC,30.5,4,4
+Campeche,2026-11,Christian Castro Bello,PRI,11.1,4,4
+Campeche,2026-11,Salvador Farías González,PAN,5.5,2,4
+Chihuahua,2026-11,Cruz Pérez Cuéllar,Morena,37.9,7,7
+Chihuahua,2026-11,Bonilla,PAN,36.5,7,7
+Chihuahua,2026-11,Meléndez,PRI,8.2,4,7
+Chihuahua,2026-11,Lozoya,MC,5.6,6,7
+Chihuahua,2026-11,Julián Lebarón,Somos,4.1,4,7
+Colima,2026-11,Rosi Bayardo,Morena,33.8,4,4
+Colima,2026-11,Riult Rivera,PAN,26.8,3,4
+Colima,2026-11,Mely Romero Celis,PRI,22.5,3,4
+Colima,2026-11,Griselda Martínez,MC,8.2,4,4
+Guerrero,2026-11,Beatriz Mojica,Morena,42.9,4,4
+Guerrero,2026-11,Manuel Añorve,PRI,15.6,4,4
+Guerrero,2026-11,Pedro Segura,PAZ,13.1,1,4
+Guerrero,2026-11,Eloy Salmerón,PAN,7.9,3,4
+Guerrero,2026-11,Gabriela Bernal,MC,6.7,4,4
+Michoacán,2026-11,Carlos Torres Piña,Morena,31.6,4,4
+Michoacán,2026-11,Raúl Morón Orozco,PT,22.9,1,4
+Michoacán,2026-11,Alfonso Martínez Alcázar,PAN,21,4,4
+Michoacán,2026-11,Grecia Quiroz García,Independiente,18.5,4,4
+Michoacán,2026-11,Carlos Herrera Tello,MC,6.6,2,4
+Michoacán,2026-11,Guillermo Valencia Reyes,PRI,4.9,1,4
+Nayarit,2026-11,Jasmine Bugarín,Morena,35.3,3,3
+Nayarit,2026-11,Ivideliza Reyes,PAN,18.3,3,3
+Nayarit,2026-11,Nacho Flores,MC,17.2,3,3
+Nayarit,2026-11,Manuel Cota,PRI,12,3,3
+Nuevo León,2026-11,Adrián de la Garza,PRI,31.9,4,4
+Nuevo León,2026-11,Mariana Rodríguez,MC,29.7,4,4
+Nuevo León,2026-11,Clara Luz Flores,Morena,17,4,4
+Nuevo León,2026-11,Waldo Fernández,PVEM,14,1,4
+Nuevo León,2026-11,Tatiana Clouthier,Independiente,10.3,1,4
+Nuevo León,2026-11,Hernán Sada,PAZ,2.8,1,4
+Nuevo León,2026-11,Fernando Turner,Somos,2.4,1,4
+Querétaro,2026-11,Felifer Macías,PAN,46.1,3,3
+Querétaro,2026-11,Santiago Nieto,Morena,30.3,3,3
+Querétaro,2026-11,Abigail Arredondo,PRI,6.9,1,3
+Querétaro,2026-11,Paul Ospital,MC,6.8,3,3
+Quintana Roo,2026-11,Gino Segura,Morena,46.4,3,3
+Quintana Roo,2026-11,Mayuli Martínez,PAN,17.3,2,3
+Quintana Roo,2026-11,José Luis Pech,MC,13.9,3,3
+Quintana Roo,2026-11,Filiberto Martínez,PRI,12,3,3
+San Luis Potosí,2026-11,Ruth González,PVEM,36.7,3,3
+San Luis Potosí,2026-11,Elí César Cervantes,Morena,23.8,3,3
+San Luis Potosí,2026-11,Enrique Galindo,PRI,20.2,3,3
+San Luis Potosí,2026-11,Verónica Rodríguez,PAN,6.1,1,3
+San Luis Potosí,2026-11,Paola Longoria,MC,5.4,3,3
+Sinaloa,2026-11,Imelda Castro,Morena,37.7,3,3
+Sinaloa,2026-11,Mario Zamora,PRI,29.4,3,3
+Sinaloa,2026-11,Paola Gárate,PAN,15.7,1,3
+Sinaloa,2026-11,Sergio Torres Félix,MC,9.8,3,3
+Sonora,2026-11,Lorenia Valles,Morena,39.1,4,4
+Sonora,2026-11,Antonio Astiazarán,PAN,23.9,4,4
+Sonora,2026-11,Luis Donaldo Colosio,MC,20.3,4,4
+Sonora,2026-11,Lupita Soto Holguín,PRI,7.6,2,4
+Tlaxcala,2026-11,Ana Lilia Rivera,Morena,49,3,3
+Tlaxcala,2026-11,Anabell Ávalos,PRI,17.3,2,3
+Tlaxcala,2026-11,Miriam Martínez Sánchez,PAN,14.3,3,3
+Tlaxcala,2026-11,Mariana Jiménez Zamora,MC,8.6,3,3
+Zacatecas,2026-11,Adolfo Bonilla,PRI,30.8,4,4
+Zacatecas,2026-11,Verónica Díaz,Morena,28.5,4,4
+Zacatecas,2026-11,Jorge Álvarez Máynez,MC,15.8,4,4
+Zacatecas,2026-11,Miguel Ángel Varela,PAN,13.6,3,4

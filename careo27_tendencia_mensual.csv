@@ -1,0 +1,276 @@
+﻿estado,mes,partido,promedio_ponderado,encuestas_con_dato,encuestas_del_mes
+Aguascalientes,2026-09,PAN,48.4,3,3
+Aguascalientes,2026-09,Morena,29.3,3,3
+Aguascalientes,2026-09,MC,5.5,3,3
+Aguascalientes,2026-09,PRI,4.5,3,3
+Aguascalientes,2026-09,PVEM,2,1,3
+Aguascalientes,2026-09,PT,1.1,1,3
+Aguascalientes,2026-10,PAN,44.9,8,9
+Aguascalientes,2026-10,Morena,29,9,9
+Aguascalientes,2026-10,MC,7.3,9,9
+Aguascalientes,2026-10,PRI,5.3,8,9
+Aguascalientes,2026-10,Somos,2.8,1,9
+Aguascalientes,2026-10,PVEM,2.3,3,9
+Aguascalientes,2026-10,PT,1.4,3,9
+Aguascalientes,2026-11,PAN,47.5,4,4
+Aguascalientes,2026-11,Morena,30.4,4,4
+Aguascalientes,2026-11,MC,7.2,4,4
+Aguascalientes,2026-11,PRI,5.6,3,4
+Aguascalientes,2026-11,PVEM,1.2,1,4
+Aguascalientes,2026-11,PT,0.5,1,4
+Baja California,2026-09,Morena,38.5,4,4
+Baja California,2026-09,PAN,21.7,4,4
+Baja California,2026-09,MC,9.4,4,4
+Baja California,2026-09,PRI,5.1,4,4
+Baja California,2026-09,PVEM,3.6,1,4
+Baja California,2026-09,PT,1.9,1,4
+Baja California,2026-10,Morena,38.8,7,7
+Baja California,2026-10,PAN,23.8,6,7
+Baja California,2026-10,PRI,8.5,6,7
+Baja California,2026-10,MC,8.2,7,7
+Baja California,2026-10,PT,4.2,3,7
+Baja California,2026-10,PVEM,3,3,7
+Baja California,2026-11,Morena,41.6,3,3
+Baja California,2026-11,PAN,27.4,3,3
+Baja California,2026-11,MC,9.9,3,3
+Baja California,2026-11,PRI,7,3,3
+Baja California,2026-11,PVEM,3.9,1,3
+Baja California,2026-11,PT,3.4,1,3
+Baja California Sur,2026-09,Morena,31.5,2,2
+Baja California Sur,2026-09,PAN,28.8,2,2
+Baja California Sur,2026-10,Morena,36.6,9,9
+Baja California Sur,2026-10,PAN,28.4,8,9
+Baja California Sur,2026-10,Independiente,12.5,1,9
+Baja California Sur,2026-10,MC,7.1,9,9
+Baja California Sur,2026-10,PRI,6.1,8,9
+Baja California Sur,2026-10,PT,6.1,5,9
+Baja California Sur,2026-10,PVEM,3,5,9
+Baja California Sur,2026-11,Morena,36.7,5,5
+Baja California Sur,2026-11,PAN,28.6,5,5
+Baja California Sur,2026-11,Independiente,13.3,1,5
+Baja California Sur,2026-11,MC,7.6,5,5
+Baja California Sur,2026-11,PRI,6.4,5,5
+Baja California Sur,2026-11,PT,5.9,1,5
+Baja California Sur,2026-11,PVEM,3.8,1,5
+Campeche,2026-09,Morena,41.6,2,2
+Campeche,2026-09,MC,33.2,2,2
+Campeche,2026-10,Morena,38.9,10,10
+Campeche,2026-10,MC,30.4,10,10
+Campeche,2026-10,PRI,10.1,9,10
+Campeche,2026-10,PAN,5.8,9,10
+Campeche,2026-10,PVEM,2.8,4,10
+Campeche,2026-10,Somos,2.2,1,10
+Campeche,2026-10,PT,1.7,4,10
+Campeche,2026-11,Morena,43.1,5,5
+Campeche,2026-11,MC,29.4,5,5
+Campeche,2026-11,PRI,10.2,5,5
+Campeche,2026-11,PAN,6.7,3,5
+Campeche,2026-11,PVEM,2.7,1,5
+Campeche,2026-11,PT,1.6,1,5
+Campeche,2026-11,Somos,1.2,1,5
+Chihuahua,2026-09,Morena,39,4,4
+Chihuahua,2026-09,PAN,35.7,4,4
+Chihuahua,2026-09,MC,7.8,4,4
+Chihuahua,2026-09,PRI,5.1,2,4
+Chihuahua,2026-09,PVEM,1.5,1,4
+Chihuahua,2026-09,PT,1.3,1,4
+Chihuahua,2026-10,Morena,37.6,9,9
+Chihuahua,2026-10,PAN,32.7,8,9
+Chihuahua,2026-10,PRI,7.9,8,9
+Chihuahua,2026-10,MC,5.4,9,9
+Chihuahua,2026-10,PT,3.5,4,9
+Chihuahua,2026-10,Independiente,2.8,1,9
+Chihuahua,2026-10,PVEM,2.4,4,9
+Chihuahua,2026-11,Morena,39.7,7,7
+Chihuahua,2026-11,PAN,35.4,7,7
+Chihuahua,2026-11,PRI,7.6,5,7
+Chihuahua,2026-11,MC,5,6,7
+Chihuahua,2026-11,PT,2.3,2,7
+Chihuahua,2026-11,PVEM,2.2,2,7
+Colima,2026-09,Morena,38.8,3,3
+Colima,2026-09,PAN,19.4,3,3
+Colima,2026-09,PRI,16.2,3,3
+Colima,2026-09,MC,8.4,3,3
+Colima,2026-10,Morena,34.8,9,9
+Colima,2026-10,PAN,18.5,8,9
+Colima,2026-10,PRI,17.6,8,9
+Colima,2026-10,MC,9.5,9,9
+Colima,2026-10,PVEM,3.9,5,9
+Colima,2026-10,Somos,2.8,2,9
+Colima,2026-10,PT,2,3,9
+Colima,2026-11,Morena,35.7,4,4
+Colima,2026-11,PAN,24.7,3,4
+Colima,2026-11,PRI,20.9,3,4
+Colima,2026-11,MC,9.3,4,4
+Colima,2026-11,PVEM,3.1,1,4
+Colima,2026-11,Somos,3,1,4
+Colima,2026-11,PT,1.8,1,4
+Guerrero,2026-09,Morena,49.9,2,2
+Guerrero,2026-10,Morena,42.2,7,7
+Guerrero,2026-10,PRI,13.8,6,7
+Guerrero,2026-10,MC,7,7,7
+Guerrero,2026-10,Independiente,7,1,7
+Guerrero,2026-10,PAN,6.1,6,7
+Guerrero,2026-10,PVEM,6.1,2,7
+Guerrero,2026-10,PT,4.4,2,7
+Guerrero,2026-11,Morena,45.3,4,4
+Guerrero,2026-11,PRI,14.3,4,4
+Guerrero,2026-11,PAN,7.7,3,4
+Guerrero,2026-11,MC,7.6,4,4
+Guerrero,2026-11,PVEM,7.2,1,4
+Guerrero,2026-11,PT,4.9,1,4
+Michoacán,2026-09,Morena,35.1,3,3
+Michoacán,2026-09,Independiente,19.3,3,3
+Michoacán,2026-09,PAN,17,3,3
+Michoacán,2026-10,Morena,33,8,8
+Michoacán,2026-10,Independiente,22.1,4,8
+Michoacán,2026-10,PAN,20.1,6,8
+Michoacán,2026-10,PRI,9.5,6,8
+Michoacán,2026-10,MC,7.4,7,8
+Michoacán,2026-10,PT,4.9,3,8
+Michoacán,2026-10,PVEM,3.7,3,8
+Michoacán,2026-11,Morena,34.7,4,4
+Michoacán,2026-11,PAN,20.3,4,4
+Michoacán,2026-11,Independiente,17.6,3,4
+Michoacán,2026-11,PT,15.7,1,4
+Michoacán,2026-11,PRI,10.7,3,4
+Michoacán,2026-11,PVEM,6.1,1,4
+Michoacán,2026-11,MC,5.9,4,4
+Nayarit,2026-09,Morena,49.9,2,2
+Nayarit,2026-10,Morena,41.6,7,7
+Nayarit,2026-10,MC,14.6,7,7
+Nayarit,2026-10,PAN,11,6,7
+Nayarit,2026-10,PRI,9.4,6,7
+Nayarit,2026-10,PT,2.5,3,7
+Nayarit,2026-11,Morena,40.1,3,3
+Nayarit,2026-11,PAN,15.6,3,3
+Nayarit,2026-11,MC,14.1,3,3
+Nayarit,2026-11,PRI,12.6,3,3
+Nayarit,2026-11,PT,2.8,1,3
+Nuevo León,2026-09,pripan,33.9,3,3
+Nuevo León,2026-09,MC,26.2,3,3
+Nuevo León,2026-10,pripan,30.9,13,13
+Nuevo León,2026-10,MC,25.8,13,13
+Nuevo León,2026-10,Morena,21.3,13,13
+Nuevo León,2026-10,Independiente,10.5,3,13
+Nuevo León,2026-10,PVEM,2.3,5,13
+Nuevo León,2026-10,PT,1.9,4,13
+Nuevo León,2026-11,pripan,30.7,4,4
+Nuevo León,2026-11,MC,27.9,4,4
+Nuevo León,2026-11,Morena,19.2,4,4
+Nuevo León,2026-11,Independiente,10.3,1,4
+Nuevo León,2026-11,PVEM,2.5,1,4
+Nuevo León,2026-11,PT,1,1,4
+Querétaro,2026-09,PAN,43.3,7,7
+Querétaro,2026-09,Morena,30,7,7
+Querétaro,2026-09,MC,5,7,7
+Querétaro,2026-09,PRI,4.5,7,7
+Querétaro,2026-09,PVEM,4.1,1,7
+Querétaro,2026-09,PT,1.3,1,7
+Querétaro,2026-10,PAN,46.5,10,11
+Querétaro,2026-10,Morena,28.4,11,11
+Querétaro,2026-10,PRI,5.7,10,11
+Querétaro,2026-10,MC,4.3,11,11
+Querétaro,2026-10,PVEM,2,6,11
+Querétaro,2026-10,PT,1.2,4,11
+Querétaro,2026-11,PAN,47,3,3
+Querétaro,2026-11,Morena,30,3,3
+Querétaro,2026-11,MC,6.3,3,3
+Querétaro,2026-11,PRI,5.5,1,3
+Querétaro,2026-11,PVEM,1.7,1,3
+Querétaro,2026-11,PT,0.9,1,3
+Quintana Roo,2026-09,Morena,43.2,4,4
+Quintana Roo,2026-09,PAN,14.4,4,4
+Quintana Roo,2026-09,MC,10.6,4,4
+Quintana Roo,2026-09,PRI,9.1,4,4
+Quintana Roo,2026-09,PVEM,4,1,4
+Quintana Roo,2026-09,PT,1,1,4
+Quintana Roo,2026-10,Morena,41.6,9,9
+Quintana Roo,2026-10,PAN,15.2,8,9
+Quintana Roo,2026-10,MC,12.6,9,9
+Quintana Roo,2026-10,PRI,9.1,8,9
+Quintana Roo,2026-10,PVEM,8.5,5,9
+Quintana Roo,2026-10,PT,3,5,9
+Quintana Roo,2026-11,Morena,46.6,3,3
+Quintana Roo,2026-11,PAN,16.2,2,3
+Quintana Roo,2026-11,PRI,12.3,3,3
+Quintana Roo,2026-11,MC,12,3,3
+Quintana Roo,2026-11,PVEM,5.9,2,3
+Quintana Roo,2026-11,PT,2.5,2,3
+San Luis Potosí,2026-09,PVEM,27.8,2,2
+San Luis Potosí,2026-09,Morena,25.7,2,2
+San Luis Potosí,2026-09,pripan,18.4,2,2
+San Luis Potosí,2026-09,PT,7,2,2
+San Luis Potosí,2026-09,MC,6,2,2
+San Luis Potosí,2026-10,PVEM,31.3,9,9
+San Luis Potosí,2026-10,Morena,21.2,9,9
+San Luis Potosí,2026-10,pripan,21.1,9,9
+San Luis Potosí,2026-10,MC,5,9,9
+San Luis Potosí,2026-10,PT,2.6,8,9
+San Luis Potosí,2026-11,PVEM,35.2,3,3
+San Luis Potosí,2026-11,Morena,24.8,3,3
+San Luis Potosí,2026-11,pripan,22.2,3,3
+San Luis Potosí,2026-11,MC,5.2,3,3
+San Luis Potosí,2026-11,PT,1.9,2,3
+Sinaloa,2026-09,Morena,34,3,3
+Sinaloa,2026-09,PRI,21.6,3,3
+Sinaloa,2026-10,Morena,35.5,7,7
+Sinaloa,2026-10,PRI,16.3,6,7
+Sinaloa,2026-10,PAN,15.1,6,7
+Sinaloa,2026-10,MC,10.1,7,7
+Sinaloa,2026-10,PVEM,5.2,4,7
+Sinaloa,2026-10,PT,2.6,4,7
+Sinaloa,2026-11,Morena,35.7,3,3
+Sinaloa,2026-11,PRI,25.4,3,3
+Sinaloa,2026-11,PAN,17.6,2,3
+Sinaloa,2026-11,MC,9.4,3,3
+Sinaloa,2026-11,PVEM,7.2,1,3
+Sinaloa,2026-11,PT,3.6,1,3
+Sonora,2026-09,Morena,40.1,2,2
+Sonora,2026-09,PAN,27.3,2,2
+Sonora,2026-09,MC,14.4,2,2
+Sonora,2026-09,PRI,3.2,2,2
+Sonora,2026-10,Morena,39.1,8,8
+Sonora,2026-10,PAN,23.9,7,8
+Sonora,2026-10,MC,11.7,8,8
+Sonora,2026-10,PRI,8,7,8
+Sonora,2026-10,PVEM,3.7,3,8
+Sonora,2026-10,PT,3.3,3,8
+Sonora,2026-11,Morena,39.4,4,4
+Sonora,2026-11,PAN,22.8,4,4
+Sonora,2026-11,MC,17,4,4
+Sonora,2026-11,PRI,7.3,3,4
+Sonora,2026-11,PVEM,3.8,1,4
+Sonora,2026-11,PT,2.7,2,4
+Tlaxcala,2026-09,Morena,48.2,2,2
+Tlaxcala,2026-09,PRI,12.4,2,2
+Tlaxcala,2026-09,PAN,10.4,2,2
+Tlaxcala,2026-09,MC,7.9,2,2
+Tlaxcala,2026-10,Morena,42.7,9,9
+Tlaxcala,2026-10,PRI,18.8,8,9
+Tlaxcala,2026-10,PAN,11.5,8,9
+Tlaxcala,2026-10,MC,8,9,9
+Tlaxcala,2026-10,PVEM,5.7,3,9
+Tlaxcala,2026-10,PT,5.3,3,9
+Tlaxcala,2026-11,Morena,48.4,4,4
+Tlaxcala,2026-11,PRI,14.2,3,4
+Tlaxcala,2026-11,PAN,12.8,4,4
+Tlaxcala,2026-11,MC,9.1,4,4
+Tlaxcala,2026-11,PVEM,5.7,1,4
+Tlaxcala,2026-11,PT,4.4,1,4
+Zacatecas,2026-09,Morena,38.6,3,3
+Zacatecas,2026-09,PRI,14.7,3,3
+Zacatecas,2026-09,PAN,13.5,3,3
+Zacatecas,2026-09,MC,12.6,3,3
+Zacatecas,2026-10,Morena,27.9,10,10
+Zacatecas,2026-10,PRI,20.7,8,10
+Zacatecas,2026-10,MC,16.1,10,10
+Zacatecas,2026-10,PAN,13.8,8,10
+Zacatecas,2026-10,PVEM,4.2,5,10
+Zacatecas,2026-10,PT,3.2,5,10
+Zacatecas,2026-11,Morena,30,4,4
+Zacatecas,2026-11,PRI,29,4,4
+Zacatecas,2026-11,PAN,13.8,3,4
+Zacatecas,2026-11,MC,13.8,4,4
+Zacatecas,2026-11,PVEM,3.3,2,4
+Zacatecas,2026-11,PT,2.3,2,4

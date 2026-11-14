@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Careo 27 · Datos</title>
+<meta name="description" content="Descarga los datos de Careo 27: promedios, tendencia y encuestas de gubernaturas 2027 en CSV y Excel.">
+<meta property="og:title" content="Careo 27 · Datos"><meta property="og:image" content="https://careo27.vercel.app/og.png">
+<link rel="icon" type="image/svg+xml" href="/icon.svg">
+<style>
+:root{--bg:#10151b;--panel:#161d25;--line:#2a3540;--ink:#eef1f4;--dim:#93a1ad;--acc:#8fbcff}
+@media (prefers-color-scheme: light){:root{--bg:#f4f6f8;--panel:#fff;--line:#d5dce3;--ink:#161d25;--dim:#566573;--acc:#1c3f94}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.5}
+main{max-width:720px;margin:0 auto;padding:28px 16px 48px}
+.eyebrow{font-family:"SFMono-Regular",Consolas,monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin:0 0 6px}
+h1{font-size:28px;margin:0 0 8px}p.lead{color:var(--dim);margin:0 0 22px}
+.xl{display:block;text-align:center;padding:14px 16px;border-radius:12px;background:var(--acc);color:#10151b;font-weight:700;text-decoration:none;margin-bottom:6px}
+@media (prefers-color-scheme: light){.xl{color:#fff}}
+.sub{font-size:13px;color:var(--dim);text-align:center;margin:0 0 26px}
+ul{list-style:none;margin:0 0 26px;padding:0}li{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px}
+li div{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}li a{color:var(--acc);font-weight:700;text-decoration:none}li a:hover{text-decoration:underline}
+li p{margin:4px 0 0;font-size:14px;color:var(--dim)}.meta{font-family:"SFMono-Regular",Consolas,monospace;font-size:12px;color:var(--dim)}
+h2{font-size:16px;margin:0 0 8px}.nota{font-size:14px;color:var(--dim)}.nota li{background:none;border:0;padding:0;margin:0 0 6px;list-style:disc inside}
+footer{margin-top:28px;font-size:13px;color:var(--dim)}footer a{color:var(--acc)}
+</style></head><body><main>
+<p class="eyebrow">Careo 27 · Datos</p>
+<h1>Descarga los datos</h1>
+<p class="lead">Promedio ponderado de las encuestas a gobernador en los 17 estados con elección en 2027. Corte: 13 nov 2026.</p>
+<a class="xl" href="careo27_datos.xlsx" download>Descargar todo en Excel (.xlsx · 202 KB)</a>
+<p class="sub">Un libro con las 5 tablas y una hoja «Léeme».</p>
+<ul><li><div><a href="careo27_careo_vigente.csv" download>Careo vigente</a><span class="meta">CSV · 4 KB · 77 filas</span></div><p>Promedio ponderado por candidato del mes en curso de cada estado (lo que muestra el mapa).</p></li><li><div><a href="careo27_tendencia_mensual.csv" download>Tendencia mensual</a><span class="meta">CSV · 9 KB · 275 filas</span></div><p>Promedio ponderado por partido y mes (la gráfica de tendencia de cada estado).</p></li><li><div><a href="careo27_careos_por_encuesta.csv" download>Careos por encuesta</a><span class="meta">CSV · 165 KB · 1462 filas</span></div><p>Cada encuesta con sus candidatos y porcentajes, incluidos los careos documentados que no se promedian.</p></li><li><div><a href="careo27_tendencia_por_encuesta.csv" download>Tendencia por encuesta</a><span class="meta">CSV · 152 KB · 1493 filas</span></div><p>Cada encuesta con su porcentaje por partido (lámina por partido o careo agrupado por partido).</p></li><li><div><a href="careo27_fuentes.csv" download>Fuentes</a><span class="meta">CSV · 48 KB · 319 filas</span></div><p>Una fila por encuesta: casa, fechas, muestra, margen, base y advertencias de la casa.</p></li></ul>
+<h2>Cómo leerlos</h2>
+<ul class="nota">
+<li>Los porcentajes son de preferencia bruta (incluyen indecisos), salvo que la fuente indique otra cosa.</li>
+<li>Las casas con advertencia y las encuestas digitales están marcadas en «Fuentes»; las digitales entran con peso limitado.</li>
+<li>Los careos «documentados» se guardan pero no se promedian.</li>
+<li>Los CSV están en UTF-8 y abren bien en Excel, Google Sheets y Python.</li>
+</ul>
+<footer>Fuente: Careo 27 · <a href="https://x.com/o0vallee">@o0vallee</a> · <a href="/">Volver al mapa</a></footer>
+</main></body></html>

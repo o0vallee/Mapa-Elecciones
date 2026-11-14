@@ -1,0 +1,1463 @@
+﻿estado,mes,id,casa,levantamiento_fin,escenario,candidato,partido,porcentaje,alianza_partidos,tratamiento
+Aguascalientes,2026-08,cye23,C&E,2026-08-23,promedio de 2 escenarios de PAN (derivado),Antonio Martín del Campo,PAN,41.3,,entra al careo
+Aguascalientes,2026-08,cye23,C&E,2026-08-23,promedio de 2 escenarios de PAN (derivado),Nora Ruvalcaba,Morena,33.4,,entra al careo
+Aguascalientes,2026-08,cye23,C&E,2026-08-23,promedio de 2 escenarios de PAN (derivado),Anayeli Muñoz,MC,9.9,,entra al careo
+Aguascalientes,2026-08,cye23,C&E,2026-08-23,promedio de 2 escenarios de PAN (derivado),Humberto Ambriz,PRI,3.4,,entra al careo
+Aguascalientes,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Antonio Martín del Campo,PAN,50.55,,entra al careo
+Aguascalientes,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Nora Ruvalcaba,Morena,31.34,,entra al careo
+Aguascalientes,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Anayeli Muñoz,MC,7.58,,entra al careo
+Aguascalientes,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Leslie Atilano Tapia,PRI,3.89,,entra al careo
+Aguascalientes,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Antonio Martín del Campo,PAN,48.63,,entra al careo
+Aguascalientes,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Nora Ruvalcaba,Morena,29.17,,entra al careo
+Aguascalientes,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Blanca Rivera Río,PRI,8.76,,entra al careo
+Aguascalientes,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Lorena Martínez,MC,4.14,,entra al careo
+Aguascalientes,2026-09,mc30,Massive Caller,2026-09-30,careo,Antonio Martín del Campo,PAN,47.7,,entra al careo
+Aguascalientes,2026-09,mc30,Massive Caller,2026-09-30,careo,Nora Ruvalcaba,Morena,27.5,,entra al careo
+Aguascalientes,2026-09,mc30,Massive Caller,2026-09-30,careo,Anayeli Muñoz,MC,4.7,,entra al careo
+Aguascalientes,2026-09,mc30,Massive Caller,2026-09-30,careo,Humberto Ambriz,PRI,4.5,,entra al careo
+Aguascalientes,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1 (Montañez),Leo Montañez,PAN,43.9,,entra al careo
+Aguascalientes,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1 (Montañez),Nora Ruvalcaba,Morena,27,,entra al careo
+Aguascalientes,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1 (Montañez),Kendor Macías,PRI,8.9,,entra al careo
+Aguascalientes,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1 (Montañez),Lorena Martínez,MC,6,,entra al careo
+Aguascalientes,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2 (Martín del Campo),Antonio Martín del Campo,PAN,47.1,,entra al careo
+Aguascalientes,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2 (Martín del Campo),Nora Ruvalcaba,Morena,27.5,,entra al careo
+Aguascalientes,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2 (Martín del Campo),Kendor Macías,PRI,9.7,,entra al careo
+Aguascalientes,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2 (Martín del Campo),Lorena Martínez,MC,5.8,,entra al careo
+Aguascalientes,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,A: Martín del Campo PAN-PRI,Antonio Martín del Campo,PAN,48.9,PAN,entra al careo
+Aguascalientes,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,A: Martín del Campo PAN-PRI,Nora Ruvalcaba,Morena,37.1,PAN,entra al careo
+Aguascalientes,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,A: Martín del Campo PAN-PRI,Lorena Martínez,MC,8.1,PAN,entra al careo
+Aguascalientes,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,B: Montañez PAN-PRI,Leo Montañez,PAN,44.6,PAN,entra al careo
+Aguascalientes,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,B: Montañez PAN-PRI,Nora Ruvalcaba,Morena,38.4,PAN,entra al careo
+Aguascalientes,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,B: Montañez PAN-PRI,Lorena Martínez,MC,9.8,PAN,entra al careo
+Aguascalientes,2026-10,logi-oct12,Logi·Call,2026-10-12,careo,Antonio Martín del Campo,PAN,52.1,,entra al careo
+Aguascalientes,2026-10,logi-oct12,Logi·Call,2026-10-12,careo,Nora Ruvalcaba,Morena,25.1,,entra al careo
+Aguascalientes,2026-10,logi-oct12,Logi·Call,2026-10-12,careo,Anayeli Muñoz,MC,4.1,,entra al careo
+Aguascalientes,2026-10,logi-oct12,Logi·Call,2026-10-12,careo,Humberto Ambriz,PRI,3.5,,entra al careo
+Aguascalientes,2026-10,rub-1013,RUBRUM,2026-10-13,careo,Antonio Martín del Campo,PAN,50.7,PAN-PRI,entra al careo
+Aguascalientes,2026-10,rub-1013,RUBRUM,2026-10-13,careo,Nora Ruvalcaba,Morena,22.7,PAN-PRI,entra al careo
+Aguascalientes,2026-10,rub-1013,RUBRUM,2026-10-13,careo,Lorena Martínez,MC,10.2,PAN-PRI,entra al careo
+Aguascalientes,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Antonio Martín del Campo,PAN,37.5,,entra al careo
+Aguascalientes,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Nora Ruvalcaba,Morena,26.4,,entra al careo
+Aguascalientes,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Karla Espinoza,MC,7.8,,entra al careo
+Aguascalientes,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Kendor Macías,PRI,3.1,,entra al careo
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),2026-10-23,escenario 1 (Montañez PAN),Leonardo Montañez,PAN,35.2,,excluida
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),2026-10-23,escenario 1 (Montañez PAN),Nora Ruvalcaba,Morena,30.6,,excluida
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),2026-10-23,escenario 1 (Montañez PAN),Lorena Martínez,Independiente,17.9,,excluida
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),2026-10-23,escenario 1 (Montañez PAN),Anayeli Muñoz,MC,9.4,,excluida
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),2026-10-23,escenario 1 (Montañez PAN),Humberto Ambriz,PRI,6.9,,excluida
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),2026-10-23,escenario 2 (Martín del Campo PAN),Antonio Martín del Campo,PAN,57.2,,excluida
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),2026-10-23,escenario 2 (Martín del Campo PAN),Nora Ruvalcaba,Morena,26.5,,excluida
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),2026-10-23,escenario 2 (Martín del Campo PAN),Lorena Martínez,Independiente,10,,excluida
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),2026-10-23,escenario 2 (Martín del Campo PAN),Anayeli Muñoz,MC,4.3,,excluida
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),2026-10-23,escenario 2 (Martín del Campo PAN),Humberto Ambriz,PRI,2,,excluida
+Aguascalientes,2026-10,ce-oct28,CE Research,2026-10-28,"careo 1 (Martín del Campo PAN; Anayeli Muñoz MC, Ambriz PRI)",Antonio Martín del Campo,PAN,40,,entra al careo
+Aguascalientes,2026-10,ce-oct28,CE Research,2026-10-28,"careo 1 (Martín del Campo PAN; Anayeli Muñoz MC, Ambriz PRI)",Nora Ruvalcaba,Morena,33,,entra al careo
+Aguascalientes,2026-10,ce-oct28,CE Research,2026-10-28,"careo 1 (Martín del Campo PAN; Anayeli Muñoz MC, Ambriz PRI)",Lorena Martínez,MC,10,,entra al careo
+Aguascalientes,2026-10,ce-oct28,CE Research,2026-10-28,"careo 1 (Martín del Campo PAN; Anayeli Muñoz MC, Ambriz PRI)",Kendor Macías,PRI,4,,entra al careo
+Aguascalientes,2026-10,ce-oct28,CE Research,2026-10-28,careo documentado,Leo Montañez,PAN,40,,documentado (no se promedia)
+Aguascalientes,2026-10,ce-oct28,CE Research,2026-10-28,careo documentado,Nora Ruvalcaba,Morena,32,,documentado (no se promedia)
+Aguascalientes,2026-10,ce-oct28,CE Research,2026-10-28,careo documentado,Anayeli Muñoz,MC,11,,documentado (no se promedia)
+Aguascalientes,2026-10,ce-oct28,CE Research,2026-10-28,careo documentado,Leticia Olivares,PRI,5,,documentado (no se promedia)
+Aguascalientes,2026-10,intv-oct30,Intervalo,2026-10-30,careo,Antonio Martín del Campo,PAN,46,,entra al careo
+Aguascalientes,2026-10,intv-oct30,Intervalo,2026-10-30,careo,Nora Ruvalcaba,Morena,32,,entra al careo
+Aguascalientes,2026-10,intv-oct30,Intervalo,2026-10-30,careo,Lorena Martínez,MC,11,,entra al careo
+Aguascalientes,2026-10,intv-oct30,Intervalo,2026-10-30,careo,Kendor Macías,PRI,3,,entra al careo
+Aguascalientes,2026-10,mc-oct31,Massive Caller,2026-10-31,careo,Antonio Martín del Campo,PAN,49.2,,entra al careo
+Aguascalientes,2026-10,mc-oct31,Massive Caller,2026-10-31,careo,Nora Ruvalcaba,Morena,28.6,,entra al careo
+Aguascalientes,2026-10,mc-oct31,Massive Caller,2026-10-31,careo,Kendor Macías,PRI,5.1,,entra al careo
+Aguascalientes,2026-10,mc-oct31,Massive Caller,2026-10-31,careo,Lorena Martínez,MC,3.9,,entra al careo
+Aguascalientes,2026-11,cripeso-nov03,Cripeso,2026-11-03,careo,Antonio Martín del Campo,PAN,47.14,,entra al careo
+Aguascalientes,2026-11,cripeso-nov03,Cripeso,2026-11-03,careo,Nora Ruvalcaba,Morena,30.79,,entra al careo
+Aguascalientes,2026-11,cripeso-nov03,Cripeso,2026-11-03,careo,Lorena Martínez,MC,7.65,,entra al careo
+Aguascalientes,2026-11,cripeso-nov03,Cripeso,2026-11-03,careo,Kendor Macías,PRI,7.01,,entra al careo
+Aguascalientes,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,A: Martín del Campo PAN-PRI (principal),Antonio Martín del Campo,PAN,49.9,PAN,entra al careo
+Aguascalientes,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,A: Martín del Campo PAN-PRI (principal),Nora Ruvalcaba,Morena,36.2,PAN,entra al careo
+Aguascalientes,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,A: Martín del Campo PAN-PRI (principal),Lorena Martínez,MC,7.3,PAN,entra al careo
+Aguascalientes,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Leo Montañez,PAN,46,,documentado (no se promedia)
+Aguascalientes,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Nora Ruvalcaba,Morena,37.4,,documentado (no se promedia)
+Aguascalientes,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Lorena Martínez,MC,9.1,,documentado (no se promedia)
+Aguascalientes,2026-11,rub-nov09,RUBRUM,2026-11-09,careo,Antonio Martín del Campo,PAN,49.3,PAN-PRI,entra al careo
+Aguascalientes,2026-11,rub-nov09,RUBRUM,2026-11-09,careo,Nora Ruvalcaba,Morena,24.9,PAN-PRI,entra al careo
+Aguascalientes,2026-11,rub-nov09,RUBRUM,2026-11-09,careo,Lorena Martínez,MC,8.6,PAN-PRI,entra al careo
+Baja California,2026-07,emot,Emotegia,2026-07-11,careo,Julieta Ramírez,Morena,30.18,,entra al careo
+Baja California,2026-07,emot,Emotegia,2026-07-11,careo,Gina Andrea Cruz Blackledge,PAN,25.64,,entra al careo
+Baja California,2026-07,emot,Emotegia,2026-07-11,careo,Karla Patricia Ruiz Macfarland,MC,5.12,,entra al careo
+Baja California,2026-07,emot,Emotegia,2026-07-11,careo,Guadalupe Gutiérrez Fragoso,PRI,2.18,,entra al careo
+Baja California,2026-07,emot,Emotegia,2026-07-11,careo,Jorge Ramos Hernández,PVEM,2,,entra al careo
+Baja California,2026-07,arias,Arias Consultores,2026-07-12,careo,Julieta Ramírez,Morena,39,,entra al careo
+Baja California,2026-07,arias,Arias Consultores,2026-07-12,careo,Gina Andrea Cruz Blackledge,PAN,21,,entra al careo
+Baja California,2026-07,arias,Arias Consultores,2026-07-12,careo,Daniela García Salgado,PRI,6.3,,entra al careo
+Baja California,2026-07,arias,Arias Consultores,2026-07-12,careo,Daylin García Ruvalcaba,MC,5.2,,entra al careo
+Baja California,2026-08,src,SRC,2026-08-26,careo,Ismael Burgueño,Morena,43.8,,entra al careo
+Baja California,2026-08,src,SRC,2026-08-26,careo,Gina Andrea Cruz Blackledge,PAN,16.7,,entra al careo
+Baja California,2026-08,src,SRC,2026-08-26,careo,Adrián Valle,PRI,5.6,,entra al careo
+Baja California,2026-08,src,SRC,2026-08-26,careo,Karla Patricia Ruiz Macfarland,MC,5.1,,entra al careo
+Baja California,2026-09,ce,C&E (Campaigns & Elections),2026-09-02,careo,Julieta Ramírez,Morena,37.5,,entra al careo
+Baja California,2026-09,ce,C&E (Campaigns & Elections),2026-09-02,careo,Gustavo Macalpin,PAN,21,,entra al careo
+Baja California,2026-09,ce,C&E (Campaigns & Elections),2026-09-02,careo,Gustavo de Hoyos,MC,11.5,,entra al careo
+Baja California,2026-09,ce,C&E (Campaigns & Elections),2026-09-02,careo,Juan Carlos Hank,pes,4.2,,entra al careo
+Baja California,2026-09,ce,C&E (Campaigns & Elections),2026-09-02,careo,Guadalupe Gutiérrez Fragoso,PRI,1,,entra al careo
+Baja California,2026-09,elec,Electoralia,2026-09-06,careo,Julieta Ramírez,Morena,39,,entra al careo
+Baja California,2026-09,elec,Electoralia,2026-09-06,careo,Gina Andrea Cruz Blackledge,PAN,19,,entra al careo
+Baja California,2026-09,elec,Electoralia,2026-09-06,careo,Karla Patricia Ruiz Macfarland,MC,8,,entra al careo
+Baja California,2026-09,elec,Electoralia,2026-09-06,careo,Guadalupe Gutiérrez Fragoso,PRI,6,,entra al careo
+Baja California,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Julieta Ramírez,Morena,35.49,,entra al careo
+Baja California,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Gina Andrea Cruz Blackledge,PAN,26.49,,entra al careo
+Baja California,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Gustavo Macalpin,MC,11.22,,entra al careo
+Baja California,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Guadalupe Gutiérrez Fragoso,PRI,2.79,,entra al careo
+Baja California,2026-09,mc30,Massive Caller,2026-09-30,careo,Julieta Ramírez,Morena,36.2,,entra al careo
+Baja California,2026-09,mc30,Massive Caller,2026-09-30,careo,Margarita de Sánchez,PAN,16.5,,entra al careo
+Baja California,2026-09,mc30,Massive Caller,2026-09-30,careo,Jorge Hank Rhon,pes,11.6,,entra al careo
+Baja California,2026-09,mc30,Massive Caller,2026-09-30,careo,Adrián Valle,PRI,6.9,,entra al careo
+Baja California,2026-09,mc30,Massive Caller,2026-09-30,careo,Monserrat Caballero,PT,5.9,,entra al careo
+Baja California,2026-09,mc30,Massive Caller,2026-09-30,careo,Karla Patricia Ruiz Macfarland,MC,2.4,,entra al careo
+Baja California,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Julieta Ramírez,Morena,42.6,,entra al careo
+Baja California,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Verónica Ruffo Sánchez,PAN,35.6,,entra al careo
+Baja California,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Gustavo de Hoyos,MC,12.8,,entra al careo
+Baja California,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Adrián Valle,PRI,4.6,,entra al careo
+Baja California,2026-10,gob-oct12,GobernArte,2026-10-12,careo,Julieta Ramírez,Morena,38.5,,entra al careo
+Baja California,2026-10,gob-oct12,GobernArte,2026-10-12,careo,Gina Andrea Cruz Blackledge,PAN,20.9,,entra al careo
+Baja California,2026-10,gob-oct12,GobernArte,2026-10-12,careo,Adrián Valle,PRI,14.7,,entra al careo
+Baja California,2026-10,gob-oct12,GobernArte,2026-10-12,careo,Gustavo de Hoyos,MC,8.5,,entra al careo
+Baja California,2026-10,logi-oct14,Logi·Call,2026-10-14,careo,Julieta Ramírez,Morena,34.6,,entra al careo
+Baja California,2026-10,logi-oct14,Logi·Call,2026-10-14,careo,Margarita de Sánchez,PAN,18.3,,entra al careo
+Baja California,2026-10,logi-oct14,Logi·Call,2026-10-14,careo,Adrián Valle,PRI,10.2,,entra al careo
+Baja California,2026-10,logi-oct14,Logi·Call,2026-10-14,careo,Daylin García,MC,3.5,,entra al careo
+Baja California,2026-10,logi-oct14,Logi·Call,2026-10-14,careo documentado,Jorge Hank Rhon,pes,10.4,,documentado (no se promedia)
+Baja California,2026-10,rub-oct14,RUBRUM,2026-10-14,careo (Ruffo PAN-PRI),Julieta Ramírez,Morena,40.1,PAN-PRI,entra al careo
+Baja California,2026-10,rub-oct14,RUBRUM,2026-10-14,careo (Ruffo PAN-PRI),Verónica Ruffo Sánchez,PAN,28.6,PAN-PRI,entra al careo
+Baja California,2026-10,rub-oct14,RUBRUM,2026-10-14,careo (Ruffo PAN-PRI),Gustavo de Hoyos,MC,10.3,PAN-PRI,entra al careo
+Baja California,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Julieta Ramírez,Morena,36.5,,entra al careo
+Baja California,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Verónica Ruffo Sánchez,PAN,17.8,,entra al careo
+Baja California,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Gustavo de Hoyos,MC,7.2,,entra al careo
+Baja California,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Monserrat Caballero,PT,5.2,,entra al careo
+Baja California,2026-10,mc-oct31,Massive Caller,2026-10-31,careo,Julieta Ramírez,Morena,33.7,,entra al careo
+Baja California,2026-10,mc-oct31,Massive Caller,2026-10-31,careo,Verónica Ruffo Sánchez,PAN,22.6,,entra al careo
+Baja California,2026-10,mc-oct31,Massive Caller,2026-10-31,careo,Adrián Valle,PRI,13.2,,entra al careo
+Baja California,2026-10,mc-oct31,Massive Caller,2026-10-31,careo,Jorge Hank Rhon,pes,9.4,,entra al careo
+Baja California,2026-10,mc-oct31,Massive Caller,2026-10-31,careo,Monserrat Caballero,PT,6.7,,entra al careo
+Baja California,2026-10,mc-oct31,Massive Caller,2026-10-31,careo,Gustavo de Hoyos,MC,4.3,,entra al careo
+Baja California,2026-11,cripeso-nov03,Cripeso,2026-11-03,careo 1,Julieta Ramírez,Morena,41.53,,entra al careo
+Baja California,2026-11,cripeso-nov03,Cripeso,2026-11-03,careo 1,Verónica Ruffo Sánchez,PAN,26.34,,entra al careo
+Baja California,2026-11,cripeso-nov03,Cripeso,2026-11-03,careo 1,Adrián Valle,PRI,10.01,,entra al careo
+Baja California,2026-11,cripeso-nov03,Cripeso,2026-11-03,careo 1,Gustavo de Hoyos,MC,8.13,,entra al careo
+Baja California,2026-11,cripeso-nov03,Cripeso,2026-11-03,careo documentado,Julieta Ramírez,Morena,40.77,,documentado (no se promedia)
+Baja California,2026-11,cripeso-nov03,Cripeso,2026-11-03,careo documentado,Eva María Vásquez Hernández,PAN,25.48,,documentado (no se promedia)
+Baja California,2026-11,cripeso-nov03,Cripeso,2026-11-03,careo documentado,Guadalupe Gutiérrez,PRI,10.29,,documentado (no se promedia)
+Baja California,2026-11,cripeso-nov03,Cripeso,2026-11-03,careo documentado,Daylín García Ruvalcaba,MC,9.16,,documentado (no se promedia)
+Baja California,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Julieta Ramírez,Morena,43.3,,entra al careo
+Baja California,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Verónica Ruffo Sánchez,PAN,34.9,,entra al careo
+Baja California,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Gustavo de Hoyos,MC,12.4,,entra al careo
+Baja California,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Adrián Valle,PRI,3.9,,entra al careo
+Baja California,2026-11,gob-nov10,GobernArte,2026-11-10,careo,Julieta Ramírez,Morena,39.9,,entra al careo
+Baja California,2026-11,gob-nov10,GobernArte,2026-11-10,careo,Gina Andrea Cruz Blackledge,PAN,20.8,,entra al careo
+Baja California,2026-11,gob-nov10,GobernArte,2026-11-10,careo,Adrián Valle,PRI,13.7,,entra al careo
+Baja California,2026-11,gob-nov10,GobernArte,2026-11-10,careo,Gustavo de Hoyos,MC,10.5,,entra al careo
+Baja California Sur,2026-07,emot,Emotegia,2026-07-11,careo,Francisco Pelayo,PAN,43.12,,entra al careo
+Baja California Sur,2026-07,emot,Emotegia,2026-07-11,careo,Manuel Cota,Morena,27.65,,entra al careo
+Baja California Sur,2026-07,emot,Emotegia,2026-07-11,careo,Ricardo Barroso,MC,6.78,,entra al careo
+Baja California Sur,2026-07,emot,Emotegia,2026-07-11,careo,Christian del Castillo,PRI,2.76,,entra al careo
+Baja California Sur,2026-07,qm,Question Mark (El Heraldo),2026-07-15,careo,Manuel Cota,Morena,34.9,,entra al careo
+Baja California Sur,2026-07,qm,Question Mark (El Heraldo),2026-07-15,careo,Francisco Pelayo,PAN,27.8,,entra al careo
+Baja California Sur,2026-07,qm,Question Mark (El Heraldo),2026-07-15,careo,Ricardo Barroso,MC,13.8,,entra al careo
+Baja California Sur,2026-07,qm,Question Mark (El Heraldo),2026-07-15,careo,Juan Alberto Valdivia,PRI,8.3,,entra al careo
+Baja California Sur,2026-09,mc02sep,Massive Caller (2 sep),2026-09-02,Escenario Agúndez (Morena),Francisco Pelayo,PAN,27.2,,entra al careo
+Baja California Sur,2026-09,mc02sep,Massive Caller (2 sep),2026-09-02,Escenario Agúndez (Morena),Christian Agúndez,Morena,24.1,,entra al careo
+Baja California Sur,2026-09,mc02sep,Massive Caller (2 sep),2026-09-02,Escenario Agúndez (Morena),Antonio Manríquez,PRI,4.9,,entra al careo
+Baja California Sur,2026-09,mc02sep,Massive Caller (2 sep),2026-09-02,Escenario Quiroga (Morena),Francisco Pelayo,PAN,29.1,,entra al careo
+Baja California Sur,2026-09,mc02sep,Massive Caller (2 sep),2026-09-02,Escenario Quiroga (Morena),Milena Paola Quiroga,Morena,20.5,,entra al careo
+Baja California Sur,2026-09,mc02sep,Massive Caller (2 sep),2026-09-02,Escenario Quiroga (Morena),Antonio Manríquez,PRI,6.3,,entra al careo
+Baja California Sur,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Francisco Pelayo,PAN,47,,entra al careo
+Baja California Sur,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Manuel Cota,Morena,29,,entra al careo
+Baja California Sur,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Ricardo Barroso,MC,4,,entra al careo
+Baja California Sur,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Christian del Castillo,PRI,3.1,,entra al careo
+Baja California Sur,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Francisco Pelayo,PAN,43,,entra al careo
+Baja California Sur,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Manuel Cota,Morena,31,,entra al careo
+Baja California Sur,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Ricardo Barroso,MC,4.3,,entra al careo
+Baja California Sur,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Juan Alberto Valdivia,PRI,1.5,,entra al careo
+Baja California Sur,2026-09,polig,Poligrama,2026-09-28,careo,Manuel Cota,Morena,39.3,,entra al careo
+Baja California Sur,2026-09,polig,Poligrama,2026-09-28,careo,Ricardo Barroso,MC,10.6,,entra al careo
+Baja California Sur,2026-10,arias-oct,Arias Consultores,2026-10-01,careo,Manuel Cota,Morena,37.2,,entra al careo
+Baja California Sur,2026-10,arias-oct,Arias Consultores,2026-10-01,careo,Francisco Pelayo,PAN,26.2,,entra al careo
+Baja California Sur,2026-10,arias-oct,Arias Consultores,2026-10-01,careo,Ricardo Barroso,MC,12.4,,entra al careo
+Baja California Sur,2026-10,arias-oct,Arias Consultores,2026-10-01,careo,Juan Alberto Valdivia,PRI,4,,entra al careo
+Baja California Sur,2026-10,mc02oct,Massive Caller (2 oct),2026-10-02,careo,Francisco Pelayo,PAN,29.1,,entra al careo
+Baja California Sur,2026-10,mc02oct,Massive Caller (2 oct),2026-10-02,careo,Manuel Cota,Morena,27.2,,entra al careo
+Baja California Sur,2026-10,mc02oct,Massive Caller (2 oct),2026-10-02,careo,Antonio Manríquez,PRI,7.4,,entra al careo
+Baja California Sur,2026-10,gob-oct,GobernArte,2026-10-05,careo,Manuel Cota,Morena,30.5,,entra al careo
+Baja California Sur,2026-10,gob-oct,GobernArte,2026-10-05,careo,Francisco Pelayo,PAN,25.4,,entra al careo
+Baja California Sur,2026-10,gob-oct,GobernArte,2026-10-05,careo,Rubén Muñoz Álvarez,Independiente,11.6,,entra al careo
+Baja California Sur,2026-10,gob-oct,GobernArte,2026-10-05,careo,Ricardo Barroso,MC,10.7,,entra al careo
+Baja California Sur,2026-10,gob-oct,GobernArte,2026-10-05,careo,Juan Alberto Valdivia,PRI,5.3,,entra al careo
+Baja California Sur,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Manuel Cota,Morena,41.2,,entra al careo
+Baja California Sur,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Francisco Pelayo,PAN,31.2,,entra al careo
+Baja California Sur,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Ricardo Barroso,MC,15.6,,entra al careo
+Baja California Sur,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Christian del Castillo,PRI,4.3,,entra al careo
+Baja California Sur,2026-10,rub-1012,RUBRUM,2026-10-12,careo,Manuel Cota,Morena,41.4,PAN-PRI,entra al careo
+Baja California Sur,2026-10,rub-1012,RUBRUM,2026-10-12,careo,Francisco Pelayo,PAN,35.8,PAN-PRI,entra al careo
+Baja California Sur,2026-10,rub-1012,RUBRUM,2026-10-12,careo,Ernesto Altamirano,MC,3.5,PAN-PRI,entra al careo
+Baja California Sur,2026-10,logi-oct15,Logi·Call,2026-10-15,careo,Manuel Cota,Morena,28.5,,entra al careo
+Baja California Sur,2026-10,logi-oct15,Logi·Call,2026-10-15,careo,Francisco Pelayo,PAN,25.3,,entra al careo
+Baja California Sur,2026-10,logi-oct15,Logi·Call,2026-10-15,careo,Antonio Manríquez,PRI,12.5,,entra al careo
+Baja California Sur,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Manuel Cota,Morena,32.8,,entra al careo
+Baja California Sur,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Francisco Pelayo,PAN,25.6,,entra al careo
+Baja California Sur,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Ricardo Barroso,MC,3.7,,entra al careo
+Baja California Sur,2026-10,ce-oct19,CE Research,2026-10-19,careo (partidos por separado),Manuel Cota,Morena,49,,entra al careo
+Baja California Sur,2026-10,ce-oct19,CE Research,2026-10-19,careo (partidos por separado),Francisco Pelayo,PAN,39,,entra al careo
+Baja California Sur,2026-10,ce-oct19,CE Research,2026-10-19,careo (partidos por separado),Ricardo Barroso,MC,4,,entra al careo
+Baja California Sur,2026-10,ce-oct19,CE Research,2026-10-19,careo (partidos por separado),Antonio Manríquez,PRI,3,,entra al careo
+Baja California Sur,2026-10,ce-oct19,CE Research,2026-10-19,careo documentado,Manuel Cota,Morena,48,,documentado (no se promedia)
+Baja California Sur,2026-10,ce-oct19,CE Research,2026-10-19,careo documentado,Francisco Pelayo,PRI,42,,documentado (no se promedia)
+Baja California Sur,2026-10,ce-oct19,CE Research,2026-10-19,careo documentado,Ricardo Barroso,MC,3,,documentado (no se promedia)
+Baja California Sur,2026-11,gob-nov01,GobernArte,2026-11-01,careo,Manuel Cota,Morena,33.3,,entra al careo
+Baja California Sur,2026-11,gob-nov01,GobernArte,2026-11-01,careo,Francisco Pelayo,PAN,30.5,,entra al careo
+Baja California Sur,2026-11,gob-nov01,GobernArte,2026-11-01,careo,Rubén Muñoz Álvarez,Independiente,12.7,,entra al careo
+Baja California Sur,2026-11,gob-nov01,GobernArte,2026-11-01,careo,Ricardo Barroso,MC,9.4,,entra al careo
+Baja California Sur,2026-11,gob-nov01,GobernArte,2026-11-01,careo,Juan Alberto Valdivia Alvarado,PRI,3.5,,entra al careo
+Baja California Sur,2026-11,mc-nov02,Massive Caller (2 nov),2026-11-02,careo,Francisco Pelayo,PAN,31.4,,entra al careo
+Baja California Sur,2026-11,mc-nov02,Massive Caller (2 nov),2026-11-02,careo,Manuel Cota,Morena,26.1,,entra al careo
+Baja California Sur,2026-11,mc-nov02,Massive Caller (2 nov),2026-11-02,careo,Antonio Manríquez,PRI,9.3,,entra al careo
+Baja California Sur,2026-11,cripeso-nov04,Cripeso,2026-11-04,careo (partidos por separado),Manuel Cota,Morena,41.49,,entra al careo
+Baja California Sur,2026-11,cripeso-nov04,Cripeso,2026-11-04,careo (partidos por separado),Francisco Pelayo,PAN,29.76,,entra al careo
+Baja California Sur,2026-11,cripeso-nov04,Cripeso,2026-11-04,careo (partidos por separado),Christian del Castillo,PRI,3.34,,entra al careo
+Baja California Sur,2026-11,cripeso-nov04,Cripeso,2026-11-04,careo (partidos por separado),Ernesto Altamirano,MC,1.55,,entra al careo
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Francisco Pelayo,PAN,35.3,,documentado (no se promedia)
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Manuel Cota,Morena,32.2,,documentado (no se promedia)
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Rubén Muñoz Álvarez,Independiente,14.2,,documentado (no se promedia)
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Ricardo Barroso,MC,10,,documentado (no se promedia)
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,esc. 1: partidos por separado (criterio CE),Manuel Cota,Morena,32.6,,entra al careo
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,esc. 1: partidos por separado (criterio CE),Francisco Pelayo,PAN,28.9,,entra al careo
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,esc. 1: partidos por separado (criterio CE),Rubén Muñoz Álvarez,Independiente,12.7,,entra al careo
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,esc. 1: partidos por separado (criterio CE),Ricardo Barroso,MC,10.5,,entra al careo
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,esc. 1: partidos por separado (criterio CE),Christian del Castillo,PRI,7.6,,entra al careo
+Campeche,2026-07,qm,Question Mark,2026-07-22,careo,Pablo Gutiérrez Lazarus,Morena,48.5,,entra al careo
+Campeche,2026-07,qm,Question Mark,2026-07-22,careo,Eliseo Fernández,MC,24.3,,entra al careo
+Campeche,2026-07,qm,Question Mark,2026-07-22,careo,Christian Castro Bello,PRI,9.1,,entra al careo
+Campeche,2026-07,qm,Question Mark,2026-07-22,careo,Nelly Márquez,PAN,9,,entra al careo
+Campeche,2026-08,cye,C&E,2026-08-12,careo (Fernández),Pablo Gutiérrez Lazarus,Morena,44.7,,entra al careo
+Campeche,2026-08,cye,C&E,2026-08-12,careo (Fernández),Eliseo Fernández,MC,38.5,,entra al careo
+Campeche,2026-08,cye,C&E,2026-08-12,careo (Fernández),Nelly Márquez,PAN,4.7,,entra al careo
+Campeche,2026-08,cye,C&E,2026-08-12,careo (Fernández),Christian Castro Bello,PRI,2.4,,entra al careo
+Campeche,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Pablo Gutiérrez Lazarus,Morena,44,,entra al careo
+Campeche,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Eliseo Fernández,MC,36,,entra al careo
+Campeche,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Ricardo Medina Farfán,PRI,7,,entra al careo
+Campeche,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Pedro Cámara Castillo,PAN,1.7,,entra al careo
+Campeche,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Pablo Gutiérrez Lazarus,Morena,43.98,,entra al careo
+Campeche,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Eliseo Fernández,MC,36,,entra al careo
+Campeche,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Christian Castro Bello,PRI,6.5,,entra al careo
+Campeche,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Salvador Farías González,PAN,1.5,,entra al careo
+Campeche,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1,Pablo Gutiérrez Lazarus,Morena,35,,entra al careo
+Campeche,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1,Eliseo Fernández,MC,32.8,,entra al careo
+Campeche,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1,Christian Castro Bello,PRI,11.7,,entra al careo
+Campeche,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1,Jorge Alberto Nordhausen,PAN,5.9,,entra al careo
+Campeche,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2,Biby Rabelo de la Torre,MC,32.9,,entra al careo
+Campeche,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2,Pablo Gutiérrez Lazarus,Morena,30.7,,entra al careo
+Campeche,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2,Karla Toledo Zamora,PRI,11,,entra al careo
+Campeche,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2,Jorge Alberto Nordhausen,PAN,3.7,,entra al careo
+Campeche,2026-10,mc-4oct,Massive Caller,2026-10-04,careo,Pablo Gutiérrez Lazarus,Morena,39.5,,entra al careo
+Campeche,2026-10,mc-4oct,Massive Caller,2026-10-04,careo,Eliseo Fernández,MC,24.2,,entra al careo
+Campeche,2026-10,mc-4oct,Massive Caller,2026-10-04,careo,Ricardo Medina Farfán,PRI,13.1,,entra al careo
+Campeche,2026-10,mc-4oct,Massive Caller,2026-10-04,careo,Salvador Farías González,PAN,4.6,,entra al careo
+Campeche,2026-10,metrik-oct,Metrik,2026-10-04,careo,Eliseo Fernández,MC,34.23,,entra al careo
+Campeche,2026-10,metrik-oct,Metrik,2026-10-04,careo,Pablo Gutiérrez Lazarus,Morena,29.65,,entra al careo
+Campeche,2026-10,metrik-oct,Metrik,2026-10-04,careo,Christian Castro Bello,PRI,11.62,,entra al careo
+Campeche,2026-10,metrik-oct,Metrik,2026-10-04,careo,Nelly Márquez,PAN,8.13,,entra al careo
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,lámina 1 (p. 32),Pablo Gutiérrez Lazarus,Morena,40.2,,entra al careo
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,lámina 1 (p. 32),Eliseo Fernández,MC,38.1,,entra al careo
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,lámina 1 (p. 32),Karla Toledo Zamora,PRI,10.3,,entra al careo
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,lámina 1 (p. 32),Jhosué Rodríguez Golib,PAN,5.2,,entra al careo
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,lámina 2 (p. 33),Pablo Gutiérrez Lazarus,Morena,43.6,,entra al careo
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,lámina 2 (p. 33),Eliseo Fernández,MC,32.4,,entra al careo
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,lámina 2 (p. 33),Karla Toledo Zamora,PRI,12.6,,entra al careo
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,lámina 2 (p. 33),Jhosué Rodríguez Golib,PAN,6.4,,entra al careo
+Campeche,2026-10,rub-1013,RUBRUM,2026-10-13,careo,Pablo Gutiérrez Lazarus,Morena,44.6,PAN-PRI,entra al careo
+Campeche,2026-10,rub-1013,RUBRUM,2026-10-13,careo,Eliseo Fernández,MC,32,PAN-PRI,entra al careo
+Campeche,2026-10,rub-1013,RUBRUM,2026-10-13,careo,Christian Castro Bello,PRI,7.2,PAN-PRI,entra al careo
+Campeche,2026-10,logi-oct16,Logi·Call,2026-10-16,careo,Pablo Gutiérrez Lazarus,Morena,35.7,,entra al careo
+Campeche,2026-10,logi-oct16,Logi·Call,2026-10-16,careo,Eliseo Fernández,MC,23.6,,entra al careo
+Campeche,2026-10,logi-oct16,Logi·Call,2026-10-16,careo,Ricardo Medina Farfán,PRI,15.2,,entra al careo
+Campeche,2026-10,logi-oct16,Logi·Call,2026-10-16,careo,Salvador Farías González,PAN,5.6,,entra al careo
+Campeche,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Pablo Gutiérrez Lazarus,Morena,33.5,,entra al careo
+Campeche,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Eliseo Fernández,MC,30.2,,entra al careo
+Campeche,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Christian Castro Bello,PRI,7.1,,entra al careo
+Campeche,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Nelly Márquez,PAN,3.4,,entra al careo
+Campeche,2026-10,gob-oct26,GobernArte,2026-10-26,careo,Pablo Gutiérrez Lazarus,Morena,42.5,,entra al careo
+Campeche,2026-10,gob-oct26,GobernArte,2026-10-26,careo,Eliseo Fernández,MC,30.2,,entra al careo
+Campeche,2026-10,gob-oct26,GobernArte,2026-10-26,careo,Christian Castro Bello,PRI,6.8,,entra al careo
+Campeche,2026-10,gob-oct26,GobernArte,2026-10-26,careo,Nelly Márquez,PAN,6.1,,entra al careo
+Campeche,2026-10,ce-oct29,CE Research,2026-10-29,"careo 1 (Eliseo Fernández MC, principal)",Pablo Gutiérrez Lazarus,Morena,41,,entra al careo
+Campeche,2026-10,ce-oct29,CE Research,2026-10-29,"careo 1 (Eliseo Fernández MC, principal)",Eliseo Fernández,MC,36,,entra al careo
+Campeche,2026-10,ce-oct29,CE Research,2026-10-29,"careo 1 (Eliseo Fernández MC, principal)",Christian Castro Bello,PRI,6,,entra al careo
+Campeche,2026-10,ce-oct29,CE Research,2026-10-29,"careo 1 (Eliseo Fernández MC, principal)",Nelly Márquez,PAN,5,,entra al careo
+Campeche,2026-10,ce-oct29,CE Research,2026-10-29,careo documentado,Pablo Gutiérrez Lazarus,Morena,42,,documentado (no se promedia)
+Campeche,2026-10,ce-oct29,CE Research,2026-10-29,careo documentado,Biby Rabelo de la Torre,MC,32,,documentado (no se promedia)
+Campeche,2026-10,ce-oct29,CE Research,2026-10-29,careo documentado,Christian Castro Bello,PRI,8,,documentado (no se promedia)
+Campeche,2026-10,ce-oct29,CE Research,2026-10-29,careo documentado,Nelly Márquez,PAN,6,,documentado (no se promedia)
+Campeche,2026-11,cripeso-nov04,Cripeso,2026-11-04,"careo 1 (Eliseo Fernández MC, principal)",Pablo Gutiérrez Lazarus,Morena,46.71,PRI,entra al careo
+Campeche,2026-11,cripeso-nov04,Cripeso,2026-11-04,"careo 1 (Eliseo Fernández MC, principal)",Eliseo Fernández,MC,35.18,PRI,entra al careo
+Campeche,2026-11,cripeso-nov04,Cripeso,2026-11-04,"careo 1 (Eliseo Fernández MC, principal)",Christian Castro Bello,PRI,11.83,PRI,entra al careo
+Campeche,2026-11,cripeso-nov04,Cripeso,2026-11-04,careo documentado,Pablo Gutiérrez Lazarus,Morena,47.35,,documentado (no se promedia)
+Campeche,2026-11,cripeso-nov04,Cripeso,2026-11-04,careo documentado,Biby Rabelo,MC,34.21,,documentado (no se promedia)
+Campeche,2026-11,cripeso-nov04,Cripeso,2026-11-04,careo documentado,Christian Castro Bello,PRI,11.67,,documentado (no se promedia)
+Campeche,2026-11,mc-nov04,Massive Caller,2026-11-04,careo,Pablo Gutiérrez Lazarus,Morena,38.2,,entra al careo
+Campeche,2026-11,mc-nov04,Massive Caller,2026-11-04,careo,Eliseo Fernández,MC,25.6,,entra al careo
+Campeche,2026-11,mc-nov04,Massive Caller,2026-11-04,careo,Ricardo Medina Farfán,PRI,11.7,,entra al careo
+Campeche,2026-11,mc-nov04,Massive Caller,2026-11-04,careo,Salvador Farías González,PAN,6.8,,entra al careo
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Pablo Gutiérrez Lazarus,Morena,42.2,,documentado (no se promedia)
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Biby Rabelo de la Torre,MC,34.1,,documentado (no se promedia)
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Karla Toledo Zamora,PRI,10.9,,documentado (no se promedia)
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Jhosué Rodríguez Golib,PAN,6.5,,documentado (no se promedia)
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,"lámina 1 (Eliseo Fernández MC, principal)",Pablo Gutiérrez Lazarus,Morena,42.9,,entra al careo
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,"lámina 1 (Eliseo Fernández MC, principal)",Eliseo Fernández,MC,34.2,,entra al careo
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,"lámina 1 (Eliseo Fernández MC, principal)",Karla Toledo Zamora,PRI,11.5,,entra al careo
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,"lámina 1 (Eliseo Fernández MC, principal)",Jhosué Rodríguez Golib,PAN,4.5,,entra al careo
+Campeche,2026-11,rub-nov11,RUBRUM,2026-11-11,careo (Castro PAN-PRI),Pablo Gutiérrez Lazarus,Morena,45.9,PRI-PAN,entra al careo
+Campeche,2026-11,rub-nov11,RUBRUM,2026-11-11,careo (Castro PAN-PRI),Eliseo Fernández,MC,29,PRI-PAN,entra al careo
+Campeche,2026-11,rub-nov11,RUBRUM,2026-11-11,careo (Castro PAN-PRI),Christian Castro Bello,PRI,9.6,PRI-PAN,entra al careo
+Chihuahua,2026-08,bym,Buendía & Márquez,2026-08-03,4 nombres Morena promediados,Cruz Pérez Cuéllar,Morena,36.3,,entra al careo
+Chihuahua,2026-08,bym,Buendía & Márquez,2026-08-03,4 nombres Morena promediados,Bonilla,PAN,23,,entra al careo
+Chihuahua,2026-08,bym,Buendía & Márquez,2026-08-03,4 nombres Morena promediados,Meléndez,PRI,13.3,,entra al careo
+Chihuahua,2026-08,bym,Buendía & Márquez,2026-08-03,4 nombres Morena promediados,Lozoya,MC,10,,entra al careo
+Chihuahua,2026-08,qm,El Heraldo/Question Mark,2026-08-22,careo,Cruz Pérez Cuéllar,Morena,43,,entra al careo
+Chihuahua,2026-08,qm,El Heraldo/Question Mark,2026-08-22,careo,Bonilla,PAN,21,,entra al careo
+Chihuahua,2026-08,qm,El Heraldo/Question Mark,2026-08-22,careo,Meléndez,PRI,10,,entra al careo
+Chihuahua,2026-08,qm,El Heraldo/Question Mark,2026-08-22,careo,Lozoya,MC,9,,entra al careo
+Chihuahua,2026-09,elec,Electoralia,2026-09-06,careo,Cruz Pérez Cuéllar,Morena,34,,entra al careo
+Chihuahua,2026-09,elec,Electoralia,2026-09-06,careo,Bonilla,PAN,28,,entra al careo
+Chihuahua,2026-09,elec,Electoralia,2026-09-06,careo,Meléndez,PRI,7,,entra al careo
+Chihuahua,2026-09,elec,Electoralia,2026-09-06,careo,Lozoya,MC,5,,entra al careo
+Chihuahua,2026-09,laenc,LaEncuesta.MX,2026-09-07,careo,Bonilla,PAN,43.8,,entra al careo
+Chihuahua,2026-09,laenc,LaEncuesta.MX,2026-09-07,careo,Cruz Pérez Cuéllar,Morena,41.2,,entra al careo
+Chihuahua,2026-09,laenc,LaEncuesta.MX,2026-09-07,careo,Lozoya,MC,8.4,,entra al careo
+Chihuahua,2026-09,terr,Territorial,2026-09-14,Bonilla PAN-PRI,Cruz Pérez Cuéllar,Morena,38.9,,entra al careo
+Chihuahua,2026-09,terr,Territorial,2026-09-14,Bonilla PAN-PRI,Bonilla,PAN,31.7,,entra al careo
+Chihuahua,2026-09,terr,Territorial,2026-09-14,Bonilla PAN-PRI,Lozoya,MC,13.1,,entra al careo
+Chihuahua,2026-09,cye,C&E,2026-09-25,PAN-MC,Bonilla,PAN,40,,excluida
+Chihuahua,2026-09,cye,C&E,2026-09-25,PAN-MC,Cruz Pérez Cuéllar,Morena,38,,excluida
+Chihuahua,2026-09,cye,C&E,2026-09-25,PAN-MC,Meléndez,PRI,5,,excluida
+Chihuahua,2026-09,cye,C&E,2026-09-25,PAN-MC,Lozoya,MC,,,excluida
+Chihuahua,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Bonilla,PAN,46,,entra al careo
+Chihuahua,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Cruz Pérez Cuéllar,Morena,40,,entra al careo
+Chihuahua,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Meléndez,PRI,2.5,,entra al careo
+Chihuahua,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Lozoya,MC,1.7,,entra al careo
+Chihuahua,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Bonilla,PAN,45,,entra al careo
+Chihuahua,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Cruz Pérez Cuéllar,Morena,37,,entra al careo
+Chihuahua,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Meléndez,PRI,5,,entra al careo
+Chihuahua,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Francisco Sánchez Villegas,MC,4,,entra al careo
+Chihuahua,2026-10,arias-oct,Arias Consultores,2026-10-01,careo,Cruz Pérez Cuéllar,Morena,44.3,,entra al careo
+Chihuahua,2026-10,arias-oct,Arias Consultores,2026-10-01,careo,Bonilla,PAN,25.2,,entra al careo
+Chihuahua,2026-10,arias-oct,Arias Consultores,2026-10-01,careo,Meléndez,PRI,7.8,,entra al careo
+Chihuahua,2026-10,arias-oct,Arias Consultores,2026-10-01,careo,Lozoya,MC,3.7,,entra al careo
+Chihuahua,2026-10,mc06oct,Massive Caller,2026-10-06,careo,Bonilla,PAN,34.7,,entra al careo
+Chihuahua,2026-10,mc06oct,Massive Caller,2026-10-06,careo,Cruz Pérez Cuéllar,Morena,29.2,,entra al careo
+Chihuahua,2026-10,mc06oct,Massive Caller,2026-10-06,careo,Meléndez,PRI,8.1,,entra al careo
+Chihuahua,2026-10,mc06oct,Massive Caller,2026-10-06,careo,Lozoya,MC,2.6,,entra al careo
+Chihuahua,2026-10,gob-oct,GobernArte,2026-10-08,careo,Cruz Pérez Cuéllar,Morena,36.1,,entra al careo
+Chihuahua,2026-10,gob-oct,GobernArte,2026-10-08,careo,Bonilla,PAN,30.5,,entra al careo
+Chihuahua,2026-10,gob-oct,GobernArte,2026-10-08,careo,Meléndez,PRI,10.9,,entra al careo
+Chihuahua,2026-10,gob-oct,GobernArte,2026-10-08,careo,Lozoya,MC,8.8,,entra al careo
+Chihuahua,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,Bonilla PAN-PRI,Cruz Pérez Cuéllar,Morena,44.2,PAN,entra al careo
+Chihuahua,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,Bonilla PAN-PRI,Bonilla,PAN,41.6,PAN,entra al careo
+Chihuahua,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,Bonilla PAN-PRI,Lozoya,MC,10.3,PAN,entra al careo
+Chihuahua,2026-10,rub-oct12,RUBRUM,2026-10-12,careo (Bonilla PAN-PRI-PRD),Bonilla,PAN,40.6,PAN-PRI,entra al careo
+Chihuahua,2026-10,rub-oct12,RUBRUM,2026-10-12,careo (Bonilla PAN-PRI-PRD),Cruz Pérez Cuéllar,Morena,35.2,PAN-PRI,entra al careo
+Chihuahua,2026-10,rub-oct12,RUBRUM,2026-10-12,careo (Bonilla PAN-PRI-PRD),Lozoya,MC,5.7,PAN-PRI,entra al careo
+Chihuahua,2026-10,rub-oct12,RUBRUM,2026-10-12,careo (Bonilla PAN-PRI-PRD),Julián Lebarón,Independiente,5.2,PAN-PRI,entra al careo
+Chihuahua,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Cruz Pérez Cuéllar,Morena,34.6,,entra al careo
+Chihuahua,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Bonilla,PAN,27.7,,entra al careo
+Chihuahua,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Lozoya,MC,8.9,,entra al careo
+Chihuahua,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Meléndez,PRI,7.4,,entra al careo
+Chihuahua,2026-10,logi-oct17,Logi·Call,2026-10-17,careo,Bonilla,PAN,37.3,,entra al careo
+Chihuahua,2026-10,logi-oct17,Logi·Call,2026-10-17,careo,Cruz Pérez Cuéllar,Morena,31.4,,entra al careo
+Chihuahua,2026-10,logi-oct17,Logi·Call,2026-10-17,careo,Meléndez,PRI,11.8,,entra al careo
+Chihuahua,2026-10,logi-oct17,Logi·Call,2026-10-17,careo,Lozoya,MC,3.2,,entra al careo
+Chihuahua,2026-10,logi-oct17,Logi·Call,2026-10-17,careo,Julián Lebarón,Independiente,1.8,,entra al careo
+Chihuahua,2026-10,ce-oct18,CE Research,2026-10-18,careo,Bonilla,PAN,46,PAN-PRI,entra al careo
+Chihuahua,2026-10,ce-oct18,CE Research,2026-10-18,careo,Cruz Pérez Cuéllar,Morena,43,PAN-PRI,entra al careo
+Chihuahua,2026-10,ce-oct18,CE Research,2026-10-18,careo,Lozoya,MC,2,PAN-PRI,entra al careo
+Chihuahua,2026-10,ce-oct18,CE Research,2026-10-18,careo,Julián Lebarón,Independiente,1,PAN-PRI,entra al careo
+Chihuahua,2026-11,gob-nov04,GobernArte,2026-11-04,careo,Cruz Pérez Cuéllar,Morena,37.2,,entra al careo
+Chihuahua,2026-11,gob-nov04,GobernArte,2026-11-04,careo,Bonilla,PAN,32.6,,entra al careo
+Chihuahua,2026-11,gob-nov04,GobernArte,2026-11-04,careo,Meléndez,PRI,9.1,,entra al careo
+Chihuahua,2026-11,gob-nov04,GobernArte,2026-11-04,careo,Lozoya,MC,6.5,,entra al careo
+Chihuahua,2026-11,cripeso-nov05,Cripeso,2026-11-05,careo (Bonilla PAN-PRI-PRD),Bonilla,PAN,48.65,PAN,entra al careo
+Chihuahua,2026-11,cripeso-nov05,Cripeso,2026-11-05,careo (Bonilla PAN-PRI-PRD),Cruz Pérez Cuéllar,Morena,45.5,PAN,entra al careo
+Chihuahua,2026-11,cripeso-nov05,Cripeso,2026-11-05,careo (Bonilla PAN-PRI-PRD),Lozoya,MC,2.49,PAN,entra al careo
+Chihuahua,2026-11,cripeso-nov05,Cripeso,2026-11-05,careo (Bonilla PAN-PRI-PRD),Julián Lebarón,Somos,0.36,PAN,entra al careo
+Chihuahua,2026-11,mc06nov,Massive Caller,2026-11-06,careo,Bonilla,PAN,32.5,,entra al careo
+Chihuahua,2026-11,mc06nov,Massive Caller,2026-11-06,careo,Cruz Pérez Cuéllar,Morena,31.5,,entra al careo
+Chihuahua,2026-11,mc06nov,Massive Caller,2026-11-06,careo,Meléndez,PRI,10.7,,entra al careo
+Chihuahua,2026-11,mc06nov,Massive Caller,2026-11-06,careo,Lozoya,MC,3.6,,entra al careo
+Chihuahua,2026-11,mc06nov,Massive Caller,2026-11-06,careo,Julián Lebarón,Somos,2.4,,entra al careo
+Chihuahua,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,Bonilla PAN-PRI,Cruz Pérez Cuéllar,Morena,42.1,PAN,entra al careo
+Chihuahua,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,Bonilla PAN-PRI,Bonilla,PAN,38.5,PAN,entra al careo
+Chihuahua,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,Bonilla PAN-PRI,Lozoya,MC,7.4,PAN,entra al careo
+Chihuahua,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,Bonilla PAN-PRI,Julián Lebarón,Somos,5,PAN,entra al careo
+Chihuahua,2026-11,alt-nov09,Áltica,2026-11-09,careo,Bonilla,PAN,36,,entra al careo
+Chihuahua,2026-11,alt-nov09,Áltica,2026-11-09,careo,Cruz Pérez Cuéllar,Morena,35,,entra al careo
+Chihuahua,2026-11,alt-nov09,Áltica,2026-11-09,careo,Lozoya,MC,8,,entra al careo
+Chihuahua,2026-11,alt-nov09,Áltica,2026-11-09,careo,Meléndez,PRI,6,,entra al careo
+Chihuahua,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo (PAN y PRI por separado),Cruz Pérez Cuéllar,Morena,43,,entra al careo
+Chihuahua,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo (PAN y PRI por separado),Bonilla,PAN,27,,entra al careo
+Chihuahua,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo (PAN y PRI por separado),Meléndez,PRI,6,,entra al careo
+Chihuahua,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo documentado,Cruz Pérez Cuéllar,Morena,39,,documentado (no se promedia)
+Chihuahua,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo documentado,Bonilla,PAN,25,,documentado (no se promedia)
+Chihuahua,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo documentado,Julián Lebarón,Independiente,4,,documentado (no se promedia)
+Chihuahua,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo documentado,César Alejandro Domínguez,PRI,2,,documentado (no se promedia)
+Chihuahua,2026-11,rub-nov09,RUBRUM,2026-11-09,careo (Bonilla PAN-PRI),Bonilla,PAN,41.3,PAN-PRI,entra al careo
+Chihuahua,2026-11,rub-nov09,RUBRUM,2026-11-09,careo (Bonilla PAN-PRI),Cruz Pérez Cuéllar,Morena,36.1,PAN-PRI,entra al careo
+Chihuahua,2026-11,rub-nov09,RUBRUM,2026-11-09,careo (Bonilla PAN-PRI),Julián Lebarón,Somos,6.1,PAN-PRI,entra al careo
+Chihuahua,2026-11,rub-nov09,RUBRUM,2026-11-09,careo (Bonilla PAN-PRI),Lozoya,MC,4.1,PAN-PRI,entra al careo
+Colima,2026-07,elec-jul,Electoralia,2026-07-08,careo,Rosi Bayardo,Morena,35,,entra al careo
+Colima,2026-07,elec-jul,Electoralia,2026-07-08,careo,Riult Rivera,PAN,19,,entra al careo
+Colima,2026-07,elec-jul,Electoralia,2026-07-08,careo,Mely Romero Celis,PRI,10,,entra al careo
+Colima,2026-07,elec-jul,Electoralia,2026-07-08,careo,Griselda Martínez,MC,9,,entra al careo
+Colima,2026-07,arias-jul,Arias Consultores (jul),2026-07-12,careo,Rosi Bayardo,Morena,31.7,,entra al careo
+Colima,2026-07,arias-jul,Arias Consultores (jul),2026-07-12,careo,Riult Rivera,PAN,22.3,,entra al careo
+Colima,2026-07,arias-jul,Arias Consultores (jul),2026-07-12,careo,Mely Romero Celis,PRI,17,,entra al careo
+Colima,2026-07,arias-jul,Arias Consultores (jul),2026-07-12,careo,Griselda Martínez,MC,9,,entra al careo
+Colima,2026-07,arias-jul,Arias Consultores (jul),2026-07-12,careo,Virgilio Mendoza Amezcua,PVEM,4.7,,entra al careo
+Colima,2026-07,cye,C&E,2026-07-27,careo,Rosi Bayardo,Morena,50.9,,entra al careo
+Colima,2026-07,cye,C&E,2026-07-27,careo,Riult Rivera,PAN,18.5,,entra al careo
+Colima,2026-07,cye,C&E,2026-07-27,careo,Mely Romero Celis,PRI,13.9,,entra al careo
+Colima,2026-07,cye,C&E,2026-07-27,careo,Griselda Martínez,MC,7.4,,entra al careo
+Colima,2026-09,mc,Massive Caller,2026-09-08,careo,Rosi Bayardo,Morena,33.1,,entra al careo
+Colima,2026-09,mc,Massive Caller,2026-09-08,careo,Mely Romero Celis,PRI,20.6,,entra al careo
+Colima,2026-09,mc,Massive Caller,2026-09-08,careo,Riult Rivera,PAN,17.8,,entra al careo
+Colima,2026-09,mc,Massive Caller,2026-09-08,careo,Griselda Martínez,MC,8.3,,entra al careo
+Colima,2026-09,mc,Massive Caller,2026-09-08,careo,Virgilio Mendoza Amezcua,PVEM,2.6,,entra al careo
+Colima,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Rosi Bayardo,Morena,36.95,,entra al careo
+Colima,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Riult Rivera,PAN,27.6,,entra al careo
+Colima,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Mely Romero Celis,PRI,8.24,,entra al careo
+Colima,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Griselda Martínez,MC,7.84,,entra al careo
+Colima,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Rosi Bayardo,Morena,36.7,,entra al careo
+Colima,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Riult Rivera,PAN,25.4,,entra al careo
+Colima,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Margarita Moreno González,MC,7.13,,entra al careo
+Colima,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Lizzie Moreno Ceballos,PRI,5.5,,entra al careo
+Colima,2026-10,arias,Arias Consultores,2026-10-01,preferencia por candidato,Rosi Bayardo,Morena,31.7,,entra al careo
+Colima,2026-10,arias,Arias Consultores,2026-10-01,preferencia por candidato,Riult Rivera,PAN,22.8,,entra al careo
+Colima,2026-10,arias,Arias Consultores,2026-10-01,preferencia por candidato,Mely Romero Celis,PRI,18.4,,entra al careo
+Colima,2026-10,arias,Arias Consultores,2026-10-01,preferencia por candidato,Griselda Martínez,MC,9.9,,entra al careo
+Colima,2026-10,arias,Arias Consultores,2026-10-01,preferencia por candidato,Virgilio Mendoza Amezcua,PVEM,4.1,,entra al careo
+Colima,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario A,Rosi Bayardo,Morena,36.5,,entra al careo
+Colima,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario A,Riult Rivera,PAN,27.2,,entra al careo
+Colima,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario A,Mely Romero Celis,PRI,19.8,,entra al careo
+Colima,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario A,Griselda Martínez,MC,8.5,,entra al careo
+Colima,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario B,Rosi Bayardo,Morena,35.8,,entra al careo
+Colima,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario B,Riult Rivera,PAN,26.5,,entra al careo
+Colima,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario B,Mely Romero Celis,PRI,19.1,,entra al careo
+Colima,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario B,Margarita Moreno González,MC,10.8,,entra al careo
+Colima,2026-10,mc-8oct,Massive Caller,2026-10-08,careo,Rosi Bayardo,Morena,29.6,,entra al careo
+Colima,2026-10,mc-8oct,Massive Caller,2026-10-08,careo,Mely Romero Celis,PRI,22,,entra al careo
+Colima,2026-10,mc-8oct,Massive Caller,2026-10-08,careo,Riult Rivera,PAN,21.2,,entra al careo
+Colima,2026-10,mc-8oct,Massive Caller,2026-10-08,careo,Griselda Martínez,MC,9.1,,entra al careo
+Colima,2026-10,mc-8oct,Massive Caller,2026-10-08,careo,Virgilio Mendoza Amezcua,PVEM,3.4,,entra al careo
+Colima,2026-10,rub-oct13,RUBRUM,2026-10-13,careo,Rosi Bayardo,Morena,32,PAN-PRI,entra al careo
+Colima,2026-10,rub-oct13,RUBRUM,2026-10-13,careo,Riult Rivera,PAN,30.8,PAN-PRI,entra al careo
+Colima,2026-10,rub-oct13,RUBRUM,2026-10-13,careo,José Israel González,MC,9.5,PAN-PRI,entra al careo
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,2026-10-14,careo 3 (Rivera PAN y Romero PRI por separado),Rosi Bayardo,Morena,40,,entra al careo
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,2026-10-14,careo 3 (Rivera PAN y Romero PRI por separado),Mely Romero Celis,PRI,21,,entra al careo
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,2026-10-14,careo 3 (Rivera PAN y Romero PRI por separado),Riult Rivera,PAN,12,,entra al careo
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,2026-10-14,careo 3 (Rivera PAN y Romero PRI por separado),Virgilio Mendoza Amezcua,MC,11,,entra al careo
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,2026-10-14,careo documentado,Rosi Bayardo,Morena,45,,documentado (no se promedia)
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,2026-10-14,careo documentado,Riult Rivera,PAN,24,,documentado (no se promedia)
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,2026-10-14,careo documentado,Virgilio Mendoza Amezcua,MC,15,,documentado (no se promedia)
+Colima,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Rosi Bayardo,Morena,35.8,,entra al careo
+Colima,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Riult Rivera,PAN,17.2,,entra al careo
+Colima,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Mely Romero Celis,PRI,15.6,,entra al careo
+Colima,2026-10,logi-oct19,Logi·Call,2026-10-19,careo,Rosi Bayardo,Morena,26.9,,entra al careo
+Colima,2026-10,logi-oct19,Logi·Call,2026-10-19,careo,Mely Romero Celis,PRI,23.4,,entra al careo
+Colima,2026-10,logi-oct19,Logi·Call,2026-10-19,careo,Riult Rivera,PAN,22.6,,entra al careo
+Colima,2026-10,logi-oct19,Logi·Call,2026-10-19,careo,Griselda Martínez,MC,7.9,,entra al careo
+Colima,2026-10,logi-oct19,Logi·Call,2026-10-19,careo,Virgilio Mendoza Amezcua,PVEM,4.6,,entra al careo
+Colima,2026-10,gob-oct27,GobernArte,2026-10-27,careo,Rosi Bayardo,Morena,34.8,,entra al careo
+Colima,2026-10,gob-oct27,GobernArte,2026-10-27,careo,Riult Rivera,PAN,30.6,,entra al careo
+Colima,2026-10,gob-oct27,GobernArte,2026-10-27,careo,Mely Romero Celis,PRI,14.8,,entra al careo
+Colima,2026-10,gob-oct27,GobernArte,2026-10-27,careo,Griselda Martínez,MC,8.5,,entra al careo
+Colima,2026-11,cripeso-nov06,Cripeso,2026-11-06,careo 2 (Mely Romero PAN-PRI-PRD),Rosi Bayardo,Morena,34.52,PRI,entra al careo
+Colima,2026-11,cripeso-nov06,Cripeso,2026-11-06,careo 2 (Mely Romero PAN-PRI-PRD),Mely Romero Celis,PRI,31.11,PRI,entra al careo
+Colima,2026-11,cripeso-nov06,Cripeso,2026-11-06,careo 2 (Mely Romero PAN-PRI-PRD),Griselda Martínez,MC,9.22,PRI,entra al careo
+Colima,2026-11,cripeso-nov06,Cripeso,2026-11-06,careo documentado,Rosi Bayardo,Morena,34.52,,documentado (no se promedia)
+Colima,2026-11,cripeso-nov06,Cripeso,2026-11-06,careo documentado,Riult Rivera,PAN,29.36,,documentado (no se promedia)
+Colima,2026-11,cripeso-nov06,Cripeso,2026-11-06,careo documentado,Griselda Martínez,MC,8.91,,documentado (no se promedia)
+Colima,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Rosi Bayardo,Morena,34.9,,documentado (no se promedia)
+Colima,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Riult Rivera,PAN,29.2,,documentado (no se promedia)
+Colima,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Mely Romero Celis,PRI,18,,documentado (no se promedia)
+Colima,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Margarita Moreno González,MC,10.2,,documentado (no se promedia)
+Colima,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,"escenario A (Griselda Martínez MC, principal)",Rosi Bayardo,Morena,35.1,,entra al careo
+Colima,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,"escenario A (Griselda Martínez MC, principal)",Riult Rivera,PAN,29.9,,entra al careo
+Colima,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,"escenario A (Griselda Martínez MC, principal)",Mely Romero Celis,PRI,18.4,,entra al careo
+Colima,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,"escenario A (Griselda Martínez MC, principal)",Griselda Martínez,MC,9,,entra al careo
+Colima,2026-11,mc-8nov,Massive Caller,2026-11-08,careo,Rosi Bayardo,Morena,29.7,,entra al careo
+Colima,2026-11,mc-8nov,Massive Caller,2026-11-08,careo,Mely Romero Celis,PRI,24,,entra al careo
+Colima,2026-11,mc-8nov,Massive Caller,2026-11-08,careo,Riult Rivera,PAN,19.6,,entra al careo
+Colima,2026-11,mc-8nov,Massive Caller,2026-11-08,careo,Griselda Martínez,MC,7.7,,entra al careo
+Colima,2026-11,rub-nov10,RUBRUM,2026-11-10,careo (Rivera PAN-PRI),Rosi Bayardo,Morena,36.2,PAN-PRI,entra al careo
+Colima,2026-11,rub-nov10,RUBRUM,2026-11-10,careo (Rivera PAN-PRI),Riult Rivera,PAN,30.3,PAN-PRI,entra al careo
+Colima,2026-11,rub-nov10,RUBRUM,2026-11-10,careo (Rivera PAN-PRI),José Israel González,MC,7.4,PAN-PRI,entra al careo
+Guerrero,2026-07,src-jul,SRC (jul),2026-07-28,careo,Beatriz Mojica,Morena,51.2,,entra al careo
+Guerrero,2026-07,src-jul,SRC (jul),2026-07-28,careo,Manuel Añorve,PRI,17.5,,entra al careo
+Guerrero,2026-07,src-jul,SRC (jul),2026-07-28,careo,Gabriela Bernal,MC,7.5,,entra al careo
+Guerrero,2026-07,src-jul,SRC (jul),2026-07-28,careo,Gustavo Alarcón,PAN,3.5,,entra al careo
+Guerrero,2026-08,qm,Question Mark (El Heraldo),2026-08-25,Escenario A,Beatriz Mojica,Morena,45.3,,entra al careo
+Guerrero,2026-08,qm,Question Mark (El Heraldo),2026-08-25,Escenario A,Manuel Añorve,PRI,9.1,,entra al careo
+Guerrero,2026-08,qm,Question Mark (El Heraldo),2026-08-25,Escenario A,Gabriela Bernal,MC,4.2,,entra al careo
+Guerrero,2026-08,qm,Question Mark (El Heraldo),2026-08-25,Escenario A,Gustavo Alarcón,PAN,3.9,,entra al careo
+Guerrero,2026-08,qm,Question Mark (El Heraldo),2026-08-25,Escenario B,Esthela Damián,Morena,42.3,,entra al careo
+Guerrero,2026-08,qm,Question Mark (El Heraldo),2026-08-25,Escenario B,Manuel Añorve,PRI,8.3,,entra al careo
+Guerrero,2026-08,qm,Question Mark (El Heraldo),2026-08-25,Escenario B,Gabriela Bernal,MC,4.7,,entra al careo
+Guerrero,2026-08,qm,Question Mark (El Heraldo),2026-08-25,Escenario B,Gustavo Alarcón,PAN,4.6,,entra al careo
+Guerrero,2026-08,src,SRC,2026-08-31,careo,Beatriz Mojica,Morena,42.5,,entra al careo
+Guerrero,2026-08,src,SRC,2026-08-31,careo,Manuel Añorve,PRI,7.4,,entra al careo
+Guerrero,2026-08,src,SRC,2026-08-31,careo,Gabriela Bernal,MC,4.4,,entra al careo
+Guerrero,2026-08,src,SRC,2026-08-31,careo,Gustavo Alarcón,PAN,3.4,,entra al careo
+Guerrero,2026-09,cye-sep,C&E,2026-09-02,careo,Beatriz Mojica,Morena,36.5,,entra al careo
+Guerrero,2026-09,cye-sep,C&E,2026-09-02,careo,Manuel Añorve,PRI,15.4,,entra al careo
+Guerrero,2026-09,cye-sep,C&E,2026-09-02,careo,Eloy Salmerón,PAN,5.8,,entra al careo
+Guerrero,2026-09,cye-sep,C&E,2026-09-02,careo,Julián López Galeana,MC,3.9,,entra al careo
+Guerrero,2026-09,elec-sep,Electoralia,2026-09-06,careo,Beatriz Mojica,Morena,45,,entra al careo
+Guerrero,2026-09,elec-sep,Electoralia,2026-09-06,careo,Manuel Añorve,PRI,15,,entra al careo
+Guerrero,2026-09,elec-sep,Electoralia,2026-09-06,careo,Mario Moreno Arcos,MC,6,,entra al careo
+Guerrero,2026-09,elec-sep,Electoralia,2026-09-06,careo,Yesenia Galarza Castro,PAN,4,,entra al careo
+Guerrero,2026-09,ef-sep,Encuesta EF (El Financiero),2026-09-13,careo,Beatriz Mojica,Morena,44,,entra al careo
+Guerrero,2026-09,ef-sep,Encuesta EF (El Financiero),2026-09-13,careo,Manuel Añorve,PRI,14,,entra al careo
+Guerrero,2026-09,ef-sep,Encuesta EF (El Financiero),2026-09-13,careo,Eloy Salmerón,PAN,9,,entra al careo
+Guerrero,2026-09,ef-sep,Encuesta EF (El Financiero),2026-09-13,careo,Gabriela Bernal,MC,8,,entra al careo
+Guerrero,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Beatriz Mojica,Morena,35.4,,entra al careo
+Guerrero,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Manuel Añorve,PRI,14.36,,entra al careo
+Guerrero,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Mario Moreno Arcos,MC,8.3,,entra al careo
+Guerrero,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Yesenia Galarza Castro,PAN,2.08,,entra al careo
+Guerrero,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Beatriz Mojica,Morena,35.4,,entra al careo
+Guerrero,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Manuel Añorve,PRI,13.12,,entra al careo
+Guerrero,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Erika Lührs Cortés,MC,9.15,,entra al careo
+Guerrero,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Gustavo Alarcón,PAN,3.79,,entra al careo
+Guerrero,2026-10,arias,Arias Consultores,2026-10-01,careo,Beatriz Mojica,Morena,44.5,,entra al careo
+Guerrero,2026-10,arias,Arias Consultores,2026-10-01,careo,Manuel Añorve,PRI,16.8,,entra al careo
+Guerrero,2026-10,arias,Arias Consultores,2026-10-01,careo,Gabriela Bernal,MC,6.7,,entra al careo
+Guerrero,2026-10,arias,Arias Consultores,2026-10-01,careo,Gustavo Alarcón,PAN,5.9,,entra al careo
+Guerrero,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo sin PT (Mojica Morena-PVEM),Beatriz Mojica,Morena,36.2,,entra al careo
+Guerrero,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo sin PT (Mojica Morena-PVEM),Manuel Añorve,PRI,8.6,,entra al careo
+Guerrero,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo sin PT (Mojica Morena-PVEM),Eloy Salmerón,PAN,6.4,,entra al careo
+Guerrero,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo sin PT (Mojica Morena-PVEM),Gabriela Bernal,MC,4.9,,entra al careo
+Guerrero,2026-10,laenc-oct-coal,"LaEncuesta.MX (escenario con PT separado, datos guardados)",2026-10-08,PT separado,Félix Salgado Macedonio,PT,39.7,,excluida
+Guerrero,2026-10,laenc-oct-coal,"LaEncuesta.MX (escenario con PT separado, datos guardados)",2026-10-08,PT separado,Beatriz Mojica,Morena,36.2,,excluida
+Guerrero,2026-10,laenc-oct-coal,"LaEncuesta.MX (escenario con PT separado, datos guardados)",2026-10-08,PT separado,Manuel Añorve,PRI,8.6,,excluida
+Guerrero,2026-10,laenc-oct-coal,"LaEncuesta.MX (escenario con PT separado, datos guardados)",2026-10-08,PT separado,Eloy Salmerón,PAN,6.4,,excluida
+Guerrero,2026-10,laenc-oct-coal,"LaEncuesta.MX (escenario con PT separado, datos guardados)",2026-10-08,PT separado,Gabriela Bernal,MC,4.9,,excluida
+Guerrero,2026-10,mc-10oct,Massive Caller,2026-10-10,careo,Beatriz Mojica,Morena,32.7,,entra al careo
+Guerrero,2026-10,mc-10oct,Massive Caller,2026-10-10,careo,Manuel Añorve,PRI,13.4,,entra al careo
+Guerrero,2026-10,mc-10oct,Massive Caller,2026-10-10,careo,Gustavo Alarcón,PAN,6.1,,entra al careo
+Guerrero,2026-10,mc-10oct,Massive Caller,2026-10-10,careo,Erika Lührs Cortés,MC,4.1,,entra al careo
+Guerrero,2026-10,rub-oct10,RUBRUM,2026-10-10,careo,Beatriz Mojica,Morena,37.4,PRI,entra al careo
+Guerrero,2026-10,rub-oct10,RUBRUM,2026-10-10,careo,Manuel Añorve,PRI,16,PRI,entra al careo
+Guerrero,2026-10,rub-oct10,RUBRUM,2026-10-10,careo,Julián López Galeana,MC,7.2,PRI,entra al careo
+Guerrero,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Beatriz Mojica,Morena,40.2,,entra al careo
+Guerrero,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Manuel Añorve,PRI,13.6,,entra al careo
+Guerrero,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Gabriela Bernal,MC,10.5,,entra al careo
+Guerrero,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Gustavo Alarcón,PAN,7.1,,entra al careo
+Guerrero,2026-10,gob-oct18,GobernArte,2026-10-18,careo,Beatriz Mojica,Morena,33.3,,entra al careo
+Guerrero,2026-10,gob-oct18,GobernArte,2026-10-18,careo,Manuel Añorve,PRI,15.5,,entra al careo
+Guerrero,2026-10,gob-oct18,GobernArte,2026-10-18,careo,Erika Lührs Cortés,MC,9.2,,entra al careo
+Guerrero,2026-10,gob-oct18,GobernArte,2026-10-18,careo,Pedro Segura Valladares,Independiente,8.4,,entra al careo
+Guerrero,2026-10,gob-oct18,GobernArte,2026-10-18,careo,Eloy Salmerón,PAN,4.6,,entra al careo
+Guerrero,2026-10,logi-oct20,Logi·Call,2026-10-20,careo,Beatriz Mojica,Morena,38.6,,entra al careo
+Guerrero,2026-10,logi-oct20,Logi·Call,2026-10-20,careo,Manuel Añorve,PRI,17.3,,entra al careo
+Guerrero,2026-10,logi-oct20,Logi·Call,2026-10-20,careo,Gustavo Alarcón,PAN,8.3,,entra al careo
+Guerrero,2026-10,logi-oct20,Logi·Call,2026-10-20,careo,Erika Lührs Cortés,MC,6.1,,entra al careo
+Guerrero,2026-11,cripeso-nov06,Cripeso,2026-11-06,careo,Beatriz Mojica,Morena,36.51,,entra al careo
+Guerrero,2026-11,cripeso-nov06,Cripeso,2026-11-06,careo,Manuel Añorve,PRI,10.91,,entra al careo
+Guerrero,2026-11,cripeso-nov06,Cripeso,2026-11-06,careo,Eloy Salmerón,PAN,8.33,,entra al careo
+Guerrero,2026-11,cripeso-nov06,Cripeso,2026-11-06,careo,Gabriela Bernal,MC,5.98,,entra al careo
+Guerrero,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Beatriz Mojica,Morena,41.9,PRI-PAN,entra al careo
+Guerrero,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Manuel Añorve,PRI,14.8,PRI-PAN,entra al careo
+Guerrero,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Gabriela Bernal,MC,7.3,PRI-PAN,entra al careo
+Guerrero,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo (Mojica Morena-PVEM),Beatriz Mojica,Morena,55.3,,entra al careo
+Guerrero,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo (Mojica Morena-PVEM),Manuel Añorve,PRI,17.8,,entra al careo
+Guerrero,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo (Mojica Morena-PVEM),Eloy Salmerón,PAN,10.3,,entra al careo
+Guerrero,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo (Mojica Morena-PVEM),Gabriela Bernal,MC,9.5,,entra al careo
+Guerrero,2026-11,mc-10nov,Massive Caller,2026-11-10,careo,Beatriz Mojica,Morena,31.6,,entra al careo
+Guerrero,2026-11,mc-10nov,Massive Caller,2026-11-10,careo,Manuel Añorve,PRI,15.8,,entra al careo
+Guerrero,2026-11,mc-10nov,Massive Caller,2026-11-10,careo,Pedro Segura,PAZ,13.1,,entra al careo
+Guerrero,2026-11,mc-10nov,Massive Caller,2026-11-10,careo,Gustavo Alarcón,PAN,4.7,,entra al careo
+Guerrero,2026-11,mc-10nov,Massive Caller,2026-11-10,careo,Erika Lührs Cortés,MC,3.1,,entra al careo
+Michoacán,2026-07,emot,Emotegia,2026-07-11,careo,Grecia Quiroz García,Independiente,34.38,,entra al careo
+Michoacán,2026-07,emot,Emotegia,2026-07-11,careo,Carlos Torres Piña,Morena,27.5,,entra al careo
+Michoacán,2026-07,emot,Emotegia,2026-07-11,careo,Alfonso Martínez Alcázar,PAN,10.5,,entra al careo
+Michoacán,2026-07,emot,Emotegia,2026-07-11,careo,Carlos Herrera Tello,MC,5.9,,entra al careo
+Michoacán,2026-07,emot,Emotegia,2026-07-11,careo,Ernesto Nuñez,PVEM,4.1,,entra al careo
+Michoacán,2026-07,emot,Emotegia,2026-07-11,careo,Guillermo Valencia Reyes,PRI,3.7,,entra al careo
+Michoacán,2026-09,cye,C&E,2026-09-03,careo,Carlos Torres Piña,Morena,35,,entra al careo
+Michoacán,2026-09,cye,C&E,2026-09-03,careo,Grecia Quiroz García,Independiente,23,,entra al careo
+Michoacán,2026-09,cye,C&E,2026-09-03,careo,Alfonso Martínez Alcázar,PAN,22,,entra al careo
+Michoacán,2026-09,cye,C&E,2026-09-03,careo,Guillermo Valencia Reyes,PRI,5,,entra al careo
+Michoacán,2026-09,dem,Demoscopia Digital,2026-09-03,careo,Carlos Torres Piña,Morena,30.4,,entra al careo
+Michoacán,2026-09,dem,Demoscopia Digital,2026-09-03,careo,Carlos Soto Delgado,PAN,24.7,,entra al careo
+Michoacán,2026-09,dem,Demoscopia Digital,2026-09-03,careo,Grecia Quiroz García,Independiente,13.1,,entra al careo
+Michoacán,2026-09,dem,Demoscopia Digital,2026-09-03,careo,Carlos Herrera Tello,MC,9.2,,entra al careo
+Michoacán,2026-09,dem,Demoscopia Digital,2026-09-03,careo,Guillermo Valencia Reyes,PRI,3.6,,entra al careo
+Michoacán,2026-09,elec,Electoralia,2026-09-06,careo,Carlos Torres Piña,Morena,35,,entra al careo
+Michoacán,2026-09,elec,Electoralia,2026-09-06,careo,Grecia Quiroz García,Independiente,18,,entra al careo
+Michoacán,2026-09,elec,Electoralia,2026-09-06,careo,Alfonso Martínez Alcázar,PAN,12,,entra al careo
+Michoacán,2026-09,elec,Electoralia,2026-09-06,careo,Carlos Herrera Tello,MC,7,,entra al careo
+Michoacán,2026-09,elec,Electoralia,2026-09-06,careo,Guillermo Valencia Reyes,PRI,4,,entra al careo
+Michoacán,2026-09,laenc,LaEncuesta.MX,2026-09-07,careo,Carlos Torres Piña,Morena,43.1,,entra al careo
+Michoacán,2026-09,laenc,LaEncuesta.MX,2026-09-07,careo,Alfonso Martínez Alcázar,PAN,39.5,,entra al careo
+Michoacán,2026-09,laenc,LaEncuesta.MX,2026-09-07,careo,Grecia Quiroz García,Independiente,10.2,,entra al careo
+Michoacán,2026-09,mc12,Massive Caller (12 sep),2026-09-12,careo (Quiroz independiente),Carlos Torres Piña,Morena,24.5,,entra al careo
+Michoacán,2026-09,mc12,Massive Caller (12 sep),2026-09-12,careo (Quiroz independiente),Alfonso Martínez Alcázar,PAN,21.7,,entra al careo
+Michoacán,2026-09,mc12,Massive Caller (12 sep),2026-09-12,careo (Quiroz independiente),Grecia Quiroz García,Independiente,17.2,,entra al careo
+Michoacán,2026-09,mc12,Massive Caller (12 sep),2026-09-12,careo (Quiroz independiente),Guillermo Valencia Reyes,PRI,9.4,,entra al careo
+Michoacán,2026-09,mc12,Massive Caller (12 sep),2026-09-12,careo (Quiroz independiente),Carlos Herrera Tello,MC,9,,entra al careo
+Michoacán,2026-09,mc15,Massive Caller (15 sep),2026-09-15,careo (Quiroz independiente),Carlos Torres Piña,Morena,24.6,,entra al careo
+Michoacán,2026-09,mc15,Massive Caller (15 sep),2026-09-15,careo (Quiroz independiente),Alfonso Martínez Alcázar,PAN,21.5,,entra al careo
+Michoacán,2026-09,mc15,Massive Caller (15 sep),2026-09-15,careo (Quiroz independiente),Grecia Quiroz García,Independiente,16.9,,entra al careo
+Michoacán,2026-09,mc15,Massive Caller (15 sep),2026-09-15,careo (Quiroz independiente),Carlos Herrera Tello,MC,8.8,,entra al careo
+Michoacán,2026-09,mc15,Massive Caller (15 sep),2026-09-15,careo (Quiroz independiente),Guillermo Valencia Reyes,PRI,8.5,,entra al careo
+Michoacán,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Grecia Quiroz García,Independiente,35.21,,entra al careo
+Michoacán,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Carlos Torres Piña,Morena,31.86,,entra al careo
+Michoacán,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Alfonso Martínez Alcázar,PAN,14.29,,entra al careo
+Michoacán,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Carlos Herrera Tello,MC,5.96,,entra al careo
+Michoacán,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Guillermo Valencia Reyes,PRI,1.91,,entra al careo
+Michoacán,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Grecia Quiroz García,Independiente,36.05,,entra al careo
+Michoacán,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Carlos Torres Piña,Morena,33.19,,entra al careo
+Michoacán,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Marko Cortés Mendoza,PAN,12.74,,entra al careo
+Michoacán,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Carlos Herrera Tello,MC,5.96,,entra al careo
+Michoacán,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Adriana Hernández Íñiguez,PRI,1.27,,entra al careo
+Michoacán,2026-10,arias,Arias Consultores,2026-10-01,Quiroz independiente,Grecia Quiroz García,Independiente,29.9,,entra al careo
+Michoacán,2026-10,arias,Arias Consultores,2026-10-01,Quiroz independiente,Carlos Torres Piña,Morena,28.3,,entra al careo
+Michoacán,2026-10,arias,Arias Consultores,2026-10-01,Quiroz independiente,Carlos Herrera Tello,MC,9.8,,entra al careo
+Michoacán,2026-10,arias,Arias Consultores,2026-10-01,Quiroz independiente,Guillermo Valencia Reyes,PRI,8.6,,entra al careo
+Michoacán,2026-10,arias,Arias Consultores,2026-10-01,Quiroz independiente,Alfonso Martínez Alcázar,PAN,8.5,,entra al careo
+Michoacán,2026-10,arias_mc,Arias Consultores (Quiroz como MC),2026-10-01,Quiroz candidata de MC,Grecia Quiroz García,MC,41,,excluida
+Michoacán,2026-10,arias_mc,Arias Consultores (Quiroz como MC),2026-10-01,Quiroz candidata de MC,Carlos Torres Piña,Morena,28.1,,excluida
+Michoacán,2026-10,arias_mc,Arias Consultores (Quiroz como MC),2026-10-01,Quiroz candidata de MC,Alfonso Martínez Alcázar,PAN,8.9,,excluida
+Michoacán,2026-10,arias_mc,Arias Consultores (Quiroz como MC),2026-10-01,Quiroz candidata de MC,Guillermo Valencia Reyes,PRI,8.3,,excluida
+Michoacán,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,"careo sin PT (Torres Piña Morena-PVEM, Alcázar PAN-PRI)",Carlos Torres Piña,Morena,29.2,PAN,entra al careo
+Michoacán,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,"careo sin PT (Torres Piña Morena-PVEM, Alcázar PAN-PRI)",Alfonso Martínez Alcázar,PAN,26.2,PAN,entra al careo
+Michoacán,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,"careo sin PT (Torres Piña Morena-PVEM, Alcázar PAN-PRI)",Grecia Quiroz García,Independiente,13.2,PAN,entra al careo
+Michoacán,2026-10,laenc-oct-coal,"LaEncuesta.MX (escenario con PT separado, datos guardados)",2026-10-08,PT separado / Quiroz MC,Carlos Torres Piña,Morena,29.2,,excluida
+Michoacán,2026-10,laenc-oct-coal,"LaEncuesta.MX (escenario con PT separado, datos guardados)",2026-10-08,PT separado / Quiroz MC,Alfonso Martínez Alcázar,PAN,26.2,,excluida
+Michoacán,2026-10,laenc-oct-coal,"LaEncuesta.MX (escenario con PT separado, datos guardados)",2026-10-08,PT separado / Quiroz MC,Raúl Morón Orozco,PT,24.9,,excluida
+Michoacán,2026-10,laenc-oct-coal,"LaEncuesta.MX (escenario con PT separado, datos guardados)",2026-10-08,PT separado / Quiroz MC,Grecia Quiroz García,MC,13.2,,excluida
+Michoacán,2026-10,mc-oct12,Massive Caller,2026-10-12,"careo (Alcázar PAN-PRI, Quiroz independiente)",Carlos Torres Piña,Morena,25.8,PAN-PRI,entra al careo
+Michoacán,2026-10,mc-oct12,Massive Caller,2026-10-12,"careo (Alcázar PAN-PRI, Quiroz independiente)",Alfonso Martínez Alcázar,PAN,23.4,PAN-PRI,entra al careo
+Michoacán,2026-10,mc-oct12,Massive Caller,2026-10-12,"careo (Alcázar PAN-PRI, Quiroz independiente)",Grecia Quiroz García,Independiente,14.8,PAN-PRI,entra al careo
+Michoacán,2026-10,mc-oct12,Massive Caller,2026-10-12,"careo (Alcázar PAN-PRI, Quiroz independiente)",Carlos Herrera Tello,MC,10.4,PAN-PRI,entra al careo
+Michoacán,2026-10,src-oct12,SRC,2026-10-12,careo documentado,Raúl Morón Orozco,PT,16.7,,documentado (no se promedia)
+Michoacán,2026-10,src-oct12,SRC,2026-10-12,posible escenario (Morón PT separado documentado aparte),Carlos Torres Piña,Morena,28.3,PAN-PRI,entra al careo
+Michoacán,2026-10,src-oct12,SRC,2026-10-12,posible escenario (Morón PT separado documentado aparte),Alfonso Martínez Alcázar,PAN,22,PAN-PRI,entra al careo
+Michoacán,2026-10,src-oct12,SRC,2026-10-12,posible escenario (Morón PT separado documentado aparte),Grecia Quiroz García,Independiente,20.3,PAN-PRI,entra al careo
+Michoacán,2026-10,rub-oct14,RUBRUM,2026-10-14,"careo (Alcázar PAN-PRI, Quiroz independiente)",Carlos Torres Piña,Morena,36.9,PAN-PRI,entra al careo
+Michoacán,2026-10,rub-oct14,RUBRUM,2026-10-14,"careo (Alcázar PAN-PRI, Quiroz independiente)",Grecia Quiroz García,Independiente,26.7,PAN-PRI,entra al careo
+Michoacán,2026-10,rub-oct14,RUBRUM,2026-10-14,"careo (Alcázar PAN-PRI, Quiroz independiente)",Alfonso Martínez Alcázar,PAN,17.2,PAN-PRI,entra al careo
+Michoacán,2026-10,rub-oct14,RUBRUM,2026-10-14,"careo (Alcázar PAN-PRI, Quiroz independiente)",Carlos Herrera Tello,MC,4.1,PAN-PRI,entra al careo
+Michoacán,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Carlos Torres Piña,Morena,27.7,,entra al careo
+Michoacán,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Alfonso Martínez Alcázar,PAN,20.5,,entra al careo
+Michoacán,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Grecia Quiroz García,Independiente,16.3,,entra al careo
+Michoacán,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Carlos Herrera Tello,MC,6.4,,entra al careo
+Michoacán,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Guillermo Valencia Reyes,PRI,4.5,,entra al careo
+Michoacán,2026-10,gob-oct21,GobernArte,2026-10-21,careo,Carlos Torres Piña,Morena,30.1,,entra al careo
+Michoacán,2026-10,gob-oct21,GobernArte,2026-10-21,careo,Alfonso Martínez Alcázar,PAN,16.7,,entra al careo
+Michoacán,2026-10,gob-oct21,GobernArte,2026-10-21,careo,Carlos Herrera Tello,MC,7.3,,entra al careo
+Michoacán,2026-10,gob-oct21,GobernArte,2026-10-21,careo,Guillermo Valencia Reyes,PRI,6.1,,entra al careo
+Michoacán,2026-10,ce-oct30,CE Research,2026-10-30,careo (Alcázar PAN-PRI; Quiroz independiente),Carlos Torres Piña,Morena,33,PAN-PRI,entra al careo
+Michoacán,2026-10,ce-oct30,CE Research,2026-10-30,careo (Alcázar PAN-PRI; Quiroz independiente),Grecia Quiroz García,Independiente,28,PAN-PRI,entra al careo
+Michoacán,2026-10,ce-oct30,CE Research,2026-10-30,careo (Alcázar PAN-PRI; Quiroz independiente),Alfonso Martínez Alcázar,PAN,27,PAN-PRI,entra al careo
+Michoacán,2026-11,cripeso-nov07,Cripeso,2026-11-07,careo (partidos por separado; Quiroz independiente),Carlos Torres Piña,Morena,44.73,,entra al careo
+Michoacán,2026-11,cripeso-nov07,Cripeso,2026-11-07,careo (partidos por separado; Quiroz independiente),Grecia Quiroz García,Independiente,20.14,,entra al careo
+Michoacán,2026-11,cripeso-nov07,Cripeso,2026-11-07,careo (partidos por separado; Quiroz independiente),Alfonso Martínez Alcázar,PAN,12.79,,entra al careo
+Michoacán,2026-11,cripeso-nov07,Cripeso,2026-11-07,careo (partidos por separado; Quiroz independiente),Guillermo Valencia Reyes,PRI,4.91,,entra al careo
+Michoacán,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,"careo con Morón (PT): Torres Piña Morena-PVEM, Alcázar PAN-PRI",Carlos Torres Piña,Morena,27.4,PAN,entra al careo
+Michoacán,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,"careo con Morón (PT): Torres Piña Morena-PVEM, Alcázar PAN-PRI",Alfonso Martínez Alcázar,PAN,25.1,PAN,entra al careo
+Michoacán,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,"careo con Morón (PT): Torres Piña Morena-PVEM, Alcázar PAN-PRI",Raúl Morón Orozco,PT,22.9,PAN,entra al careo
+Michoacán,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,"careo con Morón (PT): Torres Piña Morena-PVEM, Alcázar PAN-PRI",Grecia Quiroz García,Independiente,17,PAN,entra al careo
+Michoacán,2026-11,rub-nov11,RUBRUM,2026-11-11,"careo (Martínez Alcázar PAN-PRI, Quiroz independiente)",Carlos Torres Piña,Morena,34.7,PAN-PRI,entra al careo
+Michoacán,2026-11,rub-nov11,RUBRUM,2026-11-11,"careo (Martínez Alcázar PAN-PRI, Quiroz independiente)",Grecia Quiroz García,Independiente,22,PAN-PRI,entra al careo
+Michoacán,2026-11,rub-nov11,RUBRUM,2026-11-11,"careo (Martínez Alcázar PAN-PRI, Quiroz independiente)",Alfonso Martínez Alcázar,PAN,17.4,PAN-PRI,entra al careo
+Michoacán,2026-11,rub-nov11,RUBRUM,2026-11-11,"careo (Martínez Alcázar PAN-PRI, Quiroz independiente)",Carlos Herrera Tello,MC,5.3,PAN-PRI,entra al careo
+Michoacán,2026-11,mc-nov13,Massive Caller,2026-11-13,"careo (Alcázar PAN-PRI, Quiroz independiente)",Carlos Torres Piña,Morena,28.5,PAN-PRI,entra al careo
+Michoacán,2026-11,mc-nov13,Massive Caller,2026-11-13,"careo (Alcázar PAN-PRI, Quiroz independiente)",Alfonso Martínez Alcázar,PAN,22.7,PAN-PRI,entra al careo
+Michoacán,2026-11,mc-nov13,Massive Caller,2026-11-13,"careo (Alcázar PAN-PRI, Quiroz independiente)",Grecia Quiroz García,Independiente,16.3,PAN-PRI,entra al careo
+Michoacán,2026-11,mc-nov13,Massive Caller,2026-11-13,"careo (Alcázar PAN-PRI, Quiroz independiente)",Carlos Herrera Tello,MC,7.8,PAN-PRI,entra al careo
+Nayarit,2026-07,mitofsky,Mitofsky,2026-07-05,careo,Jasmine Bugarín,Morena,44.3,,entra al careo
+Nayarit,2026-07,mitofsky,Mitofsky,2026-07-05,careo,Gustavo Ayón,MC,16,,entra al careo
+Nayarit,2026-07,mitofsky,Mitofsky,2026-07-05,careo,Ivideliza Reyes,PAN,8,,entra al careo
+Nayarit,2026-07,mitofsky,Mitofsky,2026-07-05,careo,Manuel Cota,PRI,6.4,,entra al careo
+Nayarit,2026-07,arias,Arias Consultores,2026-07-12,careo,Jasmine Bugarín,Morena,29.1,,entra al careo
+Nayarit,2026-07,arias,Arias Consultores,2026-07-12,careo,Nacho Flores,MC,19.9,,entra al careo
+Nayarit,2026-07,arias,Arias Consultores,2026-07-12,careo,Ivideliza Reyes,PAN,13.3,,entra al careo
+Nayarit,2026-07,arias,Arias Consultores,2026-07-12,careo,Manuel Cota,PRI,4.7,,entra al careo
+Nayarit,2026-07,arias,Arias Consultores,2026-07-12,careo,Sergio Sandoval,Independiente,3.3,,entra al careo
+Nayarit,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Jasmine Bugarín,Morena,36,,entra al careo
+Nayarit,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Ivideliza Reyes,PAN,20.66,,entra al careo
+Nayarit,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Manuel Cota,PRI,10.82,,entra al careo
+Nayarit,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Julieta Mejía Ibáñez,MC,7.12,,entra al careo
+Nayarit,2026-10,gob-oct,GobernArte,2026-10-07,careo,Jasmine Bugarín,Morena,35.9,,entra al careo
+Nayarit,2026-10,gob-oct,GobernArte,2026-10-07,careo,Ivideliza Reyes,PAN,18.8,,entra al careo
+Nayarit,2026-10,gob-oct,GobernArte,2026-10-07,careo,Nacho Flores,MC,15.9,,entra al careo
+Nayarit,2026-10,gob-oct,GobernArte,2026-10-07,careo,Manuel Cota,PRI,10.4,,entra al careo
+Nayarit,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Jasmine Bugarín,Morena,35.3,,entra al careo
+Nayarit,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Nacho Flores,MC,26.5,,entra al careo
+Nayarit,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Ivideliza Reyes,PAN,17.1,,entra al careo
+Nayarit,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Manuel Cota,PRI,13.2,,entra al careo
+Nayarit,2026-10,mit-oct,Mitofsky,2026-10-11,careo,Jasmine Bugarín,Morena,46.7,,entra al careo
+Nayarit,2026-10,mit-oct,Mitofsky,2026-10-11,careo,Nacho Flores,MC,14.8,,entra al careo
+Nayarit,2026-10,mit-oct,Mitofsky,2026-10-11,careo,Ivideliza Reyes,PAN,7.4,,entra al careo
+Nayarit,2026-10,mit-oct,Mitofsky,2026-10-11,careo,Manuel Cota,PRI,6.9,,entra al careo
+Nayarit,2026-10,mc-oct14,Massive Caller,2026-10-14,careo,Jasmine Bugarín,Morena,27,,entra al careo
+Nayarit,2026-10,mc-oct14,Massive Caller,2026-10-14,careo,Ivideliza Reyes,PAN,15.6,,entra al careo
+Nayarit,2026-10,mc-oct14,Massive Caller,2026-10-14,careo,Manuel Cota,PRI,11.8,,entra al careo
+Nayarit,2026-10,mc-oct14,Massive Caller,2026-10-14,careo,Nacho Flores,MC,10.7,,entra al careo
+Nayarit,2026-10,rub-oct14,RUBRUM,2026-10-14,careo,Jasmine Bugarín,Morena,34.8,PRI-PAN,entra al careo
+Nayarit,2026-10,rub-oct14,RUBRUM,2026-10-14,careo,Nacho Flores,MC,19.6,PRI-PAN,entra al careo
+Nayarit,2026-10,rub-oct14,RUBRUM,2026-10-14,careo,Manuel Cota,PRI,10.8,PRI-PAN,entra al careo
+Nayarit,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Jasmine Bugarín,Morena,34.2,,entra al careo
+Nayarit,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Gustavo Ayón,MC,14.7,,entra al careo
+Nayarit,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Ivideliza Reyes,PAN,7.2,,entra al careo
+Nayarit,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Manuel Cota,PRI,5.9,,entra al careo
+Nayarit,2026-11,gob-nov05,GobernArte,2026-11-05,careo,Jasmine Bugarín,Morena,34.4,,entra al careo
+Nayarit,2026-11,gob-nov05,GobernArte,2026-11-05,careo,Nacho Flores,MC,16.8,,entra al careo
+Nayarit,2026-11,gob-nov05,GobernArte,2026-11-05,careo,Ivideliza Reyes,PAN,15.9,,entra al careo
+Nayarit,2026-11,gob-nov05,GobernArte,2026-11-05,careo,Manuel Cota,PRI,9.4,,entra al careo
+Nayarit,2026-11,logi-nov07,Logi·Call,2026-11-07,careo,Jasmine Bugarín,Morena,30.4,,entra al careo
+Nayarit,2026-11,logi-nov07,Logi·Call,2026-11-07,careo,Ivideliza Reyes,PAN,17.9,,entra al careo
+Nayarit,2026-11,logi-nov07,Logi·Call,2026-11-07,careo,Manuel Cota,PRI,14.2,,entra al careo
+Nayarit,2026-11,logi-nov07,Logi·Call,2026-11-07,careo,Nacho Flores,MC,11.6,,entra al careo
+Nayarit,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Jasmine Bugarín,Morena,39.7,,entra al careo
+Nayarit,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Nacho Flores,MC,22.1,,entra al careo
+Nayarit,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Ivideliza Reyes,PAN,19.6,,entra al careo
+Nayarit,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Manuel Cota,PRI,11.2,,entra al careo
+Nuevo León,2026-07,meba,Meba (Mendoza Blanco),2026-07-05,careo,Mariana Rodríguez,MC,37.7,,entra al careo
+Nuevo León,2026-07,meba,Meba (Mendoza Blanco),2026-07-05,careo,Clara Luz Flores,Morena,27.4,,entra al careo
+Nuevo León,2026-07,meba,Meba (Mendoza Blanco),2026-07-05,careo,Adrián de la Garza,PRI,22.8,,entra al careo
+Nuevo León,2026-08,qm,Question Mark (El Heraldo),2026-08,careo,Mariana Rodríguez,MC,31,,entra al careo
+Nuevo León,2026-08,qm,Question Mark (El Heraldo),2026-08,careo,Clara Luz Flores,Morena,29.4,,entra al careo
+Nuevo León,2026-08,qm,Question Mark (El Heraldo),2026-08,careo,Adrián de la Garza,PRI,28.3,,entra al careo
+Nuevo León,2026-08,dd,Demoscopia Digital,2026-08-02,careo,Clara Luz Flores,Morena,24.9,,entra al careo
+Nuevo León,2026-08,dd,Demoscopia Digital,2026-08-02,careo,Adrián de la Garza,PRI,21.1,,entra al careo
+Nuevo León,2026-08,dd,Demoscopia Digital,2026-08-02,careo,Luis Donaldo Colosio,MC,20.8,,entra al careo
+Nuevo León,2026-08,dd,Demoscopia Digital,2026-08-02,careo,Fernando Margáin,PAN,7.3,,entra al careo
+Nuevo León,2026-08,enkoll,Enkoll,2026-08-02,careo,Luis Donaldo Colosio,MC,34,,entra al careo
+Nuevo León,2026-08,enkoll,Enkoll,2026-08-02,careo,Clara Luz Flores,Morena,26,,entra al careo
+Nuevo León,2026-08,enkoll,Enkoll,2026-08-02,careo,Adrián de la Garza,PRI,25,,entra al careo
+Nuevo León,2026-08,elec,Electoralia,2026-08-16,careo,Adrián de la Garza,PRI,25,,entra al careo
+Nuevo León,2026-08,elec,Electoralia,2026-08-16,careo,Clara Luz Flores,Morena,23,,entra al careo
+Nuevo León,2026-08,elec,Electoralia,2026-08-16,careo,Mariana Rodríguez,MC,20,,entra al careo
+Nuevo León,2026-08,elec,Electoralia,2026-08-16,careo,Fernando Margáin,PAN,8,,entra al careo
+Nuevo León,2026-08,src,SRC,2026-08-26,Morena: Tatiana Clouthier,Adrián de la Garza,PRI,32.3,,entra al careo
+Nuevo León,2026-08,src,SRC,2026-08-26,Morena: Tatiana Clouthier,Tatiana Clouthier,Morena,26.8,,entra al careo
+Nuevo León,2026-08,src,SRC,2026-08-26,Morena: Tatiana Clouthier,Mariana Rodríguez,MC,23.2,,entra al careo
+Nuevo León,2026-08,src,SRC,2026-08-26,Morena: Waldo Fernández,Waldo Fernández,Morena,31.6,,entra al careo
+Nuevo León,2026-08,src,SRC,2026-08-26,Morena: Waldo Fernández,Adrián de la Garza,PRI,25.7,,entra al careo
+Nuevo León,2026-08,src,SRC,2026-08-26,Morena: Waldo Fernández,Mariana Rodríguez,MC,18.9,,entra al careo
+Nuevo León,2026-09,laenc,LaEncuesta.MX,2026-09-07,careo 1,Adrián de la Garza,PRI,33.8,,entra al careo
+Nuevo León,2026-09,laenc,LaEncuesta.MX,2026-09-07,careo 1,Mariana Rodríguez,MC,30.9,,entra al careo
+Nuevo León,2026-09,laenc,LaEncuesta.MX,2026-09-07,careo 1,Tatiana Clouthier,Morena,28.4,,entra al careo
+Nuevo León,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Adrián de la Garza,PRI,37.03,,entra al careo
+Nuevo León,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Clara Luz Flores,Morena,28,,entra al careo
+Nuevo León,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Mariana Rodríguez,MC,22.43,,entra al careo
+Nuevo León,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Fernando Margáin,PAN,8.51,,entra al careo
+Nuevo León,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Adrián de la Garza,PRI,35.65,,entra al careo
+Nuevo León,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Clara Luz Flores,Morena,23.21,,entra al careo
+Nuevo León,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Mike Flores Serna,MC,16,,entra al careo
+Nuevo León,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Daniel Carrillo Martínez,PAN,11.22,,entra al careo
+Nuevo León,2026-09,encmx,Encuestas México,2026-09-30,careo,Adrián de la Garza,PRI,36.2,,entra al careo
+Nuevo León,2026-09,encmx,Encuestas México,2026-09-30,careo,Mariana Rodríguez,MC,29.9,,entra al careo
+Nuevo León,2026-09,encmx,Encuestas México,2026-09-30,careo,Clara Luz Flores,Morena,19.5,,entra al careo
+Nuevo León,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1 (MC = Mike Flores Serna),Adrián de la Garza,PRI,35.6,,entra al careo
+Nuevo León,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1 (MC = Mike Flores Serna),Mike Flores Serna,MC,21.7,,entra al careo
+Nuevo León,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1 (MC = Mike Flores Serna),Clara Luz Flores,Morena,15.4,,entra al careo
+Nuevo León,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2 (MC = Mariana Rodríguez),Adrián de la Garza,PRI,35.1,,entra al careo
+Nuevo León,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2 (MC = Mariana Rodríguez),Mariana Rodríguez,MC,20.6,,entra al careo
+Nuevo León,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2 (MC = Mariana Rodríguez),Clara Luz Flores,Morena,16.7,,entra al careo
+Nuevo León,2026-10,congresista,El Congresista (Polls.mx),2026-10-02,careo,Adrián de la Garza,PRI,28.8,,entra al careo
+Nuevo León,2026-10,congresista,El Congresista (Polls.mx),2026-10-02,careo,Mariana Rodríguez,MC,28.5,,entra al careo
+Nuevo León,2026-10,congresista,El Congresista (Polls.mx),2026-10-02,careo,Clara Luz Flores,Morena,15.3,,entra al careo
+Nuevo León,2026-10,congresista,El Congresista (Polls.mx),2026-10-02,careo,Jesús Elizondo,PT,10.2,,entra al careo
+Nuevo León,2026-10,factometrica-oct,FactoMétrica,2026-10-02,careo,Mariana Rodríguez,MC,28.6,PRI-PAN,entra al careo
+Nuevo León,2026-10,factometrica-oct,FactoMétrica,2026-10-02,careo,Clara Luz Flores,Morena,24.4,PRI-PAN,entra al careo
+Nuevo León,2026-10,factometrica-oct,FactoMétrica,2026-10-02,careo,Adrián de la Garza,PRI,23.2,PRI-PAN,entra al careo
+Nuevo León,2026-10,factometrica-oct,FactoMétrica,2026-10-02,careo documentado,Félix Arratia,MC,26.2,,documentado (no se promedia)
+Nuevo León,2026-10,factometrica-oct,FactoMétrica,2026-10-02,careo documentado,Clara Luz Flores,Morena,25,,documentado (no se promedia)
+Nuevo León,2026-10,factometrica-oct,FactoMétrica,2026-10-02,careo documentado,Adrián de la Garza,PRI,24.2,,documentado (no se promedia)
+Nuevo León,2026-10,logi-oct2,Logi·Call,2026-10-02,careo,Adrián de la Garza,PRI,38.7,,entra al careo
+Nuevo León,2026-10,logi-oct2,Logi·Call,2026-10-02,careo,Clara Luz Flores,Morena,20.4,,entra al careo
+Nuevo León,2026-10,logi-oct2,Logi·Call,2026-10-02,careo,Mariana Rodríguez,MC,14.2,,entra al careo
+Nuevo León,2026-10,logi-oct2,Logi·Call,2026-10-02,careo documentado,Hernán Sada,PAZ,5.3,,documentado (no se promedia)
+Nuevo León,2026-10,dlh,De las Heras Demotecnia,2026-10-05,careo,Clara Luz Flores,Morena,33,,entra al careo
+Nuevo León,2026-10,dlh,De las Heras Demotecnia,2026-10-05,careo,Mariana Rodríguez,MC,30,,entra al careo
+Nuevo León,2026-10,dlh,De las Heras Demotecnia,2026-10-05,careo,Adrián de la Garza,PRI,24,,entra al careo
+Nuevo León,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo (PAN-PRI = de la Garza),Adrián de la Garza,PRI,41.2,,entra al careo
+Nuevo León,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo (PAN-PRI = de la Garza),Mariana Rodríguez,MC,34.8,,entra al careo
+Nuevo León,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo (PAN-PRI = de la Garza),Clara Luz Flores,Morena,18.6,,entra al careo
+Nuevo León,2026-10,rub-oct10,RUBRUM,2026-10-10,careo (sin PT),Adrián de la Garza,PRI,36.7,,entra al careo
+Nuevo León,2026-10,rub-oct10,RUBRUM,2026-10-10,careo (sin PT),Mariana Rodríguez,MC,26.1,,entra al careo
+Nuevo León,2026-10,rub-oct10,RUBRUM,2026-10-10,careo (sin PT),Clara Luz Flores,Morena,13.6,,entra al careo
+Nuevo León,2026-10,rub-oct10-coal,"RUBRUM NL (con PT separado, datos guardados)",2026-10-10,con PT separado,Adrián de la Garza,PRI,36.7,,excluida
+Nuevo León,2026-10,rub-oct10-coal,"RUBRUM NL (con PT separado, datos guardados)",2026-10-10,con PT separado,Mariana Rodríguez,MC,26.1,,excluida
+Nuevo León,2026-10,rub-oct10-coal,"RUBRUM NL (con PT separado, datos guardados)",2026-10-10,con PT separado,Clara Luz Flores,Morena,13.6,,excluida
+Nuevo León,2026-10,rub-oct10-coal,"RUBRUM NL (con PT separado, datos guardados)",2026-10-10,con PT separado,Jesús Elizondo,PT,4.5,,excluida
+Nuevo León,2026-10,src-oct12,SRC,2026-10-12,careo documentado,Waldo Fernández,PVEM,11.6,,documentado (no se promedia)
+Nuevo León,2026-10,src-oct12,SRC,2026-10-12,careo documentado,Jesús Elizondo,PT,5.4,,documentado (no se promedia)
+Nuevo León,2026-10,src-oct12,SRC,2026-10-12,"posible escenario 1 (Morena, Verde y PT separados)",Adrián de la Garza,PRI,30.4,PRI-PAN,entra al careo
+Nuevo León,2026-10,src-oct12,SRC,2026-10-12,"posible escenario 1 (Morena, Verde y PT separados)",Mariana Rodríguez,MC,25.8,PRI-PAN,entra al careo
+Nuevo León,2026-10,src-oct12,SRC,2026-10-12,"posible escenario 1 (Morena, Verde y PT separados)",Clara Luz Flores,Morena,15,PRI-PAN,entra al careo
+Nuevo León,2026-10,src-oct12,SRC,2026-10-12,posible escenario 2 (Morena y PT separados),Adrián de la Garza,PRI,28.8,PRI-PAN,entra al careo
+Nuevo León,2026-10,src-oct12,SRC,2026-10-12,posible escenario 2 (Morena y PT separados),Mariana Rodríguez,MC,28.5,PRI-PAN,entra al careo
+Nuevo León,2026-10,src-oct12,SRC,2026-10-12,posible escenario 2 (Morena y PT separados),Clara Luz Flores,Morena,15.3,PRI-PAN,entra al careo
+Nuevo León,2026-10,polister-oct13,Polister Encuestadora,2026-10-13,careo,Adrián de la Garza,PRI,27,PRI-PAN,entra al careo
+Nuevo León,2026-10,polister-oct13,Polister Encuestadora,2026-10-13,careo,Mariana Rodríguez,MC,25.2,PRI-PAN,entra al careo
+Nuevo León,2026-10,polister-oct13,Polister Encuestadora,2026-10-13,careo,Clara Luz Flores,Morena,17.6,PRI-PAN,entra al careo
+Nuevo León,2026-10,polister-oct13,Polister Encuestadora,2026-10-13,careo,Tatiana Clouthier,Independiente,13.7,PRI-PAN,entra al careo
+Nuevo León,2026-10,mc16oct,Massive Caller,2026-10-16,careo,Adrián de la Garza,PRI,34.8,PRI-PAN,entra al careo
+Nuevo León,2026-10,mc16oct,Massive Caller,2026-10-16,careo,Clara Luz Flores,Morena,18.4,PRI-PAN,entra al careo
+Nuevo León,2026-10,mc16oct,Massive Caller,2026-10-16,careo,Mariana Rodríguez,MC,12.1,PRI-PAN,entra al careo
+Nuevo León,2026-10,mc16oct,Massive Caller,2026-10-16,careo documentado,Hernán Sada,PAZ,4.3,,documentado (no se promedia)
+Nuevo León,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Mariana Rodríguez,MC,27.7,PRI-PAN,entra al careo
+Nuevo León,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Clara Luz Flores,Morena,23.9,PRI-PAN,entra al careo
+Nuevo León,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Adrián de la Garza,PRI,21.4,PRI-PAN,entra al careo
+Nuevo León,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo documentado,Félix Arratia,MC,26.1,,documentado (no se promedia)
+Nuevo León,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo documentado,Clara Luz Flores,Morena,24.5,,documentado (no se promedia)
+Nuevo León,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo documentado,Adrián de la Garza,PRI,23.7,,documentado (no se promedia)
+Nuevo León,2026-10,gob-oct23,GobernArte,2026-10-23,careo (De la Garza en su fila PRI; Margáin PAN documentado),Mariana Rodríguez,MC,28.9,,entra al careo
+Nuevo León,2026-10,gob-oct23,GobernArte,2026-10-23,careo (De la Garza en su fila PRI; Margáin PAN documentado),Adrián de la Garza,PRI,25.8,,entra al careo
+Nuevo León,2026-10,gob-oct23,GobernArte,2026-10-23,careo (De la Garza en su fila PRI; Margáin PAN documentado),Clara Luz Flores,Morena,20.3,,entra al careo
+Nuevo León,2026-10,gob-oct23,GobernArte,2026-10-23,careo documentado,Fernando Margáin,PAN,14.9,,documentado (no se promedia)
+Nuevo León,2026-10,ce-oct25,CE Research,2026-10-25,careo documentado,Luis Donaldo Colosio,MC,39,,documentado (no se promedia)
+Nuevo León,2026-10,ce-oct25,CE Research,2026-10-25,careo documentado,Adrián de la Garza,PRI,30,,documentado (no se promedia)
+Nuevo León,2026-10,ce-oct25,CE Research,2026-10-25,careo documentado,Clara Luz Flores,Morena,7,,documentado (no se promedia)
+Nuevo León,2026-10,ce-oct25,CE Research,2026-10-25,escenario Mariana Rodríguez (De la Garza PRI-PAN),Mariana Rodríguez,MC,37,PRI-PAN,entra al careo
+Nuevo León,2026-10,ce-oct25,CE Research,2026-10-25,escenario Mariana Rodríguez (De la Garza PRI-PAN),Adrián de la Garza,PRI,30,PRI-PAN,entra al careo
+Nuevo León,2026-10,ce-oct25,CE Research,2026-10-25,escenario Mariana Rodríguez (De la Garza PRI-PAN),Clara Luz Flores,Morena,5,PRI-PAN,entra al careo
+Nuevo León,2026-10,encmx-oct30,Encuestas México,2026-10-30,careo,Adrián de la Garza,PRI,29.8,PRI-PAN,entra al careo
+Nuevo León,2026-10,encmx-oct30,Encuestas México,2026-10-30,careo,Mariana Rodríguez,MC,25.3,PRI-PAN,entra al careo
+Nuevo León,2026-10,encmx-oct30,Encuestas México,2026-10-30,careo,Clara Luz Flores,Morena,13.5,PRI-PAN,entra al careo
+Nuevo León,2026-10,encmx-oct30,Encuestas México,2026-10-30,careo,Tatiana Clouthier,Independiente,11.4,PRI-PAN,entra al careo
+Nuevo León,2026-10,encmx-oct30,Encuestas México,2026-10-30,careo documentado,Waldo Fernández,PVEM,7.3,,documentado (no se promedia)
+Nuevo León,2026-10,encmx-oct30,Encuestas México,2026-10-30,careo documentado,Jesús Elizondo,PT,2.6,,documentado (no se promedia)
+Nuevo León,2026-11,arias-nov02,Arias Consultores,2026-11-02,careo (con Clouthier y Waldo),Adrián de la Garza,PRI,32.2,,entra al careo
+Nuevo León,2026-11,arias-nov02,Arias Consultores,2026-11-02,careo (con Clouthier y Waldo),Mariana Rodríguez,MC,22.6,,entra al careo
+Nuevo León,2026-11,arias-nov02,Arias Consultores,2026-11-02,careo (con Clouthier y Waldo),Waldo Fernández,PVEM,14,,entra al careo
+Nuevo León,2026-11,arias-nov02,Arias Consultores,2026-11-02,careo (con Clouthier y Waldo),Clara Luz Flores,Morena,13,,entra al careo
+Nuevo León,2026-11,arias-nov02,Arias Consultores,2026-11-02,careo (con Clouthier y Waldo),Tatiana Clouthier,Independiente,10.3,,entra al careo
+Nuevo León,2026-11,arias-nov02,Arias Consultores,2026-11-02,careo documentado,Adrián de la Garza,PRI,31.6,,documentado (no se promedia)
+Nuevo León,2026-11,arias-nov02,Arias Consultores,2026-11-02,careo documentado,Mariana Rodríguez,MC,25.7,,documentado (no se promedia)
+Nuevo León,2026-11,arias-nov02,Arias Consultores,2026-11-02,careo documentado,Clara Luz Flores,Morena,16.6,,documentado (no se promedia)
+Nuevo León,2026-11,arias-nov02,Arias Consultores,2026-11-02,careo documentado,Waldo Fernández,PVEM,16.1,,documentado (no se promedia)
+Nuevo León,2026-11,facto-nov03,FactoMétrica,2026-11-03,careo,Mariana Rodríguez,MC,29,PRI-PAN,entra al careo
+Nuevo León,2026-11,facto-nov03,FactoMétrica,2026-11-03,careo,Clara Luz Flores,Morena,26.2,PRI-PAN,entra al careo
+Nuevo León,2026-11,facto-nov03,FactoMétrica,2026-11-03,careo,Adrián de la Garza,PRI,22.9,PRI-PAN,entra al careo
+Nuevo León,2026-11,facto-nov03,FactoMétrica,2026-11-03,careo documentado,Félix Arratia,MC,28,,documentado (no se promedia)
+Nuevo León,2026-11,facto-nov03,FactoMétrica,2026-11-03,careo documentado,Clara Luz Flores,Morena,25.8,,documentado (no se promedia)
+Nuevo León,2026-11,facto-nov03,FactoMétrica,2026-11-03,careo documentado,Adrián de la Garza,PRI,23.9,,documentado (no se promedia)
+Nuevo León,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Adrián de la Garza,PRI,33.8,PRI-PAN,entra al careo
+Nuevo León,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Mariana Rodríguez,MC,27.3,PRI-PAN,entra al careo
+Nuevo León,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Clara Luz Flores,Morena,11.8,PRI-PAN,entra al careo
+Nuevo León,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Hernán Sada,PAZ,2.8,PRI-PAN,entra al careo
+Nuevo León,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Jesús Elizondo,PT,2.6,PRI-PAN,entra al careo
+Nuevo León,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Fernando Turner,Somos,2.4,PRI-PAN,entra al careo
+Nuevo León,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo (PAN-PRI = de la Garza),Mariana Rodríguez,MC,38.6,,entra al careo
+Nuevo León,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo (PAN-PRI = de la Garza),Adrián de la Garza,PRI,37.9,,entra al careo
+Nuevo León,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo (PAN-PRI = de la Garza),Clara Luz Flores,Morena,16.6,,entra al careo
+Querétaro,2026-07,qmjul,Question Mark,2026-07-22,careo,Felifer Macías,PAN,39.3,,entra al careo
+Querétaro,2026-07,qmjul,Question Mark,2026-07-22,careo,Santiago Nieto,Morena,26.7,,entra al careo
+Querétaro,2026-07,qmjul,Question Mark,2026-07-22,careo,Mario Calzada,PRI,8.9,,entra al careo
+Querétaro,2026-07,qmjul,Question Mark,2026-07-22,careo,Laura Ballesteros,MC,7.3,,entra al careo
+Querétaro,2026-08,src24,SRC,2026-08-24,careo,Felifer Macías,PAN,45.3,,entra al careo
+Querétaro,2026-08,src24,SRC,2026-08-24,careo,Santiago Nieto,Morena,27.1,,entra al careo
+Querétaro,2026-08,src24,SRC,2026-08-24,careo,Abigail Arredondo,PRI,3.8,,entra al careo
+Querétaro,2026-08,src24,SRC,2026-08-24,careo,Paul Ospital,MC,3.4,,entra al careo
+Querétaro,2026-09,poli,Poligrama,2026-09-09,careo,Felifer Macías,PAN,44.9,,entra al careo
+Querétaro,2026-09,poli,Poligrama,2026-09-09,careo,Santiago Nieto,Morena,29.9,,entra al careo
+Querétaro,2026-09,poli,Poligrama,2026-09-09,careo,Mario Calzada Mercado,PRI,4.8,,entra al careo
+Querétaro,2026-09,poli,Poligrama,2026-09-09,careo,Paulina Aguado,MC,4.6,,entra al careo
+Querétaro,2026-09,cye,C&E,2026-09-17,Careo 1 (Macías),Felifer Macías,PAN,46,,entra al careo
+Querétaro,2026-09,cye,C&E,2026-09-17,Careo 1 (Macías),Santiago Nieto,Morena,28,,entra al careo
+Querétaro,2026-09,cye,C&E,2026-09-17,Careo 1 (Macías),Paul Ospital,MC,6,,entra al careo
+Querétaro,2026-09,cye,C&E,2026-09-17,Careo 1 (Macías),René Mejía,PRI,2,,entra al careo
+Querétaro,2026-09,cye_alt,C&E (careos 2-4),2026-09-17,Careo 2 (Nava),Luis Bernardo Nava,PAN,39,,excluida
+Querétaro,2026-09,cye_alt,C&E (careos 2-4),2026-09-17,Careo 2 (Nava),Santiago Nieto,Morena,31,,excluida
+Querétaro,2026-09,cye_alt,C&E (careos 2-4),2026-09-17,Careo 2 (Nava),Paul Ospital,MC,8,,excluida
+Querétaro,2026-09,cye_alt,C&E (careos 2-4),2026-09-17,Careo 2 (Nava),René Mejía,PRI,4,,excluida
+Querétaro,2026-09,cye_alt,C&E (careos 2-4),2026-09-17,Careo 3 (Dorantes),Agustín Dorantes,PAN,36,,excluida
+Querétaro,2026-09,cye_alt,C&E (careos 2-4),2026-09-17,Careo 3 (Dorantes),Santiago Nieto,Morena,31,,excluida
+Querétaro,2026-09,cye_alt,C&E (careos 2-4),2026-09-17,Careo 3 (Dorantes),Paul Ospital,MC,8,,excluida
+Querétaro,2026-09,cye_alt,C&E (careos 2-4),2026-09-17,Careo 3 (Dorantes),René Mejía,PRI,3,,excluida
+Querétaro,2026-09,cye_alt,C&E (careos 2-4),2026-09-17,Careo 4 (Guerrero),Josué Guerrero,PAN,33,,excluida
+Querétaro,2026-09,cye_alt,C&E (careos 2-4),2026-09-17,Careo 4 (Guerrero),Santiago Nieto,Morena,32,,excluida
+Querétaro,2026-09,cye_alt,C&E (careos 2-4),2026-09-17,Careo 4 (Guerrero),Paul Ospital,MC,7,,excluida
+Querétaro,2026-09,cye_alt,C&E (careos 2-4),2026-09-17,Careo 4 (Guerrero),René Mejía,PRI,6,,excluida
+Querétaro,2026-09,mc18,Massive Caller,2026-09-18,escenario 1 (Macías),Felifer Macías,PAN,40.8,,excluida
+Querétaro,2026-09,mc18,Massive Caller,2026-09-18,escenario 1 (Macías),Santiago Nieto,Morena,30.2,,excluida
+Querétaro,2026-09,mc18,Massive Caller,2026-09-18,escenario 1 (Macías),Mario Calzada Mercado,PRI,6.1,,excluida
+Querétaro,2026-09,mc18,Massive Caller,2026-09-18,escenario 1 (Macías),Teresa Calzada Rovirosa,MC,4.3,,excluida
+Querétaro,2026-09,mc18,Massive Caller,2026-09-18,escenario 2 (Nava como PAN),Luis Bernardo Nava,PAN,43.2,,excluida
+Querétaro,2026-09,mc18,Massive Caller,2026-09-18,escenario 2 (Nava como PAN),Santiago Nieto,Morena,27.1,,excluida
+Querétaro,2026-09,mc18,Massive Caller,2026-09-18,escenario 2 (Nava como PAN),Mario Calzada Mercado,PRI,7.1,,excluida
+Querétaro,2026-09,mc18,Massive Caller,2026-09-18,escenario 2 (Nava como PAN),Teresa Calzada Rovirosa,MC,4.1,,excluida
+Querétaro,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Felifer Macías,PAN,42,,entra al careo
+Querétaro,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Santiago Nieto,Morena,33,,entra al careo
+Querétaro,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Paulina Aguado,MC,7.53,,entra al careo
+Querétaro,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Ricardo Astudillo Suárez,PVEM,5.4,,entra al careo
+Querétaro,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Mario Calzada Mercado,PRI,4.3,,entra al careo
+Querétaro,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Felifer Macías,PAN,46,,entra al careo
+Querétaro,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Santiago Nieto,Morena,33.37,,entra al careo
+Querétaro,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Teresa Calzada Rovirosa,MC,7.81,,entra al careo
+Querétaro,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Ricardo Astudillo Suárez,PVEM,5.14,,entra al careo
+Querétaro,2026-09,emot-oct,Emotegia,2026-09-26,Escenario B,Abigail Arredondo,PRI,3.83,,entra al careo
+Querétaro,2026-09,src28,SRC,2026-09-28,careo,Felifer Macías,PAN,44.4,,entra al careo
+Querétaro,2026-09,src28,SRC,2026-09-28,careo,Santiago Nieto,Morena,34.9,,entra al careo
+Querétaro,2026-09,src28,SRC,2026-09-28,careo,Paul Ospital,MC,3.7,,entra al careo
+Querétaro,2026-09,src28,SRC,2026-09-28,careo,Abigail Arredondo,PRI,3.4,,entra al careo
+Querétaro,2026-09,univ-sep,El Universal,2026-09-30,careo (Nieto = Morena-PT-PVEM),Felifer Macías,PAN,37.2,,entra al careo
+Querétaro,2026-09,univ-sep,El Universal,2026-09-30,careo (Nieto = Morena-PT-PVEM),Santiago Nieto,Morena,22.4,,entra al careo
+Querétaro,2026-09,univ-sep,El Universal,2026-09-30,careo (Nieto = Morena-PT-PVEM),Abigail Arredondo,PRI,4.1,,entra al careo
+Querétaro,2026-09,univ-sep,El Universal,2026-09-30,careo (Nieto = Morena-PT-PVEM),Laura Ballesteros,MC,2,,entra al careo
+Querétaro,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1 (Nava),Luis Bernardo Nava,PAN,46.9,,entra al careo
+Querétaro,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1 (Nava),Santiago Nieto,Morena,26.1,,entra al careo
+Querétaro,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1 (Nava),Abigail Arredondo,PRI,8.6,,entra al careo
+Querétaro,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 1 (Nava),Paul Ospital,MC,7.9,,entra al careo
+Querétaro,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2 (Macías),Felifer Macías,PAN,35.9,,entra al careo
+Querétaro,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2 (Macías),Santiago Nieto,Morena,16.5,,entra al careo
+Querétaro,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2 (Macías),Paul Ospital,MC,6.9,,entra al careo
+Querétaro,2026-10,arias-oct,Arias Consultores,2026-10-01,escenario 2 (Macías),Abigail Arredondo,PRI,4.7,,entra al careo
+Querétaro,2026-10,logi-oct6,Logi·Call,2026-10-06,careo,Felifer Macías,PAN,42.8,,entra al careo
+Querétaro,2026-10,logi-oct6,Logi·Call,2026-10-06,careo,Santiago Nieto,Morena,28.4,,entra al careo
+Querétaro,2026-10,logi-oct6,Logi·Call,2026-10-06,careo,Mario Calzada Mercado,PRI,7.3,,entra al careo
+Querétaro,2026-10,logi-oct6,Logi·Call,2026-10-06,careo,Teresa Calzada Rovirosa,MC,3.9,,entra al careo
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario A (Macías),Felifer Macías,PAN,47.1,,entra al careo
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario A (Macías),Santiago Nieto,Morena,35.5,,entra al careo
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario A (Macías),Paul Ospital,MC,5.9,,entra al careo
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario A (Macías),Abigail Arredondo,PRI,4.2,,entra al careo
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario B (Nava),Luis Bernardo Nava,PAN,45.8,,entra al careo
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario B (Nava),Santiago Nieto,Morena,36.1,,entra al careo
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario B (Nava),Abigail Arredondo,PRI,6.4,,entra al careo
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario B (Nava),Paul Ospital,MC,5.8,,entra al careo
+Querétaro,2026-10,poli-oct,Poligrama,2026-10-13,careo,Felifer Macías,PAN,47.8,,entra al careo
+Querétaro,2026-10,poli-oct,Poligrama,2026-10-13,careo,Santiago Nieto,Morena,30.4,,entra al careo
+Querétaro,2026-10,poli-oct,Poligrama,2026-10-13,careo,Paulina Aguado,MC,3.9,,entra al careo
+Querétaro,2026-10,poli-oct,Poligrama,2026-10-13,careo,Abigail Arredondo,PRI,3.8,,entra al careo
+Querétaro,2026-10,rub-oct15,RUBRUM,2026-10-15,careo,Felifer Macías,PAN,49.6,PAN-PRI,entra al careo
+Querétaro,2026-10,rub-oct15,RUBRUM,2026-10-15,careo,Santiago Nieto,Morena,30.9,PAN-PRI,entra al careo
+Querétaro,2026-10,rub-oct15,RUBRUM,2026-10-15,careo,Teresa Calzada Rovirosa,MC,3.8,PAN-PRI,entra al careo
+Querétaro,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Felifer Macías,PAN,35.9,,entra al careo
+Querétaro,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Santiago Nieto,Morena,27.6,,entra al careo
+Querétaro,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,René Mejía,PRI,5.2,,entra al careo
+Querétaro,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Laura Ballesteros,MC,4.3,,entra al careo
+Querétaro,2026-10,mc18oct,Massive Caller,2026-10-18,careo,Felifer Macías,PAN,43.6,,entra al careo
+Querétaro,2026-10,mc18oct,Massive Caller,2026-10-18,careo,Santiago Nieto,Morena,27.4,,entra al careo
+Querétaro,2026-10,mc18oct,Massive Caller,2026-10-18,careo,Abigail Arredondo,PRI,9.3,,entra al careo
+Querétaro,2026-10,mc18oct,Massive Caller,2026-10-18,careo,Teresa Calzada Rovirosa,MC,3.4,,entra al careo
+Querétaro,2026-10,qm-oct23,Question Mark,2026-10-23,careo,Felifer Macías,PAN,49.4,,entra al careo
+Querétaro,2026-10,qm-oct23,Question Mark,2026-10-23,careo,Santiago Nieto,Morena,23.1,,entra al careo
+Querétaro,2026-10,qm-oct23,Question Mark,2026-10-23,careo,Abigail Arredondo,PRI,5.4,,entra al careo
+Querétaro,2026-10,qm-oct23,Question Mark,2026-10-23,careo,Teresa Calzada Rovirosa,MC,3.9,,entra al careo
+Querétaro,2026-10,src-oct26,SRC,2026-10-26,careo (posible escenario),Felifer Macías,PAN,57.6,,entra al careo
+Querétaro,2026-10,src-oct26,SRC,2026-10-26,careo (posible escenario),Santiago Nieto,Morena,25.5,,entra al careo
+Querétaro,2026-10,src-oct26,SRC,2026-10-26,careo (posible escenario),Abigail Arredondo,PRI,4.5,,entra al careo
+Querétaro,2026-10,src-oct26,SRC,2026-10-26,careo (posible escenario),Teresa Calzada Rovirosa,MC,3.6,,entra al careo
+Querétaro,2026-10,gob-oct30,GobernArte,2026-10-30,careo,Felifer Macías,PAN,38.4,,entra al careo
+Querétaro,2026-10,gob-oct30,GobernArte,2026-10-30,careo,Santiago Nieto,Morena,30.5,,entra al careo
+Querétaro,2026-10,gob-oct30,GobernArte,2026-10-30,careo,Abigail Arredondo,PRI,10.5,,entra al careo
+Querétaro,2026-10,gob-oct30,GobernArte,2026-10-30,careo,Teresa Calzada Rovirosa,MC,5.8,,entra al careo
+Querétaro,2026-11,alt-nov02,Áltica,2026-11-02,careo,Felifer Macías,PAN,46,,entra al careo
+Querétaro,2026-11,alt-nov02,Áltica,2026-11-02,careo,Santiago Nieto,Morena,30,,entra al careo
+Querétaro,2026-11,alt-nov02,Áltica,2026-11-02,careo,Laura Ballesteros,MC,6,,entra al careo
+Querétaro,2026-11,aimsa-nov06,AIMSA,2026-11-06,careo (partidos separados),Felifer Macías,PAN,40,,excluida
+Querétaro,2026-11,aimsa-nov06,AIMSA,2026-11-06,careo (partidos separados),Santiago Nieto,Morena,31,,excluida
+Querétaro,2026-11,aimsa-nov06,AIMSA,2026-11-06,careo (partidos separados),Mario Calzada Mercado,PRI,12,,excluida
+Querétaro,2026-11,aimsa-nov06,AIMSA,2026-11-06,careo (partidos separados),Teresa Calzada Rovirosa,MC,7,,excluida
+Querétaro,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Felifer Macías,PAN,48.1,PAN-PRI,entra al careo
+Querétaro,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Santiago Nieto,Morena,27.9,PAN-PRI,entra al careo
+Querétaro,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Teresa Calzada Rovirosa,MC,5.5,PAN-PRI,entra al careo
+Querétaro,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Felifer Macías,PAN,44.9,,entra al careo
+Querétaro,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Santiago Nieto,Morena,32.2,,entra al careo
+Querétaro,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Paul Ospital,MC,8.3,,entra al careo
+Querétaro,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Abigail Arredondo,PRI,6.9,,entra al careo
+Quintana Roo,2026-08,bym,Buendía & Márquez,2026-08-06,careo,Gino Segura,Morena,58.9,,entra al careo
+Quintana Roo,2026-08,bym,Buendía & Márquez,2026-08-06,careo,Roberto Palazuelos,MC,7.3,,entra al careo
+Quintana Roo,2026-08,bym,Buendía & Márquez,2026-08-06,careo,Mayuli Martínez,PAN,6.9,,entra al careo
+Quintana Roo,2026-08,bym,Buendía & Márquez,2026-08-06,careo,Leslie Hendricks,PRI,2.9,,entra al careo
+Quintana Roo,2026-09,cye,C&E,2026-09-02,careo,Gino Segura,Morena,50,,entra al careo
+Quintana Roo,2026-09,cye,C&E,2026-09-02,careo,Roberto Palazuelos,MC,12,,entra al careo
+Quintana Roo,2026-09,cye,C&E,2026-09-02,careo,Mayuli Martínez,PAN,10,,entra al careo
+Quintana Roo,2026-09,cye,C&E,2026-09-02,careo,Filiberto Martínez,PRI,8,,entra al careo
+Quintana Roo,2026-09,dem,Demoscopia Digital,2026-09-03,careo,Gino Segura,Morena,42.6,,entra al careo
+Quintana Roo,2026-09,dem,Demoscopia Digital,2026-09-03,careo,Mayuli Martínez,PAN,13.4,,entra al careo
+Quintana Roo,2026-09,dem,Demoscopia Digital,2026-09-03,careo,Leslie Hendricks,PRI,9.5,,entra al careo
+Quintana Roo,2026-09,dem,Demoscopia Digital,2026-09-03,careo,José Luis Pech,MC,8.2,,entra al careo
+Quintana Roo,2026-09,mc20,Massive Caller,2026-09-20,careo,Gino Segura,Morena,37.4,,entra al careo
+Quintana Roo,2026-09,mc20,Massive Caller,2026-09-20,careo,Mayuli Martínez,PAN,16.8,,entra al careo
+Quintana Roo,2026-09,mc20,Massive Caller,2026-09-20,careo,Leslie Hendricks,PRI,11.8,,entra al careo
+Quintana Roo,2026-09,mc20,Massive Caller,2026-09-20,careo,José Luis Pech,MC,9.4,,entra al careo
+Quintana Roo,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Gino Segura,Morena,37,,entra al careo
+Quintana Roo,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Mayuli Martínez,PAN,17,,entra al careo
+Quintana Roo,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Lidia Rojas,MC,10,,entra al careo
+Quintana Roo,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Pedro Flota Alcocer,PRI,6.82,,entra al careo
+Quintana Roo,2026-10,arias-oct,Arias Consultores,2026-10-01,careo,Gino Segura,Morena,33.4,,entra al careo
+Quintana Roo,2026-10,arias-oct,Arias Consultores,2026-10-01,careo,Mayuli Martínez,PAN,13.9,,entra al careo
+Quintana Roo,2026-10,arias-oct,Arias Consultores,2026-10-01,careo,Lidia Rojas,MC,12,,entra al careo
+Quintana Roo,2026-10,arias-oct,Arias Consultores,2026-10-01,careo,Leslie Hendricks,PRI,7.6,,entra al careo
+Quintana Roo,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Gino Segura,Morena,46.1,,entra al careo
+Quintana Roo,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Roberto Palazuelos,MC,23.9,,entra al careo
+Quintana Roo,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Mayuli Martínez,PAN,19.3,,entra al careo
+Quintana Roo,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Cora Amalia Castilla,PRI,5.8,,entra al careo
+Quintana Roo,2026-10,logi-oct8,Logi·Call,2026-10-08,careo,Gino Segura,Morena,27.4,,entra al careo
+Quintana Roo,2026-10,logi-oct8,Logi·Call,2026-10-08,careo,Mayuli Martínez,PAN,16.8,,entra al careo
+Quintana Roo,2026-10,logi-oct8,Logi·Call,2026-10-08,careo,Leslie Hendricks,PRI,11.7,,entra al careo
+Quintana Roo,2026-10,logi-oct8,Logi·Call,2026-10-08,careo,José Luis Pech,MC,9.5,,entra al careo
+Quintana Roo,2026-10,rub-oct10,RUBRUM (10 oct),2026-10-10,careo,Gino Segura,Morena,48.2,PRI,entra al careo
+Quintana Roo,2026-10,rub-oct10,RUBRUM (10 oct),2026-10-10,careo,Filiberto Martínez,PRI,22.7,PRI,entra al careo
+Quintana Roo,2026-10,rub-oct10,RUBRUM (10 oct),2026-10-10,careo,José Luis Pech,MC,16.1,PRI,entra al careo
+Quintana Roo,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Gino Segura,Morena,40.1,,entra al careo
+Quintana Roo,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Mayuli Martínez,PAN,12.3,,entra al careo
+Quintana Roo,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,José Luis Pech,MC,8.8,,entra al careo
+Quintana Roo,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Leslie Hendricks,PRI,8.7,,entra al careo
+Quintana Roo,2026-10,mc20oct,Massive Caller,2026-10-20,careo,Gino Segura,Morena,38.7,,entra al careo
+Quintana Roo,2026-10,mc20oct,Massive Caller,2026-10-20,careo,Mayuli Martínez,PAN,15.6,,entra al careo
+Quintana Roo,2026-10,mc20oct,Massive Caller,2026-10-20,careo,Leslie Hendricks,PRI,13.4,,entra al careo
+Quintana Roo,2026-10,mc20oct,Massive Caller,2026-10-20,careo,José Luis Pech,MC,10.6,,entra al careo
+Quintana Roo,2026-10,gob-oct22,GobernArte,2026-10-22,careo,Gino Segura,Morena,42.1,,entra al careo
+Quintana Roo,2026-10,gob-oct22,GobernArte,2026-10-22,careo,Mayuli Martínez,PAN,13.5,,entra al careo
+Quintana Roo,2026-10,gob-oct22,GobernArte,2026-10-22,careo,Lidia Rojas Fabro,MC,10.3,,entra al careo
+Quintana Roo,2026-10,gob-oct22,GobernArte,2026-10-22,careo,Leslie Hendricks,PRI,8.4,,entra al careo
+Quintana Roo,2026-10,tactica-oct26,Táctica Política (excluida),2026-10-26,careo,Eugenio Segura,Morena,41.2,PAN-PRI,excluida
+Quintana Roo,2026-10,tactica-oct26,Táctica Política (excluida),2026-10-26,careo,Mayuli Martínez,PAN,18.3,PAN-PRI,excluida
+Quintana Roo,2026-10,tactica-oct26,Táctica Política (excluida),2026-10-26,careo,José Luis Pech,MC,9.4,PAN-PRI,excluida
+Quintana Roo,2026-10,ce-oct30,CE Research,2026-10-30,careo (Filiberto Martínez PRI se carga como Leslie Hendricks),Gino Segura,Morena,48,,entra al careo
+Quintana Roo,2026-10,ce-oct30,CE Research,2026-10-30,careo (Filiberto Martínez PRI se carga como Leslie Hendricks),Mayuli Martínez,PAN,14,,entra al careo
+Quintana Roo,2026-10,ce-oct30,CE Research,2026-10-30,careo (Filiberto Martínez PRI se carga como Leslie Hendricks),Leslie Hendricks,PRI,9,,entra al careo
+Quintana Roo,2026-10,ce-oct30,CE Research,2026-10-30,careo (Filiberto Martínez PRI se carga como Leslie Hendricks),José Luis Pech,MC,5,,entra al careo
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,2026-11-03,careo 1 (Leslie Hendricks PRI; único careo usado),Gino Segura,Morena,41,,entra al careo
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,2026-11-03,careo 1 (Leslie Hendricks PRI; único careo usado),Mayuli Martínez,PAN,15,,entra al careo
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,2026-11-03,careo 1 (Leslie Hendricks PRI; único careo usado),José Luis Pech,MC,7,,entra al careo
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,2026-11-03,careo 1 (Leslie Hendricks PRI; único careo usado),Leslie Hendricks,PRI,3,,entra al careo
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,2026-11-03,careo documentado,Gino Segura,Morena,45,,documentado (no se promedia)
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,2026-11-03,careo documentado,Mayuli Martínez,PAN,14,,documentado (no se promedia)
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,2026-11-03,careo documentado,José Luis Pech,MC,6,,documentado (no se promedia)
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,2026-11-03,careo documentado,Filiberto Martínez,PRI,5,,documentado (no se promedia)
+Quintana Roo,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Gino Segura,Morena,46.6,PRI-PAN,entra al careo
+Quintana Roo,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,Filiberto Martínez,PRI,25.4,PRI-PAN,entra al careo
+Quintana Roo,2026-11,rub-nov07,RUBRUM,2026-11-07,careo,José Luis Pech,MC,13.6,PRI-PAN,entra al careo
+Quintana Roo,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Gino Segura,Morena,49,,entra al careo
+Quintana Roo,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Mayuli Martínez,PAN,18.5,,entra al careo
+Quintana Roo,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Lidia Rojas Fabro,MC,17.6,,entra al careo
+Quintana Roo,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Cora Amalia Castilla,PRI,7.5,,entra al careo
+San Luis Potosí,2026-08,qm,El Heraldo/Question Mark,2026-08-17,careo (2 escenarios del 5.º lugar ya promediados),Ruth González,PVEM,22.4,,entra al careo
+San Luis Potosí,2026-08,qm,El Heraldo/Question Mark,2026-08-17,careo (2 escenarios del 5.º lugar ya promediados),Alejandro Zermeño,Independiente,16.5,,entra al careo
+San Luis Potosí,2026-08,qm,El Heraldo/Question Mark,2026-08-17,careo (2 escenarios del 5.º lugar ya promediados),Gerardo Sánchez Zumaya,PT,15.1,,entra al careo
+San Luis Potosí,2026-08,qm,El Heraldo/Question Mark,2026-08-17,careo (2 escenarios del 5.º lugar ya promediados),Enrique Galindo,PRI,11.9,,entra al careo
+San Luis Potosí,2026-08,qm,El Heraldo/Question Mark,2026-08-17,careo (2 escenarios del 5.º lugar ya promediados),Paola Longoria,MC,9.6,,entra al careo
+San Luis Potosí,2026-08,qm,El Heraldo/Question Mark,2026-08-17,careo (2 escenarios del 5.º lugar ya promediados),Rubén Guajardo,PAN,7.5,,entra al careo
+San Luis Potosí,2026-08,cye-ago,C&E Campaigns & Elections (ago),2026-08-25,careo,Ruth González,PVEM,39.6,,entra al careo
+San Luis Potosí,2026-08,cye-ago,C&E Campaigns & Elections (ago),2026-08-25,careo,Enrique Galindo,PRI,20.5,,entra al careo
+San Luis Potosí,2026-08,cye-ago,C&E Campaigns & Elections (ago),2026-08-25,careo,Gerardo Sánchez Zumaya,PT,9.3,,entra al careo
+San Luis Potosí,2026-08,cye-ago,C&E Campaigns & Elections (ago),2026-08-25,careo,Marco Antonio Gama,MC,9,,entra al careo
+San Luis Potosí,2026-08,cye-ago,C&E Campaigns & Elections (ago),2026-08-25,careo,Verónica Rodríguez,PAN,3.7,,entra al careo
+San Luis Potosí,2026-09,laenc,LaEncuesta.MX,2026-09-07,Escenario 1 (Morena-PT = Sánchez Zumaya),Ruth González,PVEM,38.9,,entra al careo
+San Luis Potosí,2026-09,laenc,LaEncuesta.MX,2026-09-07,Escenario 1 (Morena-PT = Sánchez Zumaya),Gerardo Sánchez Zumaya,PT,35.6,,entra al careo
+San Luis Potosí,2026-09,laenc,LaEncuesta.MX,2026-09-07,Escenario 1 (Morena-PT = Sánchez Zumaya),Enrique Galindo,PRI,18.2,,entra al careo
+San Luis Potosí,2026-09,laenc-s2,LaEncuesta.MX (escenario 2),2026-09-07,Escenario 2 (Morena = Carlos Artemio Arreola),Ruth González,PVEM,40.4,,excluida
+San Luis Potosí,2026-09,laenc-s2,LaEncuesta.MX (escenario 2),2026-09-07,Escenario 2 (Morena = Carlos Artemio Arreola),Carlos Artemio Arreola,Morena,31.3,,excluida
+San Luis Potosí,2026-09,laenc-s2,LaEncuesta.MX (escenario 2),2026-09-07,Escenario 2 (Morena = Carlos Artemio Arreola),Enrique Galindo,PRI,11.5,,excluida
+San Luis Potosí,2026-09,laenc-s2,LaEncuesta.MX (escenario 2),2026-09-07,Escenario 2 (Morena = Carlos Artemio Arreola),Marco Antonio Gama,MC,10.6,,excluida
+San Luis Potosí,2026-09,cye-sep,C&E Campaigns & Elections (sep),2026-09-22,careo,Ruth González,PVEM,42,,entra al careo
+San Luis Potosí,2026-09,cye-sep,C&E Campaigns & Elections (sep),2026-09-22,careo,Enrique Galindo,PRI,21,,entra al careo
+San Luis Potosí,2026-09,cye-sep,C&E Campaigns & Elections (sep),2026-09-22,careo,Gerardo Sánchez Zumaya,PT,12,,entra al careo
+San Luis Potosí,2026-09,cye-sep,C&E Campaigns & Elections (sep),2026-09-22,careo,Marco Antonio Gama,MC,7,,entra al careo
+San Luis Potosí,2026-09,cye-sep,C&E Campaigns & Elections (sep),2026-09-22,careo,Verónica Rodríguez,PAN,5,,entra al careo
+San Luis Potosí,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Ruth González,PVEM,37,,entra al careo
+San Luis Potosí,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Gerardo Sánchez Zumaya,Morena,23,,entra al careo
+San Luis Potosí,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Enrique Galindo,PRI,20,,entra al careo
+San Luis Potosí,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Marvelly Costanzo,MC,8,,entra al careo
+San Luis Potosí,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Sara Rocha Medina,PRI,1.64,,entra al careo
+San Luis Potosí,2026-10,arias,Arias Consultores,2026-10-01,careo,Enrique Galindo,PRI,22.7,,entra al careo
+San Luis Potosí,2026-10,arias,Arias Consultores,2026-10-01,careo,Ruth González,PVEM,19.5,,entra al careo
+San Luis Potosí,2026-10,arias,Arias Consultores,2026-10-01,careo,Elí César Cervantes,Morena,10.7,,entra al careo
+San Luis Potosí,2026-10,arias,Arias Consultores,2026-10-01,careo,Marco Antonio Gama,MC,9.2,,entra al careo
+San Luis Potosí,2026-10,arias,Arias Consultores,2026-10-01,careo,Gerardo Sánchez Zumaya,PT,4.5,,entra al careo
+San Luis Potosí,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo (PAN-PRI = Galindo),Ruth González,PVEM,41.5,,entra al careo
+San Luis Potosí,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo (PAN-PRI = Galindo),Elí César Cervantes,Morena,32.8,,entra al careo
+San Luis Potosí,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo (PAN-PRI = Galindo),Enrique Galindo,PRI,17.2,,entra al careo
+San Luis Potosí,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo (PAN-PRI = Galindo),Marco Antonio Gama,MC,1.5,,entra al careo
+San Luis Potosí,2026-10,gob-oct,GobernArte,2026-10-14,careo,Ruth González,PVEM,38.6,,entra al careo
+San Luis Potosí,2026-10,gob-oct,GobernArte,2026-10-14,careo,Enrique Galindo,PRI,25.4,,entra al careo
+San Luis Potosí,2026-10,gob-oct,GobernArte,2026-10-14,careo,Elí César Cervantes,Morena,11.4,,entra al careo
+San Luis Potosí,2026-10,gob-oct,GobernArte,2026-10-14,careo,Marco Antonio Gama,MC,8.3,,entra al careo
+San Luis Potosí,2026-10,gob-oct,GobernArte,2026-10-14,careo,Verónica Rodríguez,PAN,7.3,,entra al careo
+San Luis Potosí,2026-10,rub-oct15,RUBRUM,2026-10-15,careo,Ruth González,PVEM,29.1,PRI-PAN,entra al careo
+San Luis Potosí,2026-10,rub-oct15,RUBRUM,2026-10-15,careo,Enrique Galindo,PRI,26.3,PRI-PAN,entra al careo
+San Luis Potosí,2026-10,rub-oct15,RUBRUM,2026-10-15,careo,Elí César Cervantes,Morena,15.2,PRI-PAN,entra al careo
+San Luis Potosí,2026-10,rub-oct15,RUBRUM,2026-10-15,careo,Marco Antonio Gama,MC,4,PRI-PAN,entra al careo
+San Luis Potosí,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Ruth González,PVEM,33.7,PRI-PAN,entra al careo
+San Luis Potosí,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Enrique Galindo,PRI,19.2,PRI-PAN,entra al careo
+San Luis Potosí,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Elí César Cervantes,Morena,15.4,PRI-PAN,entra al careo
+San Luis Potosí,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Paola Longoria,MC,3.1,PRI-PAN,entra al careo
+San Luis Potosí,2026-10,mc22oct,Massive Caller,2026-10-22,"careo (Galindo en su fila PRI, sin sumar a Sara Rocha)",Ruth González,PVEM,28.3,PRI,entra al careo
+San Luis Potosí,2026-10,mc22oct,Massive Caller,2026-10-22,"careo (Galindo en su fila PRI, sin sumar a Sara Rocha)",Enrique Galindo,PRI,18.4,PRI,entra al careo
+San Luis Potosí,2026-10,mc22oct,Massive Caller,2026-10-22,"careo (Galindo en su fila PRI, sin sumar a Sara Rocha)",Elí César Cervantes,Morena,17.4,PRI,entra al careo
+San Luis Potosí,2026-10,mc22oct,Massive Caller,2026-10-22,"careo (Galindo en su fila PRI, sin sumar a Sara Rocha)",Marco Antonio Gama,MC,7.3,PRI,entra al careo
+San Luis Potosí,2026-10,mc22oct,Massive Caller,2026-10-22,careo documentado,Sara Rocha Medina,PRI,3.8,,documentado (no se promedia)
+San Luis Potosí,2026-10,mc22oct,Massive Caller,2026-10-22,careo documentado,Jacquelinn Jáuregui Mendoza,PT,3.2,,documentado (no se promedia)
+San Luis Potosí,2026-10,ce-oct25,CE Research,2026-10-25,careo (Galindo PRI-PAN),Ruth González,PVEM,37,PRI-PAN,entra al careo
+San Luis Potosí,2026-10,ce-oct25,CE Research,2026-10-25,careo (Galindo PRI-PAN),Enrique Galindo,PRI,23,PRI-PAN,entra al careo
+San Luis Potosí,2026-10,ce-oct25,CE Research,2026-10-25,careo (Galindo PRI-PAN),Elí César Cervantes,Morena,15,PRI-PAN,entra al careo
+San Luis Potosí,2026-10,ce-oct25,CE Research,2026-10-25,careo (Galindo PRI-PAN),Gerardo Sánchez Zumaya,PT,6,PRI-PAN,entra al careo
+San Luis Potosí,2026-10,ce-oct25,CE Research,2026-10-25,careo (Galindo PRI-PAN),Marco Antonio Gama,MC,5,PRI-PAN,entra al careo
+San Luis Potosí,2026-10,univ-oct30,El Universal,2026-10-30,"careo 1 (Ruth PVEM-PT, Galindo PAN-PRI)",Ruth González,PVEM,46.9,PRI-PAN-PVEM-PT,entra al careo
+San Luis Potosí,2026-10,univ-oct30,El Universal,2026-10-30,"careo 1 (Ruth PVEM-PT, Galindo PAN-PRI)",Enrique Galindo,PRI,17,PRI-PAN-PVEM-PT,entra al careo
+San Luis Potosí,2026-10,univ-oct30,El Universal,2026-10-30,"careo 1 (Ruth PVEM-PT, Galindo PAN-PRI)",Elí César Cervantes,Morena,7.5,PRI-PAN-PVEM-PT,entra al careo
+San Luis Potosí,2026-10,univ-oct30,El Universal,2026-10-30,"careo 1 (Ruth PVEM-PT, Galindo PAN-PRI)",Marvely Costanzo,MC,2.2,PRI-PAN-PVEM-PT,entra al careo
+San Luis Potosí,2026-10,univ-oct30,El Universal,2026-10-30,careo documentado,Ruth González,PVEM,46.1,,documentado (no se promedia)
+San Luis Potosí,2026-10,univ-oct30,El Universal,2026-10-30,careo documentado,Enrique Galindo,PRI,14.3,,documentado (no se promedia)
+San Luis Potosí,2026-10,univ-oct30,El Universal,2026-10-30,careo documentado,Elí César Cervantes,Morena,8,,documentado (no se promedia)
+San Luis Potosí,2026-10,univ-oct30,El Universal,2026-10-30,careo documentado,Verónica Rodríguez,PAN,2.7,,documentado (no se promedia)
+San Luis Potosí,2026-10,univ-oct30,El Universal,2026-10-30,careo documentado,Marco Antonio Gama,MC,1.7,,documentado (no se promedia)
+San Luis Potosí,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo (PAN-PRI = Galindo),Ruth González,PVEM,39.7,,entra al careo
+San Luis Potosí,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo (PAN-PRI = Galindo),Elí César Cervantes,Morena,31.1,,entra al careo
+San Luis Potosí,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo (PAN-PRI = Galindo),Enrique Galindo,PRI,16.3,,entra al careo
+San Luis Potosí,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo (PAN-PRI = Galindo),Marvely Costanzo,MC,5.1,,entra al careo
+San Luis Potosí,2026-11,rub-nov09,RUBRUM,2026-11-09,careo,Ruth González,PVEM,28,PRI-PAN,entra al careo
+San Luis Potosí,2026-11,rub-nov09,RUBRUM,2026-11-09,careo,Enrique Galindo,PRI,27.5,PRI-PAN,entra al careo
+San Luis Potosí,2026-11,rub-nov09,RUBRUM,2026-11-09,careo,Elí César Cervantes,Morena,15.5,PRI-PAN,entra al careo
+San Luis Potosí,2026-11,rub-nov09,RUBRUM,2026-11-09,careo,Paola Longoria,MC,5.8,PRI-PAN,entra al careo
+San Luis Potosí,2026-11,gob-nov10,GobernArte,2026-11-10,careo,Ruth González,PVEM,40.1,,entra al careo
+San Luis Potosí,2026-11,gob-nov10,GobernArte,2026-11-10,careo,Enrique Galindo,PRI,20.6,,entra al careo
+San Luis Potosí,2026-11,gob-nov10,GobernArte,2026-11-10,careo,Elí César Cervantes,Morena,16.2,,entra al careo
+San Luis Potosí,2026-11,gob-nov10,GobernArte,2026-11-10,careo,Verónica Rodríguez,PAN,6.1,,entra al careo
+San Luis Potosí,2026-11,gob-nov10,GobernArte,2026-11-10,careo,Marco Antonio Gama,MC,5.8,,entra al careo
+Sinaloa,2026-07,qm,El Heraldo/Question Mark,2026-07-22,careo (boleta hipotética),Imelda Castro,Morena,42.6,,entra al careo
+Sinaloa,2026-07,qm,El Heraldo/Question Mark,2026-07-22,careo (boleta hipotética),Mario Zamora,PRI,14.4,,entra al careo
+Sinaloa,2026-07,qm,El Heraldo/Question Mark,2026-07-22,careo (boleta hipotética),"Sergio ""Pío"" Esquer",MC,12.6,,entra al careo
+Sinaloa,2026-07,qm,El Heraldo/Question Mark,2026-07-22,careo (boleta hipotética),Paola Gárate,PAN,9.2,,entra al careo
+Sinaloa,2026-08,cye-ago,C&E (Campaigns & Elections),2026-08-11,escenario 1 (Guerra),Tere Guerra,Morena,37.2,,entra al careo
+Sinaloa,2026-08,cye-ago,C&E (Campaigns & Elections),2026-08-11,escenario 1 (Guerra),Paloma Sánchez Ramos,PRI,6.4,,entra al careo
+Sinaloa,2026-08,cye-ago,C&E (Campaigns & Elections),2026-08-11,escenario 2 (Castro),Imelda Castro,Morena,34.7,,entra al careo
+Sinaloa,2026-08,cye-ago,C&E (Campaigns & Elections),2026-08-11,escenario 2 (Castro),Paloma Sánchez Ramos,PRI,9.2,,entra al careo
+Sinaloa,2026-09,laenc,LaEncuesta.MX,2026-09-07,Escenario 1 (PAN-PRI = Zamora),Imelda Castro,Morena,39.1,,entra al careo
+Sinaloa,2026-09,laenc,LaEncuesta.MX,2026-09-07,Escenario 1 (PAN-PRI = Zamora),Mario Zamora,PRI,35.8,,entra al careo
+Sinaloa,2026-09,laenc,LaEncuesta.MX,2026-09-07,Escenario 1 (PAN-PRI = Zamora),Sergio Torres Félix,MC,18.5,,entra al careo
+Sinaloa,2026-09,laenc-s2,LaEncuesta.MX (escenario 2),2026-09-07,Escenario 2 (PAN-PRI = Paloma Sánchez Ramos),Imelda Castro,Morena,41.5,,excluida
+Sinaloa,2026-09,laenc-s2,LaEncuesta.MX (escenario 2),2026-09-07,Escenario 2 (PAN-PRI = Paloma Sánchez Ramos),Paloma Sánchez Ramos,PRI,32.4,,excluida
+Sinaloa,2026-09,laenc-s2,LaEncuesta.MX (escenario 2),2026-09-07,Escenario 2 (PAN-PRI = Paloma Sánchez Ramos),Sergio Torres Félix,MC,19.2,,excluida
+Sinaloa,2026-09,mc,Massive Caller,2026-09-24,A: PRI = Mario Zamora,Imelda Castro,Morena,28.9,,entra al careo
+Sinaloa,2026-09,mc,Massive Caller,2026-09-24,A: PRI = Mario Zamora,Mario Zamora,PRI,27.4,,entra al careo
+Sinaloa,2026-09,mc,Massive Caller,2026-09-24,A: PRI = Mario Zamora,Paola Gárate,PAN,15.9,,entra al careo
+Sinaloa,2026-09,mc,Massive Caller,2026-09-24,A: PRI = Mario Zamora,Sergio Torres Félix,MC,4.3,,entra al careo
+Sinaloa,2026-09,mc,Massive Caller,2026-09-24,B: PRI = Paloma Sánchez Ramos,Imelda Castro,Morena,27.1,,entra al careo
+Sinaloa,2026-09,mc,Massive Caller,2026-09-24,B: PRI = Paloma Sánchez Ramos,Paloma Sánchez Ramos,PRI,25.5,,entra al careo
+Sinaloa,2026-09,mc,Massive Caller,2026-09-24,B: PRI = Paloma Sánchez Ramos,Paola Gárate,PAN,16.1,,entra al careo
+Sinaloa,2026-09,mc,Massive Caller,2026-09-24,B: PRI = Paloma Sánchez Ramos,Sergio Torres Félix,MC,6.9,,entra al careo
+Sinaloa,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Imelda Castro,Morena,42,,entra al careo
+Sinaloa,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Mario Zamora,PRI,28,,entra al careo
+Sinaloa,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Eduardo Ortiz Hernández,PAN,15,,entra al careo
+Sinaloa,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,"Sergio ""Pío"" Esquer",MC,8,,entra al careo
+Sinaloa,2026-10,arias,Arias Consultores,2026-10-01,Partidos separados (sin coalición),Mario Zamora,PRI,19.3,,entra al careo
+Sinaloa,2026-10,arias,Arias Consultores,2026-10-01,Partidos separados (sin coalición),Imelda Castro,Morena,18.9,,entra al careo
+Sinaloa,2026-10,arias,Arias Consultores,2026-10-01,Partidos separados (sin coalición),Guillermo Romero,PAN,14,,entra al careo
+Sinaloa,2026-10,arias,Arias Consultores,2026-10-01,Partidos separados (sin coalición),"Sergio ""Pío"" Esquer",MC,13,,entra al careo
+Sinaloa,2026-10,arias-coal,Arias Consultores (escenarios de coalición),2026-10-01,Zamora PRI-PAN,Mario Zamora,PRI,29,,excluida
+Sinaloa,2026-10,arias-coal,Arias Consultores (escenarios de coalición),2026-10-01,Zamora PRI-PAN,Imelda Castro,Morena,20.5,,excluida
+Sinaloa,2026-10,arias-coal,Arias Consultores (escenarios de coalición),2026-10-01,Zamora PRI-PAN,"Sergio ""Pío"" Esquer",MC,13.5,,excluida
+Sinaloa,2026-10,arias-coal,Arias Consultores (escenarios de coalición),2026-10-01,Zamora PRI-PAN-MC,Mario Zamora,PRI,35.9,,excluida
+Sinaloa,2026-10,arias-coal,Arias Consultores (escenarios de coalición),2026-10-01,Zamora PRI-PAN-MC,Imelda Castro,Morena,20.3,,excluida
+Sinaloa,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,A: Mario Zamora PAN-PRI,Imelda Castro,Morena,40.2,PRI-PAN,entra al careo
+Sinaloa,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,A: Mario Zamora PAN-PRI,Mario Zamora,PRI,35.2,PRI-PAN,entra al careo
+Sinaloa,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,A: Mario Zamora PAN-PRI,Sergio Torres Félix,MC,18.1,PRI-PAN,entra al careo
+Sinaloa,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo documentado,Imelda Castro,Morena,42.4,,documentado (no se promedia)
+Sinaloa,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo documentado,Paloma Sánchez Ramos,PRI,31.9,,documentado (no se promedia)
+Sinaloa,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo documentado,Sergio Torres Félix,MC,19,,documentado (no se promedia)
+Sinaloa,2026-10,rub-oct15,RUBRUM,2026-10-15,careo (Paloma Sánchez PAN-PRI),Imelda Castro,Morena,40.5,PRI-PAN,entra al careo
+Sinaloa,2026-10,rub-oct15,RUBRUM,2026-10-15,careo (Paloma Sánchez PAN-PRI),Paloma Sánchez Ramos,PRI,26.3,PRI-PAN,entra al careo
+Sinaloa,2026-10,rub-oct15,RUBRUM,2026-10-15,careo (Paloma Sánchez PAN-PRI),"Sergio ""Pío"" Esquer",MC,6.8,PRI-PAN,entra al careo
+Sinaloa,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo 2 (Mario Zamora PRI-PAN),Imelda Castro,Morena,38.8,PRI-PAN,entra al careo
+Sinaloa,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo 2 (Mario Zamora PRI-PAN),Mario Zamora,PRI,16.1,PRI-PAN,entra al careo
+Sinaloa,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo 2 (Mario Zamora PRI-PAN),"Sergio ""Pío"" Esquer",MC,7.3,PRI-PAN,entra al careo
+Sinaloa,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo documentado,Imelda Castro,Morena,34.9,,documentado (no se promedia)
+Sinaloa,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo documentado,Paloma Sánchez Ramos,PRI,20.8,,documentado (no se promedia)
+Sinaloa,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo documentado,"Sergio ""Pío"" Esquer",MC,6.2,,documentado (no se promedia)
+Sinaloa,2026-10,ce-oct18,CE Research,2026-10-18,careo documentado,Imelda Castro,Morena,38,,documentado (no se promedia)
+Sinaloa,2026-10,ce-oct18,CE Research,2026-10-18,careo documentado,Paloma Sánchez Ramos,PRI,29,,documentado (no se promedia)
+Sinaloa,2026-10,ce-oct18,CE Research,2026-10-18,careo documentado,"Sergio ""Pío"" Esquer",MC,11,,documentado (no se promedia)
+Sinaloa,2026-10,ce-oct18,CE Research,2026-10-18,"escenario 1 (sin alianza: Zamora PRI, Ortiz PAN)",Imelda Castro,Morena,39,,entra al careo
+Sinaloa,2026-10,ce-oct18,CE Research,2026-10-18,"escenario 1 (sin alianza: Zamora PRI, Ortiz PAN)",Mario Zamora,PRI,20,,entra al careo
+Sinaloa,2026-10,ce-oct18,CE Research,2026-10-18,"escenario 1 (sin alianza: Zamora PRI, Ortiz PAN)",Eduardo Ortiz,PAN,18,,entra al careo
+Sinaloa,2026-10,ce-oct18,CE Research,2026-10-18,"escenario 1 (sin alianza: Zamora PRI, Ortiz PAN)","Sergio ""Pío"" Esquer",MC,12,,entra al careo
+Sinaloa,2026-10,mc24oct,Massive Caller,2026-10-24,careo 1 (Mario Zamora PRI),Imelda Castro,Morena,30.2,,entra al careo
+Sinaloa,2026-10,mc24oct,Massive Caller,2026-10-24,careo 1 (Mario Zamora PRI),Mario Zamora,PRI,26.2,,entra al careo
+Sinaloa,2026-10,mc24oct,Massive Caller,2026-10-24,careo 1 (Mario Zamora PRI),Paola Gárate,PAN,14.7,,entra al careo
+Sinaloa,2026-10,mc24oct,Massive Caller,2026-10-24,careo 1 (Mario Zamora PRI),"Sergio ""Pío"" Esquer",MC,5.3,,entra al careo
+Sinaloa,2026-10,mc24oct,Massive Caller,2026-10-24,careo documentado,Paloma Sánchez Ramos,PRI,26.8,,documentado (no se promedia)
+Sinaloa,2026-10,mc24oct,Massive Caller,2026-10-24,careo documentado,Imelda Castro,Morena,26.4,,documentado (no se promedia)
+Sinaloa,2026-10,mc24oct,Massive Caller,2026-10-24,careo documentado,Paola Gárate,PAN,15.1,,documentado (no se promedia)
+Sinaloa,2026-10,mc24oct,Massive Caller,2026-10-24,careo documentado,"Sergio ""Pío"" Esquer",MC,5.6,,documentado (no se promedia)
+Sinaloa,2026-10,gob-oct28,GobernArte,2026-10-28,careo,Imelda Castro,Morena,31.9,,entra al careo
+Sinaloa,2026-10,gob-oct28,GobernArte,2026-10-28,careo,Mario Zamora,PRI,27.8,,entra al careo
+Sinaloa,2026-10,gob-oct28,GobernArte,2026-10-28,careo,Eduardo Ortiz Hernández,PAN,15.3,,entra al careo
+Sinaloa,2026-10,gob-oct28,GobernArte,2026-10-28,careo,"Sergio ""Pío"" Esquer",MC,10.6,,entra al careo
+Sinaloa,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,A: Mario Zamora PAN-PRI,Imelda Castro,Morena,43.6,PRI-PAN,entra al careo
+Sinaloa,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,A: Mario Zamora PAN-PRI,Mario Zamora,PRI,31.9,PRI-PAN,entra al careo
+Sinaloa,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,A: Mario Zamora PAN-PRI,Sergio Torres Félix,MC,17,PRI-PAN,entra al careo
+Sinaloa,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Imelda Castro,Morena,40.8,,documentado (no se promedia)
+Sinaloa,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Paloma Sánchez Ramos,PRI,34.6,,documentado (no se promedia)
+Sinaloa,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Sergio Torres Félix,MC,17.1,,documentado (no se promedia)
+Sinaloa,2026-11,logi-nov09,Logi·Call,2026-11-09,careo,Mario Zamora,PRI,29.2,,entra al careo
+Sinaloa,2026-11,logi-nov09,Logi·Call,2026-11-09,careo,Imelda Castro,Morena,28.6,,entra al careo
+Sinaloa,2026-11,logi-nov09,Logi·Call,2026-11-09,careo,Guillermo Romero,PAN,15.7,,entra al careo
+Sinaloa,2026-11,logi-nov09,Logi·Call,2026-11-09,careo,"Sergio ""Pío"" Esquer",MC,4.6,,entra al careo
+Sinaloa,2026-11,rub-nov11,RUBRUM,2026-11-11,careo (Paloma Sánchez PAN-PRI),Imelda Castro,Morena,39.6,PRI-PAN,entra al careo
+Sinaloa,2026-11,rub-nov11,RUBRUM,2026-11-11,careo (Paloma Sánchez PAN-PRI),Paloma Sánchez Ramos,PRI,26.5,PRI-PAN,entra al careo
+Sinaloa,2026-11,rub-nov11,RUBRUM,2026-11-11,careo (Paloma Sánchez PAN-PRI),"Sergio ""Pío"" Esquer",MC,6.3,PRI-PAN,entra al careo
+Sonora,2026-07,emot,Emotegia,2026-07-11,careo,Antonio Astiazarán,PAN,41.58,,entra al careo
+Sonora,2026-07,emot,Emotegia,2026-07-11,careo,Lorenia Valles,Morena,27.56,,entra al careo
+Sonora,2026-07,emot,Emotegia,2026-07-11,careo,Luis Donaldo Colosio,MC,13.23,,entra al careo
+Sonora,2026-07,emot,Emotegia,2026-07-11,careo,Lupita Soto Holguín,PRI,6.29,,entra al careo
+Sonora,2026-08,ce_ago,C&E (Campaigns & Elections) 9 ago,2026-08-09,careo,Lorenia Valles,Morena,49.5,,entra al careo
+Sonora,2026-08,ce_ago,C&E (Campaigns & Elections) 9 ago,2026-08-09,careo,Antonio Astiazarán,PAN,18.1,,entra al careo
+Sonora,2026-08,ce_ago,C&E (Campaigns & Elections) 9 ago,2026-08-09,careo,Luis Donaldo Colosio,MC,9.5,,entra al careo
+Sonora,2026-08,ce_ago,C&E (Campaigns & Elections) 9 ago,2026-08-09,careo,Lupita Soto Holguín,PRI,5.7,,entra al careo
+Sonora,2026-08,src,SRC,2026-08-24,careo,Lorenia Valles,Morena,45.5,,entra al careo
+Sonora,2026-08,src,SRC,2026-08-24,careo,Luis Donaldo Colosio,MC,20.6,,entra al careo
+Sonora,2026-08,src,SRC,2026-08-24,careo,Antonio Astiazarán,PAN,17.9,,entra al careo
+Sonora,2026-08,src,SRC,2026-08-24,careo,Lupita Soto Holguín,PRI,7.1,,entra al careo
+Sonora,2026-09,ce_sep,C&E (Campaigns & Elections) 7 sep,2026-09-07,careo,Lorenia Valles,Morena,48.3,,entra al careo
+Sonora,2026-09,ce_sep,C&E (Campaigns & Elections) 7 sep,2026-09-07,careo,Antonio Astiazarán,PAN,14.9,,entra al careo
+Sonora,2026-09,ce_sep,C&E (Campaigns & Elections) 7 sep,2026-09-07,careo,Luis Donaldo Colosio,MC,14.9,,entra al careo
+Sonora,2026-09,ce_sep,C&E (Campaigns & Elections) 7 sep,2026-09-07,careo,Lupita Soto Holguín,PRI,1.1,,entra al careo
+Sonora,2026-09,elec,Electoralia,2026-09-07,careo,Lorenia Valles,Morena,40,,entra al careo
+Sonora,2026-09,elec,Electoralia,2026-09-07,careo,Antonio Astiazarán,PAN,23,,entra al careo
+Sonora,2026-09,elec,Electoralia,2026-09-07,careo,Luis Donaldo Colosio,MC,12,,entra al careo
+Sonora,2026-09,elec,Electoralia,2026-09-07,careo,Víctor Hugo Celaya,PRI,6,,entra al careo
+Sonora,2026-09,laenc,LaEncuesta.MX,2026-09-07,careo,Lorenia Valles,Morena,42.1,,entra al careo
+Sonora,2026-09,laenc,LaEncuesta.MX,2026-09-07,careo,Antonio Astiazarán,PAN,36.8,,entra al careo
+Sonora,2026-09,laenc,LaEncuesta.MX,2026-09-07,careo,Luis Donaldo Colosio,MC,15.2,,entra al careo
+Sonora,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Antonio Astiazarán,PAN,42,,entra al careo
+Sonora,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Lorenia Valles,Morena,27,,entra al careo
+Sonora,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Luis Donaldo Colosio,MC,16,,entra al careo
+Sonora,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Lupita Soto Holguín,PRI,10,,entra al careo
+Sonora,2026-10,arias,Arias Consultores,2026-10-01,careo,Lorenia Valles,Morena,40.3,,entra al careo
+Sonora,2026-10,arias,Arias Consultores,2026-10-01,careo,Antonio Astiazarán,PAN,17.2,,entra al careo
+Sonora,2026-10,arias,Arias Consultores,2026-10-01,careo,Lupita Soto Holguín,PRI,16.9,,entra al careo
+Sonora,2026-10,arias,Arias Consultores,2026-10-01,careo,Luis Donaldo Colosio,MC,14,,entra al careo
+Sonora,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,PAN-PRI = Astiazarán,Lorenia Valles,Morena,43.2,PAN,entra al careo
+Sonora,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,PAN-PRI = Astiazarán,Antonio Astiazarán,PAN,36.2,PAN,entra al careo
+Sonora,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,PAN-PRI = Astiazarán,Luis Donaldo Colosio,MC,14.9,PAN,entra al careo
+Sonora,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario partidos separados,Lorenia Valles,Morena,40.3,,entra al careo
+Sonora,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario partidos separados,Antonio Astiazarán,PAN,27.2,,entra al careo
+Sonora,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario partidos separados,Luis Donaldo Colosio,MC,17.5,,entra al careo
+Sonora,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,escenario partidos separados,Lupita Soto Holguín,PRI,8.2,,entra al careo
+Sonora,2026-10,elec-oct13,Electoralia,2026-10-13,careo,Lorenia Valles,Morena,43,,entra al careo
+Sonora,2026-10,elec-oct13,Electoralia,2026-10-13,careo,Antonio Astiazarán,PAN,33,,entra al careo
+Sonora,2026-10,elec-oct13,Electoralia,2026-10-13,careo,Luis Donaldo Colosio,MC,10,,entra al careo
+Sonora,2026-10,elec-oct13,Electoralia,2026-10-13,careo,Víctor Hugo Celaya,PRI,2,,entra al careo
+Sonora,2026-10,gob-oct,GobernArte,2026-10-13,careo,Lorenia Valles,Morena,34.9,,entra al careo
+Sonora,2026-10,gob-oct,GobernArte,2026-10-13,careo,Antonio Astiazarán,PAN,25.3,,entra al careo
+Sonora,2026-10,gob-oct,GobernArte,2026-10-13,careo,Luis Donaldo Colosio,MC,21.5,,entra al careo
+Sonora,2026-10,gob-oct,GobernArte,2026-10-13,careo,Lupita Soto Holguín,PRI,5.6,,entra al careo
+Sonora,2026-10,rub-oct13,RUBRUM,2026-10-13,careo,Lorenia Valles,Morena,39.3,PAN-PRI,entra al careo
+Sonora,2026-10,rub-oct13,RUBRUM,2026-10-13,careo,Antonio Astiazarán,PAN,32.6,PAN-PRI,entra al careo
+Sonora,2026-10,rub-oct13,RUBRUM,2026-10-13,careo,Patricia Mercado,MC,5.3,PAN-PRI,entra al careo
+Sonora,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Lorenia Valles,Morena,30.7,,entra al careo
+Sonora,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Luis Donaldo Colosio,MC,20.4,,entra al careo
+Sonora,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Antonio Astiazarán,PAN,17.2,,entra al careo
+Sonora,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Lupita Soto Holguín,PRI,5.8,,entra al careo
+Sonora,2026-10,ce-oct18,CE Research,2026-10-18,careo (partidos por separado),Lorenia Valles,Morena,33,,entra al careo
+Sonora,2026-10,ce-oct18,CE Research,2026-10-18,careo (partidos por separado),Luis Donaldo Colosio,MC,25,,entra al careo
+Sonora,2026-10,ce-oct18,CE Research,2026-10-18,careo (partidos por separado),Antonio Astiazarán,PAN,20,,entra al careo
+Sonora,2026-10,ce-oct18,CE Research,2026-10-18,careo (partidos por separado),Sylvana Beltrones,PRI,5,,entra al careo
+Sonora,2026-10,ce-oct18,CE Research,2026-10-18,careo documentado,Lorenia Valles,Morena,39,,documentado (no se promedia)
+Sonora,2026-10,ce-oct18,CE Research,2026-10-18,careo documentado,Antonio Astiazarán,PRI,28,,documentado (no se promedia)
+Sonora,2026-10,ce-oct18,CE Research,2026-10-18,careo documentado,Luis Donaldo Colosio,MC,26,,documentado (no se promedia)
+Sonora,2026-10,mc27oct,Massive Caller,2026-10-27,careo,Lorenia Valles,Morena,30.1,,entra al careo
+Sonora,2026-10,mc27oct,Massive Caller,2026-10-27,careo,Luis Donaldo Colosio,MC,20.7,,entra al careo
+Sonora,2026-10,mc27oct,Massive Caller,2026-10-27,careo,Antonio Astiazarán,PAN,16.7,,entra al careo
+Sonora,2026-10,mc27oct,Massive Caller,2026-10-27,careo,Lupita Soto Holguín,PRI,6.9,,entra al careo
+Sonora,2026-11,gii360-nov03,Grupo Impacto 360,2026-11-03,"careo (PAN-PRI = Astiazarán, alianza no confirmada: suma al PAN)",Lorenia Valles,Morena,41,PAN,entra al careo
+Sonora,2026-11,gii360-nov03,Grupo Impacto 360,2026-11-03,"careo (PAN-PRI = Astiazarán, alianza no confirmada: suma al PAN)",Luis Donaldo Colosio,MC,25,PAN,entra al careo
+Sonora,2026-11,gii360-nov03,Grupo Impacto 360,2026-11-03,"careo (PAN-PRI = Astiazarán, alianza no confirmada: suma al PAN)",Antonio Astiazarán,PAN,12,PAN,entra al careo
+Sonora,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Lorenia Valles,Morena,42.1,,documentado (no se promedia)
+Sonora,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Antonio Astiazarán,PAN,38,,documentado (no se promedia)
+Sonora,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo documentado,Luis Donaldo Colosio,MC,12.5,,documentado (no se promedia)
+Sonora,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,escenario partidos separados (criterio CE),Lorenia Valles,Morena,40.6,,entra al careo
+Sonora,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,escenario partidos separados (criterio CE),Antonio Astiazarán,PAN,28.7,,entra al careo
+Sonora,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,escenario partidos separados (criterio CE),Luis Donaldo Colosio,MC,16.6,,entra al careo
+Sonora,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,escenario partidos separados (criterio CE),Lupita Soto Holguín,PRI,7,,entra al careo
+Sonora,2026-11,gob-nov11,GobernArte,2026-11-11,careo,Lorenia Valles,Morena,36.9,,entra al careo
+Sonora,2026-11,gob-nov11,GobernArte,2026-11-11,careo,Antonio Astiazarán,PAN,23.1,,entra al careo
+Sonora,2026-11,gob-nov11,GobernArte,2026-11-11,careo,Luis Donaldo Colosio,MC,21.4,,entra al careo
+Sonora,2026-11,gob-nov11,GobernArte,2026-11-11,careo,Lupita Soto Holguín,PRI,9.2,,entra al careo
+Sonora,2026-11,rub-nov11,RUBRUM,2026-11-11,careo (Astiazarán PAN-PRI; MC = Colosio),Lorenia Valles,Morena,37.4,PAN-PRI,entra al careo
+Sonora,2026-11,rub-nov11,RUBRUM,2026-11-11,careo (Astiazarán PAN-PRI; MC = Colosio),Antonio Astiazarán,PAN,25.8,PAN-PRI,entra al careo
+Sonora,2026-11,rub-nov11,RUBRUM,2026-11-11,careo (Astiazarán PAN-PRI; MC = Colosio),Luis Donaldo Colosio,MC,21.5,PAN-PRI,entra al careo
+Sonora,2026-11,rub-nov11,RUBRUM,2026-11-11,careo documentado,Lorenia Valles,Morena,38.2,,documentado (no se promedia)
+Sonora,2026-11,rub-nov11,RUBRUM,2026-11-11,careo documentado,Antonio Astiazarán,PAN,31.2,,documentado (no se promedia)
+Sonora,2026-11,rub-nov11,RUBRUM,2026-11-11,careo documentado,Patricia Mercado,MC,8.4,,documentado (no se promedia)
+Tlaxcala,2026-09,src,SRC,2026-09-07,careo,Ana Lilia Rivera,Morena,49.6,,entra al careo
+Tlaxcala,2026-09,src,SRC,2026-09-07,careo,Anabell Ávalos,PRI,9.4,,entra al careo
+Tlaxcala,2026-09,src,SRC,2026-09-07,careo,Adriana Dávila,PAN,7.8,,entra al careo
+Tlaxcala,2026-09,src,SRC,2026-09-07,careo,Delfino Suárez,MC,5.2,,entra al careo
+Tlaxcala,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Ana Lilia Rivera,Morena,48,,entra al careo
+Tlaxcala,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Miriam Martínez Sánchez,PAN,13,,entra al careo
+Tlaxcala,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Anabell Ávalos,PRI,12,,entra al careo
+Tlaxcala,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Danae Figueroa Martínez,MC,6,,entra al careo
+Tlaxcala,2026-09,cron,La Crónica,2026-09-28,careo,Ana Lilia Rivera,Morena,42,,entra al careo
+Tlaxcala,2026-09,cron,La Crónica,2026-09-28,careo,Anabell Ávalos,PRI,12,,entra al careo
+Tlaxcala,2026-09,cron,La Crónica,2026-09-28,careo,Adriana Dávila,PAN,9,,entra al careo
+Tlaxcala,2026-09,cron,La Crónica,2026-09-28,careo,Delfino Suárez,MC,5,,entra al careo
+Tlaxcala,2026-09,mcal,Massive Caller,2026-09-28,careo,Ana Lilia Rivera,Morena,42.1,,entra al careo
+Tlaxcala,2026-09,mcal,Massive Caller,2026-09-28,careo,Anabell Ávalos,PRI,13.8,,entra al careo
+Tlaxcala,2026-09,mcal,Massive Caller,2026-09-28,careo,Miriam Martínez Sánchez,PAN,11.2,,entra al careo
+Tlaxcala,2026-09,mcal,Massive Caller,2026-09-28,careo,Danae Figueroa Martínez,MC,3.3,,entra al careo
+Tlaxcala,2026-10,arias,Arias Consultores,2026-10-01,careo,Ana Lilia Rivera,Morena,34.4,,entra al careo
+Tlaxcala,2026-10,arias,Arias Consultores,2026-10-01,careo,Mariana Jiménez Zamora,MC,13.8,,entra al careo
+Tlaxcala,2026-10,arias,Arias Consultores,2026-10-01,careo,Adriana Dávila,PAN,13,,entra al careo
+Tlaxcala,2026-10,arias,Arias Consultores,2026-10-01,careo,Anabell Ávalos,PRI,12.2,,entra al careo
+Tlaxcala,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Ana Lilia Rivera,Morena,48.2,,entra al careo
+Tlaxcala,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Anabell Ávalos,PRI,19.5,,entra al careo
+Tlaxcala,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Miriam Martínez Sánchez,PAN,14.8,,entra al careo
+Tlaxcala,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Danae Figueroa Martínez,MC,9.3,,entra al careo
+Tlaxcala,2026-10,logi-oct10,Logi·Call,2026-10-10,careo,Ana Lilia Rivera,Morena,39.7,,entra al careo
+Tlaxcala,2026-10,logi-oct10,Logi·Call,2026-10-10,careo,Anabell Ávalos,PRI,16.3,,entra al careo
+Tlaxcala,2026-10,logi-oct10,Logi·Call,2026-10-10,careo,Miriam Martínez Sánchez,PAN,12.8,,entra al careo
+Tlaxcala,2026-10,logi-oct10,Logi·Call,2026-10-10,careo,Delfino Suárez,MC,4.3,,entra al careo
+Tlaxcala,2026-10,rub-oct12,RUBRUM,2026-10-12,careo,Ana Lilia Rivera,Morena,53.3,PAN-PRI,entra al careo
+Tlaxcala,2026-10,rub-oct12,RUBRUM,2026-10-12,careo,Miriam Martínez Sánchez,PAN,14.8,PAN-PRI,entra al careo
+Tlaxcala,2026-10,rub-oct12,RUBRUM,2026-10-12,careo,Mariana Jiménez Zamora,MC,6.6,PAN-PRI,entra al careo
+Tlaxcala,2026-10,bruj-oct14,Brújula de Opinión Pública,2026-10-14,careo,Ana Lilia Rivera,Morena,35.2,,entra al careo
+Tlaxcala,2026-10,bruj-oct14,Brújula de Opinión Pública,2026-10-14,careo,Anabell Ávalos,PRI,28.9,,entra al careo
+Tlaxcala,2026-10,bruj-oct14,Brújula de Opinión Pública,2026-10-14,careo,Miriam Martínez Sánchez,PAN,10.1,,entra al careo
+Tlaxcala,2026-10,bruj-oct14,Brújula de Opinión Pública,2026-10-14,careo,Mariana Jiménez Zamora,MC,5.8,,entra al careo
+Tlaxcala,2026-10,gob-oct15,GobernArte,2026-10-15,careo,Ana Lilia Rivera,Morena,40.3,,entra al careo
+Tlaxcala,2026-10,gob-oct15,GobernArte,2026-10-15,careo,Miriam Martínez Sánchez,PAN,15.4,,entra al careo
+Tlaxcala,2026-10,gob-oct15,GobernArte,2026-10-15,careo,Anabell Ávalos,PRI,12.2,,entra al careo
+Tlaxcala,2026-10,gob-oct15,GobernArte,2026-10-15,careo,Mariana Jiménez Zamora,MC,8.8,,entra al careo
+Tlaxcala,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Ana Lilia Rivera,Morena,34.2,,entra al careo
+Tlaxcala,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Anabell Ávalos,PRI,11.7,,entra al careo
+Tlaxcala,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Miriam Martínez Sánchez,PAN,7.4,,entra al careo
+Tlaxcala,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Mariana Jiménez Zamora,MC,7.2,,entra al careo
+Tlaxcala,2026-10,gii360-oct26,Grupo Impacto 360,2026-10-26,careo,Ana Lilia Rivera,Morena,53,,entra al careo
+Tlaxcala,2026-10,gii360-oct26,Grupo Impacto 360,2026-10-26,careo,Anabell Ávalos,PRI,14,,entra al careo
+Tlaxcala,2026-10,gii360-oct26,Grupo Impacto 360,2026-10-26,careo,Miriam Martínez Sánchez,PAN,9,,entra al careo
+Tlaxcala,2026-10,gii360-oct26,Grupo Impacto 360,2026-10-26,careo,Delfino Suárez,MC,2,,entra al careo
+Tlaxcala,2026-10,mc28oct,Massive Caller,2026-10-28,careo,Ana Lilia Rivera,Morena,45.1,,entra al careo
+Tlaxcala,2026-10,mc28oct,Massive Caller,2026-10-28,careo,Anabell Ávalos,PRI,14.9,,entra al careo
+Tlaxcala,2026-10,mc28oct,Massive Caller,2026-10-28,careo,Miriam Martínez Sánchez,PAN,12.5,,entra al careo
+Tlaxcala,2026-10,mc28oct,Massive Caller,2026-10-28,careo,Danae Figueroa Martínez,MC,5.3,,entra al careo
+Tlaxcala,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Ana Lilia Rivera,Morena,46.8,,entra al careo
+Tlaxcala,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Anabell Ávalos,PRI,19.2,,entra al careo
+Tlaxcala,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Miriam Martínez Sánchez,PAN,15.4,,entra al careo
+Tlaxcala,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Danae Figueroa Martínez,MC,11.1,,entra al careo
+Tlaxcala,2026-11,rub-nov09,RUBRUM,2026-11-09,careo,Ana Lilia Rivera,Morena,55.3,PAN-PRI,entra al careo
+Tlaxcala,2026-11,rub-nov09,RUBRUM,2026-11-09,careo,Miriam Martínez Sánchez,PAN,13.1,PAN-PRI,entra al careo
+Tlaxcala,2026-11,rub-nov09,RUBRUM,2026-11-09,careo,Mariana Jiménez Zamora,MC,5.4,PAN-PRI,entra al careo
+Tlaxcala,2026-11,gob-nov11,GobernArte,2026-11-11,careo,Ana Lilia Rivera,Morena,41.5,,entra al careo
+Tlaxcala,2026-11,gob-nov11,GobernArte,2026-11-11,careo,Miriam Martínez Sánchez,PAN,13.8,,entra al careo
+Tlaxcala,2026-11,gob-nov11,GobernArte,2026-11-11,careo,Anabell Ávalos,PRI,12.7,,entra al careo
+Tlaxcala,2026-11,gob-nov11,GobernArte,2026-11-11,careo,Danae Figueroa Martínez,MC,9.2,,entra al careo
+Zacatecas,2026-06,dem,Demoscopia Digital,2026-06-29,careo,Verónica Díaz,Morena,35.3,,entra al careo
+Zacatecas,2026-06,dem,Demoscopia Digital,2026-06-29,careo,Miguel Ángel Varela,PAN,21.4,,entra al careo
+Zacatecas,2026-06,dem,Demoscopia Digital,2026-06-29,careo,Jorge Álvarez Máynez,MC,12.9,,entra al careo
+Zacatecas,2026-06,dem,Demoscopia Digital,2026-06-29,careo,Carlos Peña Badillo,PRI,8.6,,entra al careo
+Zacatecas,2026-07,arias-jul,Arias Consultores (jul),2026-07-12,careo,Verónica Díaz,Morena,29.1,,entra al careo
+Zacatecas,2026-07,arias-jul,Arias Consultores (jul),2026-07-12,careo,Jorge Álvarez Máynez,MC,9.8,,entra al careo
+Zacatecas,2026-07,arias-jul,Arias Consultores (jul),2026-07-12,careo,Miguel Ángel Varela,PAN,9.6,,entra al careo
+Zacatecas,2026-07,arias-jul,Arias Consultores (jul),2026-07-12,careo,Carlos Peña Badillo,PRI,9.1,,entra al careo
+Zacatecas,2026-08,qm,El Heraldo/Question Mark,2026-08-12,careo por candidato,Ulises Mejía Haro,Morena,26.8,,entra al careo
+Zacatecas,2026-08,qm,El Heraldo/Question Mark,2026-08-12,careo por candidato,Jorge Álvarez Máynez,MC,22.8,,entra al careo
+Zacatecas,2026-08,qm,El Heraldo/Question Mark,2026-08-12,careo por candidato,Adolfo Bonilla,PRI,20.6,,entra al careo
+Zacatecas,2026-08,qm,El Heraldo/Question Mark,2026-08-12,careo por candidato,Miguel Ángel Varela,PAN,13.1,,entra al careo
+Zacatecas,2026-09,cye,C&E Campaigns & Elections,2026-09-02,careo,Verónica Díaz,Morena,44.7,,entra al careo
+Zacatecas,2026-09,cye,C&E Campaigns & Elections,2026-09-02,careo,Jorge Álvarez Máynez,MC,14.6,,entra al careo
+Zacatecas,2026-09,cye,C&E Campaigns & Elections,2026-09-02,careo,Miguel Ángel Varela,PAN,9.7,,entra al careo
+Zacatecas,2026-09,cye,C&E Campaigns & Elections,2026-09-02,careo,Carlos Peña Badillo,PRI,4.9,,entra al careo
+Zacatecas,2026-09,elec,Electoralia,2026-09-06,careo,Verónica Díaz,Morena,38,,entra al careo
+Zacatecas,2026-09,elec,Electoralia,2026-09-06,careo,Adolfo Bonilla,PRI,14,,entra al careo
+Zacatecas,2026-09,elec,Electoralia,2026-09-06,careo,Miguel Ángel Varela,PAN,10,,entra al careo
+Zacatecas,2026-09,elec,Electoralia,2026-09-06,careo,Jorge Álvarez Máynez,MC,8,,entra al careo
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,2026-09-20,careo (Díaz = Morena-PT-Verde),Verónica Díaz,Morena,46,,entra al careo
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,2026-09-20,careo (Díaz = Morena-PT-Verde),Adolfo Bonilla,PRI,19,,entra al careo
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,2026-09-20,careo (Díaz = Morena-PT-Verde),Miguel Varela,PAN,10,,entra al careo
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,2026-09-20,careo (Díaz = Morena-PT-Verde),José Haro,MC,9,,entra al careo
+Zacatecas,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Verónica Díaz,Morena,37,,entra al careo
+Zacatecas,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Miguel Ángel Varela,PAN,20.3,,entra al careo
+Zacatecas,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Jorge Álvarez Máynez,MC,17.31,,entra al careo
+Zacatecas,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Adolfo Bonilla,PRI,5.07,,entra al careo
+Zacatecas,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Carlos Puente Salas,PVEM,3.78,,entra al careo
+Zacatecas,2026-09,emot-oct,Emotegia,2026-09-26,Escenario A,Geovanna Bañuelos de la Torre,PT,1.55,,entra al careo
+Zacatecas,2026-09,mc,Massive Caller,2026-09-29,careo,Adolfo Bonilla,PRI,33.1,,entra al careo
+Zacatecas,2026-09,mc,Massive Caller,2026-09-29,careo,Verónica Díaz,Morena,17.9,,entra al careo
+Zacatecas,2026-09,mc,Massive Caller,2026-09-29,careo,Miguel Ángel Varela,PAN,16.2,,entra al careo
+Zacatecas,2026-09,mc,Massive Caller,2026-09-29,careo,Jorge Álvarez Máynez,MC,11.1,,entra al careo
+Zacatecas,2026-10,arias,Arias Consultores,2026-10-01,careo,Verónica Díaz,Morena,22.9,,entra al careo
+Zacatecas,2026-10,arias,Arias Consultores,2026-10-01,careo,Jorge Álvarez Máynez,MC,12.6,,entra al careo
+Zacatecas,2026-10,arias,Arias Consultores,2026-10-01,careo,Carlos Peña Badillo,PRI,9.7,,entra al careo
+Zacatecas,2026-10,arias,Arias Consultores,2026-10-01,careo,Miguel Ángel Varela,PAN,9.5,,entra al careo
+Zacatecas,2026-10,enk-oct,Enkoll,2026-10-04,careo 1 (Bonilla PAN-PRI; único careo usado),Jorge Álvarez Máynez,MC,30,PRI,entra al careo
+Zacatecas,2026-10,enk-oct,Enkoll,2026-10-04,careo 1 (Bonilla PAN-PRI; único careo usado),Adolfo Bonilla,PRI,25,PRI,entra al careo
+Zacatecas,2026-10,enk-oct,Enkoll,2026-10-04,careo 1 (Bonilla PAN-PRI; único careo usado),Verónica Díaz,Morena,22,PRI,entra al careo
+Zacatecas,2026-10,enk-oct-coal,"Enkoll (careo 2 con MC-PT, datos guardados)",2026-10-04,careo 2 con MC-PT,Adolfo Bonilla,PRI,22,,excluida
+Zacatecas,2026-10,enk-oct-coal,"Enkoll (careo 2 con MC-PT, datos guardados)",2026-10-04,careo 2 con MC-PT,Geovanna Bañuelos de la Torre,MC,20,,excluida
+Zacatecas,2026-10,enk-oct-coal,"Enkoll (careo 2 con MC-PT, datos guardados)",2026-10-04,careo 2 con MC-PT,Verónica Díaz,Morena,18,,excluida
+Zacatecas,2026-10,enk-oct-coal,"Enkoll (careo 2 con MC-PT, datos guardados)",2026-10-04,careo 2 con MC-PT,Miguel Ángel Varela,PAN,16,,excluida
+Zacatecas,2026-10,gob-oct,GobernArte,2026-10-06,careo,Verónica Díaz,Morena,30.8,,entra al careo
+Zacatecas,2026-10,gob-oct,GobernArte,2026-10-06,careo,Adolfo Bonilla,PRI,27.7,,entra al careo
+Zacatecas,2026-10,gob-oct,GobernArte,2026-10-06,careo,Miguel Ángel Varela,PAN,13.4,,entra al careo
+Zacatecas,2026-10,gob-oct,GobernArte,2026-10-06,careo,Jorge Álvarez Máynez,MC,12.8,,entra al careo
+Zacatecas,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Verónica Díaz,Morena,38.2,,entra al careo
+Zacatecas,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Jorge Álvarez Máynez,MC,21.8,,entra al careo
+Zacatecas,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Adolfo Bonilla,PRI,16.9,,entra al careo
+Zacatecas,2026-10,laenc-oct,LaEncuesta.MX,2026-10-08,careo,Miguel Ángel Varela,PAN,15.4,,entra al careo
+Zacatecas,2026-10,rub-oct10,RUBRUM,2026-10-10,escenario 2 (PAN-PRI con Bonilla; escenario elegido para el promedio),Adolfo Bonilla,PRI,39.6,PRI,entra al careo
+Zacatecas,2026-10,rub-oct10,RUBRUM,2026-10-10,escenario 2 (PAN-PRI con Bonilla; escenario elegido para el promedio),Verónica Díaz,Morena,23.5,PRI,entra al careo
+Zacatecas,2026-10,rub-oct10,RUBRUM,2026-10-10,escenario 2 (PAN-PRI con Bonilla; escenario elegido para el promedio),Jorge Álvarez Máynez,MC,13.1,PRI,entra al careo
+Zacatecas,2026-10,rub-oct10-esc1,"RUBRUM (escenario Varela, datos guardados)",2026-10-10,escenario 1 (PAN-PRI con Varela),Verónica Díaz,Morena,26.2,PAN,excluida
+Zacatecas,2026-10,rub-oct10-esc1,"RUBRUM (escenario Varela, datos guardados)",2026-10-10,escenario 1 (PAN-PRI con Varela),Miguel Ángel Varela,PAN,20.6,PAN,excluida
+Zacatecas,2026-10,rub-oct10-esc1,"RUBRUM (escenario Varela, datos guardados)",2026-10-10,escenario 1 (PAN-PRI con Varela),Jorge Álvarez Máynez,MC,18.3,PAN,excluida
+Zacatecas,2026-10,logi-oct12,Logi·Call,2026-10-12,careo,Adolfo Bonilla,PRI,31.2,,entra al careo
+Zacatecas,2026-10,logi-oct12,Logi·Call,2026-10-12,careo,Verónica Díaz,Morena,20.3,,entra al careo
+Zacatecas,2026-10,logi-oct12,Logi·Call,2026-10-12,careo,Miguel Ángel Varela,PAN,17.4,,entra al careo
+Zacatecas,2026-10,logi-oct12,Logi·Call,2026-10-12,careo,Jorge Álvarez Máynez,MC,13.2,,entra al careo
+Zacatecas,2026-10,src-oct12,SRC,2026-10-12,escenario con Máynez (MC) y Bonilla (PRI-PAN-PRD); escenario elegido para el promedio,Jorge Álvarez Máynez,MC,32.7,PRI,entra al careo
+Zacatecas,2026-10,src-oct12,SRC,2026-10-12,escenario con Máynez (MC) y Bonilla (PRI-PAN-PRD); escenario elegido para el promedio,Adolfo Bonilla,PRI,29.1,PRI,entra al careo
+Zacatecas,2026-10,src-oct12,SRC,2026-10-12,escenario con Máynez (MC) y Bonilla (PRI-PAN-PRD); escenario elegido para el promedio,Verónica Díaz,Morena,24,PRI,entra al careo
+Zacatecas,2026-10,src-oct12-esc1,"SRC (escenario Máynez-Varela, datos guardados)",2026-10-12,escenario Máynez (MC) con Varela (PRI-PAN-PRD),Jorge Álvarez Máynez,MC,35,PAN,excluida
+Zacatecas,2026-10,src-oct12-esc1,"SRC (escenario Máynez-Varela, datos guardados)",2026-10-12,escenario Máynez (MC) con Varela (PRI-PAN-PRD),Verónica Díaz,Morena,27.4,PAN,excluida
+Zacatecas,2026-10,src-oct12-esc1,"SRC (escenario Máynez-Varela, datos guardados)",2026-10-12,escenario Máynez (MC) con Varela (PRI-PAN-PRD),Miguel Ángel Varela,PAN,17.3,PAN,excluida
+Zacatecas,2026-10,src-oct12-esc2,"SRC (escenario Mejía Haro, datos guardados)",2026-10-12,escenario Mejía Haro (MC) con Bonilla (PRI-PAN-PRD),Ulises Mejía Haro,MC,31,PRI,excluida
+Zacatecas,2026-10,src-oct12-esc2,"SRC (escenario Mejía Haro, datos guardados)",2026-10-12,escenario Mejía Haro (MC) con Bonilla (PRI-PAN-PRD),Adolfo Bonilla,PRI,29,PRI,excluida
+Zacatecas,2026-10,src-oct12-esc2,"SRC (escenario Mejía Haro, datos guardados)",2026-10-12,escenario Mejía Haro (MC) con Bonilla (PRI-PAN-PRD),Verónica Díaz,Morena,22.2,PRI,excluida
+Zacatecas,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Verónica Díaz,Morena,31.4,,entra al careo
+Zacatecas,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Adolfo Bonilla,PRI,18.2,,entra al careo
+Zacatecas,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Jorge Álvarez Máynez,MC,15.3,,entra al careo
+Zacatecas,2026-10,dem-oct17,Demoscopia Digital,2026-10-17,careo,Miguel Ángel Varela,PAN,12.1,,entra al careo
+Zacatecas,2026-10,ce-oct30,CE Research,2026-10-30,careo 1 (Máynez MC; Bonilla PRI-PAN),Verónica Díaz,Morena,28,PRI,entra al careo
+Zacatecas,2026-10,ce-oct30,CE Research,2026-10-30,careo 1 (Máynez MC; Bonilla PRI-PAN),Jorge Álvarez Máynez,MC,26,PRI,entra al careo
+Zacatecas,2026-10,ce-oct30,CE Research,2026-10-30,careo 1 (Máynez MC; Bonilla PRI-PAN),Adolfo Bonilla,PRI,23,PRI,entra al careo
+Zacatecas,2026-10,ce-oct30,CE Research,2026-10-30,careo documentado,Verónica Díaz,Morena,28,,documentado (no se promedia)
+Zacatecas,2026-10,ce-oct30,CE Research,2026-10-30,careo documentado,Adolfo Bonilla,PRI,27,,documentado (no se promedia)
+Zacatecas,2026-10,ce-oct30,CE Research,2026-10-30,careo documentado,Geovanna Bañuelos de la Torre,MC,22,,documentado (no se promedia)
+Zacatecas,2026-10,mc-oct30,Massive Caller,2026-10-30,careo,Adolfo Bonilla,PRI,35.2,,entra al careo
+Zacatecas,2026-10,mc-oct30,Massive Caller,2026-10-30,careo,Verónica Díaz,Morena,19.4,,entra al careo
+Zacatecas,2026-10,mc-oct30,Massive Caller,2026-10-30,careo,Miguel Ángel Varela,PAN,14.5,,entra al careo
+Zacatecas,2026-10,mc-oct30,Massive Caller,2026-10-30,careo,Jorge Álvarez Máynez,MC,9.2,,entra al careo
+Zacatecas,2026-11,gob-nov03,GobernArte,2026-11-03,careo,Verónica Díaz,Morena,29.3,,entra al careo
+Zacatecas,2026-11,gob-nov03,GobernArte,2026-11-03,careo,Adolfo Bonilla,PRI,25.8,,entra al careo
+Zacatecas,2026-11,gob-nov03,GobernArte,2026-11-03,careo,Jorge Álvarez Máynez,MC,18.2,,entra al careo
+Zacatecas,2026-11,gob-nov03,GobernArte,2026-11-03,careo,Miguel Ángel Varela,PAN,15.2,,entra al careo
+Zacatecas,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Verónica Díaz,Morena,34.2,,entra al careo
+Zacatecas,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Adolfo Bonilla,PRI,21.9,,entra al careo
+Zacatecas,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Jorge Álvarez Máynez,MC,20.4,,entra al careo
+Zacatecas,2026-11,laenc-nov,LaEncuesta.MX,2026-11-08,careo,Miguel Ángel Varela,PAN,16.8,,entra al careo
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo (PAN y PRI por separado),Adolfo Bonilla,PRI,31,,entra al careo
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo (PAN y PRI por separado),Verónica Díaz,Morena,25,,entra al careo
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo (PAN y PRI por separado),Jorge Álvarez Máynez,MC,8,,entra al careo
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo (PAN y PRI por separado),Miguel Ángel Varela,PAN,6,,entra al careo
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo documentado,Adolfo Bonilla,PRI,32,,documentado (no se promedia)
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo documentado,Verónica Díaz,Morena,24,,documentado (no se promedia)
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,2026-11-09,careo documentado,Jorge Álvarez Máynez,MC,13,,documentado (no se promedia)
+Zacatecas,2026-11,rub-nov11,RUBRUM,2026-11-11,careo (Bonilla PAN-PRI),Adolfo Bonilla,PRI,43.7,PRI-PAN,entra al careo
+Zacatecas,2026-11,rub-nov11,RUBRUM,2026-11-11,careo (Bonilla PAN-PRI),Verónica Díaz,Morena,23.4,PRI-PAN,entra al careo
+Zacatecas,2026-11,rub-nov11,RUBRUM,2026-11-11,careo (Bonilla PAN-PRI),Jorge Álvarez Máynez,MC,13.8,PRI-PAN,entra al careo
+Zacatecas,2026-11,rub-nov11,RUBRUM,2026-11-11,careo documentado,Verónica Díaz,Morena,25.9,,documentado (no se promedia)
+Zacatecas,2026-11,rub-nov11,RUBRUM,2026-11-11,careo documentado,Miguel Ángel Varela,PAN,21.9,,documentado (no se promedia)
+Zacatecas,2026-11,rub-nov11,RUBRUM,2026-11-11,careo documentado,Jorge Álvarez Máynez,MC,19.6,,documentado (no se promedia)

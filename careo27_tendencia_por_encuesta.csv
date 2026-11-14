@@ -1,0 +1,1494 @@
+﻿estado,mes,id,casa,tipo_de_medicion,levantamiento_fin,publicacion,n,n_declarado_digital,digital,partido,porcentaje,clasificacion
+Aguascalientes,2026-09,gob_sep,GobernArte,partido,2026-09-22,2026-09-22,500,,no,PAN,48.5,serie del partido
+Aguascalientes,2026-09,gob_sep,GobernArte,partido,2026-09-22,2026-09-22,500,,no,Morena,30.1,serie del partido
+Aguascalientes,2026-09,gob_sep,GobernArte,partido,2026-09-22,2026-09-22,500,,no,MC,6.7,serie del partido
+Aguascalientes,2026-09,gob_sep,GobernArte,partido,2026-09-22,2026-09-22,500,,no,PRI,5.1,serie del partido
+Aguascalientes,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,48.38,serie del partido
+Aguascalientes,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,31.28,serie del partido
+Aguascalientes,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,5.77,serie del partido
+Aguascalientes,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,2.03,serie del partido
+Aguascalientes,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,1.99,serie del partido
+Aguascalientes,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,1.13,serie del partido
+Aguascalientes,2026-09,mc30,Massive Caller,careo,2026-09-30,2026-09-30,1000,,no,PAN,47.7,serie del partido
+Aguascalientes,2026-09,mc30,Massive Caller,careo,2026-09-30,2026-09-30,1000,,no,Morena,27.5,serie del partido
+Aguascalientes,2026-09,mc30,Massive Caller,careo,2026-09-30,2026-09-30,1000,,no,MC,4.7,serie del partido
+Aguascalientes,2026-09,mc30,Massive Caller,careo,2026-09-30,2026-09-30,1000,,no,PRI,4.5,serie del partido
+Aguascalientes,2026-10,arias-oct,Arias Consultores,careo,2026-10-01,2026-10-02,300,,no,PAN,45.5,serie del partido
+Aguascalientes,2026-10,arias-oct,Arias Consultores,careo,2026-10-01,2026-10-02,300,,no,Morena,27.25,serie del partido
+Aguascalientes,2026-10,arias-oct,Arias Consultores,careo,2026-10-01,2026-10-02,300,,no,PRI,9.3,serie del partido
+Aguascalientes,2026-10,arias-oct,Arias Consultores,careo,2026-10-01,2026-10-02,300,,no,MC,5.9,serie del partido
+Aguascalientes,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,42.6,serie del partido
+Aguascalientes,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,34.5,serie del partido
+Aguascalientes,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,5.4,serie del partido
+Aguascalientes,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,4.7,serie del partido
+Aguascalientes,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,1.5,serie del partido
+Aguascalientes,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,0.6,serie del partido
+Aguascalientes,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,2232,,no,PAN,48.53,serie del partido
+Aguascalientes,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,2232,,no,Morena,28.98,serie del partido
+Aguascalientes,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,2232,,no,MC,6.26,serie del partido
+Aguascalientes,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,2232,,no,PRI,5.99,serie del partido
+Aguascalientes,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,2232,,no,PVEM,0.74,serie del partido
+Aguascalientes,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,2232,,no,PRD,0.73,aparte (no se grafica)
+Aguascalientes,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,2232,,no,PT,0.54,serie del partido
+Aguascalientes,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,2232,,no,Independiente,0.44,serie del partido
+Aguascalientes,2026-10,logi-oct12,Logi·Call,mixto,2026-10-12,2026-10-12,1000,,no,PAN,51.5,serie del partido
+Aguascalientes,2026-10,logi-oct12,Logi·Call,mixto,2026-10-12,2026-10-12,1000,,no,Morena,21.7,serie del partido
+Aguascalientes,2026-10,logi-oct12,Logi·Call,mixto,2026-10-12,2026-10-12,1000,,no,PRI,9.7,serie del partido
+Aguascalientes,2026-10,logi-oct12,Logi·Call,mixto,2026-10-12,2026-10-12,1000,,no,MC,5.8,serie del partido
+Aguascalientes,2026-10,rub-1013,RUBRUM,careo,2026-10-13,2026-10-14,1000,,no,Morena,22.7,serie del partido
+Aguascalientes,2026-10,rub-1013,RUBRUM,careo,2026-10-13,2026-10-14,1000,,no,MC,10.2,serie del partido
+Aguascalientes,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,36.9,serie del partido
+Aguascalientes,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,27.5,serie del partido
+Aguascalientes,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,6.1,serie del partido
+Aguascalientes,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,3.8,serie del partido
+Aguascalientes,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,2.9,serie del partido
+Aguascalientes,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,2.5,serie del partido
+Aguascalientes,2026-10,gob-oct23,GobernArte,partido,2026-10-23,,500,,no,PAN,49.5,serie del partido
+Aguascalientes,2026-10,gob-oct23,GobernArte,partido,2026-10-23,,500,,no,Morena,30.5,serie del partido
+Aguascalientes,2026-10,gob-oct23,GobernArte,partido,2026-10-23,,500,,no,MC,6.2,serie del partido
+Aguascalientes,2026-10,gob-oct23,GobernArte,partido,2026-10-23,,500,,no,PRI,5.9,serie del partido
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),mixto,2026-10-23,,491,,no,PAN,47.3,serie del partido
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),mixto,2026-10-23,,491,,no,Morena,25.7,serie del partido
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),mixto,2026-10-23,,491,,no,pan_pri,8.2,aparte (no se grafica)
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),mixto,2026-10-23,,491,,no,Independiente,6.1,aparte (no se grafica)
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),mixto,2026-10-23,,491,,no,MC,5.1,serie del partido
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),mixto,2026-10-23,,491,,no,morena_pvem_pt,4.1,aparte (no se grafica)
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),mixto,2026-10-23,,491,,no,PRI,2.4,serie del partido
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),mixto,2026-10-23,,491,,no,local,0.6,aparte (no se grafica)
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),mixto,2026-10-23,,491,,no,PRD,0.4,aparte (no se grafica)
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),mixto,2026-10-23,,491,,no,PT,0.2,serie del partido
+Aguascalientes,2026-10,tmx-oct23,Tendenciamx (Rumbo al 2027),mixto,2026-10-23,,491,,no,PVEM,0,serie del partido
+Aguascalientes,2026-10,ce-oct28,CE Research,mixto,2026-10-28,,400,,no,PAN,39,serie del partido
+Aguascalientes,2026-10,ce-oct28,CE Research,mixto,2026-10-28,,400,,no,Morena,37,serie del partido
+Aguascalientes,2026-10,ce-oct28,CE Research,mixto,2026-10-28,,400,,no,MC,6,serie del partido
+Aguascalientes,2026-10,ce-oct28,CE Research,mixto,2026-10-28,,400,,no,PRI,5,serie del partido
+Aguascalientes,2026-10,ce-oct28,CE Research,mixto,2026-10-28,,400,,no,PVEM,3,serie del partido
+Aguascalientes,2026-10,ce-oct28,CE Research,mixto,2026-10-28,,400,,no,PT,1,serie del partido
+Aguascalientes,2026-10,intv-oct30,Intervalo,careo,2026-10-30,2026-11-04,1000,,no,PAN,46,serie del partido
+Aguascalientes,2026-10,intv-oct30,Intervalo,careo,2026-10-30,2026-11-04,1000,,no,Morena,32,serie del partido
+Aguascalientes,2026-10,intv-oct30,Intervalo,careo,2026-10-30,2026-11-04,1000,,no,MC,11,serie del partido
+Aguascalientes,2026-10,intv-oct30,Intervalo,careo,2026-10-30,2026-11-04,1000,,no,PRI,3,serie del partido
+Aguascalientes,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,PAN,45,serie del partido
+Aguascalientes,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,Morena,27.9,serie del partido
+Aguascalientes,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,PRI,9.6,serie del partido
+Aguascalientes,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,MC,4,serie del partido
+Aguascalientes,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,PAZ,3.2,aparte (no se grafica)
+Aguascalientes,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,Somos,2.8,serie del partido
+Aguascalientes,2026-11,cripeso-nov03,Cripeso,mixto,2026-11-03,,,1215,sí,PAN,47.81,serie del partido
+Aguascalientes,2026-11,cripeso-nov03,Cripeso,mixto,2026-11-03,,,1215,sí,Morena,31.86,serie del partido
+Aguascalientes,2026-11,cripeso-nov03,Cripeso,mixto,2026-11-03,,,1215,sí,PRI,5.86,serie del partido
+Aguascalientes,2026-11,cripeso-nov03,Cripeso,mixto,2026-11-03,,,1215,sí,MC,5.49,serie del partido
+Aguascalientes,2026-11,cripeso-nov03,Cripeso,mixto,2026-11-03,,,1215,sí,PAZ,0.21,aparte (no se grafica)
+Aguascalientes,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,44.2,serie del partido
+Aguascalientes,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,33.2,serie del partido
+Aguascalientes,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,6.1,serie del partido
+Aguascalientes,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,5.3,serie del partido
+Aguascalientes,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,1.2,serie del partido
+Aguascalientes,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,0.5,serie del partido
+Aguascalientes,2026-11,meta-nov09,MetaMetrics,partido,2026-11-09,2026-11-10,,1500,sí,PAN,44.6,serie del partido
+Aguascalientes,2026-11,meta-nov09,MetaMetrics,partido,2026-11-09,2026-11-10,,1500,sí,Morena,30.1,serie del partido
+Aguascalientes,2026-11,meta-nov09,MetaMetrics,partido,2026-11-09,2026-11-10,,1500,sí,MC,6.2,serie del partido
+Aguascalientes,2026-11,meta-nov09,MetaMetrics,partido,2026-11-09,2026-11-10,,1500,sí,PRI,5.9,serie del partido
+Aguascalientes,2026-11,rub-nov09,RUBRUM,careo,2026-11-09,2026-11-10,1000,,no,PAN,49.3,serie del partido
+Aguascalientes,2026-11,rub-nov09,RUBRUM,careo,2026-11-09,2026-11-10,1000,,no,Morena,24.9,serie del partido
+Aguascalientes,2026-11,rub-nov09,RUBRUM,careo,2026-11-09,2026-11-10,1000,,no,MC,8.6,serie del partido
+Baja California,2026-09,ce_sep,C&E (Campaigns & Elections),careo,2026-09-02,2026-09-02,,,no,Morena,37.5,serie del partido
+Baja California,2026-09,ce_sep,C&E (Campaigns & Elections),careo,2026-09-02,2026-09-02,,,no,PAN,21,serie del partido
+Baja California,2026-09,ce_sep,C&E (Campaigns & Elections),careo,2026-09-02,2026-09-02,,,no,MC,11.5,serie del partido
+Baja California,2026-09,ce_sep,C&E (Campaigns & Elections),careo,2026-09-02,2026-09-02,,,no,pes,4.2,aparte (no se grafica)
+Baja California,2026-09,ce_sep,C&E (Campaigns & Elections),careo,2026-09-02,2026-09-02,,,no,PRI,1,serie del partido
+Baja California,2026-09,elec_sep,Electoralia,careo,2026-09-06,2026-09-06,,,no,Morena,39,serie del partido
+Baja California,2026-09,elec_sep,Electoralia,careo,2026-09-06,2026-09-06,,,no,PAN,19,serie del partido
+Baja California,2026-09,elec_sep,Electoralia,careo,2026-09-06,2026-09-06,,,no,MC,8,serie del partido
+Baja California,2026-09,elec_sep,Electoralia,careo,2026-09-06,2026-09-06,,,no,PRI,6,serie del partido
+Baja California,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,42.03,serie del partido
+Baja California,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,25.42,serie del partido
+Baja California,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,14.19,serie del partido
+Baja California,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,3.56,serie del partido
+Baja California,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,2.33,serie del partido
+Baja California,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,1.87,serie del partido
+Baja California,2026-09,mc30,Massive Caller,mixto,2026-09-30,2026-09-30,1000,,no,Morena,40.7,serie del partido
+Baja California,2026-09,mc30,Massive Caller,mixto,2026-09-30,2026-09-30,1000,,no,PAN,24.8,serie del partido
+Baja California,2026-09,mc30,Massive Caller,mixto,2026-09-30,2026-09-30,1000,,no,PRI,14.8,serie del partido
+Baja California,2026-09,mc30,Massive Caller,mixto,2026-09-30,2026-09-30,1000,,no,MC,8.1,serie del partido
+Baja California,2026-09,mc30,Massive Caller,mixto,2026-09-30,2026-09-30,1000,,no,PT,5.3,aparte (no se grafica)
+Baja California,2026-09,mc30,Massive Caller,mixto,2026-09-30,2026-09-30,1000,,no,pes,3.3,aparte (no se grafica)
+Baja California,2026-09,mc30,Massive Caller,mixto,2026-09-30,2026-09-30,1000,,no,PAZ,1.8,aparte (no se grafica)
+Baja California,2026-09,mc30,Massive Caller,mixto,2026-09-30,2026-09-30,1000,,no,Somos,1.2,aparte (no se grafica)
+Baja California,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1225,,no,Morena,38.1,serie del partido
+Baja California,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1225,,no,PAN,23.31,serie del partido
+Baja California,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1225,,no,PRI,8.19,serie del partido
+Baja California,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1225,,no,MC,6.25,serie del partido
+Baja California,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1225,,no,PVEM,4.72,serie del partido
+Baja California,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1225,,no,PT,3.89,serie del partido
+Baja California,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1225,,no,Independiente,3.86,serie del partido
+Baja California,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1225,,no,PRD,0.09,aparte (no se grafica)
+Baja California,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,37.1,serie del partido
+Baja California,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,28.5,serie del partido
+Baja California,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,10.9,serie del partido
+Baja California,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,5.1,serie del partido
+Baja California,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,3.6,serie del partido
+Baja California,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,3.1,serie del partido
+Baja California,2026-10,rub8oct,RUBRUM,partido,2026-10-08,2026-10-09,800,,no,Morena,39,serie del partido
+Baja California,2026-10,rub8oct,RUBRUM,partido,2026-10-08,2026-10-09,800,,no,PAN,24.1,serie del partido
+Baja California,2026-10,rub8oct,RUBRUM,partido,2026-10-08,2026-10-09,800,,no,MC,7.7,serie del partido
+Baja California,2026-10,rub8oct,RUBRUM,partido,2026-10-08,2026-10-09,800,,no,PRI,7.2,serie del partido
+Baja California,2026-10,rub8oct,RUBRUM,partido,2026-10-08,2026-10-09,800,,no,PT,5.9,serie del partido
+Baja California,2026-10,rub8oct,RUBRUM,partido,2026-10-08,2026-10-09,800,,no,PVEM,1.3,serie del partido
+Baja California,2026-10,gob-oct12,GobernArte,mixto,2026-10-12,2026-10-13,500,,no,Morena,42.8,serie del partido
+Baja California,2026-10,gob-oct12,GobernArte,mixto,2026-10-12,2026-10-13,500,,no,PAN,20.7,serie del partido
+Baja California,2026-10,gob-oct12,GobernArte,mixto,2026-10-12,2026-10-13,500,,no,PRI,7.8,serie del partido
+Baja California,2026-10,gob-oct12,GobernArte,mixto,2026-10-12,2026-10-13,500,,no,MC,6.6,serie del partido
+Baja California,2026-10,logi-oct14,Logi·Call,mixto,2026-10-14,2026-10-14,1000,,no,Morena,37.2,serie del partido
+Baja California,2026-10,logi-oct14,Logi·Call,mixto,2026-10-14,2026-10-14,1000,,no,PAN,23.6,serie del partido
+Baja California,2026-10,logi-oct14,Logi·Call,mixto,2026-10-14,2026-10-14,1000,,no,PRI,13.4,serie del partido
+Baja California,2026-10,logi-oct14,Logi·Call,mixto,2026-10-14,2026-10-14,1000,,no,MC,7.3,serie del partido
+Baja California,2026-10,logi-oct14,Logi·Call,mixto,2026-10-14,2026-10-14,1000,,no,pes,4.1,aparte (no se grafica)
+Baja California,2026-10,logi-oct14,Logi·Call,mixto,2026-10-14,2026-10-14,1000,,no,PAZ,2.2,aparte (no se grafica)
+Baja California,2026-10,logi-oct14,Logi·Call,mixto,2026-10-14,2026-10-14,1000,,no,Somos,1.6,aparte (no se grafica)
+Baja California,2026-10,rub-oct14,RUBRUM,careo,2026-10-14,2026-10-15,1000,,no,Morena,40.1,serie del partido
+Baja California,2026-10,rub-oct14,RUBRUM,careo,2026-10-14,2026-10-15,1000,,no,pan_pri_ruffo,28.6,aparte (no se grafica)
+Baja California,2026-10,rub-oct14,RUBRUM,careo,2026-10-14,2026-10-15,1000,,no,MC,10.3,serie del partido
+Baja California,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,40.9,serie del partido
+Baja California,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,17.4,serie del partido
+Baja California,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,6.1,serie del partido
+Baja California,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,4.6,serie del partido
+Baja California,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,4.1,serie del partido
+Baja California,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,3.7,serie del partido
+Baja California,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,Morena,42.7,serie del partido
+Baja California,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,PAN,25.9,serie del partido
+Baja California,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,PRI,12.6,serie del partido
+Baja California,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,MC,9.4,serie del partido
+Baja California,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,PT,3.8,aparte (no se grafica)
+Baja California,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,PAZ,2.2,aparte (no se grafica)
+Baja California,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,Somos,2,aparte (no se grafica)
+Baja California,2026-10,mc-oct31,Massive Caller,mixto,2026-10-31,,1000,,no,pes,1.4,aparte (no se grafica)
+Baja California,2026-11,cripeso-nov03,Cripeso,mixto,2026-11-03,,,1268,sí,Morena,45.86,serie del partido
+Baja California,2026-11,cripeso-nov03,Cripeso,mixto,2026-11-03,,,1268,sí,PAN,23.99,serie del partido
+Baja California,2026-11,cripeso-nov03,Cripeso,mixto,2026-11-03,,,1268,sí,PRI,8.21,serie del partido
+Baja California,2026-11,cripeso-nov03,Cripeso,mixto,2026-11-03,,,1268,sí,MC,6.1,serie del partido
+Baja California,2026-11,cripeso-nov03,Cripeso,mixto,2026-11-03,,,1268,sí,Somos,0.22,aparte (no se grafica)
+Baja California,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,38.2,serie del partido
+Baja California,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,27.4,serie del partido
+Baja California,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,10.5,serie del partido
+Baja California,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,5.7,serie del partido
+Baja California,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,3.9,serie del partido
+Baja California,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,3.4,serie del partido
+Baja California,2026-11,gob-nov10,GobernArte,mixto,2026-11-10,,500,,no,Morena,43.2,serie del partido
+Baja California,2026-11,gob-nov10,GobernArte,mixto,2026-11-10,,500,,no,PAN,20.3,serie del partido
+Baja California,2026-11,gob-nov10,GobernArte,mixto,2026-11-10,,500,,no,MC,7.1,serie del partido
+Baja California,2026-11,gob-nov10,GobernArte,mixto,2026-11-10,,500,,no,PRI,6.8,serie del partido
+Baja California Sur,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,34.45,serie del partido
+Baja California Sur,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,25.1,serie del partido
+Baja California Sur,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,8.05,serie del partido
+Baja California Sur,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,3.89,serie del partido
+Baja California Sur,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,2.46,serie del partido
+Baja California Sur,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,0.95,serie del partido
+Baja California Sur,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,4000,,no,Morena,32.5,serie del partido
+Baja California Sur,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,4000,,no,PAN,26.1,serie del partido
+Baja California Sur,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,Morena,42.8,serie del partido
+Baja California Sur,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,PAN,27.7,serie del partido
+Baja California Sur,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,MC,12.4,serie del partido
+Baja California Sur,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,PT,5.4,serie del partido
+Baja California Sur,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,PRI,3.8,serie del partido
+Baja California Sur,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,PVEM,0.3,serie del partido
+Baja California Sur,2026-10,mc02oct,Massive Caller,mixto,2026-10-02,2026-10-02,1000,,no,Morena,34.7,serie del partido
+Baja California Sur,2026-10,mc02oct,Massive Caller,mixto,2026-10-02,2026-10-02,1000,,no,PAN,30.2,serie del partido
+Baja California Sur,2026-10,mc02oct,Massive Caller,mixto,2026-10-02,2026-10-02,1000,,no,PRI,8.5,serie del partido
+Baja California Sur,2026-10,mc02oct,Massive Caller,mixto,2026-10-02,2026-10-02,1000,,no,MC,5.4,serie del partido
+Baja California Sur,2026-10,mc02oct,Massive Caller,mixto,2026-10-02,2026-10-02,1000,,no,PAZ,3.9,aparte (no se grafica)
+Baja California Sur,2026-10,mc02oct,Massive Caller,mixto,2026-10-02,2026-10-02,1000,,no,Somos,2.5,aparte (no se grafica)
+Baja California Sur,2026-10,gob-oct,GobernArte,mixto,2026-10-05,,500,,no,Morena,41.7,serie del partido
+Baja California Sur,2026-10,gob-oct,GobernArte,mixto,2026-10-05,,500,,no,PAN,25.4,serie del partido
+Baja California Sur,2026-10,gob-oct,GobernArte,mixto,2026-10-05,,500,,no,Independiente,13.3,serie del partido
+Baja California Sur,2026-10,gob-oct,GobernArte,mixto,2026-10-05,,500,,no,MC,6.7,serie del partido
+Baja California Sur,2026-10,gob-oct,GobernArte,mixto,2026-10-05,,500,,no,PRI,6.6,serie del partido
+Baja California Sur,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1666,,no,Morena,40.65,serie del partido
+Baja California Sur,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1666,,no,PAN,27.84,serie del partido
+Baja California Sur,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1666,,no,PT,7.51,serie del partido
+Baja California Sur,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1666,,no,PRI,3.96,serie del partido
+Baja California Sur,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1666,,no,PVEM,1.93,serie del partido
+Baja California Sur,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1666,,no,MC,1.51,serie del partido
+Baja California Sur,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1666,,no,Independiente,1.38,serie del partido
+Baja California Sur,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,1666,,no,PRD,0.95,aparte (no se grafica)
+Baja California Sur,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,600,,no,Morena,34.7,serie del partido
+Baja California Sur,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,600,,no,PAN,31.1,serie del partido
+Baja California Sur,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,600,,no,PT,7.1,serie del partido
+Baja California Sur,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,600,,no,PRI,4.3,serie del partido
+Baja California Sur,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,600,,no,MC,4.2,serie del partido
+Baja California Sur,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,600,,no,PVEM,3.7,serie del partido
+Baja California Sur,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,39.3,serie del partido
+Baja California Sur,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,23.2,serie del partido
+Baja California Sur,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,13,serie del partido
+Baja California Sur,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,6.4,serie del partido
+Baja California Sur,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,5.2,serie del partido
+Baja California Sur,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,4.3,serie del partido
+Baja California Sur,2026-10,rub-1012,RUBRUM,careo,2026-10-12,2026-10-13,800,,no,Morena,41.4,serie del partido
+Baja California Sur,2026-10,rub-1012,RUBRUM,careo,2026-10-12,2026-10-13,800,,no,MC,3.5,serie del partido
+Baja California Sur,2026-10,logi-oct15,Logi·Call,mixto,2026-10-15,2026-10-15,1000,,no,Morena,38.4,serie del partido
+Baja California Sur,2026-10,logi-oct15,Logi·Call,mixto,2026-10-15,2026-10-15,1000,,no,PAN,28.7,serie del partido
+Baja California Sur,2026-10,logi-oct15,Logi·Call,mixto,2026-10-15,2026-10-15,1000,,no,PRI,9.4,serie del partido
+Baja California Sur,2026-10,logi-oct15,Logi·Call,mixto,2026-10-15,2026-10-15,1000,,no,MC,6.4,serie del partido
+Baja California Sur,2026-10,logi-oct15,Logi·Call,mixto,2026-10-15,2026-10-15,1000,,no,PAZ,3.2,aparte (no se grafica)
+Baja California Sur,2026-10,logi-oct15,Logi·Call,mixto,2026-10-15,2026-10-15,1000,,no,Somos,2.8,aparte (no se grafica)
+Baja California Sur,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,34.2,serie del partido
+Baja California Sur,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,27.4,serie del partido
+Baja California Sur,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,7.1,serie del partido
+Baja California Sur,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,5.9,serie del partido
+Baja California Sur,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,3.5,serie del partido
+Baja California Sur,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,2.8,serie del partido
+Baja California Sur,2026-10,ce-oct19,CE Research,mixto,2026-10-19,2026-10-21,400,,no,Morena,42,serie del partido
+Baja California Sur,2026-10,ce-oct19,CE Research,mixto,2026-10-19,2026-10-21,400,,no,PAN,36,serie del partido
+Baja California Sur,2026-10,ce-oct19,CE Research,mixto,2026-10-19,2026-10-21,400,,no,PRI,4,serie del partido
+Baja California Sur,2026-10,ce-oct19,CE Research,mixto,2026-10-19,2026-10-21,400,,no,MC,3,serie del partido
+Baja California Sur,2026-10,ce-oct19,CE Research,mixto,2026-10-19,2026-10-21,400,,no,PT,2,serie del partido
+Baja California Sur,2026-10,ce-oct19,CE Research,mixto,2026-10-19,2026-10-21,400,,no,PVEM,1,serie del partido
+Baja California Sur,2026-11,gob-nov01,GobernArte,mixto,2026-11-01,,500,,no,Morena,42.8,serie del partido
+Baja California Sur,2026-11,gob-nov01,GobernArte,mixto,2026-11-01,,500,,no,PAN,24.7,serie del partido
+Baja California Sur,2026-11,gob-nov01,GobernArte,mixto,2026-11-01,,500,,no,Independiente,13.9,serie del partido
+Baja California Sur,2026-11,gob-nov01,GobernArte,mixto,2026-11-01,,500,,no,MC,6.4,serie del partido
+Baja California Sur,2026-11,gob-nov01,GobernArte,mixto,2026-11-01,,500,,no,PRI,5.5,serie del partido
+Baja California Sur,2026-11,mc-nov02,Massive Caller,mixto,2026-11-02,,1000,,no,Morena,36.9,serie del partido
+Baja California Sur,2026-11,mc-nov02,Massive Caller,mixto,2026-11-02,,1000,,no,PAN,31.3,serie del partido
+Baja California Sur,2026-11,mc-nov02,Massive Caller,mixto,2026-11-02,,1000,,no,PRI,7.3,serie del partido
+Baja California Sur,2026-11,mc-nov02,Massive Caller,mixto,2026-11-02,,1000,,no,MC,5.7,serie del partido
+Baja California Sur,2026-11,mc-nov02,Massive Caller,mixto,2026-11-02,,1000,,no,PAZ,4.1,aparte (no se grafica)
+Baja California Sur,2026-11,mc-nov02,Massive Caller,mixto,2026-11-02,,1000,,no,Somos,2.2,aparte (no se grafica)
+Baja California Sur,2026-11,cripeso-nov04,Cripeso,mixto,2026-11-04,,,1755,sí,Morena,49.4,serie del partido
+Baja California Sur,2026-11,cripeso-nov04,Cripeso,mixto,2026-11-04,,,1755,sí,PAN,29.68,serie del partido
+Baja California Sur,2026-11,cripeso-nov04,Cripeso,mixto,2026-11-04,,,1755,sí,PRI,3.69,serie del partido
+Baja California Sur,2026-11,cripeso-nov04,Cripeso,mixto,2026-11-04,,,1755,sí,MC,1.65,serie del partido
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,40.8,serie del partido
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,23.8,serie del partido
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,12.4,serie del partido
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,5.9,serie del partido
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,5.7,serie del partido
+Baja California Sur,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,3.8,serie del partido
+Baja California Sur,2026-11,meta-nov10,MetaMetrics,partido,2026-11-10,2026-11-11,,1500,sí,Morena,39.8,serie del partido
+Baja California Sur,2026-11,meta-nov10,MetaMetrics,partido,2026-11-10,2026-11-11,,1500,sí,PAN,28.5,serie del partido
+Baja California Sur,2026-11,meta-nov10,MetaMetrics,partido,2026-11-10,2026-11-11,,1500,sí,MC,6.3,serie del partido
+Baja California Sur,2026-11,meta-nov10,MetaMetrics,partido,2026-11-10,2026-11-11,,1500,sí,PRI,5.7,serie del partido
+Campeche,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,37.28,serie del partido
+Campeche,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,36.74,serie del partido
+Campeche,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,8,serie del partido
+Campeche,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,7,serie del partido
+Campeche,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,4,serie del partido
+Campeche,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,2,serie del partido
+Campeche,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,500,,no,Morena,43.5,serie del partido
+Campeche,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,500,,no,MC,26.8,serie del partido
+Campeche,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,Morena,35.5,serie del partido
+Campeche,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,MC,33.9,serie del partido
+Campeche,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,PRI,14.2,serie del partido
+Campeche,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,PAN,6.3,serie del partido
+Campeche,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,PT,2.6,serie del partido
+Campeche,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,PVEM,2,serie del partido
+Campeche,2026-10,rubrum,RUBRUM,partido,2026-10-01,2026-10-02,800,,no,Morena,45,serie del partido
+Campeche,2026-10,rubrum,RUBRUM,partido,2026-10-01,2026-10-02,800,,no,MC,29.2,serie del partido
+Campeche,2026-10,rubrum,RUBRUM,partido,2026-10-01,2026-10-02,800,,no,PRI,11.2,serie del partido
+Campeche,2026-10,rubrum,RUBRUM,partido,2026-10-01,2026-10-02,800,,no,PAN,3.5,serie del partido
+Campeche,2026-10,mc-4oct,Massive Caller,mixto,2026-10-04,,1000,,no,Morena,41.1,serie del partido
+Campeche,2026-10,mc-4oct,Massive Caller,mixto,2026-10-04,,1000,,no,MC,27.1,serie del partido
+Campeche,2026-10,mc-4oct,Massive Caller,mixto,2026-10-04,,1000,,no,PRI,9.2,serie del partido
+Campeche,2026-10,mc-4oct,Massive Caller,mixto,2026-10-04,,1000,,no,PAN,6.8,serie del partido
+Campeche,2026-10,mc-4oct,Massive Caller,mixto,2026-10-04,,1000,,no,Somos,2.2,serie del partido
+Campeche,2026-10,metrik-oct,Metrik,careo,2026-10-04,2026-10-08,1200,,no,MC,34.23,serie del partido
+Campeche,2026-10,metrik-oct,Metrik,careo,2026-10-04,2026-10-08,1200,,no,Morena,29.65,serie del partido
+Campeche,2026-10,metrik-oct,Metrik,careo,2026-10-04,2026-10-08,1200,,no,PRI,11.62,serie del partido
+Campeche,2026-10,metrik-oct,Metrik,careo,2026-10-04,2026-10-08,1200,,no,PAN,8.13,serie del partido
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,39.5,serie del partido
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,32.8,serie del partido
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,9.1,serie del partido
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,4.9,serie del partido
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,2.4,serie del partido
+Campeche,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,1.2,serie del partido
+Campeche,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,1147,,no,Morena,43.14,serie del partido
+Campeche,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,1147,,no,MC,30.31,serie del partido
+Campeche,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,1147,,no,PRI,7.84,serie del partido
+Campeche,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,1147,,no,PAN,5.21,serie del partido
+Campeche,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,1147,,no,PVEM,1.85,serie del partido
+Campeche,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,1147,,no,PT,1.17,serie del partido
+Campeche,2026-10,cripeso-oct,Cripeso,partido,2026-10-12,,1147,,no,Independiente,0.99,serie del partido
+Campeche,2026-10,rub-1013,RUBRUM,careo,2026-10-13,2026-10-14,1000,,no,Morena,44.6,serie del partido
+Campeche,2026-10,rub-1013,RUBRUM,careo,2026-10-13,2026-10-14,1000,,no,MC,32,serie del partido
+Campeche,2026-10,logi-oct16,Logi·Call,mixto,2026-10-16,,1000,,no,Morena,41.1,serie del partido
+Campeche,2026-10,logi-oct16,Logi·Call,mixto,2026-10-16,,1000,,no,MC,25.3,serie del partido
+Campeche,2026-10,logi-oct16,Logi·Call,mixto,2026-10-16,,1000,,no,PRI,8.2,serie del partido
+Campeche,2026-10,logi-oct16,Logi·Call,mixto,2026-10-16,,1000,,no,PAN,7.6,serie del partido
+Campeche,2026-10,logi-oct16,Logi·Call,mixto,2026-10-16,,1000,,no,Somos,2.6,aparte (no se grafica)
+Campeche,2026-10,logi-oct16,Logi·Call,mixto,2026-10-16,,1000,,no,PAZ,1.8,aparte (no se grafica)
+Campeche,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,38.6,serie del partido
+Campeche,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,29.3,serie del partido
+Campeche,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,6.1,serie del partido
+Campeche,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,3.2,serie del partido
+Campeche,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,2.9,serie del partido
+Campeche,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,2.2,serie del partido
+Campeche,2026-10,gob-oct26,GobernArte,mixto,2026-10-26,,500,,no,Morena,40.6,serie del partido
+Campeche,2026-10,gob-oct26,GobernArte,mixto,2026-10-26,,500,,no,MC,29.7,serie del partido
+Campeche,2026-10,gob-oct26,GobernArte,mixto,2026-10-26,,500,,no,PRI,8.3,serie del partido
+Campeche,2026-10,gob-oct26,GobernArte,mixto,2026-10-26,,500,,no,PAN,6.4,serie del partido
+Campeche,2026-10,ce-oct29,CE Research,mixto,2026-10-29,2026-10-30,400,,no,Morena,38,serie del partido
+Campeche,2026-10,ce-oct29,CE Research,mixto,2026-10-29,2026-10-30,400,,no,MC,28,serie del partido
+Campeche,2026-10,ce-oct29,CE Research,mixto,2026-10-29,2026-10-30,400,,no,PAN,13,serie del partido
+Campeche,2026-10,ce-oct29,CE Research,mixto,2026-10-29,2026-10-30,400,,no,PRI,6,serie del partido
+Campeche,2026-10,ce-oct29,CE Research,mixto,2026-10-29,2026-10-30,400,,no,PVEM,4,serie del partido
+Campeche,2026-10,ce-oct29,CE Research,mixto,2026-10-29,2026-10-30,400,,no,PT,1,serie del partido
+Campeche,2026-11,cripeso-nov04,Cripeso,mixto,2026-11-04,,,1180,sí,Morena,46.31,serie del partido
+Campeche,2026-11,cripeso-nov04,Cripeso,mixto,2026-11-04,,,1180,sí,MC,30.64,serie del partido
+Campeche,2026-11,cripeso-nov04,Cripeso,mixto,2026-11-04,,,1180,sí,PRI,12.85,serie del partido
+Campeche,2026-11,mc-nov04,Massive Caller,mixto,2026-11-04,,1000,,no,Morena,42.6,serie del partido
+Campeche,2026-11,mc-nov04,Massive Caller,mixto,2026-11-04,,1000,,no,MC,25.1,serie del partido
+Campeche,2026-11,mc-nov04,Massive Caller,mixto,2026-11-04,,1000,,no,PRI,10.3,serie del partido
+Campeche,2026-11,mc-nov04,Massive Caller,mixto,2026-11-04,,1000,,no,PAN,8,serie del partido
+Campeche,2026-11,mc-nov04,Massive Caller,mixto,2026-11-04,,1000,,no,PAZ,3.3,aparte (no se grafica)
+Campeche,2026-11,mc-nov04,Massive Caller,mixto,2026-11-04,,1000,,no,Somos,1.2,serie del partido
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,42.1,serie del partido
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,29.6,serie del partido
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,8.5,serie del partido
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,7.5,serie del partido
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,2.7,serie del partido
+Campeche,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,1.6,serie del partido
+Campeche,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,Morena,45.9,serie del partido
+Campeche,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,MC,29,serie del partido
+Campeche,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,PRI,9.6,serie del partido
+Campeche,2026-11,meta-nov12,MetaMetrics,partido,2026-11-12,2026-11-13,,1500,sí,Morena,41.1,serie del partido
+Campeche,2026-11,meta-nov12,MetaMetrics,partido,2026-11-12,2026-11-13,,1500,sí,MC,29.2,serie del partido
+Campeche,2026-11,meta-nov12,MetaMetrics,partido,2026-11-12,2026-11-13,,1500,sí,PRI,8.3,serie del partido
+Campeche,2026-11,meta-nov12,MetaMetrics,partido,2026-11-12,2026-11-13,,1500,sí,PAN,7.1,serie del partido
+Chihuahua,2026-09,elec_sep,Electoralia,careo,2026-09-06,2026-09-06,,,no,Morena,34,serie del partido
+Chihuahua,2026-09,elec_sep,Electoralia,careo,2026-09-06,2026-09-06,,,no,PAN,28,serie del partido
+Chihuahua,2026-09,elec_sep,Electoralia,careo,2026-09-06,2026-09-06,,,no,PRI,7,serie del partido
+Chihuahua,2026-09,elec_sep,Electoralia,careo,2026-09-06,2026-09-06,,,no,MC,5,serie del partido
+Chihuahua,2026-09,laenc_sep,LaEncuesta.MX,careo,2026-09-07,2026-09-07,,,no,PAN,43.8,serie del partido
+Chihuahua,2026-09,laenc_sep,LaEncuesta.MX,careo,2026-09-07,2026-09-07,,,no,Morena,41.2,serie del partido
+Chihuahua,2026-09,laenc_sep,LaEncuesta.MX,careo,2026-09-07,2026-09-07,,,no,MC,8.4,serie del partido
+Chihuahua,2026-09,terr_sep,Territorial,careo,2026-09-14,2026-09-14,1000,,no,Morena,38.9,serie del partido
+Chihuahua,2026-09,terr_sep,Territorial,careo,2026-09-14,2026-09-14,1000,,no,PAN,31.7,serie del partido
+Chihuahua,2026-09,terr_sep,Territorial,careo,2026-09-14,2026-09-14,1000,,no,MC,13.1,serie del partido
+Chihuahua,2026-09,cye_sep,C&E (Campaigns & Elections),careo,2026-09-25,2026-09-25,400,,no,PAN,40,serie del partido
+Chihuahua,2026-09,cye_sep,C&E (Campaigns & Elections),careo,2026-09-25,2026-09-25,400,,no,Morena,38,serie del partido
+Chihuahua,2026-09,cye_sep,C&E (Campaigns & Elections),careo,2026-09-25,2026-09-25,400,,no,PRI,5,serie del partido
+Chihuahua,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,45,serie del partido
+Chihuahua,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,33,serie del partido
+Chihuahua,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,6,serie del partido
+Chihuahua,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,2.5,serie del partido
+Chihuahua,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,1.5,serie del partido
+Chihuahua,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,1.3,serie del partido
+Chihuahua,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,550,,no,Morena,49.4,serie del partido
+Chihuahua,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,550,,no,PAN,29.1,serie del partido
+Chihuahua,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,550,,no,PRI,7.1,serie del partido
+Chihuahua,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,550,,no,PT,3.4,serie del partido
+Chihuahua,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,550,,no,MC,2.8,serie del partido
+Chihuahua,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,550,,no,PVEM,0.2,serie del partido
+Chihuahua,2026-10,rub03oct,RUBRUM,partido,2026-10-03,2026-10-06,600,,no,Morena,39.4,serie del partido
+Chihuahua,2026-10,rub03oct,RUBRUM,partido,2026-10-03,2026-10-06,600,,no,PAN,37,serie del partido
+Chihuahua,2026-10,rub03oct,RUBRUM,partido,2026-10-03,2026-10-06,600,,no,PRI,8.4,serie del partido
+Chihuahua,2026-10,rub03oct,RUBRUM,partido,2026-10-03,2026-10-06,600,,no,MC,3.1,serie del partido
+Chihuahua,2026-10,rub03oct,RUBRUM,partido,2026-10-03,2026-10-06,600,,no,Independiente,2.8,serie del partido
+Chihuahua,2026-10,mc06oct,Massive Caller,mixto,2026-10-06,2026-10-06,1000,,no,Morena,37.3,serie del partido
+Chihuahua,2026-10,mc06oct,Massive Caller,mixto,2026-10-06,2026-10-06,1000,,no,PAN,36.7,serie del partido
+Chihuahua,2026-10,mc06oct,Massive Caller,mixto,2026-10-06,2026-10-06,1000,,no,PRI,8.6,serie del partido
+Chihuahua,2026-10,mc06oct,Massive Caller,mixto,2026-10-06,2026-10-06,1000,,no,MC,3.8,serie del partido
+Chihuahua,2026-10,mc06oct,Massive Caller,mixto,2026-10-06,2026-10-06,1000,,no,PAZ,2.2,aparte (no se grafica)
+Chihuahua,2026-10,mc06oct,Massive Caller,mixto,2026-10-06,2026-10-06,1000,,no,Somos,1.8,aparte (no se grafica)
+Chihuahua,2026-10,gob-oct,GobernArte,mixto,2026-10-08,,500,,no,Morena,44.9,serie del partido
+Chihuahua,2026-10,gob-oct,GobernArte,mixto,2026-10-08,,500,,no,PAN,28.7,serie del partido
+Chihuahua,2026-10,gob-oct,GobernArte,mixto,2026-10-08,,500,,no,PRI,7.2,serie del partido
+Chihuahua,2026-10,gob-oct,GobernArte,mixto,2026-10-08,,500,,no,MC,4.8,serie del partido
+Chihuahua,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,36.4,serie del partido
+Chihuahua,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,30.5,serie del partido
+Chihuahua,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,10.2,serie del partido
+Chihuahua,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,7.1,serie del partido
+Chihuahua,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,4.1,serie del partido
+Chihuahua,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,3.5,serie del partido
+Chihuahua,2026-10,rub-oct12,RUBRUM,careo,2026-10-12,2026-10-13,800,,no,Morena,35.2,serie del partido
+Chihuahua,2026-10,rub-oct12,RUBRUM,careo,2026-10-12,2026-10-13,800,,no,MC,5.7,serie del partido
+Chihuahua,2026-10,rub-oct12,RUBRUM,careo,2026-10-12,2026-10-13,800,,no,ind_lebaron,5.2,aparte (no se grafica)
+Chihuahua,2026-10,cripeso-oct,Cripeso,partido,2026-10-13,,2111,,no,Morena,42.94,serie del partido
+Chihuahua,2026-10,cripeso-oct,Cripeso,partido,2026-10-13,,2111,,no,PAN,37.44,serie del partido
+Chihuahua,2026-10,cripeso-oct,Cripeso,partido,2026-10-13,,2111,,no,PRI,8.5,serie del partido
+Chihuahua,2026-10,cripeso-oct,Cripeso,partido,2026-10-13,,2111,,no,MC,2.16,serie del partido
+Chihuahua,2026-10,cripeso-oct,Cripeso,partido,2026-10-13,,2111,,no,PT,1.81,serie del partido
+Chihuahua,2026-10,cripeso-oct,Cripeso,partido,2026-10-13,,2111,,no,PRD,0.56,aparte (no se grafica)
+Chihuahua,2026-10,cripeso-oct,Cripeso,partido,2026-10-13,,2111,,no,PVEM,0.31,serie del partido
+Chihuahua,2026-10,cripeso-oct,Cripeso,partido,2026-10-13,,2111,,no,Independiente,0.25,serie del partido
+Chihuahua,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,37.1,serie del partido
+Chihuahua,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,30.3,serie del partido
+Chihuahua,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,5.1,serie del partido
+Chihuahua,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,4.5,serie del partido
+Chihuahua,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,4.1,serie del partido
+Chihuahua,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,2.6,serie del partido
+Chihuahua,2026-10,logi-oct17,Logi·Call,mixto,2026-10-17,,1000,,no,Morena,36.3,serie del partido
+Chihuahua,2026-10,logi-oct17,Logi·Call,mixto,2026-10-17,,1000,,no,PAN,33.1,serie del partido
+Chihuahua,2026-10,logi-oct17,Logi·Call,mixto,2026-10-17,,1000,,no,PRI,9.4,serie del partido
+Chihuahua,2026-10,logi-oct17,Logi·Call,mixto,2026-10-17,,1000,,no,MC,4.4,serie del partido
+Chihuahua,2026-10,logi-oct17,Logi·Call,mixto,2026-10-17,,1000,,no,PAZ,2.4,aparte (no se grafica)
+Chihuahua,2026-10,logi-oct17,Logi·Call,mixto,2026-10-17,,1000,,no,Somos,2,aparte (no se grafica)
+Chihuahua,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-19,400,,no,PAN,40,serie del partido
+Chihuahua,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-19,400,,no,Morena,37,serie del partido
+Chihuahua,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-19,400,,no,PRI,5,serie del partido
+Chihuahua,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-19,400,,no,PVEM,2,serie del partido
+Chihuahua,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-19,400,,no,MC,0,serie del partido
+Chihuahua,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-19,400,,no,PT,0,serie del partido
+Chihuahua,2026-11,gob-nov04,GobernArte,mixto,2026-11-04,,500,,no,Morena,45.8,serie del partido
+Chihuahua,2026-11,gob-nov04,GobernArte,mixto,2026-11-04,,500,,no,PAN,29.6,serie del partido
+Chihuahua,2026-11,gob-nov04,GobernArte,mixto,2026-11-04,,500,,no,PRI,6.9,serie del partido
+Chihuahua,2026-11,gob-nov04,GobernArte,mixto,2026-11-04,,500,,no,MC,4.5,serie del partido
+Chihuahua,2026-11,cripeso-nov05,Cripeso,mixto,2026-11-05,,,2163,sí,PAN,46.41,serie del partido
+Chihuahua,2026-11,cripeso-nov05,Cripeso,mixto,2026-11-05,,,2163,sí,Morena,44.87,serie del partido
+Chihuahua,2026-11,cripeso-nov05,Cripeso,mixto,2026-11-05,,,2163,sí,MC,2.18,serie del partido
+Chihuahua,2026-11,mc06nov,Massive Caller,mixto,2026-11-06,,1000,,no,Morena,38.4,serie del partido
+Chihuahua,2026-11,mc06nov,Massive Caller,mixto,2026-11-06,,1000,,no,PAN,33.2,serie del partido
+Chihuahua,2026-11,mc06nov,Massive Caller,mixto,2026-11-06,,1000,,no,PRI,9.7,serie del partido
+Chihuahua,2026-11,mc06nov,Massive Caller,mixto,2026-11-06,,1000,,no,MC,4.1,serie del partido
+Chihuahua,2026-11,mc06nov,Massive Caller,mixto,2026-11-06,,1000,,no,Somos,3.3,aparte (no se grafica)
+Chihuahua,2026-11,mc06nov,Massive Caller,mixto,2026-11-06,,1000,,no,PAZ,3.1,aparte (no se grafica)
+Chihuahua,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,40.9,serie del partido
+Chihuahua,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,31.6,serie del partido
+Chihuahua,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,6.8,serie del partido
+Chihuahua,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,6.1,serie del partido
+Chihuahua,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,3.2,serie del partido
+Chihuahua,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,2.4,serie del partido
+Chihuahua,2026-11,alt-nov09,Áltica,mixto,2026-11-09,2026-11-09,800,,no,Morena,40,serie del partido
+Chihuahua,2026-11,alt-nov09,Áltica,mixto,2026-11-09,2026-11-09,800,,no,PAN,38,serie del partido
+Chihuahua,2026-11,alt-nov09,Áltica,mixto,2026-11-09,2026-11-09,800,,no,PRI,5,serie del partido
+Chihuahua,2026-11,alt-nov09,Áltica,mixto,2026-11-09,2026-11-09,800,,no,MC,4,serie del partido
+Chihuahua,2026-11,alt-nov09,Áltica,mixto,2026-11-09,2026-11-09,800,,no,PVEM,2,serie del partido
+Chihuahua,2026-11,alt-nov09,Áltica,mixto,2026-11-09,2026-11-09,800,,no,PT,1,serie del partido
+Chihuahua,2026-11,gii360-nov09,Grupo Impacto 360,mixto,2026-11-09,2026-11-10,600,,no,Morena,53,serie del partido
+Chihuahua,2026-11,gii360-nov09,Grupo Impacto 360,mixto,2026-11-09,2026-11-10,600,,no,PAN,20,serie del partido
+Chihuahua,2026-11,gii360-nov09,Grupo Impacto 360,mixto,2026-11-09,2026-11-10,600,,no,PRI,8,serie del partido
+Chihuahua,2026-11,rub-nov09,RUBRUM,careo,2026-11-09,2026-11-12,1000,,no,PAN,41.3,serie del partido
+Chihuahua,2026-11,rub-nov09,RUBRUM,careo,2026-11-09,2026-11-12,1000,,no,Morena,36.1,serie del partido
+Chihuahua,2026-11,rub-nov09,RUBRUM,careo,2026-11-09,2026-11-12,1000,,no,MC,4.1,serie del partido
+Colima,2026-09,gob-sep,GobernArte,partido,2026-09-23,,500,,no,Morena,41.9,serie del partido
+Colima,2026-09,gob-sep,GobernArte,partido,2026-09-23,,500,,no,PAN,17.1,serie del partido
+Colima,2026-09,gob-sep,GobernArte,partido,2026-09-23,,500,,no,PRI,15.3,serie del partido
+Colima,2026-09,gob-sep,GobernArte,partido,2026-09-23,,500,,no,MC,7.9,serie del partido
+Colima,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,39.65,serie del partido
+Colima,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,21.35,serie del partido
+Colima,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,10.17,serie del partido
+Colima,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,8.59,serie del partido
+Colima,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,4.86,serie del partido
+Colima,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,3.14,serie del partido
+Colima,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,2000,,no,Morena,38.3,serie del partido
+Colima,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,2000,,no,PRI,20.6,serie del partido
+Colima,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,2000,,no,PAN,17.8,serie del partido
+Colima,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,2000,,no,MC,8.3,serie del partido
+Colima,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,Morena,34.8,serie del partido
+Colima,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,PAN,24.1,serie del partido
+Colima,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,PRI,20.5,serie del partido
+Colima,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,300,,no,MC,6.3,serie del partido
+Colima,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,400,,no,Morena,35.1,serie del partido
+Colima,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,400,,no,PRI,23.1,serie del partido
+Colima,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,400,,no,PAN,17.2,serie del partido
+Colima,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,400,,no,MC,7.2,serie del partido
+Colima,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1163,,no,Morena,29.55,serie del partido
+Colima,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1163,,no,PAN,21.79,serie del partido
+Colima,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1163,,no,PRI,20.08,serie del partido
+Colima,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1163,,no,MC,9.57,serie del partido
+Colima,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1163,,no,PT,2.9,serie del partido
+Colima,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1163,,no,PVEM,2.61,serie del partido
+Colima,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1163,,no,Independiente,0.9,serie del partido
+Colima,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1163,,no,PRD,0.34,aparte (no se grafica)
+Colima,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,39.5,serie del partido
+Colima,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,23.4,serie del partido
+Colima,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,15.8,serie del partido
+Colima,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,8.3,serie del partido
+Colima,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,2.5,serie del partido
+Colima,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,1.6,serie del partido
+Colima,2026-10,mc-8oct,Massive Caller,mixto,2026-10-08,,1000,,no,Morena,33.5,serie del partido
+Colima,2026-10,mc-8oct,Massive Caller,mixto,2026-10-08,,1000,,no,PRI,19,serie del partido
+Colima,2026-10,mc-8oct,Massive Caller,mixto,2026-10-08,,1000,,no,PAN,14.7,serie del partido
+Colima,2026-10,mc-8oct,Massive Caller,mixto,2026-10-08,,1000,,no,MC,9.1,serie del partido
+Colima,2026-10,mc-8oct,Massive Caller,mixto,2026-10-08,,1000,,no,Somos,4.6,serie del partido
+Colima,2026-10,mc-8oct,Massive Caller,mixto,2026-10-08,,1000,,no,PVEM,3.6,serie del partido
+Colima,2026-10,rub-oct13,RUBRUM,careo,2026-10-13,2026-10-14,1000,,no,Morena,32,serie del partido
+Colima,2026-10,rub-oct13,RUBRUM,careo,2026-10-13,2026-10-14,1000,,no,MC,9.5,serie del partido
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,mixto,2026-10-14,,1000,,no,Morena,42,serie del partido
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,mixto,2026-10-14,,1000,,no,PRI,12,serie del partido
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,mixto,2026-10-14,,1000,,no,PAN,9,serie del partido
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,mixto,2026-10-14,,1000,,no,MC,6,serie del partido
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,mixto,2026-10-14,,1000,,no,PVEM,3,serie del partido
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,mixto,2026-10-14,,1000,,no,PT,2,serie del partido
+Colima,2026-10,dlh-oct14,De las Heras Demotecnia,mixto,2026-10-14,,1000,,no,Somos,1,serie del partido
+Colima,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,35.6,serie del partido
+Colima,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,13.5,serie del partido
+Colima,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,12.2,serie del partido
+Colima,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,9.8,serie del partido
+Colima,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,5.7,serie del partido
+Colima,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,2.4,serie del partido
+Colima,2026-10,logi-oct19,Logi·Call,mixto,2026-10-19,,1000,,no,Morena,31.3,serie del partido
+Colima,2026-10,logi-oct19,Logi·Call,mixto,2026-10-19,,1000,,no,PRI,20.2,serie del partido
+Colima,2026-10,logi-oct19,Logi·Call,mixto,2026-10-19,,1000,,no,PAN,15.6,serie del partido
+Colima,2026-10,logi-oct19,Logi·Call,mixto,2026-10-19,,1000,,no,MC,8.3,serie del partido
+Colima,2026-10,logi-oct19,Logi·Call,mixto,2026-10-19,,1000,,no,PVEM,5.5,serie del partido
+Colima,2026-10,logi-oct19,Logi·Call,mixto,2026-10-19,,1000,,no,Somos,3.6,aparte (no se grafica)
+Colima,2026-10,logi-oct19,Logi·Call,mixto,2026-10-19,,1000,,no,PAZ,1.2,aparte (no se grafica)
+Colima,2026-10,gob-oct27,GobernArte,mixto,2026-10-27,,500,,no,Morena,39.3,serie del partido
+Colima,2026-10,gob-oct27,GobernArte,mixto,2026-10-27,,500,,no,PAN,17.8,serie del partido
+Colima,2026-10,gob-oct27,GobernArte,mixto,2026-10-27,,500,,no,PRI,14.9,serie del partido
+Colima,2026-10,gob-oct27,GobernArte,mixto,2026-10-27,,500,,no,MC,9.6,serie del partido
+Colima,2026-11,cripeso-nov06,Cripeso,mixto,2026-11-06,,,1187,sí,PRI,40.65,serie del partido
+Colima,2026-11,cripeso-nov06,Cripeso,mixto,2026-11-06,,,1187,sí,Morena,38.84,serie del partido
+Colima,2026-11,cripeso-nov06,Cripeso,mixto,2026-11-06,,,1187,sí,MC,10.04,serie del partido
+Colima,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,38.6,serie del partido
+Colima,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,21.2,serie del partido
+Colima,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,13.2,serie del partido
+Colima,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,12.7,serie del partido
+Colima,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,3.1,serie del partido
+Colima,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,1.8,serie del partido
+Colima,2026-11,mc-8nov,Massive Caller,mixto,2026-11-08,,1000,,no,Morena,36.8,serie del partido
+Colima,2026-11,mc-8nov,Massive Caller,mixto,2026-11-08,,1000,,no,PRI,18.2,serie del partido
+Colima,2026-11,mc-8nov,Massive Caller,mixto,2026-11-08,,1000,,no,PAN,16.4,serie del partido
+Colima,2026-11,mc-8nov,Massive Caller,mixto,2026-11-08,,1000,,no,MC,9.9,serie del partido
+Colima,2026-11,mc-8nov,Massive Caller,mixto,2026-11-08,,1000,,no,PAZ,4.4,aparte (no se grafica)
+Colima,2026-11,mc-8nov,Massive Caller,mixto,2026-11-08,,1000,,no,Somos,3,serie del partido
+Colima,2026-11,rub-nov10,RUBRUM,careo,2026-11-10,2026-11-11,1000,,no,Morena,36.2,serie del partido
+Colima,2026-11,rub-nov10,RUBRUM,careo,2026-11-10,2026-11-11,1000,,no,PAN,30.3,serie del partido
+Colima,2026-11,rub-nov10,RUBRUM,careo,2026-11-10,2026-11-11,1000,,no,MC,7.4,serie del partido
+Guerrero,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,47.86,serie del partido
+Guerrero,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,14.6,serie del partido
+Guerrero,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,9.38,serie del partido
+Guerrero,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,4.12,serie del partido
+Guerrero,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,3.89,serie del partido
+Guerrero,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,2,serie del partido
+Guerrero,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,2800,,no,Morena,52.9,serie del partido
+Guerrero,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,450,,no,Morena,51.5,serie del partido
+Guerrero,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,450,,no,PRI,16.4,serie del partido
+Guerrero,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,450,,no,MC,8,serie del partido
+Guerrero,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,450,,no,PAN,7.1,serie del partido
+Guerrero,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1452,,no,Morena,52.89,serie del partido
+Guerrero,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1452,,no,PRI,10.97,serie del partido
+Guerrero,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1452,,no,PAN,9.18,serie del partido
+Guerrero,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1452,,no,MC,6.29,serie del partido
+Guerrero,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1452,,no,PRD,2.92,aparte (no se grafica)
+Guerrero,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1452,,no,Independiente,2.18,serie del partido
+Guerrero,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1452,,no,PT,1.87,serie del partido
+Guerrero,2026-10,cripeso-oct,Cripeso,partido,2026-10-08,,1452,,no,PVEM,1.58,serie del partido
+Guerrero,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,50.2,serie del partido
+Guerrero,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,11.5,serie del partido
+Guerrero,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,11.4,serie del partido
+Guerrero,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,6.1,serie del partido
+Guerrero,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,4.3,serie del partido
+Guerrero,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,3.2,serie del partido
+Guerrero,2026-10,mc-10oct,Massive Caller,mixto,2026-10-10,,1000,,no,Morena,51.8,serie del partido
+Guerrero,2026-10,mc-10oct,Massive Caller,mixto,2026-10-10,,1000,,no,PRI,14.2,serie del partido
+Guerrero,2026-10,mc-10oct,Massive Caller,mixto,2026-10-10,,1000,,no,PAN,5.6,serie del partido
+Guerrero,2026-10,mc-10oct,Massive Caller,mixto,2026-10-10,,1000,,no,Somos,4.1,aparte (no se grafica)
+Guerrero,2026-10,mc-10oct,Massive Caller,mixto,2026-10-10,,1000,,no,MC,3.9,serie del partido
+Guerrero,2026-10,mc-10oct,Massive Caller,mixto,2026-10-10,,1000,,no,PAZ,2.9,aparte (no se grafica)
+Guerrero,2026-10,rub-oct10,RUBRUM,careo,2026-10-10,2026-10-12,1000,,no,Morena,37.4,serie del partido
+Guerrero,2026-10,rub-oct10,RUBRUM,careo,2026-10-10,2026-10-12,1000,,no,MC,7.2,serie del partido
+Guerrero,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,45.4,serie del partido
+Guerrero,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,11.7,serie del partido
+Guerrero,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,6.2,serie del partido
+Guerrero,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,6.1,serie del partido
+Guerrero,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,5.9,serie del partido
+Guerrero,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,5.5,serie del partido
+Guerrero,2026-10,gob-oct18,GobernArte,mixto,2026-10-18,,500,,no,Morena,50.9,serie del partido
+Guerrero,2026-10,gob-oct18,GobernArte,mixto,2026-10-18,,500,,no,PRI,13.5,serie del partido
+Guerrero,2026-10,gob-oct18,GobernArte,mixto,2026-10-18,,500,,no,MC,6.8,serie del partido
+Guerrero,2026-10,gob-oct18,GobernArte,mixto,2026-10-18,,500,,no,Independiente,5.5,serie del partido
+Guerrero,2026-10,gob-oct18,GobernArte,mixto,2026-10-18,,500,,no,PAN,4.1,serie del partido
+Guerrero,2026-10,logi-oct20,Logi·Call,mixto,2026-10-20,,1000,,no,Morena,46.4,serie del partido
+Guerrero,2026-10,logi-oct20,Logi·Call,mixto,2026-10-20,,1000,,no,PRI,18.2,serie del partido
+Guerrero,2026-10,logi-oct20,Logi·Call,mixto,2026-10-20,,1000,,no,PAN,6.4,serie del partido
+Guerrero,2026-10,logi-oct20,Logi·Call,mixto,2026-10-20,,1000,,no,MC,6.1,serie del partido
+Guerrero,2026-10,logi-oct20,Logi·Call,mixto,2026-10-20,,1000,,no,Somos,3.6,aparte (no se grafica)
+Guerrero,2026-10,logi-oct20,Logi·Call,mixto,2026-10-20,,1000,,no,PAZ,3.2,aparte (no se grafica)
+Guerrero,2026-11,cripeso-nov06,Cripeso,mixto,2026-11-06,,,1481,sí,Morena,55.79,serie del partido
+Guerrero,2026-11,cripeso-nov06,Cripeso,mixto,2026-11-06,,,1481,sí,PRI,11.15,serie del partido
+Guerrero,2026-11,cripeso-nov06,Cripeso,mixto,2026-11-06,,,1481,sí,PAN,9.23,serie del partido
+Guerrero,2026-11,cripeso-nov06,Cripeso,mixto,2026-11-06,,,1481,sí,MC,6.13,serie del partido
+Guerrero,2026-11,cripeso-nov06,Cripeso,mixto,2026-11-06,,,1481,sí,PRD,2.84,aparte (no se grafica)
+Guerrero,2026-11,cripeso-nov06,Cripeso,mixto,2026-11-06,,,1481,sí,Somos,0.31,aparte (no se grafica)
+Guerrero,2026-11,cripeso-nov06,Cripeso,mixto,2026-11-06,,,1481,sí,PAZ,0.31,aparte (no se grafica)
+Guerrero,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,Morena,41.9,serie del partido
+Guerrero,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,PRI,14.8,serie del partido
+Guerrero,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,MC,7.3,serie del partido
+Guerrero,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,44.1,serie del partido
+Guerrero,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,12.6,serie del partido
+Guerrero,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,10.2,serie del partido
+Guerrero,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,9.4,serie del partido
+Guerrero,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,7.2,serie del partido
+Guerrero,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,4.9,serie del partido
+Guerrero,2026-11,mc-10nov,Massive Caller,mixto,2026-11-10,,1000,,no,Morena,53.2,serie del partido
+Guerrero,2026-11,mc-10nov,Massive Caller,mixto,2026-11-10,,1000,,no,PRI,15.4,serie del partido
+Guerrero,2026-11,mc-10nov,Massive Caller,mixto,2026-11-10,,1000,,no,PAZ,6.1,aparte (no se grafica)
+Guerrero,2026-11,mc-10nov,Massive Caller,mixto,2026-11-10,,1000,,no,MC,5.3,serie del partido
+Guerrero,2026-11,mc-10nov,Massive Caller,mixto,2026-11-10,,1000,,no,Somos,5.1,aparte (no se grafica)
+Guerrero,2026-11,mc-10nov,Massive Caller,mixto,2026-11-10,,1000,,no,PAN,4.5,serie del partido
+Michoacán,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,32.94,serie del partido
+Michoacán,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Independiente,31.26,serie del partido
+Michoacán,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,14.26,serie del partido
+Michoacán,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,7.5,serie del partido
+Michoacán,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,3.44,serie del partido
+Michoacán,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,3.18,serie del partido
+Michoacán,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,2.14,serie del partido
+Michoacán,2026-09,rubrum,RUBRUM,partido,2026-09-30,2026-10-01,800,,no,Morena,33.8,serie del partido
+Michoacán,2026-09,rubrum,RUBRUM,partido,2026-09-30,2026-10-01,800,,no,Independiente,23.7,serie del partido
+Michoacán,2026-09,rubrum,RUBRUM,partido,2026-09-30,2026-10-01,800,,no,PAN,13.1,serie del partido
+Michoacán,2026-09,rubrum,RUBRUM,partido,2026-09-30,2026-10-01,800,,no,PRI,7.3,serie del partido
+Michoacán,2026-09,rubrum,RUBRUM,partido,2026-09-30,2026-10-01,800,,no,MC,6.8,serie del partido
+Michoacán,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,6000,,no,Morena,35.7,serie del partido
+Michoacán,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,6000,,no,PAN,18.1,serie del partido
+Michoacán,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,6000,,no,Independiente,16.4,serie del partido
+Michoacán,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,500,,no,Independiente,29.2,serie del partido
+Michoacán,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,500,,no,Morena,28.5,serie del partido
+Michoacán,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,500,,no,MC,11.4,serie del partido
+Michoacán,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,500,,no,PAN,8.6,serie del partido
+Michoacán,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,500,,no,PRI,8.6,serie del partido
+Michoacán,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,4627,,no,Morena,47.9,serie del partido
+Michoacán,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,4627,,no,PAN,12.89,serie del partido
+Michoacán,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,4627,,no,Independiente,11.68,serie del partido
+Michoacán,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,4627,,no,PRI,4.93,serie del partido
+Michoacán,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,4627,,no,PRD,4.57,aparte (no se grafica)
+Michoacán,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,4627,,no,PT,1.51,serie del partido
+Michoacán,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,4627,,no,MC,1.18,serie del partido
+Michoacán,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,4627,,no,PVEM,0.81,serie del partido
+Michoacán,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,34.8,serie del partido
+Michoacán,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,22.1,serie del partido
+Michoacán,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,13.9,serie del partido
+Michoacán,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,9.2,serie del partido
+Michoacán,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,4.9,serie del partido
+Michoacán,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,4.2,serie del partido
+Michoacán,2026-10,mc-oct12,Massive Caller,mixto,2026-10-12,,1000,,no,Morena,40.2,serie del partido
+Michoacán,2026-10,mc-oct12,Massive Caller,mixto,2026-10-12,,1000,,no,PAN,22.3,serie del partido
+Michoacán,2026-10,mc-oct12,Massive Caller,mixto,2026-10-12,,1000,,no,Independiente,14.5,serie del partido
+Michoacán,2026-10,mc-oct12,Massive Caller,mixto,2026-10-12,,1000,,no,PRI,9.9,serie del partido
+Michoacán,2026-10,mc-oct12,Massive Caller,mixto,2026-10-12,,1000,,no,MC,5.5,serie del partido
+Michoacán,2026-10,mc-oct12,Massive Caller,mixto,2026-10-12,,1000,,no,PAZ,1.9,aparte (no se grafica)
+Michoacán,2026-10,mc-oct12,Massive Caller,mixto,2026-10-12,,1000,,no,Somos,1,aparte (no se grafica)
+Michoacán,2026-10,src-oct12,SRC,careo,2026-10-12,2026-10-13,500,,no,Morena,28.3,serie del partido
+Michoacán,2026-10,src-oct12,SRC,careo,2026-10-12,2026-10-13,500,,no,Independiente,20.3,serie del partido
+Michoacán,2026-10,rub-oct14,RUBRUM,careo,2026-10-14,2026-10-15,1000,,no,Morena,36.9,serie del partido
+Michoacán,2026-10,rub-oct14,RUBRUM,careo,2026-10-14,2026-10-15,1000,,no,Independiente,26.7,serie del partido
+Michoacán,2026-10,rub-oct14,RUBRUM,careo,2026-10-14,2026-10-15,1000,,no,pan_pri_alcazar,17.2,aparte (no se grafica)
+Michoacán,2026-10,rub-oct14,RUBRUM,careo,2026-10-14,2026-10-15,1000,,no,MC,4.1,serie del partido
+Michoacán,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,32.8,serie del partido
+Michoacán,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,25.4,serie del partido
+Michoacán,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,8.2,serie del partido
+Michoacán,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,7.5,serie del partido
+Michoacán,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,5.3,serie del partido
+Michoacán,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,3.7,serie del partido
+Michoacán,2026-10,gob-oct21,GobernArte,mixto,2026-10-21,,500,,no,Morena,41.7,serie del partido
+Michoacán,2026-10,gob-oct21,GobernArte,mixto,2026-10-21,,500,,no,PAN,15.8,serie del partido
+Michoacán,2026-10,gob-oct21,GobernArte,mixto,2026-10-21,,500,,no,PRI,7.4,serie del partido
+Michoacán,2026-10,gob-oct21,GobernArte,mixto,2026-10-21,,500,,no,MC,6.4,serie del partido
+Michoacán,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,Morena,49,serie del partido
+Michoacán,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,PAN,20,serie del partido
+Michoacán,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,PRI,8,serie del partido
+Michoacán,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,MC,6,serie del partido
+Michoacán,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,PT,4,serie del partido
+Michoacán,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,PVEM,2,serie del partido
+Michoacán,2026-11,cripeso-nov07,Cripeso,mixto,2026-11-07,,,2342,sí,Morena,49.28,serie del partido
+Michoacán,2026-11,cripeso-nov07,Cripeso,mixto,2026-11-07,,,2342,sí,Independiente,14.03,serie del partido
+Michoacán,2026-11,cripeso-nov07,Cripeso,mixto,2026-11-07,,,2342,sí,PAN,12.86,serie del partido
+Michoacán,2026-11,cripeso-nov07,Cripeso,mixto,2026-11-07,,,2342,sí,PRI,4.73,serie del partido
+Michoacán,2026-11,cripeso-nov07,Cripeso,mixto,2026-11-07,,,2342,sí,PRD,4.29,aparte (no se grafica)
+Michoacán,2026-11,cripeso-nov07,Cripeso,mixto,2026-11-07,,,2342,sí,MC,1.25,serie del partido
+Michoacán,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,33.7,serie del partido
+Michoacán,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,20.4,serie del partido
+Michoacán,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,12,serie del partido
+Michoacán,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,8.5,serie del partido
+Michoacán,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,7.9,serie del partido
+Michoacán,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,6.1,serie del partido
+Michoacán,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,Morena,34.7,serie del partido
+Michoacán,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,Independiente,22,serie del partido
+Michoacán,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,PAN,17.4,serie del partido
+Michoacán,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,MC,5.3,serie del partido
+Michoacán,2026-11,mc-nov13,Massive Caller,mixto,2026-11-13,,1000,,no,Morena,41.7,serie del partido
+Michoacán,2026-11,mc-nov13,Massive Caller,mixto,2026-11-13,,1000,,no,PAN,23.4,serie del partido
+Michoacán,2026-11,mc-nov13,Massive Caller,mixto,2026-11-13,,1000,,no,PRI,11.5,serie del partido
+Michoacán,2026-11,mc-nov13,Massive Caller,mixto,2026-11-13,,1000,,no,Independiente,10.7,serie del partido
+Michoacán,2026-11,mc-nov13,Massive Caller,mixto,2026-11-13,,1000,,no,MC,4.2,serie del partido
+Michoacán,2026-11,mc-nov13,Massive Caller,mixto,2026-11-13,,1000,,no,PAZ,3.4,aparte (no se grafica)
+Michoacán,2026-11,mc-nov13,Massive Caller,mixto,2026-11-13,,1000,,no,Somos,2.2,aparte (no se grafica)
+Nayarit,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,42.19,serie del partido
+Nayarit,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,13.87,serie del partido
+Nayarit,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,9.56,serie del partido
+Nayarit,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,6.81,serie del partido
+Nayarit,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,4.76,serie del partido
+Nayarit,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,1.77,serie del partido
+Nayarit,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,1500,,no,Morena,55.5,serie del partido
+Nayarit,2026-10,rubrum1oct,RUBRUM,partido,2026-10-01,2026-10-02,800,,no,Morena,43.3,serie del partido
+Nayarit,2026-10,rubrum1oct,RUBRUM,partido,2026-10-01,2026-10-02,800,,no,MC,12.8,serie del partido
+Nayarit,2026-10,rubrum1oct,RUBRUM,partido,2026-10-01,2026-10-02,800,,no,PRI,11,serie del partido
+Nayarit,2026-10,rubrum1oct,RUBRUM,partido,2026-10-01,2026-10-02,800,,no,PAN,9,serie del partido
+Nayarit,2026-10,rubrum1oct,RUBRUM,partido,2026-10-01,2026-10-02,800,,no,PVEM,8.4,serie del partido
+Nayarit,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,727,,no,Morena,49.82,serie del partido
+Nayarit,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,727,,no,PAN,12.88,serie del partido
+Nayarit,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,727,,no,MC,10.44,serie del partido
+Nayarit,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,727,,no,PRI,9.7,serie del partido
+Nayarit,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,727,,no,PVEM,5.26,serie del partido
+Nayarit,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,727,,no,PT,0.81,serie del partido
+Nayarit,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,727,,no,Independiente,0.81,serie del partido
+Nayarit,2026-10,cripeso-oct,Cripeso,partido,2026-10-06,,727,,no,PRD,0.21,aparte (no se grafica)
+Nayarit,2026-10,gob-oct,GobernArte,mixto,2026-10-07,2026-10-08,500,,no,Morena,45.7,serie del partido
+Nayarit,2026-10,gob-oct,GobernArte,mixto,2026-10-07,2026-10-08,500,,no,MC,20.2,serie del partido
+Nayarit,2026-10,gob-oct,GobernArte,mixto,2026-10-07,2026-10-08,500,,no,PAN,10.1,serie del partido
+Nayarit,2026-10,gob-oct,GobernArte,mixto,2026-10-07,2026-10-08,500,,no,PRI,7.7,serie del partido
+Nayarit,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,44.9,serie del partido
+Nayarit,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,16.1,serie del partido
+Nayarit,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,14.8,serie del partido
+Nayarit,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,8.2,serie del partido
+Nayarit,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,5.4,serie del partido
+Nayarit,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,2,serie del partido
+Nayarit,2026-10,mit-oct,Mitofsky,mixto,2026-10-11,2026-10-12,1200,,no,Morena,35.2,serie del partido
+Nayarit,2026-10,mit-oct,Mitofsky,mixto,2026-10-11,2026-10-12,1200,,no,PRI,8.6,serie del partido
+Nayarit,2026-10,mit-oct,Mitofsky,mixto,2026-10-11,2026-10-12,1200,,no,PAN,7.1,serie del partido
+Nayarit,2026-10,mit-oct,Mitofsky,mixto,2026-10-11,2026-10-12,1200,,no,PVEM,6.5,serie del partido
+Nayarit,2026-10,mit-oct,Mitofsky,mixto,2026-10-11,2026-10-12,1200,,no,MC,5.5,serie del partido
+Nayarit,2026-10,mit-oct,Mitofsky,mixto,2026-10-11,2026-10-12,1200,,no,PT,1,serie del partido
+Nayarit,2026-10,mc-oct14,Massive Caller,mixto,2026-10-14,,1000,,no,Morena,51.7,serie del partido
+Nayarit,2026-10,mc-oct14,Massive Caller,mixto,2026-10-14,,1000,,no,PRI,13.2,serie del partido
+Nayarit,2026-10,mc-oct14,Massive Caller,mixto,2026-10-14,,1000,,no,PAN,10.6,serie del partido
+Nayarit,2026-10,mc-oct14,Massive Caller,mixto,2026-10-14,,1000,,no,MC,7.2,serie del partido
+Nayarit,2026-10,mc-oct14,Massive Caller,mixto,2026-10-14,,1000,,no,Somos,3.9,aparte (no se grafica)
+Nayarit,2026-10,mc-oct14,Massive Caller,mixto,2026-10-14,,1000,,no,PAZ,2.9,aparte (no se grafica)
+Nayarit,2026-10,rub-oct14,RUBRUM,careo,2026-10-14,2026-10-15,1000,,no,Morena,34.8,serie del partido
+Nayarit,2026-10,rub-oct14,RUBRUM,careo,2026-10-14,2026-10-15,1000,,no,MC,19.6,serie del partido
+Nayarit,2026-10,rub-oct14,RUBRUM,careo,2026-10-14,2026-10-15,1000,,no,pan_pri_cota,10.8,aparte (no se grafica)
+Nayarit,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,35.8,serie del partido
+Nayarit,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,8.9,serie del partido
+Nayarit,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,7.3,serie del partido
+Nayarit,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,7.1,serie del partido
+Nayarit,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,5.2,serie del partido
+Nayarit,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,4.8,serie del partido
+Nayarit,2026-11,gob-nov05,GobernArte,mixto,2026-11-05,,500,,no,Morena,46.5,serie del partido
+Nayarit,2026-11,gob-nov05,GobernArte,mixto,2026-11-05,,500,,no,MC,12.4,serie del partido
+Nayarit,2026-11,gob-nov05,GobernArte,mixto,2026-11-05,,500,,no,PAN,10.5,serie del partido
+Nayarit,2026-11,gob-nov05,GobernArte,mixto,2026-11-05,,500,,no,PRI,7.7,serie del partido
+Nayarit,2026-11,logi-nov07,Logi·Call,mixto,2026-11-07,,1000,,no,Morena,41.1,serie del partido
+Nayarit,2026-11,logi-nov07,Logi·Call,mixto,2026-11-07,,1000,,no,PRI,18.3,serie del partido
+Nayarit,2026-11,logi-nov07,Logi·Call,mixto,2026-11-07,,1000,,no,PAN,13.3,serie del partido
+Nayarit,2026-11,logi-nov07,Logi·Call,mixto,2026-11-07,,1000,,no,Somos,11.5,aparte (no se grafica)
+Nayarit,2026-11,logi-nov07,Logi·Call,mixto,2026-11-07,,1000,,no,MC,5.5,serie del partido
+Nayarit,2026-11,logi-nov07,Logi·Call,mixto,2026-11-07,,1000,,no,PAZ,1.2,aparte (no se grafica)
+Nayarit,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,40,serie del partido
+Nayarit,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,14.8,serie del partido
+Nayarit,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,13.5,serie del partido
+Nayarit,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,11,serie del partido
+Nayarit,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,7.4,serie del partido
+Nayarit,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,2.8,serie del partido
+Nuevo León,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,26,serie del partido
+Nuevo León,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,25,serie del partido
+Nuevo León,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,18,serie del partido
+Nuevo León,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,16,serie del partido
+Nuevo León,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,2,serie del partido
+Nuevo León,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,1,serie del partido
+Nuevo León,2026-09,encmx,Encuestas México,careo,2026-09-30,2026-10-01,1200,,no,PRI,36.2,serie del partido
+Nuevo León,2026-09,encmx,Encuestas México,careo,2026-09-30,2026-10-01,1200,,no,MC,29.9,serie del partido
+Nuevo León,2026-09,encmx,Encuestas México,careo,2026-09-30,2026-10-01,1200,,no,Morena,19.5,serie del partido
+Nuevo León,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,1800,,no,pripan,28.9,serie del partido
+Nuevo León,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,1800,,no,MC,25.9,serie del partido
+Nuevo León,2026-10,dlh,De las Heras Demotecnia,careo,,2026-10-05,1000,,no,Morena,33,serie del partido
+Nuevo León,2026-10,dlh,De las Heras Demotecnia,careo,,2026-10-05,1000,,no,MC,30,serie del partido
+Nuevo León,2026-10,dlh,De las Heras Demotecnia,careo,,2026-10-05,1000,,no,PRI,24,serie del partido
+Nuevo León,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,750,,no,Morena,26.6,serie del partido
+Nuevo León,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,750,,no,MC,22.6,serie del partido
+Nuevo León,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,750,,no,PAN,22.3,serie del partido
+Nuevo León,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,750,,no,PRI,20.3,serie del partido
+Nuevo León,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,750,,no,PT,1.1,serie del partido
+Nuevo León,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,750,,no,PVEM,0.6,serie del partido
+Nuevo León,2026-10,congresista-oct,El Congresista (Polls.mx),careo,2026-10-02,2026-10-02,1163,,no,PRI,28.8,serie del partido
+Nuevo León,2026-10,congresista-oct,El Congresista (Polls.mx),careo,2026-10-02,2026-10-02,1163,,no,MC,28.5,serie del partido
+Nuevo León,2026-10,congresista-oct,El Congresista (Polls.mx),careo,2026-10-02,2026-10-02,1163,,no,Morena,15.3,serie del partido
+Nuevo León,2026-10,congresista-oct,El Congresista (Polls.mx),careo,2026-10-02,2026-10-02,1163,,no,pt_elizondo,10.2,aparte (no se grafica)
+Nuevo León,2026-10,factometrica-oct,FactoMétrica,careo,2026-10-02,2026-10-06,1000,,no,MC,28.6,serie del partido
+Nuevo León,2026-10,factometrica-oct,FactoMétrica,careo,2026-10-02,2026-10-06,1000,,no,Morena,24.4,serie del partido
+Nuevo León,2026-10,factometrica-oct,FactoMétrica,careo,2026-10-02,2026-10-06,1000,,no,PRI,23.2,serie del partido
+Nuevo León,2026-10,logi-oct2,Logi·Call,mixto,2026-10-02,2026-10-12,1000,,no,Morena,26.3,serie del partido
+Nuevo León,2026-10,logi-oct2,Logi·Call,mixto,2026-10-02,2026-10-12,1000,,no,PAN,23.7,serie del partido
+Nuevo León,2026-10,logi-oct2,Logi·Call,mixto,2026-10-02,2026-10-12,1000,,no,PRI,16.4,serie del partido
+Nuevo León,2026-10,logi-oct2,Logi·Call,mixto,2026-10-02,2026-10-12,1000,,no,MC,14.8,serie del partido
+Nuevo León,2026-10,logi-oct2,Logi·Call,mixto,2026-10-02,2026-10-12,1000,,no,paz_sada,5.3,aparte (no se grafica)
+Nuevo León,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1028,,no,Morena,29.58,serie del partido
+Nuevo León,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1028,,no,PAN,24.83,serie del partido
+Nuevo León,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1028,,no,PRI,21.72,serie del partido
+Nuevo León,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1028,,no,MC,15.35,serie del partido
+Nuevo León,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1028,,no,Independiente,0.73,serie del partido
+Nuevo León,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1028,,no,PVEM,0.11,serie del partido
+Nuevo León,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1028,,no,PT,0.1,serie del partido
+Nuevo León,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,33.4,serie del partido
+Nuevo León,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,28.5,serie del partido
+Nuevo León,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,14.7,serie del partido
+Nuevo León,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,11.2,serie del partido
+Nuevo León,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,3,serie del partido
+Nuevo León,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,1.2,serie del partido
+Nuevo León,2026-10,rub-oct10,RUBRUM,careo,2026-10-10,2026-10-12,1000,,no,PRI,36.7,serie del partido
+Nuevo León,2026-10,rub-oct10,RUBRUM,careo,2026-10-10,2026-10-12,1000,,no,MC,26.1,serie del partido
+Nuevo León,2026-10,rub-oct10,RUBRUM,careo,2026-10-10,2026-10-12,1000,,no,Morena,13.6,serie del partido
+Nuevo León,2026-10,polister-oct13,Polister Encuestadora,careo,2026-10-13,2026-10-14,1000,,no,PRI,27,serie del partido
+Nuevo León,2026-10,polister-oct13,Polister Encuestadora,careo,2026-10-13,2026-10-14,1000,,no,MC,25.2,serie del partido
+Nuevo León,2026-10,polister-oct13,Polister Encuestadora,careo,2026-10-13,2026-10-14,1000,,no,Morena,17.6,serie del partido
+Nuevo León,2026-10,polister-oct13,Polister Encuestadora,careo,2026-10-13,2026-10-14,1000,,no,Independiente,13.7,serie del partido
+Nuevo León,2026-10,mc16oct,Massive Caller,mixto,2026-10-16,,1000,,no,PRI,31.9,serie del partido
+Nuevo León,2026-10,mc16oct,Massive Caller,mixto,2026-10-16,,1000,,no,Morena,29.4,serie del partido
+Nuevo León,2026-10,mc16oct,Massive Caller,mixto,2026-10-16,,1000,,no,MC,14.3,serie del partido
+Nuevo León,2026-10,mc16oct,Massive Caller,mixto,2026-10-16,,1000,,no,Independiente,6.1,serie del partido
+Nuevo León,2026-10,mc16oct,Massive Caller,mixto,2026-10-16,,1000,,no,PAZ,1.2,aparte (no se grafica)
+Nuevo León,2026-10,mc16oct,Massive Caller,mixto,2026-10-16,,1000,,no,Somos,1,aparte (no se grafica)
+Nuevo León,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,26.3,serie del partido
+Nuevo León,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,25.1,serie del partido
+Nuevo León,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,23.2,serie del partido
+Nuevo León,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,4.1,serie del partido
+Nuevo León,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,3.2,serie del partido
+Nuevo León,2026-10,gob-oct23,GobernArte,mixto,2026-10-23,,900,,no,MC,34.6,serie del partido
+Nuevo León,2026-10,gob-oct23,GobernArte,mixto,2026-10-23,,900,,no,Morena,30.9,serie del partido
+Nuevo León,2026-10,gob-oct23,GobernArte,mixto,2026-10-23,,900,,no,PAN,16.2,serie del partido
+Nuevo León,2026-10,gob-oct23,GobernArte,mixto,2026-10-23,,900,,no,PRI,12.9,serie del partido
+Nuevo León,2026-10,gob-oct23,GobernArte,mixto,2026-10-23,,900,,no,PVEM,1.8,serie del partido
+Nuevo León,2026-10,ce-oct25,CE Research,mixto,2026-10-25,,400,,no,MC,36,serie del partido
+Nuevo León,2026-10,ce-oct25,CE Research,mixto,2026-10-25,,400,,no,Morena,22,serie del partido
+Nuevo León,2026-10,ce-oct25,CE Research,mixto,2026-10-25,,400,,no,PAN,18,serie del partido
+Nuevo León,2026-10,ce-oct25,CE Research,mixto,2026-10-25,,400,,no,PRI,11,serie del partido
+Nuevo León,2026-10,ce-oct25,CE Research,mixto,2026-10-25,,400,,no,PT,2,serie del partido
+Nuevo León,2026-10,ce-oct25,CE Research,mixto,2026-10-25,,400,,no,PVEM,0,serie del partido
+Nuevo León,2026-10,encmx-oct30,Encuestas México,careo,2026-10-30,2026-11-02,1190,,no,PRI,29.8,serie del partido
+Nuevo León,2026-10,encmx-oct30,Encuestas México,careo,2026-10-30,2026-11-02,1190,,no,MC,25.3,serie del partido
+Nuevo León,2026-10,encmx-oct30,Encuestas México,careo,2026-10-30,2026-11-02,1190,,no,Morena,13.5,serie del partido
+Nuevo León,2026-10,encmx-oct30,Encuestas México,careo,2026-10-30,2026-11-02,1190,,no,Independiente,11.4,serie del partido
+Nuevo León,2026-11,arias-nov02,Arias Consultores,careo,2026-11-02,,1116,,no,PRI,32.2,serie del partido
+Nuevo León,2026-11,arias-nov02,Arias Consultores,careo,2026-11-02,,1116,,no,MC,22.6,serie del partido
+Nuevo León,2026-11,arias-nov02,Arias Consultores,careo,2026-11-02,,1116,,no,pvem_pt,14,aparte (no se grafica)
+Nuevo León,2026-11,arias-nov02,Arias Consultores,careo,2026-11-02,,1116,,no,Morena,13,serie del partido
+Nuevo León,2026-11,arias-nov02,Arias Consultores,careo,2026-11-02,,1116,,no,Independiente,10.3,serie del partido
+Nuevo León,2026-11,facto-nov03,FactoMétrica,careo,2026-11-03,2026-11-04,1000,,no,MC,29,serie del partido
+Nuevo León,2026-11,facto-nov03,FactoMétrica,careo,2026-11-03,2026-11-04,1000,,no,Morena,26.2,serie del partido
+Nuevo León,2026-11,facto-nov03,FactoMétrica,careo,2026-11-03,2026-11-04,1000,,no,PRI,22.9,serie del partido
+Nuevo León,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,PRI,33.8,serie del partido
+Nuevo León,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,MC,27.3,serie del partido
+Nuevo León,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,Morena,11.8,serie del partido
+Nuevo León,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,PAZ,2.8,aparte (no se grafica)
+Nuevo León,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,PT,2.6,aparte (no se grafica)
+Nuevo León,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,Somos,2.4,aparte (no se grafica)
+Nuevo León,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,31.2,serie del partido
+Nuevo León,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,26.2,serie del partido
+Nuevo León,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,15.8,serie del partido
+Nuevo León,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,13.8,serie del partido
+Nuevo León,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,2.5,serie del partido
+Nuevo León,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,1,serie del partido
+Querétaro,2026-09,poli,Poligrama,careo,2026-09-09,2026-09-16,1000,,no,PAN,44.9,serie del partido
+Querétaro,2026-09,poli,Poligrama,careo,2026-09-09,2026-09-16,1000,,no,Morena,29.9,serie del partido
+Querétaro,2026-09,poli,Poligrama,careo,2026-09-09,2026-09-16,1000,,no,PRI,4.8,serie del partido
+Querétaro,2026-09,poli,Poligrama,careo,2026-09-09,2026-09-16,1000,,no,MC,4.6,serie del partido
+Querétaro,2026-09,cye17,C&E,careo,2026-09-17,2026-09-17,400,,no,PAN,46,serie del partido
+Querétaro,2026-09,cye17,C&E,careo,2026-09-17,2026-09-17,400,,no,Morena,28,serie del partido
+Querétaro,2026-09,cye17,C&E,careo,2026-09-17,2026-09-17,400,,no,MC,6,serie del partido
+Querétaro,2026-09,cye17,C&E,careo,2026-09-17,2026-09-17,400,,no,PRI,2,serie del partido
+Querétaro,2026-09,mc18,Massive Caller,careo,2026-09-18,2026-09-18,1000,,no,PAN,42,serie del partido
+Querétaro,2026-09,mc18,Massive Caller,careo,2026-09-18,2026-09-18,1000,,no,Morena,28.65,serie del partido
+Querétaro,2026-09,mc18,Massive Caller,careo,2026-09-18,2026-09-18,1000,,no,PRI,6.6,serie del partido
+Querétaro,2026-09,mc18,Massive Caller,careo,2026-09-18,2026-09-18,1000,,no,MC,4.2,serie del partido
+Querétaro,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,48.65,serie del partido
+Querétaro,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,23.05,serie del partido
+Querétaro,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,11,serie del partido
+Querétaro,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,4,serie del partido
+Querétaro,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,2.86,serie del partido
+Querétaro,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,1.34,serie del partido
+Querétaro,2026-09,src28,SRC,careo,2026-09-28,2026-09-28,1000,,no,PAN,44.4,serie del partido
+Querétaro,2026-09,src28,SRC,careo,2026-09-28,2026-09-28,1000,,no,Morena,34.9,serie del partido
+Querétaro,2026-09,src28,SRC,careo,2026-09-28,2026-09-28,1000,,no,MC,3.7,serie del partido
+Querétaro,2026-09,src28,SRC,careo,2026-09-28,2026-09-28,1000,,no,PRI,3.4,serie del partido
+Querétaro,2026-09,gob-sep,GobernArte,partido,2026-09-29,,500,,no,PAN,47.3,serie del partido
+Querétaro,2026-09,gob-sep,GobernArte,partido,2026-09-29,,500,,no,Morena,36.6,serie del partido
+Querétaro,2026-09,gob-sep,GobernArte,partido,2026-09-29,,500,,no,MC,6.6,serie del partido
+Querétaro,2026-09,gob-sep,GobernArte,partido,2026-09-29,,500,,no,PRI,4.9,serie del partido
+Querétaro,2026-09,univ-sep,El Universal,mixto,2026-09-30,2026-10-13,1000,,no,PAN,34.8,serie del partido
+Querétaro,2026-09,univ-sep,El Universal,mixto,2026-09-30,2026-10-13,1000,,no,Morena,29.1,serie del partido
+Querétaro,2026-09,univ-sep,El Universal,mixto,2026-09-30,2026-10-13,1000,,no,PRI,4.5,serie del partido
+Querétaro,2026-09,univ-sep,El Universal,mixto,2026-09-30,2026-10-13,1000,,no,MC,2.2,serie del partido
+Querétaro,2026-09,univ-sep,El Universal,mixto,2026-09-30,2026-10-13,1000,,no,PVEM,1.5,aparte (no se grafica)
+Querétaro,2026-09,univ-sep,El Universal,mixto,2026-09-30,2026-10-13,1000,,no,PT,1.1,aparte (no se grafica)
+Querétaro,2026-09,univ-sep,El Universal,mixto,2026-09-30,2026-10-13,1000,,no,Somos,0.5,aparte (no se grafica)
+Querétaro,2026-09,univ-sep,El Universal,mixto,2026-09-30,2026-10-13,1000,,no,PAZ,0.1,aparte (no se grafica)
+Querétaro,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,350,,no,PAN,48,serie del partido
+Querétaro,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,350,,no,Morena,29.3,serie del partido
+Querétaro,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,350,,no,PRI,9.1,serie del partido
+Querétaro,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,350,,no,MC,4.8,serie del partido
+Querétaro,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,350,,no,PVEM,3.8,serie del partido
+Querétaro,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,350,,no,PT,0.7,serie del partido
+Querétaro,2026-10,rub03oct,RUBRUM,partido,2026-10-03,2026-10-05,600,,no,PAN,55.6,serie del partido
+Querétaro,2026-10,rub03oct,RUBRUM,partido,2026-10-03,2026-10-05,600,,no,Morena,26.5,serie del partido
+Querétaro,2026-10,rub03oct,RUBRUM,partido,2026-10-03,2026-10-05,600,,no,PRI,3.6,serie del partido
+Querétaro,2026-10,rub03oct,RUBRUM,partido,2026-10-03,2026-10-05,600,,no,MC,2.9,serie del partido
+Querétaro,2026-10,rub03oct,RUBRUM,partido,2026-10-03,2026-10-05,600,,no,PVEM,1.4,serie del partido
+Querétaro,2026-10,logi-oct6,Logi·Call,careo,2026-10-06,,1000,,no,PAN,42.8,serie del partido
+Querétaro,2026-10,logi-oct6,Logi·Call,careo,2026-10-06,,1000,,no,Morena,28.4,serie del partido
+Querétaro,2026-10,logi-oct6,Logi·Call,careo,2026-10-06,,1000,,no,PRI,7.3,serie del partido
+Querétaro,2026-10,logi-oct6,Logi·Call,careo,2026-10-06,,1000,,no,MC,3.9,serie del partido
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,45.4,serie del partido
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,30.1,serie del partido
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,5.5,serie del partido
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,5.2,serie del partido
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,1.4,serie del partido
+Querétaro,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,0.7,serie del partido
+Querétaro,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1984,,no,PAN,52.33,serie del partido
+Querétaro,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1984,,no,Morena,30.76,serie del partido
+Querétaro,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1984,,no,PRI,4.71,serie del partido
+Querétaro,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1984,,no,MC,3.44,serie del partido
+Querétaro,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1984,,no,PT,0.94,serie del partido
+Querétaro,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1984,,no,PVEM,0.86,serie del partido
+Querétaro,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1984,,no,Independiente,0.82,serie del partido
+Querétaro,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1984,,no,PRD,0.33,aparte (no se grafica)
+Querétaro,2026-10,poli-oct,Poligrama,careo,2026-10-13,2026-10-14,1000,,no,PAN,47.8,serie del partido
+Querétaro,2026-10,poli-oct,Poligrama,careo,2026-10-13,2026-10-14,1000,,no,Morena,30.4,serie del partido
+Querétaro,2026-10,poli-oct,Poligrama,careo,2026-10-13,2026-10-14,1000,,no,MC,3.9,serie del partido
+Querétaro,2026-10,poli-oct,Poligrama,careo,2026-10-13,2026-10-14,1000,,no,PRI,3.8,serie del partido
+Querétaro,2026-10,rub-oct15,RUBRUM,careo,2026-10-15,2026-10-16,1000,,no,pan_pri_macias,49.6,aparte (no se grafica)
+Querétaro,2026-10,rub-oct15,RUBRUM,careo,2026-10-15,2026-10-16,1000,,no,Morena,30.9,serie del partido
+Querétaro,2026-10,rub-oct15,RUBRUM,careo,2026-10-15,2026-10-16,1000,,no,MC,3.8,serie del partido
+Querétaro,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,36.2,serie del partido
+Querétaro,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,29.6,serie del partido
+Querétaro,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,4.3,serie del partido
+Querétaro,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,3.8,serie del partido
+Querétaro,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,3.1,serie del partido
+Querétaro,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,2.6,serie del partido
+Querétaro,2026-10,mc18oct,Massive Caller,mixto,2026-10-18,,1000,,no,PAN,49.7,serie del partido
+Querétaro,2026-10,mc18oct,Massive Caller,mixto,2026-10-18,,1000,,no,Morena,25.7,serie del partido
+Querétaro,2026-10,mc18oct,Massive Caller,mixto,2026-10-18,,1000,,no,PRI,8.1,serie del partido
+Querétaro,2026-10,mc18oct,Massive Caller,mixto,2026-10-18,,1000,,no,Somos,4.2,aparte (no se grafica)
+Querétaro,2026-10,mc18oct,Massive Caller,mixto,2026-10-18,,1000,,no,MC,4,serie del partido
+Querétaro,2026-10,mc18oct,Massive Caller,mixto,2026-10-18,,1000,,no,PAZ,3.2,aparte (no se grafica)
+Querétaro,2026-10,qm-oct23,Question Mark,mixto,2026-10-23,2026-11-04,681,,no,PAN,42,serie del partido
+Querétaro,2026-10,qm-oct23,Question Mark,mixto,2026-10-23,2026-11-04,681,,no,Morena,17,serie del partido
+Querétaro,2026-10,qm-oct23,Question Mark,mixto,2026-10-23,2026-11-04,681,,no,PRI,4,serie del partido
+Querétaro,2026-10,qm-oct23,Question Mark,mixto,2026-10-23,2026-11-04,681,,no,MC,4,serie del partido
+Querétaro,2026-10,qm-oct23,Question Mark,mixto,2026-10-23,2026-11-04,681,,no,PVEM,1,serie del partido
+Querétaro,2026-10,src-oct26,SRC,mixto,2026-10-26,,1000,,no,PAN,56.5,serie del partido
+Querétaro,2026-10,src-oct26,SRC,mixto,2026-10-26,,1000,,no,Morena,25.2,serie del partido
+Querétaro,2026-10,src-oct26,SRC,mixto,2026-10-26,,1000,,no,PRI,4.9,serie del partido
+Querétaro,2026-10,src-oct26,SRC,mixto,2026-10-26,,1000,,no,MC,3.7,serie del partido
+Querétaro,2026-10,src-oct26,SRC,mixto,2026-10-26,,1000,,no,PVEM,1.4,serie del partido
+Querétaro,2026-10,src-oct26,SRC,mixto,2026-10-26,,1000,,no,PT,0.6,serie del partido
+Querétaro,2026-10,gob-oct30,GobernArte,mixto,2026-10-30,2026-10-31,500,,no,PAN,48.5,serie del partido
+Querétaro,2026-10,gob-oct30,GobernArte,mixto,2026-10-30,2026-10-31,500,,no,Morena,37.1,serie del partido
+Querétaro,2026-10,gob-oct30,GobernArte,mixto,2026-10-30,2026-10-31,500,,no,MC,6.9,serie del partido
+Querétaro,2026-10,gob-oct30,GobernArte,mixto,2026-10-30,2026-10-31,500,,no,PRI,5.2,serie del partido
+Querétaro,2026-11,alt-nov02,Áltica,careo,2026-11-02,2026-11-02,800,,no,PAN,46,serie del partido
+Querétaro,2026-11,alt-nov02,Áltica,careo,2026-11-02,2026-11-02,800,,no,Morena,30,serie del partido
+Querétaro,2026-11,alt-nov02,Áltica,careo,2026-11-02,2026-11-02,800,,no,MC,6,serie del partido
+Querétaro,2026-11,aimsa-nov06,AIMSA,careo,2026-11-06,2026-11-10,1930,,no,PAN,40,serie del partido
+Querétaro,2026-11,aimsa-nov06,AIMSA,careo,2026-11-06,2026-11-10,1930,,no,Morena,31,serie del partido
+Querétaro,2026-11,aimsa-nov06,AIMSA,careo,2026-11-06,2026-11-10,1930,,no,PRI,12,serie del partido
+Querétaro,2026-11,aimsa-nov06,AIMSA,careo,2026-11-06,2026-11-10,1930,,no,MC,7,serie del partido
+Querétaro,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,PAN,48.1,serie del partido
+Querétaro,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,Morena,27.9,serie del partido
+Querétaro,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,MC,5.5,serie del partido
+Querétaro,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,48.8,serie del partido
+Querétaro,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,30.8,serie del partido
+Querétaro,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,5.7,serie del partido
+Querétaro,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,4,serie del partido
+Querétaro,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,1.7,serie del partido
+Querétaro,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,0.9,serie del partido
+Quintana Roo,2026-09,cye2,C&E,careo,2026-09-02,2026-09-02,,,no,Morena,50,serie del partido
+Quintana Roo,2026-09,cye2,C&E,careo,2026-09-02,2026-09-02,,,no,MC,12,serie del partido
+Quintana Roo,2026-09,cye2,C&E,careo,2026-09-02,2026-09-02,,,no,PAN,10,serie del partido
+Quintana Roo,2026-09,cye2,C&E,careo,2026-09-02,2026-09-02,,,no,PRI,8,serie del partido
+Quintana Roo,2026-09,dem3,Demoscopia Digital,careo,2026-09-03,2026-09-03,,,no,Morena,42.6,serie del partido
+Quintana Roo,2026-09,dem3,Demoscopia Digital,careo,2026-09-03,2026-09-03,,,no,PAN,13.4,serie del partido
+Quintana Roo,2026-09,dem3,Demoscopia Digital,careo,2026-09-03,2026-09-03,,,no,PRI,9.5,serie del partido
+Quintana Roo,2026-09,dem3,Demoscopia Digital,careo,2026-09-03,2026-09-03,,,no,MC,8.2,serie del partido
+Quintana Roo,2026-09,mc20,Massive Caller,careo,2026-09-20,2026-09-20,1000,,no,Morena,37.4,serie del partido
+Quintana Roo,2026-09,mc20,Massive Caller,careo,2026-09-20,2026-09-20,1000,,no,PAN,16.8,serie del partido
+Quintana Roo,2026-09,mc20,Massive Caller,careo,2026-09-20,2026-09-20,1000,,no,PRI,11.8,serie del partido
+Quintana Roo,2026-09,mc20,Massive Caller,careo,2026-09-20,2026-09-20,1000,,no,MC,9.4,serie del partido
+Quintana Roo,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,48.37,serie del partido
+Quintana Roo,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,18,serie del partido
+Quintana Roo,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,15.63,serie del partido
+Quintana Roo,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,7,serie del partido
+Quintana Roo,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,4,serie del partido
+Quintana Roo,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,1,serie del partido
+Quintana Roo,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,600,,no,Morena,39.3,serie del partido
+Quintana Roo,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,600,,no,PAN,17.3,serie del partido
+Quintana Roo,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,600,,no,MC,15.9,serie del partido
+Quintana Roo,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,600,,no,PRI,10.8,serie del partido
+Quintana Roo,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,600,,no,PVEM,5,serie del partido
+Quintana Roo,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,600,,no,PT,0.7,serie del partido
+Quintana Roo,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,800,,no,Morena,45.2,serie del partido
+Quintana Roo,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,800,,no,PAN,14.8,serie del partido
+Quintana Roo,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,800,,no,PRI,9.2,serie del partido
+Quintana Roo,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,800,,no,MC,7.5,serie del partido
+Quintana Roo,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,800,,no,PVEM,6.3,serie del partido
+Quintana Roo,2026-10,rub06oct,RUBRUM,partido,2026-10-06,2026-10-07,800,,no,PT,3.2,serie del partido
+Quintana Roo,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,40.5,serie del partido
+Quintana Roo,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,15.9,serie del partido
+Quintana Roo,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,14.8,serie del partido
+Quintana Roo,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,9.6,serie del partido
+Quintana Roo,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,6.1,serie del partido
+Quintana Roo,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,3,serie del partido
+Quintana Roo,2026-10,logi-oct8,Logi·Call,mixto,2026-10-08,2026-10-09,1000,,no,Morena,35.7,serie del partido
+Quintana Roo,2026-10,logi-oct8,Logi·Call,mixto,2026-10-08,2026-10-09,1000,,no,PAN,21.3,serie del partido
+Quintana Roo,2026-10,logi-oct8,Logi·Call,mixto,2026-10-08,2026-10-09,1000,,no,MC,15.9,serie del partido
+Quintana Roo,2026-10,logi-oct8,Logi·Call,mixto,2026-10-08,2026-10-09,1000,,no,PRI,10.8,serie del partido
+Quintana Roo,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,911,,no,Morena,55.41,serie del partido
+Quintana Roo,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,911,,no,MC,13.11,serie del partido
+Quintana Roo,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,911,,no,PAN,10.53,serie del partido
+Quintana Roo,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,911,,no,PRI,4.69,serie del partido
+Quintana Roo,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,911,,no,PT,2.28,serie del partido
+Quintana Roo,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,911,,no,PVEM,2.02,serie del partido
+Quintana Roo,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,911,,no,Independiente,1.04,serie del partido
+Quintana Roo,2026-10,rub-oct10,RUBRUM,careo,2026-10-10,2026-10-12,1000,,no,Morena,48.2,serie del partido
+Quintana Roo,2026-10,rub-oct10,RUBRUM,careo,2026-10-10,2026-10-12,1000,,no,MC,16.1,serie del partido
+Quintana Roo,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,42.3,serie del partido
+Quintana Roo,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,10.7,serie del partido
+Quintana Roo,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,7.1,serie del partido
+Quintana Roo,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,6.2,serie del partido
+Quintana Roo,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,5.9,serie del partido
+Quintana Roo,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,4.5,serie del partido
+Quintana Roo,2026-10,mc20oct,Massive Caller,mixto,2026-10-20,,1000,,no,Morena,39.3,serie del partido
+Quintana Roo,2026-10,mc20oct,Massive Caller,mixto,2026-10-20,,1000,,no,PAN,17.8,serie del partido
+Quintana Roo,2026-10,mc20oct,Massive Caller,mixto,2026-10-20,,1000,,no,PRI,12.6,serie del partido
+Quintana Roo,2026-10,mc20oct,Massive Caller,mixto,2026-10-20,,1000,,no,MC,11.2,serie del partido
+Quintana Roo,2026-10,mc20oct,Massive Caller,mixto,2026-10-20,,1000,,no,PAZ,2.6,aparte (no se grafica)
+Quintana Roo,2026-10,mc20oct,Massive Caller,mixto,2026-10-20,,1000,,no,Somos,2.3,aparte (no se grafica)
+Quintana Roo,2026-10,gob-oct22,GobernArte,mixto,2026-10-22,,500,,no,Morena,45.7,serie del partido
+Quintana Roo,2026-10,gob-oct22,GobernArte,mixto,2026-10-22,,500,,no,PAN,13.2,serie del partido
+Quintana Roo,2026-10,gob-oct22,GobernArte,mixto,2026-10-22,,500,,no,MC,12.3,serie del partido
+Quintana Roo,2026-10,gob-oct22,GobernArte,mixto,2026-10-22,,500,,no,PRI,6.9,serie del partido
+Quintana Roo,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,Morena,52,serie del partido
+Quintana Roo,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,MC,11,serie del partido
+Quintana Roo,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,PAN,11,serie del partido
+Quintana Roo,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,PVEM,9,serie del partido
+Quintana Roo,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,PRI,8,serie del partido
+Quintana Roo,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,PT,2,serie del partido
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,mixto,2026-11-03,,600,,no,Morena,52,serie del partido
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,mixto,2026-11-03,,600,,no,PAN,14,serie del partido
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,mixto,2026-11-03,,600,,no,PRI,4,serie del partido
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,mixto,2026-11-03,,600,,no,MC,3,serie del partido
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,mixto,2026-11-03,,600,,no,PVEM,1,serie del partido
+Quintana Roo,2026-11,gii360-nov03,Grupo Impacto 360,mixto,2026-11-03,,600,,no,PT,1,serie del partido
+Quintana Roo,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,Morena,46.6,serie del partido
+Quintana Roo,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,PRI,25.4,serie del partido
+Quintana Roo,2026-11,rub-nov07,RUBRUM,careo,2026-11-07,2026-11-09,800,,no,MC,13.6,serie del partido
+Quintana Roo,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,44.1,serie del partido
+Quintana Roo,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,15.6,serie del partido
+Quintana Roo,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,11.4,serie del partido
+Quintana Roo,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,8.5,serie del partido
+Quintana Roo,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,8.3,serie del partido
+Quintana Roo,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,3.2,serie del partido
+San Luis Potosí,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,37,serie del partido
+San Luis Potosí,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,31,serie del partido
+San Luis Potosí,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,10,serie del partido
+San Luis Potosí,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,9,serie del partido
+San Luis Potosí,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,5,serie del partido
+San Luis Potosí,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,3,serie del partido
+San Luis Potosí,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,2933,,no,PVEM,24.6,serie del partido
+San Luis Potosí,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,2933,,no,Morena,23.9,serie del partido
+San Luis Potosí,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,2933,,no,pripan,20.4,serie del partido
+San Luis Potosí,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,2933,,no,PT,8.4,serie del partido
+San Luis Potosí,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,2933,,no,MC,5,serie del partido
+San Luis Potosí,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,500,,no,Morena,31.2,serie del partido
+San Luis Potosí,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,500,,no,PAN,30.3,serie del partido
+San Luis Potosí,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,500,,no,PVEM,23.7,serie del partido
+San Luis Potosí,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,500,,no,MC,10.5,serie del partido
+San Luis Potosí,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,500,,no,PRI,1.9,serie del partido
+San Luis Potosí,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,500,,no,PT,1.7,serie del partido
+San Luis Potosí,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1284,,no,Morena,32.32,serie del partido
+San Luis Potosí,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1284,,no,PAN,21.08,serie del partido
+San Luis Potosí,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1284,,no,PVEM,14.06,serie del partido
+San Luis Potosí,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1284,,no,PRI,8.39,serie del partido
+San Luis Potosí,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1284,,no,Independiente,4.71,serie del partido
+San Luis Potosí,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1284,,no,MC,4.15,serie del partido
+San Luis Potosí,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1284,,no,PT,3.59,serie del partido
+San Luis Potosí,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,1284,,no,PRD,1.88,aparte (no se grafica)
+San Luis Potosí,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,34.8,serie del partido
+San Luis Potosí,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,29.5,serie del partido
+San Luis Potosí,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,17.8,serie del partido
+San Luis Potosí,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,4.4,serie del partido
+San Luis Potosí,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,3.2,serie del partido
+San Luis Potosí,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,1.1,serie del partido
+San Luis Potosí,2026-10,gob-oct,GobernArte,mixto,2026-10-14,,500,,no,PVEM,38.9,serie del partido
+San Luis Potosí,2026-10,gob-oct,GobernArte,mixto,2026-10-14,,500,,no,Morena,25.3,serie del partido
+San Luis Potosí,2026-10,gob-oct,GobernArte,mixto,2026-10-14,,500,,no,PAN,16.5,serie del partido
+San Luis Potosí,2026-10,gob-oct,GobernArte,mixto,2026-10-14,,500,,no,PRI,6.8,serie del partido
+San Luis Potosí,2026-10,gob-oct,GobernArte,mixto,2026-10-14,,500,,no,MC,5.5,serie del partido
+San Luis Potosí,2026-10,gob-oct,GobernArte,mixto,2026-10-14,,500,,no,PT,3.1,serie del partido
+San Luis Potosí,2026-10,rub-oct15,RUBRUM,careo,2026-10-15,2026-10-16,1000,,no,PVEM,29.1,serie del partido
+San Luis Potosí,2026-10,rub-oct15,RUBRUM,careo,2026-10-15,2026-10-16,1000,,no,PRI,26.3,serie del partido
+San Luis Potosí,2026-10,rub-oct15,RUBRUM,careo,2026-10-15,2026-10-16,1000,,no,Morena,15.2,serie del partido
+San Luis Potosí,2026-10,rub-oct15,RUBRUM,careo,2026-10-15,2026-10-16,1000,,no,MC,4,serie del partido
+San Luis Potosí,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,26.4,serie del partido
+San Luis Potosí,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,25.6,serie del partido
+San Luis Potosí,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,14.1,serie del partido
+San Luis Potosí,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,6.7,serie del partido
+San Luis Potosí,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,6.3,serie del partido
+San Luis Potosí,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,4.5,serie del partido
+San Luis Potosí,2026-10,mc22oct,Massive Caller,mixto,2026-10-22,,1000,,no,PVEM,29.2,serie del partido
+San Luis Potosí,2026-10,mc22oct,Massive Caller,mixto,2026-10-22,,1000,,no,Morena,22.8,serie del partido
+San Luis Potosí,2026-10,mc22oct,Massive Caller,mixto,2026-10-22,,1000,,no,PAN,15.9,serie del partido
+San Luis Potosí,2026-10,mc22oct,Massive Caller,mixto,2026-10-22,,1000,,no,PRI,6.7,serie del partido
+San Luis Potosí,2026-10,mc22oct,Massive Caller,mixto,2026-10-22,,1000,,no,MC,6.3,serie del partido
+San Luis Potosí,2026-10,mc22oct,Massive Caller,mixto,2026-10-22,,1000,,no,PT,3.6,serie del partido
+San Luis Potosí,2026-10,ce-oct25,CE Research,mixto,2026-10-25,2026-10-26,400,,no,PVEM,31,serie del partido
+San Luis Potosí,2026-10,ce-oct25,CE Research,mixto,2026-10-25,2026-10-26,400,,no,Morena,21,serie del partido
+San Luis Potosí,2026-10,ce-oct25,CE Research,mixto,2026-10-25,2026-10-26,400,,no,PAN,18,serie del partido
+San Luis Potosí,2026-10,ce-oct25,CE Research,mixto,2026-10-25,2026-10-26,400,,no,PRI,8,serie del partido
+San Luis Potosí,2026-10,ce-oct25,CE Research,mixto,2026-10-25,2026-10-26,400,,no,MC,3,serie del partido
+San Luis Potosí,2026-10,ce-oct25,CE Research,mixto,2026-10-25,2026-10-26,400,,no,PT,2,serie del partido
+San Luis Potosí,2026-10,metametrics-oct26,MetaMetrics,partido,2026-10-26,2026-10-27,1500,,no,PVEM,29.9,serie del partido
+San Luis Potosí,2026-10,metametrics-oct26,MetaMetrics,partido,2026-10-26,2026-10-27,1500,,no,Morena,28.8,serie del partido
+San Luis Potosí,2026-10,metametrics-oct26,MetaMetrics,partido,2026-10-26,2026-10-27,1500,,no,PAN,16.6,serie del partido
+San Luis Potosí,2026-10,metametrics-oct26,MetaMetrics,partido,2026-10-26,2026-10-27,1500,,no,PRI,6.4,serie del partido
+San Luis Potosí,2026-10,metametrics-oct26,MetaMetrics,partido,2026-10-26,2026-10-27,1500,,no,MC,6.1,serie del partido
+San Luis Potosí,2026-10,metametrics-oct26,MetaMetrics,partido,2026-10-26,2026-10-27,1500,,no,PT,4.1,serie del partido
+San Luis Potosí,2026-10,insightt-oct28,Insightt,partido,2026-10-28,2026-11-04,800,,no,PVEM,27,serie del partido
+San Luis Potosí,2026-10,insightt-oct28,Insightt,partido,2026-10-28,2026-11-04,800,,no,Morena,26,serie del partido
+San Luis Potosí,2026-10,insightt-oct28,Insightt,partido,2026-10-28,2026-11-04,800,,no,PAN,12,serie del partido
+San Luis Potosí,2026-10,insightt-oct28,Insightt,partido,2026-10-28,2026-11-04,800,,no,PRI,8,serie del partido
+San Luis Potosí,2026-10,insightt-oct28,Insightt,partido,2026-10-28,2026-11-04,800,,no,MC,7,serie del partido
+San Luis Potosí,2026-10,insightt-oct28,Insightt,partido,2026-10-28,2026-11-04,800,,no,PT,2,serie del partido
+San Luis Potosí,2026-10,univ-oct30,El Universal,mixto,2026-10-30,2026-11-09,1000,,no,PVEM,35.7,serie del partido
+San Luis Potosí,2026-10,univ-oct30,El Universal,mixto,2026-10-30,2026-11-09,1000,,no,Morena,18.1,serie del partido
+San Luis Potosí,2026-10,univ-oct30,El Universal,mixto,2026-10-30,2026-11-09,1000,,no,PRI,5.6,serie del partido
+San Luis Potosí,2026-10,univ-oct30,El Universal,mixto,2026-10-30,2026-11-09,1000,,no,PAN,4.7,serie del partido
+San Luis Potosí,2026-10,univ-oct30,El Universal,mixto,2026-10-30,2026-11-09,1000,,no,PT,2.6,serie del partido
+San Luis Potosí,2026-10,univ-oct30,El Universal,mixto,2026-10-30,2026-11-09,1000,,no,MC,2.1,serie del partido
+San Luis Potosí,2026-10,univ-oct30,El Universal,mixto,2026-10-30,2026-11-09,1000,,no,naslp,0.9,aparte (no se grafica)
+San Luis Potosí,2026-10,univ-oct30,El Universal,mixto,2026-10-30,2026-11-09,1000,,no,Somos,0.5,aparte (no se grafica)
+San Luis Potosí,2026-10,univ-oct30,El Universal,mixto,2026-10-30,2026-11-09,1000,,no,PAZ,0.2,aparte (no se grafica)
+San Luis Potosí,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,34.1,serie del partido
+San Luis Potosí,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,30.9,serie del partido
+San Luis Potosí,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,16.4,serie del partido
+San Luis Potosí,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,4.2,serie del partido
+San Luis Potosí,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,4,serie del partido
+San Luis Potosí,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,1.3,serie del partido
+San Luis Potosí,2026-11,rub-nov09,RUBRUM,careo,2026-11-09,2026-11-10,600,,no,PVEM,28,serie del partido
+San Luis Potosí,2026-11,rub-nov09,RUBRUM,careo,2026-11-09,2026-11-10,600,,no,PRI,27.5,serie del partido
+San Luis Potosí,2026-11,rub-nov09,RUBRUM,careo,2026-11-09,2026-11-10,600,,no,Morena,15.5,serie del partido
+San Luis Potosí,2026-11,rub-nov09,RUBRUM,careo,2026-11-09,2026-11-10,600,,no,MC,5.8,serie del partido
+San Luis Potosí,2026-11,gob-nov10,GobernArte,mixto,2026-11-10,,500,,no,PVEM,39.5,serie del partido
+San Luis Potosí,2026-11,gob-nov10,GobernArte,mixto,2026-11-10,,500,,no,Morena,26.1,serie del partido
+San Luis Potosí,2026-11,gob-nov10,GobernArte,mixto,2026-11-10,,500,,no,PAN,17.2,serie del partido
+San Luis Potosí,2026-11,gob-nov10,GobernArte,mixto,2026-11-10,,500,,no,PRI,6.1,serie del partido
+San Luis Potosí,2026-11,gob-nov10,GobernArte,mixto,2026-11-10,,500,,no,MC,5.8,serie del partido
+San Luis Potosí,2026-11,gob-nov10,GobernArte,mixto,2026-11-10,,500,,no,PT,3.2,serie del partido
+Sinaloa,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,28,serie del partido
+Sinaloa,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,26,serie del partido
+Sinaloa,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,13,serie del partido
+Sinaloa,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,10,serie del partido
+Sinaloa,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,3.5,serie del partido
+Sinaloa,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,2,serie del partido
+Sinaloa,2026-09,rubrum-oct,RUBRUM,partido,2026-09-30,2026-10-01,800,,no,Morena,34.2,serie del partido
+Sinaloa,2026-09,rubrum-oct,RUBRUM,partido,2026-09-30,2026-10-01,800,,no,PRI,22.9,serie del partido
+Sinaloa,2026-09,rubrum-oct,RUBRUM,partido,2026-09-30,2026-10-01,800,,no,PAN,14.3,serie del partido
+Sinaloa,2026-09,rubrum-oct,RUBRUM,partido,2026-09-30,2026-10-01,800,,no,MC,7.3,serie del partido
+Sinaloa,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,2250,,no,Morena,33.4,serie del partido
+Sinaloa,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,2250,,no,PRI,22.3,serie del partido
+Sinaloa,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,600,,no,Morena,29,serie del partido
+Sinaloa,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,600,,no,PAN,28.1,serie del partido
+Sinaloa,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,600,,no,PRI,21.9,serie del partido
+Sinaloa,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,600,,no,MC,14.2,serie del partido
+Sinaloa,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,600,,no,PT,0.9,serie del partido
+Sinaloa,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,600,,no,PVEM,0.6,serie del partido
+Sinaloa,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,35.1,serie del partido
+Sinaloa,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,15.8,serie del partido
+Sinaloa,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,14.9,serie del partido
+Sinaloa,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,12.1,serie del partido
+Sinaloa,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,8.5,serie del partido
+Sinaloa,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,2.9,serie del partido
+Sinaloa,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1085,,no,Morena,38.02,serie del partido
+Sinaloa,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1085,,no,PAN,19.89,serie del partido
+Sinaloa,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1085,,no,PRI,19.1,serie del partido
+Sinaloa,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1085,,no,MC,4.86,serie del partido
+Sinaloa,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1085,,no,Independiente,1.73,serie del partido
+Sinaloa,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1085,,no,PT,1.63,serie del partido
+Sinaloa,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1085,,no,PVEM,0.95,serie del partido
+Sinaloa,2026-10,cripeso-oct,Cripeso,partido,2026-10-09,,1085,,no,PRD,0.43,aparte (no se grafica)
+Sinaloa,2026-10,rub-oct15,RUBRUM,careo,2026-10-15,2026-10-16,1000,,no,Morena,40.5,serie del partido
+Sinaloa,2026-10,rub-oct15,RUBRUM,careo,2026-10-15,2026-10-16,1000,,no,pan_pri_paloma,26.3,aparte (no se grafica)
+Sinaloa,2026-10,rub-oct15,RUBRUM,careo,2026-10-15,2026-10-16,1000,,no,MC,6.8,serie del partido
+Sinaloa,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,37.4,serie del partido
+Sinaloa,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,7.9,serie del partido
+Sinaloa,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,7.5,serie del partido
+Sinaloa,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,6.3,serie del partido
+Sinaloa,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,6.1,serie del partido
+Sinaloa,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,3.6,serie del partido
+Sinaloa,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-19,400,,no,Morena,40,serie del partido
+Sinaloa,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-19,400,,no,PAN,17,serie del partido
+Sinaloa,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-19,400,,no,PRI,14,serie del partido
+Sinaloa,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-19,400,,no,MC,10,serie del partido
+Sinaloa,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-19,400,,no,PT,2,serie del partido
+Sinaloa,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-19,400,,no,PVEM,0,serie del partido
+Sinaloa,2026-10,mc24oct,Massive Caller,mixto,2026-10-24,,1000,,no,Morena,30.4,serie del partido
+Sinaloa,2026-10,mc24oct,Massive Caller,mixto,2026-10-24,,1000,,no,PRI,23.7,serie del partido
+Sinaloa,2026-10,mc24oct,Massive Caller,mixto,2026-10-24,,1000,,no,PAN,18.1,serie del partido
+Sinaloa,2026-10,mc24oct,Massive Caller,mixto,2026-10-24,,1000,,no,MC,8.2,serie del partido
+Sinaloa,2026-10,mc24oct,Massive Caller,mixto,2026-10-24,,1000,,no,PAZ,4.7,aparte (no se grafica)
+Sinaloa,2026-10,mc24oct,Massive Caller,mixto,2026-10-24,,1000,,no,Somos,2.8,aparte (no se grafica)
+Sinaloa,2026-10,gob-oct28,GobernArte,mixto,2026-10-28,,500,,no,Morena,44.5,serie del partido
+Sinaloa,2026-10,gob-oct28,GobernArte,mixto,2026-10-28,,500,,no,PAN,16.3,serie del partido
+Sinaloa,2026-10,gob-oct28,GobernArte,mixto,2026-10-28,,500,,no,PRI,14.2,serie del partido
+Sinaloa,2026-10,gob-oct28,GobernArte,mixto,2026-10-28,,500,,no,MC,8.8,serie del partido
+Sinaloa,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,33.9,serie del partido
+Sinaloa,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,17.6,serie del partido
+Sinaloa,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,14.2,serie del partido
+Sinaloa,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,13.9,serie del partido
+Sinaloa,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,7.2,serie del partido
+Sinaloa,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,3.6,serie del partido
+Sinaloa,2026-11,logi-nov09,Logi·Call,mixto,2026-11-09,,1000,,no,Morena,29.4,serie del partido
+Sinaloa,2026-11,logi-nov09,Logi·Call,mixto,2026-11-09,,1000,,no,PRI,25.2,serie del partido
+Sinaloa,2026-11,logi-nov09,Logi·Call,mixto,2026-11-09,,1000,,no,PAN,19.3,serie del partido
+Sinaloa,2026-11,logi-nov09,Logi·Call,mixto,2026-11-09,,1000,,no,MC,5.2,serie del partido
+Sinaloa,2026-11,logi-nov09,Logi·Call,mixto,2026-11-09,,1000,,no,PAZ,4.4,aparte (no se grafica)
+Sinaloa,2026-11,logi-nov09,Logi·Call,mixto,2026-11-09,,1000,,no,Somos,3.2,aparte (no se grafica)
+Sinaloa,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,Morena,39.6,serie del partido
+Sinaloa,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,PRI,26.5,serie del partido
+Sinaloa,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,MC,6.3,serie del partido
+Sonora,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,33,serie del partido
+Sonora,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,27,serie del partido
+Sonora,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,15,serie del partido
+Sonora,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,9,serie del partido
+Sonora,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,3,serie del partido
+Sonora,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,2,serie del partido
+Sonora,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,3000,,no,Morena,43.5,serie del partido
+Sonora,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,3000,,no,PAN,24.9,serie del partido
+Sonora,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,3000,,no,MC,14,serie del partido
+Sonora,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,3000,,no,PRI,1.1,serie del partido
+Sonora,2026-10,arias_oct,Arias Consultores,careo,2026-10-01,2026-10-01,550,,no,Morena,40.3,serie del partido
+Sonora,2026-10,arias_oct,Arias Consultores,careo,2026-10-01,2026-10-01,550,,no,PAN,17.2,serie del partido
+Sonora,2026-10,arias_oct,Arias Consultores,careo,2026-10-01,2026-10-01,550,,no,PRI,16.9,serie del partido
+Sonora,2026-10,arias_oct,Arias Consultores,careo,2026-10-01,2026-10-01,550,,no,MC,14,serie del partido
+Sonora,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,2222,,no,Morena,48.8,serie del partido
+Sonora,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,2222,,no,PAN,17.14,serie del partido
+Sonora,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,2222,,no,PRI,12.68,serie del partido
+Sonora,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,2222,,no,MC,4.35,serie del partido
+Sonora,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,2222,,no,Independiente,1.38,serie del partido
+Sonora,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,2222,,no,PT,1.08,serie del partido
+Sonora,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,2222,,no,PRD,0.99,aparte (no se grafica)
+Sonora,2026-10,cripeso-oct,Cripeso,partido,2026-10-07,,2222,,no,PVEM,0.23,serie del partido
+Sonora,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,42.4,serie del partido
+Sonora,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,26.8,serie del partido
+Sonora,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,11.9,serie del partido
+Sonora,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,5.8,serie del partido
+Sonora,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,3.2,serie del partido
+Sonora,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,2.4,serie del partido
+Sonora,2026-10,elec-oct13,Electoralia,mixto,2026-10-13,2026-10-14,2500,,no,coalicion_morena_verde_pt,43,aparte (no se grafica)
+Sonora,2026-10,elec-oct13,Electoralia,mixto,2026-10-13,2026-10-14,2500,,no,Morena,40,serie del partido
+Sonora,2026-10,elec-oct13,Electoralia,mixto,2026-10-13,2026-10-14,2500,,no,coalicion_pri_pan_maciso_ps,37,aparte (no se grafica)
+Sonora,2026-10,elec-oct13,Electoralia,mixto,2026-10-13,2026-10-14,2500,,no,PAN,24,serie del partido
+Sonora,2026-10,elec-oct13,Electoralia,mixto,2026-10-13,2026-10-14,2500,,no,PRI,11,serie del partido
+Sonora,2026-10,elec-oct13,Electoralia,mixto,2026-10-13,2026-10-14,2500,,no,MC,8,serie del partido
+Sonora,2026-10,elec-oct13,Electoralia,mixto,2026-10-13,2026-10-14,2500,,no,Somos,0,aparte (no se grafica)
+Sonora,2026-10,elec-oct13,Electoralia,mixto,2026-10-13,2026-10-14,2500,,no,PAZ,0,aparte (no se grafica)
+Sonora,2026-10,gob-oct,GobernArte,mixto,2026-10-13,,500,,no,Morena,41.6,serie del partido
+Sonora,2026-10,gob-oct,GobernArte,mixto,2026-10-13,,500,,no,PAN,20.2,serie del partido
+Sonora,2026-10,gob-oct,GobernArte,mixto,2026-10-13,,500,,no,MC,10.2,serie del partido
+Sonora,2026-10,gob-oct,GobernArte,mixto,2026-10-13,,500,,no,PRI,9.8,serie del partido
+Sonora,2026-10,rub-oct13,RUBRUM,careo,2026-10-13,2026-10-14,1000,,no,Morena,39.3,serie del partido
+Sonora,2026-10,rub-oct13,RUBRUM,careo,2026-10-13,2026-10-14,1000,,no,MC,5.3,serie del partido
+Sonora,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,35.3,serie del partido
+Sonora,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,23.9,serie del partido
+Sonora,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,8.7,serie del partido
+Sonora,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,7.2,serie del partido
+Sonora,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,5.5,serie del partido
+Sonora,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,4.8,serie del partido
+Sonora,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-20,400,,no,Morena,49,serie del partido
+Sonora,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-20,400,,no,PAN,18,serie del partido
+Sonora,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-20,400,,no,PRI,5,serie del partido
+Sonora,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-20,400,,no,MC,4,serie del partido
+Sonora,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-20,400,,no,PT,2,serie del partido
+Sonora,2026-10,ce-oct18,CE Research,mixto,2026-10-18,2026-10-20,400,,no,PVEM,1,serie del partido
+Sonora,2026-10,mc27oct,Massive Caller,mixto,2026-10-27,,1000,,no,Morena,39.1,serie del partido
+Sonora,2026-10,mc27oct,Massive Caller,mixto,2026-10-27,,1000,,no,PAN,19.1,serie del partido
+Sonora,2026-10,mc27oct,Massive Caller,mixto,2026-10-27,,1000,,no,PRI,14.9,serie del partido
+Sonora,2026-10,mc27oct,Massive Caller,mixto,2026-10-27,,1000,,no,MC,8.5,serie del partido
+Sonora,2026-10,mc27oct,Massive Caller,mixto,2026-10-27,,1000,,no,PAZ,3.2,aparte (no se grafica)
+Sonora,2026-10,mc27oct,Massive Caller,mixto,2026-10-27,,1000,,no,Somos,1.5,aparte (no se grafica)
+Sonora,2026-11,gii360-nov03,Grupo Impacto 360,mixto,2026-11-03,,600,,no,Morena,41,serie del partido
+Sonora,2026-11,gii360-nov03,Grupo Impacto 360,mixto,2026-11-03,,600,,no,PAN,8,serie del partido
+Sonora,2026-11,gii360-nov03,Grupo Impacto 360,mixto,2026-11-03,,600,,no,MC,5,serie del partido
+Sonora,2026-11,gii360-nov03,Grupo Impacto 360,mixto,2026-11-03,,600,,no,PRI,5,serie del partido
+Sonora,2026-11,gii360-nov03,Grupo Impacto 360,mixto,2026-11-03,,600,,no,PT,4,serie del partido
+Sonora,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,39.6,serie del partido
+Sonora,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,25.1,serie del partido
+Sonora,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,12.7,serie del partido
+Sonora,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,7.8,serie del partido
+Sonora,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,3.8,serie del partido
+Sonora,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,2.1,serie del partido
+Sonora,2026-11,gob-nov11,GobernArte,mixto,2026-11-11,,500,,no,Morena,42.2,serie del partido
+Sonora,2026-11,gob-nov11,GobernArte,mixto,2026-11-11,,500,,no,PAN,21.5,serie del partido
+Sonora,2026-11,gob-nov11,GobernArte,mixto,2026-11-11,,500,,no,PRI,10.7,serie del partido
+Sonora,2026-11,gob-nov11,GobernArte,mixto,2026-11-11,,500,,no,MC,10.3,serie del partido
+Sonora,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,Morena,37.4,serie del partido
+Sonora,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,PAN,25.8,serie del partido
+Sonora,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,MC,21.5,serie del partido
+Tlaxcala,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,48,serie del partido
+Tlaxcala,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,15,serie del partido
+Tlaxcala,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,12,serie del partido
+Tlaxcala,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,11,serie del partido
+Tlaxcala,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,2,serie del partido
+Tlaxcala,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,2,serie del partido
+Tlaxcala,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,7700,,no,Morena,48.2,serie del partido
+Tlaxcala,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,7700,,no,PRI,12.5,serie del partido
+Tlaxcala,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,7700,,no,PAN,9.9,serie del partido
+Tlaxcala,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,7700,,no,MC,7.8,serie del partido
+Tlaxcala,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,400,,no,Morena,37.7,serie del partido
+Tlaxcala,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,400,,no,PAN,21.3,serie del partido
+Tlaxcala,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,400,,no,PRI,17.1,serie del partido
+Tlaxcala,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,400,,no,MC,16.9,serie del partido
+Tlaxcala,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,400,,no,PT,1.7,serie del partido
+Tlaxcala,2026-10,arias,Arias Consultores,mixto,2026-10-01,2026-10-02,400,,no,PVEM,0.8,serie del partido
+Tlaxcala,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,46.1,serie del partido
+Tlaxcala,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,12.2,serie del partido
+Tlaxcala,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,11.1,serie del partido
+Tlaxcala,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,10.4,serie del partido
+Tlaxcala,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,6.5,serie del partido
+Tlaxcala,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,5.8,serie del partido
+Tlaxcala,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,2932,,no,Morena,51.28,serie del partido
+Tlaxcala,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,2932,,no,PAN,15.5,serie del partido
+Tlaxcala,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,2932,,no,PRI,8.5,serie del partido
+Tlaxcala,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,2932,,no,MC,7.49,serie del partido
+Tlaxcala,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,2932,,no,PVEM,2.43,serie del partido
+Tlaxcala,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,2932,,no,Independiente,1.33,serie del partido
+Tlaxcala,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,2932,,no,PT,1.2,serie del partido
+Tlaxcala,2026-10,cripeso-oct,Cripeso,partido,2026-10-10,,2932,,no,PRD,0.7,aparte (no se grafica)
+Tlaxcala,2026-10,logi-oct10,Logi·Call,mixto,2026-10-10,,1000,,no,Morena,44.4,serie del partido
+Tlaxcala,2026-10,logi-oct10,Logi·Call,mixto,2026-10-10,,1000,,no,PRI,15.2,serie del partido
+Tlaxcala,2026-10,logi-oct10,Logi·Call,mixto,2026-10-10,,1000,,no,PAN,13.1,serie del partido
+Tlaxcala,2026-10,logi-oct10,Logi·Call,mixto,2026-10-10,,1000,,no,MC,11.5,serie del partido
+Tlaxcala,2026-10,rub-oct12,RUBRUM,careo,2026-10-12,2026-10-13,800,,no,Morena,53.3,serie del partido
+Tlaxcala,2026-10,rub-oct12,RUBRUM,careo,2026-10-12,2026-10-13,800,,no,MC,6.6,serie del partido
+Tlaxcala,2026-10,bruj-oct14,Brújula de Opinión Pública,mixto,2026-10-14,2026-10-16,2250,,no,Morena,38.2,serie del partido
+Tlaxcala,2026-10,bruj-oct14,Brújula de Opinión Pública,mixto,2026-10-14,2026-10-16,2250,,no,PRI,32.5,serie del partido
+Tlaxcala,2026-10,bruj-oct14,Brújula de Opinión Pública,mixto,2026-10-14,2026-10-16,2250,,no,PAN,11.1,serie del partido
+Tlaxcala,2026-10,bruj-oct14,Brújula de Opinión Pública,mixto,2026-10-14,2026-10-16,2250,,no,MC,10.5,serie del partido
+Tlaxcala,2026-10,gob-oct15,GobernArte,mixto,2026-10-15,2026-10-16,500,,no,Morena,45.5,serie del partido
+Tlaxcala,2026-10,gob-oct15,GobernArte,mixto,2026-10-15,2026-10-16,500,,no,PRI,11.3,serie del partido
+Tlaxcala,2026-10,gob-oct15,GobernArte,mixto,2026-10-15,2026-10-16,500,,no,PAN,10.9,serie del partido
+Tlaxcala,2026-10,gob-oct15,GobernArte,mixto,2026-10-15,2026-10-16,500,,no,MC,9.5,serie del partido
+Tlaxcala,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,37.6,serie del partido
+Tlaxcala,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,10.3,serie del partido
+Tlaxcala,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,9.4,serie del partido
+Tlaxcala,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,8.7,serie del partido
+Tlaxcala,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,6.8,serie del partido
+Tlaxcala,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,6.2,serie del partido
+Tlaxcala,2026-10,gii360-oct26,Grupo Impacto 360,careo,2026-10-26,2026-11-09,600,,no,Morena,53,serie del partido
+Tlaxcala,2026-10,gii360-oct26,Grupo Impacto 360,careo,2026-10-26,2026-11-09,600,,no,PRI,14,serie del partido
+Tlaxcala,2026-10,gii360-oct26,Grupo Impacto 360,careo,2026-10-26,2026-11-09,600,,no,PAN,9,serie del partido
+Tlaxcala,2026-10,gii360-oct26,Grupo Impacto 360,careo,2026-10-26,2026-11-09,600,,no,MC,2,serie del partido
+Tlaxcala,2026-10,mc28oct,Massive Caller,mixto,2026-10-28,,1000,,no,Morena,46.5,serie del partido
+Tlaxcala,2026-10,mc28oct,Massive Caller,mixto,2026-10-28,,1000,,no,PRI,13.1,serie del partido
+Tlaxcala,2026-10,mc28oct,Massive Caller,mixto,2026-10-28,,1000,,no,PAN,12.7,serie del partido
+Tlaxcala,2026-10,mc28oct,Massive Caller,mixto,2026-10-28,,1000,,no,MC,6.5,serie del partido
+Tlaxcala,2026-10,mc28oct,Massive Caller,mixto,2026-10-28,,1000,,no,Somos,2.5,aparte (no se grafica)
+Tlaxcala,2026-10,mc28oct,Massive Caller,mixto,2026-10-28,,1000,,no,PAZ,1.2,aparte (no se grafica)
+Tlaxcala,2026-11,meta-nov05,MetaMetrics,partido,2026-11-05,2026-11-06,,1500,sí,Morena,46.8,serie del partido
+Tlaxcala,2026-11,meta-nov05,MetaMetrics,partido,2026-11-05,2026-11-06,,1500,sí,PAN,11.5,serie del partido
+Tlaxcala,2026-11,meta-nov05,MetaMetrics,partido,2026-11-05,2026-11-06,,1500,sí,PRI,11.1,serie del partido
+Tlaxcala,2026-11,meta-nov05,MetaMetrics,partido,2026-11-05,2026-11-06,,1500,sí,MC,9.2,serie del partido
+Tlaxcala,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,44.2,serie del partido
+Tlaxcala,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,13.6,serie del partido
+Tlaxcala,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,12.7,serie del partido
+Tlaxcala,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,10.8,serie del partido
+Tlaxcala,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,5.7,serie del partido
+Tlaxcala,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,4.4,serie del partido
+Tlaxcala,2026-11,rub-nov09,RUBRUM,careo,2026-11-09,2026-11-10,1000,,no,Morena,55.3,serie del partido
+Tlaxcala,2026-11,rub-nov09,RUBRUM,careo,2026-11-09,2026-11-10,1000,,no,PAN,13.1,serie del partido
+Tlaxcala,2026-11,rub-nov09,RUBRUM,careo,2026-11-09,2026-11-10,1000,,no,MC,5.4,serie del partido
+Tlaxcala,2026-11,gob-nov11,GobernArte,mixto,2026-11-11,,500,,no,Morena,44.8,serie del partido
+Tlaxcala,2026-11,gob-nov11,GobernArte,mixto,2026-11-11,,500,,no,PAN,12.1,serie del partido
+Tlaxcala,2026-11,gob-nov11,GobernArte,mixto,2026-11-11,,500,,no,PRI,11.5,serie del partido
+Tlaxcala,2026-11,gob-nov11,GobernArte,mixto,2026-11-11,,500,,no,MC,9.8,serie del partido
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,mixto,2026-09-20,,1000,,no,Morena,40,serie del partido
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,mixto,2026-09-20,,1000,,no,PRI,13,serie del partido
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,mixto,2026-09-20,,1000,,no,PAN,7,serie del partido
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,mixto,2026-09-20,,1000,,no,MC,6,serie del partido
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,mixto,2026-09-20,,1000,,no,PVEM,4,aparte (no se grafica)
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,mixto,2026-09-20,,1000,,no,PT,3,aparte (no se grafica)
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,mixto,2026-09-20,,1000,,no,PRD,2,aparte (no se grafica)
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,mixto,2026-09-20,,1000,,no,panal,1,aparte (no se grafica)
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,mixto,2026-09-20,,1000,,no,PAZ,1,aparte (no se grafica)
+Zacatecas,2026-09,dem-sep,De las Heras Demotecnia,mixto,2026-09-20,,1000,,no,Somos,0,aparte (no se grafica)
+Zacatecas,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,Morena,43,serie del partido
+Zacatecas,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PRI,18,serie del partido
+Zacatecas,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PAN,11,serie del partido
+Zacatecas,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,MC,10,serie del partido
+Zacatecas,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PVEM,3,serie del partido
+Zacatecas,2026-09,emot-oct,Emotegia,mixto,2026-09-26,2026-10-07,1000,,no,PT,2,serie del partido
+Zacatecas,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,3000,,no,Morena,36.6,serie del partido
+Zacatecas,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,3000,,no,PRI,15.3,serie del partido
+Zacatecas,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,3000,,no,PAN,14.5,serie del partido
+Zacatecas,2026-09,sep-previo,Punto previo de septiembre (agregado),agregado,2026-09-30,,3000,,no,MC,13.9,serie del partido
+Zacatecas,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,450,,no,Morena,27.9,serie del partido
+Zacatecas,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,450,,no,MC,14.3,serie del partido
+Zacatecas,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,450,,no,PAN,9.4,serie del partido
+Zacatecas,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,450,,no,PRI,6.1,serie del partido
+Zacatecas,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,450,,no,PVEM,5.9,serie del partido
+Zacatecas,2026-10,arias-oct,Arias Consultores,mixto,2026-10-01,2026-10-02,450,,no,PT,2.8,serie del partido
+Zacatecas,2026-10,enk-oct,Enkoll,mixto,2026-10-04,2026-10-12,1020,,no,Morena,22,serie del partido
+Zacatecas,2026-10,enk-oct,Enkoll,mixto,2026-10-04,2026-10-12,1020,,no,PRI,17,serie del partido
+Zacatecas,2026-10,enk-oct,Enkoll,mixto,2026-10-04,2026-10-12,1020,,no,MC,15,serie del partido
+Zacatecas,2026-10,enk-oct,Enkoll,mixto,2026-10-04,2026-10-12,1020,,no,PAN,10,serie del partido
+Zacatecas,2026-10,enk-oct,Enkoll,mixto,2026-10-04,2026-10-12,1020,,no,PT,4,serie del partido
+Zacatecas,2026-10,enk-oct,Enkoll,mixto,2026-10-04,2026-10-12,1020,,no,PVEM,4,serie del partido
+Zacatecas,2026-10,enk-oct,Enkoll,mixto,2026-10-04,2026-10-12,1020,,no,PRD,3,aparte (no se grafica)
+Zacatecas,2026-10,enk-oct,Enkoll,mixto,2026-10-04,2026-10-12,1020,,no,na,2,aparte (no se grafica)
+Zacatecas,2026-10,enk-oct,Enkoll,mixto,2026-10-04,2026-10-12,1020,,no,PAZ,1,aparte (no se grafica)
+Zacatecas,2026-10,enk-oct,Enkoll,mixto,2026-10-04,2026-10-12,1020,,no,independiente,1,aparte (no se grafica)
+Zacatecas,2026-10,enk-oct,Enkoll,mixto,2026-10-04,2026-10-12,1020,,no,Somos,0,aparte (no se grafica)
+Zacatecas,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,2436,,no,Morena,39.31,serie del partido
+Zacatecas,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,2436,,no,PRI,22.66,serie del partido
+Zacatecas,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,2436,,no,PAN,11.16,serie del partido
+Zacatecas,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,2436,,no,MC,8.81,serie del partido
+Zacatecas,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,2436,,no,Independiente,2.4,serie del partido
+Zacatecas,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,2436,,no,PT,2.27,serie del partido
+Zacatecas,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,2436,,no,PRD,1.1,aparte (no se grafica)
+Zacatecas,2026-10,cripeso-oct,Cripeso,partido,2026-10-05,,2436,,no,PVEM,0.82,serie del partido
+Zacatecas,2026-10,gob-oct,GobernArte,mixto,2026-10-06,2026-10-07,500,,no,Morena,35.9,serie del partido
+Zacatecas,2026-10,gob-oct,GobernArte,mixto,2026-10-06,2026-10-07,500,,no,PRI,17.7,serie del partido
+Zacatecas,2026-10,gob-oct,GobernArte,mixto,2026-10-06,2026-10-07,500,,no,PAN,13.2,serie del partido
+Zacatecas,2026-10,gob-oct,GobernArte,mixto,2026-10-06,2026-10-07,500,,no,MC,11.1,serie del partido
+Zacatecas,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,Morena,38.6,serie del partido
+Zacatecas,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,MC,17.5,serie del partido
+Zacatecas,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PRI,15.8,serie del partido
+Zacatecas,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PAN,13.4,serie del partido
+Zacatecas,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PVEM,4.1,serie del partido
+Zacatecas,2026-10,laenc-oct,LaEncuesta.MX,mixto,2026-10-08,2026-10-09,1200,,no,PT,2.4,serie del partido
+Zacatecas,2026-10,rub-oct10,RUBRUM,careo,2026-10-10,2026-10-12,1000,,no,Morena,23.5,serie del partido
+Zacatecas,2026-10,rub-oct10,RUBRUM,careo,2026-10-10,2026-10-12,1000,,no,MC,13.1,serie del partido
+Zacatecas,2026-10,logi-oct12,Logi·Call,mixto,2026-10-12,,1000,,no,Morena,27.8,serie del partido
+Zacatecas,2026-10,logi-oct12,Logi·Call,mixto,2026-10-12,,1000,,no,PRI,25.5,serie del partido
+Zacatecas,2026-10,logi-oct12,Logi·Call,mixto,2026-10-12,,1000,,no,PAN,18.2,serie del partido
+Zacatecas,2026-10,logi-oct12,Logi·Call,mixto,2026-10-12,,1000,,no,MC,13.1,serie del partido
+Zacatecas,2026-10,src-oct12,SRC,careo,2026-10-12,2026-10-13,500,,no,MC,32.7,serie del partido
+Zacatecas,2026-10,src-oct12,SRC,careo,2026-10-12,2026-10-13,500,,no,Morena,24,serie del partido
+Zacatecas,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,Morena,32.8,serie del partido
+Zacatecas,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PRI,14.7,serie del partido
+Zacatecas,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PAN,9.2,serie del partido
+Zacatecas,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,MC,8.6,serie del partido
+Zacatecas,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PVEM,4.5,serie del partido
+Zacatecas,2026-10,dem-oct17,Demoscopia Digital,mixto,2026-10-17,2026-10-19,1000,,no,PT,3.9,serie del partido
+Zacatecas,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,Morena,39,serie del partido
+Zacatecas,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,PAN,20,serie del partido
+Zacatecas,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,PRI,19,serie del partido
+Zacatecas,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,MC,8,serie del partido
+Zacatecas,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,PT,2,serie del partido
+Zacatecas,2026-10,ce-oct30,CE Research,mixto,2026-10-30,2026-10-31,400,,no,PVEM,2,serie del partido
+Zacatecas,2026-10,mc-oct30,Massive Caller,mixto,2026-10-30,,1000,,no,PRI,28.1,serie del partido
+Zacatecas,2026-10,mc-oct30,Massive Caller,mixto,2026-10-30,,1000,,no,Morena,26.7,serie del partido
+Zacatecas,2026-10,mc-oct30,Massive Caller,mixto,2026-10-30,,1000,,no,PAN,16.9,serie del partido
+Zacatecas,2026-10,mc-oct30,Massive Caller,mixto,2026-10-30,,1000,,no,MC,10.3,serie del partido
+Zacatecas,2026-10,mc-oct30,Massive Caller,mixto,2026-10-30,,1000,,no,Somos,5,aparte (no se grafica)
+Zacatecas,2026-10,mc-oct30,Massive Caller,mixto,2026-10-30,,1000,,no,PAZ,2.3,aparte (no se grafica)
+Zacatecas,2026-11,gob-nov03,GobernArte,mixto,2026-11-03,,500,,no,Morena,35.2,serie del partido
+Zacatecas,2026-11,gob-nov03,GobernArte,mixto,2026-11-03,,500,,no,PRI,16.8,serie del partido
+Zacatecas,2026-11,gob-nov03,GobernArte,mixto,2026-11-03,,500,,no,PAN,12.5,serie del partido
+Zacatecas,2026-11,gob-nov03,GobernArte,mixto,2026-11-03,,500,,no,MC,10.7,serie del partido
+Zacatecas,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,Morena,37,serie del partido
+Zacatecas,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PRI,16.8,serie del partido
+Zacatecas,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PAN,16.4,serie del partido
+Zacatecas,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,MC,13.5,serie del partido
+Zacatecas,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PVEM,4,serie del partido
+Zacatecas,2026-11,laenc-nov,LaEncuesta.MX,mixto,2026-11-08,2026-11-09,1200,,no,PT,2.5,serie del partido
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,mixto,2026-11-09,,600,,no,Morena,31,serie del partido
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,mixto,2026-11-09,,600,,no,PRI,29,serie del partido
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,mixto,2026-11-09,,600,,no,PAN,10,serie del partido
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,mixto,2026-11-09,,600,,no,MC,6,serie del partido
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,mixto,2026-11-09,,600,,no,PT,2,serie del partido
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,mixto,2026-11-09,,600,,no,PVEM,2,serie del partido
+Zacatecas,2026-11,gii360-nov09,Grupo Impacto 360,mixto,2026-11-09,,600,,no,PRD,2,aparte (no se grafica)
+Zacatecas,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,PRI,43.7,serie del partido
+Zacatecas,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,Morena,23.4,serie del partido
+Zacatecas,2026-11,rub-nov11,RUBRUM,careo,2026-11-11,2026-11-12,1000,,no,MC,13.8,serie del partido
