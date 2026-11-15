@@ -243,12 +243,23 @@
   .careo-pct{flex-shrink:0;font-family:"SFMono-Regular",Consolas,"Courier New",monospace;font-weight:700;}
   .careo-source{font-size:11px;color:var(--ink-dim);margin-top:8px;}
   .careo-empty{font-size:12px;color:var(--ink-dim);font-style:italic;padding:10px 0;}
+
+  /* ===== Fondo de ecuaciones (15 nov 2026): contorno de México con ecuaciones de estadística y econometría ===== */
+  :root{--fx:.35;--fx-s:.25;}
+  .bg-fx{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;}
+  .bg-fx::before{content:"";position:absolute;inset:0;background:url("fondo-red.svg") 0 0/620px 620px;opacity:calc(var(--fx) * .55);}
+  .bg-fx::after{content:"";position:absolute;inset:0;background:url("fondo-mapa.svg") 50% 44%/min(1180px,118vw) auto no-repeat;opacity:var(--fx);}
+  .page{position:relative;z-index:3;}
+  #sheet{position:relative;}
+  #sheet::before{content:"";position:sticky;top:0;display:block;height:88vh;margin:-20px -18px -88vh;background:url("fondo-red.svg") 0 0/460px 460px;opacity:calc(var(--fx-s) * .45);pointer-events:none;z-index:0;}
+  .sheet-map{position:sticky;top:0;display:block;height:88vh;margin:0 -18px -88vh;background:url("fondo-mapa.svg") 50% 38%/150% auto no-repeat;opacity:var(--fx-s);pointer-events:none;z-index:0;}
+  #sheet > *:not(.sheet-map){position:relative;z-index:1;}
 </style>
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
-
+<div class="bg-fx"></div>
 <div class="site-watermark"></div>
 
 <div class="page">
@@ -283,6 +294,7 @@
 <div class="footer-links">
   <a href="/metodologia.html">📋 Metodología completa</a>
   <a href="/notas.html">🗂️ Notas y exclusiones</a>
+  <a href="/datos.html">📊 Datos por estado y mes</a>
 </div>
 <div class="pill-foot"><span class="pill"><i>#</i>Careo<b>27</b></span></div>
 <p class="credit">Elaborado por @o0vallee</p>
@@ -291,6 +303,7 @@
 <div id="overlay">
 
   <div id="sheet">
+    <div class="sheet-map"></div>
     <div class="sheet-tag"><span class="pill"><i>#</i>Elecciones<b>2027</b></span><span class="pill"><i>#</i>Careo<b>27</b></span></div>
     <div class="top">
       <h2 id="sName">—</h2>
@@ -583,18 +596,18 @@ const STATES = [
    note:{level:"medium",text:"Careo de noviembre (4 encuestas, una digital): Pablo Gutiérrez Lazarus (Morena) 42.9% y Eliseo Fernández (MC) 30.5%; Christian Castro Bello (PRI) 11.1% y Salvador Farías (PAN) 5.5%. RUBRUM (11 nov): 45.9 y 29.0; Cripeso (digital ⚠, peso limitado): 46.7 y 35.2. Los careos con Biby Rabelo (MC) quedan documentados. Octubre (10 encuestas): 37.8% y 30.0%. Tendencia (5 fuentes, 2 digitales ⚠): Morena 43.1%, MC 29.4%. A vigilar: los nombres del PRI."}},
  {id:"yuc",name:"Yucatán",row:5,col:9,active:false},
  {id:"qroo",name:"Quintana Roo",row:6,col:9,active:true,
-   lastUpdated:"9 nov 2026",
+   lastUpdated:"14 nov 2026",
    leader:"morena",
-   muestra:{m:"Nov 26",n:2600,k:3,sin_n:0},
-   detalle:{mes:"noviembre",cols:[["Segura","morena",46.4,3],["M. Martínez","pan",17.3,2],["Pech","mc",13.9,3],["F. Martínez","pri",12,3]],rows:[["LaEncuesta.MX","6–8 nov",1200,0,[49,18.5,17.6,7.5]],["RUBRUM","7 nov",800,0,[46.6,null,13.6,25.4]],["Grupo Impacto 360","26 oct–3 nov",600,0,[41,15,7,3]]]},
-   trendN:{m:"Nov 26",n:3},
-   timeline:{"morena": [{"m": "Abr 26", "v": 41.2}, {"m": "Jun 26", "v": 45}, {"m": "Ago 26", "v": 43.5}, {"m": "Sep 26", "v": 43.2}, {"m": "Oct 26", "v": 41.6}, {"m": "Nov 26", "v": 46.6}], "pan": [{"m": "May 26", "v": 14.5}, {"m": "Sep 26", "v": 14.4}, {"m": "Oct 26", "v": 15.2}, {"m": "Nov 26", "v": 16.2}], "mc": [{"m": "Sep 26", "v": 10.6}, {"m": "Oct 26", "v": 12.6}, {"m": "Nov 26", "v": 12}]},
+   muestra:{m:"Nov 26",n:3600,k:4,sin_n:0},
+   detalle:{mes:"noviembre",cols:[["Segura","morena",45.1,4],["M. Martínez","pan",16.7,3],["Pech","mc",13.2,4],["F. Martínez","pri",10.8,4]],rows:[["Encuestas México","5–9 nov",1000,1,[41.5,15.5,11.4,7.9]],["LaEncuesta.MX","6–8 nov",1200,0,[49,18.5,17.6,7.5]],["RUBRUM","7 nov",800,0,[46.6,null,13.6,25.4]],["Grupo Impacto 360","26 oct–3 nov",600,0,[41,15,7,3]]]},
+   trendN:{m:"Nov 26",n:4},
+   timeline:{"morena": [{"m": "Abr 26", "v": 41.2}, {"m": "Jun 26", "v": 45}, {"m": "Ago 26", "v": 43.5}, {"m": "Sep 26", "v": 43.2}, {"m": "Oct 26", "v": 41.6}, {"m": "Nov 26", "v": 45.2}], "pan": [{"m": "May 26", "v": 14.5}, {"m": "Sep 26", "v": 14.4}, {"m": "Oct 26", "v": 15.2}, {"m": "Nov 26", "v": 16}], "mc": [{"m": "Sep 26", "v": 10.6}, {"m": "Oct 26", "v": 12.6}, {"m": "Nov 26", "v": 11.9}]},
    careo:{scenarios:[
-     {label:"Careo por nombre — promedio ponderado de 3 mediciones", candidates:[{name:"Gino Segura",party:"morena",pct:46.4},{name:"Mayuli Martínez",party:"pan",pct:17.3},{name:"José Luis Pech",party:"mc",pct:13.9},{name:"Filiberto Martínez",party:"pri",pct:12}], source:"Careo del mes en curso (noviembre 2026): solo encuestas con fin de campo en el mes, promedio ponderado por tamaño de muestra y por nombre exacto, regla del 13 oct 2026. Casas: Grupo Impacto 360 (3 nov), RUBRUM (7 nov), LaEncuesta.MX (8 nov). Las encuestas de meses anteriores se conservan en la lista de encuestas usadas y en la tendencia, pero ya no entran al promedio del careo."}
+     {label:"Careo por nombre — promedio ponderado de 4 mediciones", candidates:[{name:"Gino Segura",party:"morena",pct:45.1},{name:"Mayuli Martínez",party:"pan",pct:16.7},{name:"José Luis Pech",party:"mc",pct:13.2},{name:"Filiberto Martínez",party:"pri",pct:10.8}], source:"Careo del mes en curso (noviembre 2026): solo encuestas con fin de campo en el mes, promedio ponderado por tamaño de muestra y por nombre exacto, regla del 13 oct 2026. Casas: Grupo Impacto 360 (3 nov), RUBRUM (7 nov), LaEncuesta.MX (8 nov), Encuestas México (9 nov). Las encuestas de meses anteriores se conservan en la lista de encuestas usadas y en la tendencia, pero ya no entran al promedio del careo."}
    ]},
-   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, may 2026, n=500","GobernArte, jun 2026, n=500","Buendía & Márquez, 1-6 ago 2026, n=1,000, ±3.53% (careo)","RUBRUM, 10 ago 2026, n=1,000, ±3.8% (partido)","Massive Caller, 20 ago 2026, n=1,000, ±3.4% ⚠ casa con advertencia fuerte","C&E, 2 sep 2026 (careo)","Demoscopia, 1-3 sep 2026 (careo)","Massive Caller, 20 sep 2026, n=1,000, ±3.4% (careo) ⚠ casa con advertencia fuerte","Emotegia, 21-26 sep 2026, publicada 7 oct 2026, n=1,000, ±3% (careo y partido; encuesta digital autoaplicable)","Arias Consultores, 29 sep-1 oct 2026, n=600, ±4.0% (careo y partido; telefónica, 4 municipios) ⚠ conflicto de interés","RUBRUM, 6 oct 2026, n=800, ±3.8% (partido)","LaEncuesta.MX, 6-8 oct 2026, publicada 9 oct 2026, n=1,200, ±3.5% (careo y partido)","Logi·Call, 8 oct 2026, publicada 9 oct 2026, n=1,000, ±3.4% (careo y partido; telefónica automática; vía Polls.mx y gráficas originales) ⚠ casa sin trayectoria verificable","RUBRUM, 10 oct 2026, publicada 12 oct 2026, n=1,000, ±3.8% (careo; telefónica automatizada)","Demoscopia Digital, 14-17 oct 2026, publicada 19 oct 2026, n=1,000, ±3.8% (careo y partido; telefónica automatizada)","Massive Caller, 20 oct 2026, n=1,000, ±3.4% (careo y partido; PAN y PRI por separado) ⚠ casa con advertencia fuerte","GobernArte, 18-22 oct 2026, n=500, ±2.5-3.7% (careo y partido; digital; Lidia Rojas Fabro por MC se suma a Pech) ⚠ casa con advertencia","CE Research (Destino 27), 30 oct 2026, publicada 31 oct 2026, n=400, ±4.9% (careo y partido por identificación y voto habitual; telefónica robotizada; Filiberto Martínez, PRI, suma a Leslie Hendricks)","Grupo Impacto 360, 26 oct-3 nov 2026, n=600, ±3.94% (careo y partido; telefónica CATI, muestreo aleatorio simple; entra el careo con Leslie Hendricks (PRI) y el careo con Filiberto Martínez queda documentado)","RUBRUM, 7 nov 2026, publicada 9 nov 2026, n=800, ±3.8% (careo; Filiberto Martínez PAN-PRI; sin lámina por partido; telefónica automatizada)","LaEncuesta.MX, 6-8 nov 2026, publicada 9 nov 2026, n=1,200, ±3.5% (careo y partido; Lidia Rojas suma a José Luis Pech)"],
+   sources:["LaEncuesta.MX, 13 abr 2026, n=1,200","GobernArte, may 2026, n=500","GobernArte, jun 2026, n=500","Buendía & Márquez, 1-6 ago 2026, n=1,000, ±3.53% (careo)","RUBRUM, 10 ago 2026, n=1,000, ±3.8% (partido)","Massive Caller, 20 ago 2026, n=1,000, ±3.4% ⚠ casa con advertencia fuerte","C&E, 2 sep 2026 (careo)","Demoscopia, 1-3 sep 2026 (careo)","Massive Caller, 20 sep 2026, n=1,000, ±3.4% (careo) ⚠ casa con advertencia fuerte","Emotegia, 21-26 sep 2026, publicada 7 oct 2026, n=1,000, ±3% (careo y partido; encuesta digital autoaplicable)","Arias Consultores, 29 sep-1 oct 2026, n=600, ±4.0% (careo y partido; telefónica, 4 municipios) ⚠ conflicto de interés","RUBRUM, 6 oct 2026, n=800, ±3.8% (partido)","LaEncuesta.MX, 6-8 oct 2026, publicada 9 oct 2026, n=1,200, ±3.5% (careo y partido)","Logi·Call, 8 oct 2026, publicada 9 oct 2026, n=1,000, ±3.4% (careo y partido; telefónica automática; vía Polls.mx y gráficas originales) ⚠ casa sin trayectoria verificable","RUBRUM, 10 oct 2026, publicada 12 oct 2026, n=1,000, ±3.8% (careo; telefónica automatizada)","Demoscopia Digital, 14-17 oct 2026, publicada 19 oct 2026, n=1,000, ±3.8% (careo y partido; telefónica automatizada)","Massive Caller, 20 oct 2026, n=1,000, ±3.4% (careo y partido; PAN y PRI por separado) ⚠ casa con advertencia fuerte","GobernArte, 18-22 oct 2026, n=500, ±2.5-3.7% (careo y partido; digital; Lidia Rojas Fabro por MC se suma a Pech) ⚠ casa con advertencia","CE Research (Destino 27), 30 oct 2026, publicada 31 oct 2026, n=400, ±4.9% (careo y partido por identificación y voto habitual; telefónica robotizada; Filiberto Martínez, PRI, suma a Leslie Hendricks)","Grupo Impacto 360, 26 oct-3 nov 2026, n=600, ±3.94% (careo y partido; telefónica CATI, muestreo aleatorio simple; entra el careo con Leslie Hendricks (PRI) y el careo con Filiberto Martínez queda documentado)","RUBRUM, 7 nov 2026, publicada 9 nov 2026, n=800, ±3.8% (careo; Filiberto Martínez PAN-PRI; sin lámina por partido; telefónica automatizada)","LaEncuesta.MX, 6-8 nov 2026, publicada 9 nov 2026, n=1,200, ±3.5% (careo y partido; Lidia Rojas suma a José Luis Pech)","Encuestas México, 5-9 nov 2026, n=1,000, ±3.5% (careo, escenario 1; modalidad no declarada; escenario 2 documentado) ⚠ casa sin trayectoria verificable"],
    conflictNotes:[{source:"Arias Consultores", text:"Conflicto de interés documentado a nivel nacional (ver metodología del proyecto). Se incluye con advertencia, conforme a la política vigente desde el 15 de septiembre de 2026."},{source:"Massive Caller", text:"Casa con advertencia fuerte: fue la que más se equivocó en la presidencial de 2024, cuando dio ventaja a Xóchitl Gálvez y Sheinbaum ganó por más de 30 puntos. Su peso se diluye al combinarse con las demás fuentes del estado. Se incluye con advertencia."}],
-   note:{level:"medium",text:"Careo de noviembre (3 encuestas): Gino Segura (Morena) 46.4%, Mayuli Martínez (PAN) 17.3%, José Luis Pech (MC) 13.9%, que suma a Lidia Rojas, y Filiberto Martínez (PRI) 12.0%, que reúne a Filiberto (PAN-PRI, solo RUBRUM), Cora Amalia Castilla y Leslie Hendricks: los otros aspirantes del PRI suman al principal del mes. Tendencia de noviembre: Morena 46.6%, PAN 16.2%, PRI 12.3% y MC 12.0%. Careo y tendencia coinciden en Morena y PAN; PRI y MC están casi empatados. A vigilar: el segundo lugar y la alianza PAN-PRI."}}];
+   note:{level:"medium",text:"Careo de noviembre (4 encuestas): Gino Segura (Morena) 45.1%, Mayuli Martínez (PAN) 16.7%, José Luis Pech (MC) 13.2% (suma a Lidia Rojas) y Filiberto Martínez (PRI) 10.8% (suma a Cora Amalia Castilla y Leslie Hendricks; PAN-PRI solo en RUBRUM). Tendencia de noviembre: Morena 45.2%, PAN 16.0%, MC 11.9% y PRI 11.1%. Careo y tendencia coinciden en Morena y PAN; PRI y MC están casi empatados. A vigilar: el segundo lugar y la alianza PAN-PRI."}}];
 
 const board = document.getElementById("board");
 function getDisplayLeader(s){
@@ -647,6 +660,29 @@ STATES.forEach(s=>{
 
 /* ===================== Exportación de imágenes ===================== */
 const CARD_W = 1080;
+// ===== Fondo de las imágenes descargables (15 nov 2026) =====
+var FX_CARD = 0.40, NO_BG = false;
+const BG = {map:new Image(), net:new Image()};
+const BG_READY = Promise.all([["map","fondo-mapa.svg"],["net","fondo-red.svg"]].map(([k,u]) => new Promise(res => { BG[k].onload = BG[k].onerror = res; BG[k].src = u; }))).then(() => {
+  try{ const c = document.createElement("canvas"); c.width = c.height = 2; const x = c.getContext("2d"); x.drawImage(BG.map,0,0,2,2); c.toDataURL("image/png"); }
+  catch(e){ NO_BG = true; } // si el navegador "mancha" el lienzo (p. ej. archivo local), las imágenes se descargan sin fondo
+});
+function paintBackdrop(ctx, W, H){
+  ctx.save();
+  ctx.globalCompositeOperation = "destination-over";
+  if(!NO_BG && BG.map.complete && BG.map.naturalWidth){
+    const mw = W*1.02, mh = mw * BG.map.naturalHeight / BG.map.naturalWidth;
+    ctx.globalAlpha = FX_CARD;
+    ctx.drawImage(BG.map, (W-mw)/2, Math.min(H/2, 1250) - mh/2, mw, mh);
+  }
+  if(!NO_BG && BG.net.complete && BG.net.naturalWidth){
+    ctx.globalAlpha = FX_CARD*0.55;
+    for(let ty=0; ty<H; ty+=620) for(let tx=0; tx<W; tx+=620) ctx.drawImage(BG.net, tx, ty, 620, 620);
+  }
+  ctx.globalAlpha = 1; ctx.fillStyle = "#10151b"; ctx.fillRect(0,0,W,H);
+  ctx.restore();
+}
+
 
 function wrapCanvasText(ctx, text, maxWidth){
   if(!text) return [];
@@ -936,7 +972,6 @@ function renderStateCard(s){
   const canvas = document.createElement("canvas");
   canvas.width = CARD_W; canvas.height = MAX_H;
   const ctx = canvas.getContext("2d");
-  ctx.fillStyle = "#10151b"; ctx.fillRect(0,0,CARD_W,MAX_H);
   const x = 64, W = CARD_W-128;
 
   let y = drawCardHeader(ctx, x, W, 96, "Elecciones|2027", s.name, "Careo vigente y tendencia mensual", s.lastUpdated);
@@ -969,6 +1004,13 @@ function renderStateCard(s){
     ctx.fillStyle = "#93a1ad"; ctx.font = "400 20px -apple-system, sans-serif"; ctx.textAlign = "left";
     y = drawWrapped(ctx, trendNote(s), x, y-6, W, 26, 3) + 14;
     y = drawTrendChart(ctx, x, y, W, s);
+    const mT = muestraTxt(s);
+    if(mT){
+      y += 14; ctx.textAlign = "left"; ctx.fillStyle = "#eef1f4"; ctx.font = "600 22px -apple-system, sans-serif";
+      y = drawWrapped(ctx, mT, x, y, W, 28, 2);
+      const mD = muestraDigTxt(s);
+      if(mD){ ctx.fillStyle = "#93a1ad"; ctx.font = "400 18px -apple-system, sans-serif"; y = drawWrapped(ctx, mD, x, y+4, W, 24, 2); }
+    }
     y += 20;
     ctx.strokeStyle = "#2a3540"; ctx.lineWidth = 1.5;
     ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(x+W,y); ctx.stroke();
@@ -979,6 +1021,7 @@ function renderStateCard(s){
   const finalY = drawCardFooter(ctx, x, W, y);
   const finalH = Math.round(finalY + 30);
 
+  paintBackdrop(ctx, CARD_W, finalH);
   drawWatermark(ctx, CARD_W, finalH);
 
   const out = document.createElement("canvas");
@@ -994,17 +1037,19 @@ function renderDetailCard(s){
   const canvas = document.createElement("canvas");
   canvas.width = CARD_W; canvas.height = MAX_H;
   const ctx = canvas.getContext("2d");
-  ctx.fillStyle = "#10151b"; ctx.fillRect(0,0,CARD_W,MAX_H);
   const x = 64, W = CARD_W-128;
   let y = drawCardHeader(ctx, x, W, 96, "Elecciones|2027", s.name, "Detalle de las encuestas de " + d.mes, s.lastUpdated);
   y = drawSectionTitle(ctx, x, W, y, "CAREOS DE " + d.mes.toUpperCase() + " POR ENCUESTA");
   ctx.fillStyle = "#93a1ad"; ctx.font = "400 20px -apple-system, sans-serif"; ctx.textAlign = "left";
   const n = d.rows.length;
-  y = drawWrapped(ctx, n + (n===1?" encuesta":" encuestas") + " del mes, de la más reciente a la más antigua. El promedio ponderado es el careo vigente del mapa.", x, y-6, W, 26, 2) + 14;
+  y = drawWrapped(ctx, n + (n===1?" encuesta":" encuestas") + " del mes, de la más reciente a la más antigua. El promedio ponderado es el careo vigente del mapa.", x, y-6, W, 26, 2) + 16;
+  const mT2 = muestraTxt(s);
+  if(mT2){ ctx.fillStyle = "#eef1f4"; ctx.font = "600 22px -apple-system, sans-serif"; y = drawWrapped(ctx, mT2, x, y, W, 28, 2) + 10; ctx.fillStyle = "#93a1ad"; ctx.font = "400 20px -apple-system, sans-serif"; }
   y = drawDetailTable(ctx, x, y, W, s);
   y += 20;
   const finalY = drawCardFooter(ctx, x, W, y);
   const finalH = Math.round(finalY + 30);
+  paintBackdrop(ctx, CARD_W, finalH);
   drawWatermark(ctx, CARD_W, finalH);
   const out = document.createElement("canvas");
   out.width = CARD_W; out.height = finalH;
@@ -1047,6 +1092,7 @@ function loadJSZip(){
 }
 
 async function exportAllImages(){
+  await BG_READY;
   const btn = document.getElementById("exportAllBtn");
   const statusEl = document.getElementById("exportAllStatus");
   btn.disabled = true;
@@ -1079,6 +1125,7 @@ async function exportAllImages(){
 document.getElementById("exportAllBtn").addEventListener("click", exportAllImages);
 
 async function downloadStateImage(s, btn, statusEl, render, suffix){
+  await BG_READY;
   const original = btn.textContent;
   btn.disabled = true;
   btn.textContent = "Generando…";
