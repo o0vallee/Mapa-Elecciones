@@ -215,7 +215,8 @@
     .dt th{background:var(--panel);font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-dim);text-align:left;padding:6px 4px;font-weight:700;vertical-align:bottom;}
   .dt th.c{text-align:right;text-transform:none;letter-spacing:0;font-size:11.5px;line-height:1.2;}
   .dt th.c span{display:block;font-weight:800;}
-  .dt.many th.c{font-size:10px;} .dt.many th.c small{font-size:8.5px;} .dt.many td.v{font-size:12px;}
+  .dt.many th.c{font-size:10px;} .dt.many th.c small{font-size:8.5px;letter-spacing:0;} .dt.many td.v{font-size:12px;}
+  .dt th.c,.dt td.v,.dt tr.avg th.v{padding-left:0;} .dt th.c span{hyphens:manual;-webkit-hyphens:manual;overflow-wrap:normal;word-break:normal;}
   .dt th.c small{display:block;font-size:9.5px;color:var(--ink-dim);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-top:1px;}
   .dt tr.avg th{background:#1b232d;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:9px 4px;text-transform:none;letter-spacing:0;}
   .dt tr.avg th.h{font-size:12px;font-weight:800;color:var(--ink);line-height:1.2;}
@@ -916,19 +917,27 @@ function drawDetailTable(ctx, x, y, W, s){
   const AB = p => (PARTY_ABBR[p]||p.toUpperCase()).replace("MORENA","Morena");
   // encabezado
   // Nombres que no caben en su columna se parten en dos renglones (22 oct 2026)
-  ctx.font = "700 21px "+F;
-  const heads = d.cols.map(c=>{
-    if(ctx.measureText(c[0]).width <= VW-14) return [c[0]];
-    const p = c[0].split(" "); if(p.length<2) return [c[0]];
-    return [p[0], p.slice(1).join(" ")];
-  });
-  const two = heads.some(l=>l.length>1), off = two ? 24 : 0;
+  // 22 nov 2026: sin encimarse con la columna vecina. Orden: una línea (21→17 px), dos líneas por espacios, guion suave y, al final, 16→13 px.
+  const maxW = VW - 14, mw = (t,sz)=>{ ctx.font = "700 "+sz+"px "+F; return ctx.measureText(t).width; };
+  const layoutHead = nm => {
+    const words = nm.split(" ");
+    const spaceSplit = sz => { let best = null; for(let i=1;i<words.length;i++){ const a = words.slice(0,i).join(" "), b = words.slice(i).join(" "), m = Math.max(mw(a,sz), mw(b,sz)); if(!best || m<best.m) best = {m, l:[a,b]}; } return best; };
+    for(let sz=21; sz>=17; sz--){
+      if(mw(nm,sz) <= maxW) return {L:[nm], sz};
+      const b = words.length>1 && spaceSplit(sz); if(b && b.m <= maxW) return {L:b.l, sz};
+    }
+    if(words.length===1){ const hy = softHyph(nm).split("\u00AD"); if(hy.length===2) for(let sz=21; sz>=17; sz--){ const a = hy[0]+"-"; if(Math.max(mw(a,sz), mw(hy[1],sz)) <= maxW) return {L:[a,hy[1]], sz}; } }
+    for(let sz=16; sz>=13; sz--){ if(mw(nm,sz) <= maxW) return {L:[nm], sz}; const b = words.length>1 && spaceSplit(sz); if(b && b.m <= maxW) return {L:b.l, sz}; }
+    return {L:[nm], sz:13};
+  };
+  const heads = d.cols.map(c=>layoutHead(c[0]));
+  const two = heads.some(h=>h.L.length>1), off = two ? 24 : 0;
   ctx.fillStyle = "#93a1ad"; ctx.font = "700 17px "+F; ctx.textAlign = "left";
   ctx.fillText("ENCUESTA", x+8, y+26+off);
   d.cols.forEach((c,i)=>{
     const cx = x + HW + VW*(i+1) - 10;
-    ctx.textAlign = "right"; ctx.fillStyle = DET_COL[c[1]]; ctx.font = "700 21px "+F;
-    const L = heads[i];
+    ctx.textAlign = "right"; ctx.fillStyle = DET_COL[c[1]]; ctx.font = "700 "+heads[i].sz+"px "+F;
+    const L = heads[i].L;
     L.forEach((t,j)=> ctx.fillText(t, cx, y + 20 + off - (L.length-1-j)*24));
     ctx.fillStyle = "#93a1ad"; ctx.font = "600 15px "+F;
     ctx.fillText(AB(c[1]), cx, y+42+off);
@@ -943,10 +952,11 @@ function drawDetailTable(ctx, x, y, W, s){
   ctx.fillText("Promedio ponderado", x+8, y+37);
   d.cols.forEach((c,i)=>{
     const cx = x + HW + VW*(i+1) - 10;
-    ctx.font = "600 15px "+F; ctx.fillStyle = "#93a1ad"; ctx.textAlign = "right";
+    const big = k>=6 ? 23 : 27;
+    ctx.font = "600 "+(k>=6 ? 14 : 15)+"px "+F; ctx.fillStyle = "#93a1ad"; ctx.textAlign = "right";
     const sup = "("+c[3]+")"; const sw = ctx.measureText(sup).width;
     ctx.fillText(sup, cx, y+37);
-    ctx.font = "800 27px 'SFMono-Regular', Consolas, monospace"; ctx.fillStyle = DET_COL[c[1]];
+    ctx.font = "800 "+big+"px 'SFMono-Regular', Consolas, monospace"; ctx.fillStyle = DET_COL[c[1]];
     ctx.fillText(c[2].toFixed(1), cx - sw - 4, y+39);
   });
   y += 58;
@@ -1190,12 +1200,36 @@ function getComputedColor(p){
 
 // Detalle de las encuestas del mes (18 oct 2026). Datos: s.detalle (set_detalle.js).
 const DET_COL = {morena:"#e0425a",pan:"#4b7dff",pri:"#2fb27d",mc:"#ff7a1a",pvem:"#6fb92c",ind:"#9aa4ae",pt:"#ff4d55",somos:"#e4007c",paz:"#9b5bc0"};
+// Nombres largos en encabezados angostos: guion suave (se parte solo si no cabe) y ajuste de tamaño (fitDetHeaders).
+function softHyph(name){
+  return String(name).split(" ").map(w=>{
+    if(w.length<8) return w;
+    const V="aeiouáéíóúüAEIOUÁÉÍÓÚÜ", isV=ch=>V.indexOf(ch)>=0, mid=w.length/2; let best=-1,bd=99;
+    for(let i=3;i<=w.length-3;i++){
+      if(isV(w[i])||!isV(w[i+1])) continue;
+      if(/^(th|ch|sh|ll|rr|qu|gu)$/i.test(w[i-1]+w[i])) continue;
+      const d=Math.abs(i-mid); if(d<=bd){bd=d;best=i;}
+    }
+    return best<0 ? w : w.slice(0,best)+"\u00AD"+w.slice(best);
+  }).join(" ");
+}
+function fitDetHeaders(box){
+  const els = box.querySelectorAll(".dth th.c span, .dth th.c small");
+  els.forEach(el=>{
+    el.style.fontSize = "";
+    const th = el.closest("th"), cs = getComputedStyle(th), avail = th.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+    if(avail<=0) return;
+    let size = parseFloat(getComputedStyle(el).fontSize);
+    const wid = ()=>{ const r=document.createRange(); r.selectNodeContents(el); return Math.max.apply(null,[0].concat([...r.getClientRects()].map(x=>x.width))); };
+    while(wid()>avail+0.5 && size>7){ size-=0.5; el.style.fontSize = size+"px"; }
+  });
+}
 function renderDetalle(s){
   const box = document.getElementById("sDetalle");
   box.innerHTML = "";
   const d = s.detalle; if(!d || !d.rows || !d.rows.length || !d.cols.length) return;
   const AB = p => (PARTY_ABBR[p]||p.toUpperCase()).replace("MORENA","Morena");
-  const th = d.cols.map(c=>'<th class="c"><span style="color:'+DET_COL[c[1]]+'">'+c[0]+'</span><small>'+AB(c[1])+'</small></th>').join("");
+  const th = d.cols.map(c=>'<th class="c"><span style="color:'+DET_COL[c[1]]+'">'+softHyph(c[0])+'</span><small>'+AB(c[1])+'</small></th>').join("");
   const avg = '<tr class="avg"><th class="h">Promedio ponderado</th>' + d.cols.map(c=>'<th class="v" style="color:'+DET_COL[c[1]]+'">'+c[2].toFixed(1)+'<sup>('+c[3]+')</sup></th>').join("") + '</tr>';
   const body = d.rows.map(r=>{
     const vs = r[4].filter(v=>v!=null); const mx = Math.max.apply(null, vs);
@@ -1204,7 +1238,7 @@ function renderDetalle(s){
   }).join("");
   const n = d.rows.length;
   // Encabezado y cuerpo en dos tablas con las mismas columnas (sin position:sticky, que fallaba en navegadores integrados como el de X)
-  const k = d.cols.length, w0 = k>=6 ? 22 : k>=5 ? 28 : 34, wc = ((100-w0)/k).toFixed(2), mc6 = k>=6 ? ' many' : '';
+  const k = d.cols.length, w0 = k>=6 ? 20 : k>=5 ? 28 : 34, wc = ((100-w0)/k).toFixed(2), mc6 = k>=6 ? ' many' : '';
   const cg = '<colgroup><col style="width:'+w0+'%">'+d.cols.map(()=>'<col style="width:'+wc+'%">').join("")+'</colgroup>';
   box.innerHTML = '<div class="det-wrap"><div class="det-title">Detalle de las encuestas · '+d.mes+'</div>' +
     '<div class="det-sub">'+n+(n===1?' encuesta':' encuestas')+' del mes, de la más reciente a la más antigua.</div>' +
@@ -1218,13 +1252,18 @@ function renderDetalle(s){
     const sc = box.querySelector(".det-scroll"); if(!sc) return;
     const rows = sc.querySelectorAll("tbody tr");
     const hd = box.querySelector(".dth"); if(hd) hd.style.width = "calc(100% - "+(sc.offsetWidth-sc.clientWidth)+"px)";
+    fitDetHeaders(box);
     if(rows.length<=5){ sc.style.maxHeight=""; return; }
     let rh = 0;
     for(let i=0;i<5;i++) rh += rows[i].offsetHeight;
     if(rh>0) sc.style.maxHeight = (rh+1)+"px";
   };
+  window._detFit = ()=>{ fit(); fitDetHeaders(box); };
   fit(); requestAnimationFrame(fit); setTimeout(fit, 120);
 }
+
+window.addEventListener('resize',()=>{ if(window._detFit) window._detFit(); });
+window._detFitBound=1;
 
 function renderNote(s){
   const box = document.getElementById("sNoteWrap");
